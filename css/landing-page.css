@@ -51,7 +51,7 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #menu .lead {
@@ -65,7 +65,7 @@ header.masthead h1 {
     }
 
     header.masthead h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 
@@ -122,7 +122,7 @@ header.masthead h1 {
 .call-to-action {
     position: relative;
     background-color: #343a40;
-    background: url("../img/bg-masthead.jpg") no-repeat center center;
+    background: url("../img/bg-masthead1.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem;

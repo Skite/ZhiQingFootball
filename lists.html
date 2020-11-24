@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>志清種子</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/lists.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="navbar-brand nav-logo" href="index.html"><img src="img/logo.jpeg" class="img-fluid nav-logo"></a>
+            <!-- <a class="btn btn-primary" href="#">Sign In</a> -->
+        </div>
+    </nav>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h1 class="mb-5">球員名冊</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Icons Grid -->
+    <section id="lists" class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" v-for="player in players" data-toggle="modal" :data-target="'#player' + player.id">
+                    <div class="profile-card-6"><img :src="'img/player-' + player.number + '.jpg'" class="img img-responsive">
+                        <div class="profile-name"> {{ player.name }} </div>
+                        <div class="profile-number">{{ player.number }}</div>
+                        <div class="profile-position">{{ player.position }}</div>
+                        <div class="profile-overview">
+                            <div class="profile-overview">
+                                <div class="row text-center">
+                                    <div class="col-sm">
+                                        <h3>{{ player.matches }}</h3>
+                                        <p>Matches</p>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <div class="col-sm">
+                                        <h3>{{ player.goals }}</h3>
+                                        <p>Goals</p>
+                                    </div>
+                                    <div class="col-sm">
+                                        <h3>{{ player.assists }}</h3>
+                                        <p>Ast</p>
+                                    </div>
+                                    <div class="col-sm">
+                                        <h3>{{ player.cleansheets }}</h3>
+                                        <p>CS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" :id="'player'+ player.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">出賽記錄</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" v-html="player.appearance">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Skite/ZhiQinFootball/issues">意見回饋</a>
+                        </li>
+                        <!-- <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li> -->
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; ZhiQin Football 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+</body>
+
+</html>
