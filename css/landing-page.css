@@ -80,9 +80,14 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
     .showcase .showcase-text {
-        padding: 7rem;
+        padding: 5rem;
     }
 }
+
+.showcase .no-gutters:nth-child(odd) {
+    animation: example 5s linear 2s infinite alternate;
+}
+
 
 .features-icons {
     padding-top: 7rem;
