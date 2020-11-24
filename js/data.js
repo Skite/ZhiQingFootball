@@ -84,7 +84,7 @@ new Vue({
                 name: '維 恩',
                 position: '後衛、中場、前鋒',
                 matches: '6',
-                goals: '2',
+                goals: '3',
                 assists: '2',
                 cleansheets: '-',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
@@ -194,7 +194,7 @@ new Vue({
                 name: '宇 正',
                 position: '中場、前鋒',
                 matches: '6',
-                goals: '1',
+                goals: '2',
                 assists: '1',
                 cleansheets: '-',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
