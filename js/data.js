@@ -60,7 +60,7 @@ new Vue({
                 id: 6,
                 number: '12',
                 name: '皓 宇',
-                position: '中場',
+                position: '中場、前鋒',
                 matches: '6',
                 goals: '0',
                 assists: '0',

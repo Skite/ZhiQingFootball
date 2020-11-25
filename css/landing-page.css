@@ -69,6 +69,10 @@ header.masthead h1 {
     }
 }
 
+.showcase h2 {
+    font-size: 1.5rem;
+}
+
 .showcase .showcase-text {
     padding: 3rem;
 }
@@ -77,6 +81,14 @@ header.masthead h1 {
     min-height: 30rem;
     background-size: cover;
 }
+
+@media (max-width: 768px) {
+    .showcase .showcase-img {
+        min-height: 12rem;
+        background-size: cover;
+    }
+}
+
 
 @media (min-width: 768px) {
     .showcase .showcase-text {
@@ -113,6 +125,7 @@ header.masthead h1 {
 .testimonials {
     padding-top: 7rem;
     padding-bottom: 7rem;
+    color: #fff;
 }
 
 .testimonials .testimonial-item {

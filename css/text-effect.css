@@ -33,6 +33,12 @@
     width: 50%;
 }
 
+@media (max-width: 768px) {
+    .animated-title {
+        left: 75%;
+    }
+}
+
 .animated-title>div {
     height: 50%;
     overflow: hidden;
