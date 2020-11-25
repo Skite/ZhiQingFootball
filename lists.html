@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4" v-for="player in players" data-toggle="modal" :data-target="'#player' + player.id">
-                    <div class="profile-card-6"><img :src="'img/player-' + player.number + '.jpg'" class="img img-responsive">
+                    <div class="profile-card-6"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
                         <div class="profile-name"> {{ player.name }} </div>
                         <div class="profile-number">{{ player.number }}</div>
                         <div class="profile-position">{{ player.position }}</div>

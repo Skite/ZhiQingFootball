@@ -1,0 +1,9 @@
+section {
+    margin-top: 2%;
+}
+
+#matches .card-img-overlay {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(0, 0, 150, 0.8));
+    background-size: cover;
+}
