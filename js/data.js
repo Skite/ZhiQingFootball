@@ -205,11 +205,11 @@ new Vue({
             videos: [{
                 date: 1025,
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: `<iframe src="https://drive.google.com/file/d/1s23y3EqhXcsJCS1coScLHcXAT7buq2xx/preview"></iframe>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1s23y3EqhXcsJCS1coScLHcXAT7buq2xx&export=download&authuser=0" type="video/mp4"></video>`
             }, {
                 date: 1108,
                 opponents: '磐石',
-                url: `<iframe src="https://drive.google.com/file/d/1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa/preview"></iframe>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fas fa-futbol'
         }, {
@@ -217,11 +217,11 @@ new Vue({
             videos: [{
                 date: 1121,
                 opponents: '航源FC',
-                url: `<iframe src="https://drive.google.com/file/d/1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn/preview"></iframe>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn&export=download&authuser=0" type="video/mp4"></video>`
             }, {
                 date: 1122,
                 opponents: '虎鯊HSFC',
-                url: `<iframe src="https://drive.google.com/file/d/1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa/preview"></iframe>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fab fa-unity'
         }]
