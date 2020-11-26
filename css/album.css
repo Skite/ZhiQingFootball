@@ -48,6 +48,18 @@ main {
     color: #271c82;
 }
 
+.modal-body iframe {
+    width: 40vw;
+    height: 22.5vw;
+}
+
+@media (max-width: 768px) {
+    .modal-body iframe {
+        width: 80vw;
+        height: 45vw;
+    }
+}
+
 .modal-content {
     height: auto;
     min-height: 100%;
