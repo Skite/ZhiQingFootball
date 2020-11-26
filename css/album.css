@@ -41,11 +41,12 @@ main {
 .modal-body {
     background-image: url('../img/bg-grass.jpg');
     background-position: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 .modal-body h3 {
-    color: #271c82;
+    color: #ddd;
+    text-shadow: 0 0 8px #271c82;
 }
 
 .modeal-body video {
