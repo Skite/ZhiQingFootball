@@ -31,6 +31,16 @@ a:hover {
     text-decoration: none;
 }
 
+nav .navbar-nav {
+    margin-left: auto !important;
+}
+
+@media (max-width: 991px) {
+    nav .navbar-nav {
+        text-align: center
+    }
+}
+
 nav span {
     font-size: 1.4rem;
     font-weight: 800;
