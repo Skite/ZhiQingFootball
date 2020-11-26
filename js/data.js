@@ -40,7 +40,7 @@ new Vue({
                 name: '紘 豪',
                 position: '後衛',
                 matches: '6',
-                goals: '0',
+                goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
@@ -62,7 +62,7 @@ new Vue({
                 name: '皓 宇',
                 position: '中場、前鋒',
                 matches: '6',
-                goals: '0',
+                goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
@@ -84,7 +84,7 @@ new Vue({
                 name: '維 恩（C）',
                 position: '後衛、中場、前鋒',
                 matches: '6',
-                goals: '2',
+                goals: '1',
                 assists: '3',
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
@@ -95,7 +95,7 @@ new Vue({
                 name: '亮 谷',
                 position: '中場、前鋒',
                 matches: '6',
-                goals: '6',
+                goals: '5',
                 assists: '1',
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
