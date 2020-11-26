@@ -1,5 +1,5 @@
 new Vue({
-    el: '#lists',
+    el: '#zhiqinfootball',
     data: {
         players: [{
                 id: 1,
@@ -199,6 +199,31 @@ new Vue({
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北市聯合盃 / 2 appearances</li></ul>'
             }
-        ]
+        ],
+        videos: [{
+            cupName: '大安盃',
+            videos: [{
+                date: 1025,
+                opponents: '炫風新尖兵、熱血足球 U8',
+                url: `<iframe src="https://drive.google.com/file/d/1s23y3EqhXcsJCS1coScLHcXAT7buq2xx/preview" width="640" height="360"></iframe>`
+            }, {
+                date: 1108,
+                opponents: '磐石',
+                url: `<iframe src="https://drive.google.com/file/d/1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa/preview" width="640" height="360"></iframe>`
+            }],
+            icon: 'fas fa-futbol'
+        }, {
+            cupName: '新北聯合盃',
+            videos: [{
+                date: 1121,
+                opponents: '航源FC',
+                url: `<iframe src="https://drive.google.com/file/d/1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn/preview" width="640" height="360"></iframe>`
+            }, {
+                date: 1122,
+                opponents: '虎鯊HSFC',
+                url: `<iframe src="https://drive.google.com/file/d/1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa/preview" width="640" height="360"></iframe>`
+            }],
+            icon: 'fab fa-unity'
+        }]
     }
 })

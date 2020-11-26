@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+[v-cloak] {
+    display: none;
+}
+
 body {
     font-family: '微軟正黑體', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
