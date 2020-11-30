@@ -1,8 +1,12 @@
 new Vue({
     el: '#zhiqinfootball',
     data: {
+        searchText: '',
+        minNumber: '',
+        maxNumber: '',
+        selectedPosition: [],
+        positions: ['All', 'GK', 'DF', 'MF', 'ST'],
         players: [{
-                id: 1,
                 number: '2',
                 name: '定 宸',
                 position: 'DF、MF',
@@ -13,7 +17,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 2 appearances</li></ul>'
             },
             {
-                id: 2,
                 number: '3',
                 name: '晉 丞',
                 position: 'MF',
@@ -24,7 +27,6 @@ new Vue({
                 appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 3,
                 number: '7',
                 name: '黃 衍',
                 position: 'DF',
@@ -35,7 +37,16 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
             },
             {
-                id: 4,
+                number: '8',
+                name: '翊 凱',
+                position: 'N/A',
+                matches: '0',
+                goals: 'N/A',
+                assists: 'N/A',
+                cleansheets: 'N/A',
+                appearance: '<ul></ul>'
+            },
+            {
                 number: '9',
                 name: '紘 豪',
                 position: 'DF',
@@ -46,7 +57,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 5,
                 number: '10',
                 name: '善 捷',
                 position: 'MF',
@@ -57,7 +67,16 @@ new Vue({
                 appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 6,
+                number: '11',
+                name: '定 緯',
+                position: 'N/A',
+                matches: '2',
+                goals: '0',
+                assists: '0',
+                cleansheets: 'N/A',
+                appearance: '<ul><li>2020 大安盃 / 2 appearances</li></ul>'
+            },
+            {
                 number: '12',
                 name: '皓 宇',
                 position: 'MF、ST',
@@ -68,7 +87,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 7,
                 number: '15',
                 name: '凱 泰',
                 position: 'GK、DF',
@@ -79,7 +97,6 @@ new Vue({
                 appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 8,
                 number: '18',
                 name: '維 恩（C）',
                 position: 'DF、MF、ST',
@@ -90,7 +107,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 9,
                 number: '21',
                 name: '亮 谷',
                 position: 'MF、ST',
@@ -101,7 +117,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 10,
                 number: '22',
                 name: '明 澤',
                 position: 'ST',
@@ -112,7 +127,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
             },
             {
-                id: 11,
                 number: '23',
                 name: '柏 燁',
                 position: 'N/A',
@@ -123,18 +137,6 @@ new Vue({
                 appearance: '<ul></ul>'
             },
             {
-                id: 12,
-                number: '25',
-                name: '定 緯',
-                position: 'N/A',
-                matches: '2',
-                goals: '0',
-                assists: '0',
-                cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 2 appearances</li></ul>'
-            },
-            {
-                id: 13,
                 number: '27',
                 name: '定 謙',
                 position: 'GK、DF',
@@ -145,7 +147,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 3 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 14,
                 number: '30',
                 name: '品 叡',
                 position: 'N/A',
@@ -156,18 +157,6 @@ new Vue({
                 appearance: '<ul></ul>'
             },
             {
-                id: 15,
-                number: '33',
-                name: '翊 凱',
-                position: 'N/A',
-                matches: '0',
-                goals: 'N/A',
-                assists: 'N/A',
-                cleansheets: 'N/A',
-                appearance: '<ul></ul>'
-            },
-            {
-                id: 16,
                 number: '55',
                 name: '宥 融',
                 position: 'GK、ST',
@@ -178,7 +167,6 @@ new Vue({
                 appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 17,
                 number: '77',
                 name: '昕 叡',
                 position: 'ST',
@@ -189,7 +177,6 @@ new Vue({
                 appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
-                id: 18,
                 number: '97',
                 name: '宇 正',
                 position: 'MF、ST',
@@ -225,5 +212,41 @@ new Vue({
             }],
             icon: 'fab fa-unity'
         }]
+    },
+    methods: {
+        nameFilter: function(players) {
+            if (this.searchText) {
+                return players.filter((player) => {
+                    return player.name.includes(this.searchText);
+                });
+            } else {
+                return this.players;
+            }
+        },
+        positionFilter: function(players) {
+            if (!!this.selectedPosition && this.selectedPosition !== 'All') {
+                return players.filter((player) => {
+                    return player.position.includes(this.selectedPosition);
+                });
+            } else {
+                return this.players
+            }
+            // },
+            // numberFilter: function(players) {
+            //     console.log()
+            //     if (!!this.minNumber && !!this.maxNumber) {
+            //         return players.filter((player) => {
+            //             return this.minNumber < player.number < this.maxNumber;
+            //         })
+            //     } else {
+            //         return this.players;
+            //     }
+        }
+    },
+    computed: {
+        playerFilter: function() {
+            // return this.positionFilter(this.numberFilter(this.nameFilter(this.players)));
+            return this.positionFilter(this.nameFilter(this.players));
+        }
     }
 })

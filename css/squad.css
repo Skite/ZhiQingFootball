@@ -1,4 +1,6 @@
-.profile-card-6 {
+@import 'https://fonts.googleapis.com/css?family=Nunito:300,400,700';
+
+.profile-card {
     /*max-width: 300px;*/
     background-color: #FFF;
     border-radius: 5px;
@@ -9,11 +11,11 @@
     cursor: pointer;
 }
 
-.profile-card-6 img {
+.profile-card img {
     transition: all 0.15s linear;
 }
 
-.profile-card-6 .profile-name {
+.profile-card .profile-name {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -26,7 +28,7 @@
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
-.profile-card-6 .profile-number {
+.profile-card .profile-number {
     font-size: 3.5rem;
     font-weight: 700;
     position: absolute;
@@ -37,17 +39,29 @@
     text-shadow: 0.1em 0.1em 0.1em black;
 }
 
-.profile-card-6 .profile-position {
+.profile-card .profile-position {
     position: absolute;
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 700;
+    /*color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;*/
     left: 30px;
     top: 130px;
+    /*transition: all 0.15s linear;
+    text-shadow: 0.1em 0.1em 0.2em #fff;*/
+}
+
+.profile-card .profile-position .position-item {
+    position: relative;
+    display: inline-block;
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    /*left: 30px;
+    top: 130px;*/
     transition: all 0.15s linear;
     text-shadow: 0.1em 0.1em 0.2em #fff;
 }
 
-.profile-card-6 .profile-overview {
+.profile-card .profile-overview {
     position: absolute;
     bottom: 0px;
     left: 5px;
@@ -58,31 +72,75 @@
     transition: all 0.15s linear;
 }
 
-.profile-card-6 .profile-overview h3 {
+.profile-card .profile-overview h3 {
     font-weight: bold;
 }
 
-.profile-card-6 .profile-overview p {
+.profile-card .profile-overview p {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.profile-card-6:hover img {
+.profile-card:hover img {
     filter: brightness(80%);
 }
 
-.profile-card-6:hover .profile-name {
+.profile-card:hover .profile-name {
     padding-left: 25px;
     padding-top: 20px;
 }
 
-.profile-card-6:hover .profile-position {
+.profile-card:hover .profile-position {
     left: 40px;
 }
 
-.profile-card-6:hover .profile-overview {
+.profile-card:hover .profile-overview {
     padding-bottom: 25px;
 }
 
 .modal-body {
     text-align: left;
+}
+
+/*style checkbox*/
+
+.position-selectors {
+    margin: 4px 4px 4px 0;
+    background-color: #EFEFEF;
+    border-radius: 4px;
+    border: 1px solid #D0D0D0;
+    overflow: auto;
+    float: left;
+}
+
+.position-selectors label {
+    float: left;
+    width: 4.0em;
+    margin-bottom: 0;
+}
+
+.position-selectors label span {
+    text-align: center;
+    padding: 3px 0px;
+    display: block;
+}
+
+.position-selectors label input {
+    position: absolute;
+    top: -20px;
+    display: none;
+}
+
+.position-selectors input:checked+span {
+    background-color: #911;
+    color: #fff;
+}
+
+.position-selectors input:hover+span {
+    background-color: #191;
+    color: #fff;
+}
+
+.position-selectors input:checked:hover+span {
+    background-color: #c11;
+    color: #fff;
 }
