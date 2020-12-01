@@ -12,6 +12,19 @@ section {
     background-size: cover;
 }
 
-.card-img {
+#matches .card-img {
     min-height: 400px;
+}
+
+#matches .modal-dialog {
+    max-width: 80%;
+}
+
+#matches .history-detail {
+    cursor: pointer;
+    color: #ffc107;
+}
+
+#matches .table tr td {
+    vertical-align: middle;
 }
