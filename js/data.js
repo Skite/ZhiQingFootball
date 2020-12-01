@@ -3,7 +3,7 @@ new Vue({
     data: {
         searchText: '',
         minNumber: '',
-        maxNumber: '',
+        maxNumber: this.maxNumber < 10 ? this.maxNumber = '0' + this.maxNumber : this.maxNumber,
         selectedPosition: [],
         positions: ['All', 'GK', 'DF', 'MF', 'ST'],
         players: [{
@@ -231,22 +231,24 @@ new Vue({
             } else {
                 return this.players
             }
-            // },
-            // numberFilter: function(players) {
-            //     console.log()
-            //     if (!!this.minNumber && !!this.maxNumber) {
-            //         return players.filter((player) => {
-            //             return this.minNumber < player.number < this.maxNumber;
-            //         })
-            //     } else {
-            //         return this.players;
-            //     }
+        },
+        numberFilter: function(players) {
+            var min = this.minNumber < 10 ? '0' + this.minNumber : this.minNumber;
+            var max = this.maxNumber < 10 ? '0' + this.maxNumber : this.maxNumber;
+            if (!!this.minNumber && !!this.maxNumber) {
+                return players.filter((player) => {
+                    var playerNum = player.number < 10 ? '0' + player.number : player.number
+                    return playerNum >= min && playerNum <= max;
+                })
+            } else {
+                return this.players;
+            }
         }
     },
     computed: {
         playerFilter: function() {
-            // return this.positionFilter(this.numberFilter(this.nameFilter(this.players)));
-            return this.positionFilter(this.nameFilter(this.players));
+            return this.positionFilter(this.numberFilter(this.nameFilter(this.players)));
+            // return this.positionFilter(this.nameFilter(this.players));
         }
     }
 })

@@ -66,25 +66,23 @@
                     Player Filter
                 </h2>
                 <div class="row">
-                    <div class="search-wrapper panel-heading col-sm-12">
-                        <input class="form-control" type="text" v-model="searchText" placeholder="姓名搜尋" />
-                    </div>
-                </div>
-                <!-- <div class="row">
                     <div class="search-wrapper panel-heading col-sm-5">
                         <input class="form-control" type="text" v-model="minNumber" placeholder="背號範圍（小）" />
                     </div> -
                     <div class="search-wrapper panel-heading col-sm-5">
                         <input class="form-control" type="text" v-model="maxNumber" placeholder="背號範圍（大）" />
                     </div>
-                </div> -->
+                </div>
                 <div class="row">
-                    <div class="search-wrapper panel-heading col-sm-12">
+                    <div class="search-wrapper panel-heading col-sm-5">
                         <div class="position-selectors" v-for="position in positions">
                             <label>
                                 <input type="radio" class="" v-model="selectedPosition" :value="position"><span>{{ position }}</span>
                             </label>
                         </div>
+                    </div>&nbsp;&nbsp;
+                    <div class="search-wrapper panel-heading col-sm-5">
+                        <input class="form-control" type="text" v-model="searchText" placeholder="姓名搜尋" />
                     </div>
                 </div>
                 <div class="row">
