@@ -38,7 +38,7 @@ new Vue({
             },
             {
                 number: '8',
-                name: '翊 凱',
+                name: '翊 愷',
                 position: 'N/A',
                 matches: '0',
                 goals: 'N/A',
