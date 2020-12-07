@@ -65,24 +65,32 @@
                 <h2>
                     Player Filter
                 </h2>
-                <div class="row">
+                <div class="row my-2">
                     <div class="search-wrapper panel-heading col-sm-5">
-                        <input class="form-control" type="text" v-model="minNumber" placeholder="背號範圍（小）" />
-                    </div> ~
+                        <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="背號範圍（小）" />
+                    </div>
+                    <div class="search-wrapper panel-heading col-sm-1">
+                        ~
+                    </div>
                     <div class="search-wrapper panel-heading col-sm-5">
-                        <input class="form-control" type="text" v-model="maxNumber" placeholder="背號範圍（大）" />
+                        <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="背號範圍（大）" />
                     </div>
                 </div>
-                <div class="row">
-                    <div class="search-wrapper panel-heading col-sm-5">
+                <div class="row my-2">
+                    <div class="search-wrapper panel-heading col-sm-6">
                         <div class="position-selectors" v-for="position in positions">
                             <label>
                                 <input type="radio" class="" v-model="selectedPosition" :value="position"><span>{{ position }}</span>
                             </label>
                         </div>
-                    </div>&nbsp;&nbsp;
-                    <div class="search-wrapper panel-heading col-sm-5">
-                        <input class="form-control" type="text" v-model="searchText" placeholder="姓名搜尋" />
+                    </div>
+                    <div class="search-wrapper panel-heading col-sm-6">
+                        <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="球員姓名" />
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-sm-12">
+                        <button class="btn btn-primary" @click="resetFilter()">Clear Filter</button>
                     </div>
                 </div>
                 <div class="row">
@@ -189,6 +197,7 @@
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/data.js"></script>
