@@ -3,13 +3,13 @@ new Vue({
     data: {
         searchText: '',
         minNumber: '',
-        maxNumber: this.maxNumber < 10 ? this.maxNumber = '0' + this.maxNumber : this.maxNumber,
+        maxNumber: '',
         selectedPosition: [],
-        positions: ['All', 'GK', 'DF', 'MF', 'ST'],
+        positions: ['GK', 'DF', 'MF', 'ST'],
         players: [{
                 number: '2',
                 name: '定 宸',
-                position: 'DF、MF',
+                position: ['DF', 'MF'],
                 matches: '2',
                 goals: '0',
                 assists: '0',
@@ -19,7 +19,7 @@ new Vue({
             {
                 number: '3',
                 name: '晉 丞',
-                position: 'MF',
+                position: ['MF'],
                 matches: '2',
                 goals: '1',
                 assists: '0',
@@ -29,7 +29,7 @@ new Vue({
             {
                 number: '7',
                 name: '黃 衍',
-                position: 'DF',
+                position: ['DF'],
                 matches: '5',
                 goals: '0',
                 assists: '0',
@@ -39,7 +39,7 @@ new Vue({
             {
                 number: '8',
                 name: '翊 凱',
-                position: 'N/A',
+                position: ['N/A'],
                 matches: '0',
                 goals: 'N/A',
                 assists: 'N/A',
@@ -49,7 +49,7 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
-                position: 'DF',
+                position: ['DF'],
                 matches: '6',
                 goals: '1',
                 assists: '0',
@@ -59,7 +59,7 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
-                position: 'MF',
+                position: ['MF'],
                 matches: '2',
                 goals: '0',
                 assists: '0',
@@ -69,7 +69,7 @@ new Vue({
             {
                 number: '11',
                 name: '定 緯',
-                position: 'N/A',
+                position: ['N/A'],
                 matches: '2',
                 goals: '0',
                 assists: '0',
@@ -79,7 +79,7 @@ new Vue({
             {
                 number: '12',
                 name: '皓 宇',
-                position: 'MF、ST',
+                position: ['MF', 'ST'],
                 matches: '6',
                 goals: '1',
                 assists: '0',
@@ -89,7 +89,7 @@ new Vue({
             {
                 number: '15',
                 name: '凱 泰',
-                position: 'GK、DF',
+                position: ['GK', 'DF'],
                 matches: '2',
                 goals: '0',
                 assists: '0',
@@ -99,7 +99,7 @@ new Vue({
             {
                 number: '18',
                 name: '維 恩（C）',
-                position: 'DF、MF、ST',
+                position: ['DF', 'MF', 'ST'],
                 matches: '6',
                 goals: '1',
                 assists: '3',
@@ -109,7 +109,7 @@ new Vue({
             {
                 number: '21',
                 name: '亮 谷',
-                position: 'MF、ST',
+                position: ['MF', 'ST'],
                 matches: '6',
                 goals: '5',
                 assists: '1',
@@ -119,7 +119,7 @@ new Vue({
             {
                 number: '22',
                 name: '明 澤',
-                position: 'ST',
+                position: ['ST'],
                 matches: '5',
                 goals: '0',
                 assists: '0',
@@ -129,7 +129,7 @@ new Vue({
             {
                 number: '23',
                 name: '柏 燁',
-                position: 'N/A',
+                position: ['N/A'],
                 matches: '0',
                 goals: 'N/A',
                 assists: 'N/A',
@@ -139,7 +139,7 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
-                position: 'GK、DF',
+                position: ['GK', 'DF'],
                 matches: '5',
                 goals: '0',
                 assists: '0',
@@ -149,7 +149,7 @@ new Vue({
             {
                 number: '30',
                 name: '品 叡',
-                position: 'N/A',
+                position: ['N/A'],
                 matches: '0',
                 goals: 'N/A',
                 assists: 'N/A',
@@ -159,7 +159,7 @@ new Vue({
             {
                 number: '55',
                 name: '宥 融',
-                position: 'GK、ST',
+                position: ['GK', 'ST'],
                 matches: '6',
                 goals: '1',
                 assists: 'N/A',
@@ -169,7 +169,7 @@ new Vue({
             {
                 number: '77',
                 name: '昕 叡',
-                position: 'ST',
+                position: ['ST'],
                 matches: '2',
                 goals: 'N/A',
                 assists: 'N/A',
@@ -179,7 +179,7 @@ new Vue({
             {
                 number: '97',
                 name: '宇 正',
-                position: 'MF、ST',
+                position: ['MF', 'ST'],
                 matches: '6',
                 goals: '2',
                 assists: '1',
@@ -214,41 +214,81 @@ new Vue({
         }]
     },
     methods: {
-        nameFilter: function(players) {
-            if (this.searchText) {
-                return players.filter((player) => {
-                    return player.name.includes(this.searchText);
-                });
-            } else {
-                return this.players;
-            }
-        },
-        positionFilter: function(players) {
-            if (!!this.selectedPosition && this.selectedPosition !== 'All') {
-                return players.filter((player) => {
-                    return player.position.includes(this.selectedPosition);
-                });
-            } else {
-                return this.players
-            }
-        },
         numberFilter: function(players) {
             var min = this.minNumber < 10 ? '0' + this.minNumber : this.minNumber;
             var max = this.maxNumber < 10 ? '0' + this.maxNumber : this.maxNumber;
+
             if (!!this.minNumber && !!this.maxNumber) {
                 return players.filter((player) => {
                     var playerNum = player.number < 10 ? '0' + player.number : player.number
                     return playerNum >= min && playerNum <= max;
                 })
             } else {
-                return this.players;
+                return this.players
             }
+
+        },
+        positionFilter: function(players) {
+
+            if (this.selectedPosition.length > 0) {
+                return players.filter((player) => {
+                    return player.position.indexOf(this.selectedPosition) !== -1;
+                });
+            } else {
+                return this.players
+            }
+
+
+        },
+        nameFilter: function(players) {
+
+            if (!!this.searchText) {
+                return players.filter((player) => {
+                    return player.name.includes(this.searchText);
+                });
+            } else {
+                return this.players
+            }
+
+
+        },
+        resetFilter: function() {
+            this.searchText = null;
+            this.minNumber = null;
+            this.maxNumber = null;
+            this.selectedPosition = [];
         }
     },
     computed: {
         playerFilter: function() {
-            return this.positionFilter(this.numberFilter(this.nameFilter(this.players)));
-            // return this.positionFilter(this.nameFilter(this.players));
+            let nameFilteredArray = this.nameFilter(this.players)
+            let positionFilteredArray = this.positionFilter(this.players)
+            let numberFilteredArray = this.numberFilter(this.players)
+            let allFilteredArray = nameFilteredArray.concat(positionFilteredArray).concat(numberFilteredArray)
+            console.log(nameFilteredArray, positionFilteredArray, numberFilteredArray, allFilteredArray)
+
+            var counts = {}
+
+            for (var i = 0; i < allFilteredArray.length; i++) {
+                var num = allFilteredArray[i].number
+                counts[num] = counts[num] ? counts[num] + 1 : 1
+            }
+
+            var result = []
+            for (var key in counts) {
+                if (Object.prototype.hasOwnProperty.call(counts, key) && counts[key] > 2) {
+                    for (var i = 0; i < allFilteredArray.length; i++) {
+                        if (allFilteredArray[i].number === key) {
+                            result.push(allFilteredArray[i])
+                        }
+                    }
+                }
+            }
+
+            filteredResult = _.uniq(result, 'number')
+
+            return filteredResult
         }
+
     }
 })
