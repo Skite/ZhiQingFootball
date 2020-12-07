@@ -200,11 +200,11 @@ new Vue({
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI&export=download&authuser=0" type="video/mp4"></video>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0&export=download&authuser=0" type="video/mp4"></video>`
             }, {
                 date: '12/06',
                 opponents: '公館popcorn （季軍戰）',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0&export=download&authuser=0" type="video/mp4"></video>`
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fas fa-futbol'
         }, {
