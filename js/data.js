@@ -10,11 +10,11 @@ new Vue({
                 number: '2',
                 name: '定 宸',
                 position: ['DF', 'MF'],
-                matches: '2',
+                matches: '4',
                 goals: '0',
-                assists: '0',
+                assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 4 appearances</li></ul>'
             },
             {
                 number: '3',
@@ -30,11 +30,11 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 position: ['DF'],
-                matches: '5',
+                matches: '7',
                 goals: '0',
-                assists: '0',
+                assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
             },
             {
                 number: '8',
@@ -50,11 +50,11 @@ new Vue({
                 number: '9',
                 name: '紘 豪',
                 position: ['DF'],
-                matches: '6',
+                matches: '8',
                 goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '10',
@@ -80,11 +80,11 @@ new Vue({
                 number: '12',
                 name: '皓 宇',
                 position: ['MF', 'ST'],
-                matches: '6',
+                matches: '8',
                 goals: '1',
-                assists: '0',
+                assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '15',
@@ -100,31 +100,31 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 position: ['DF', 'MF', 'ST'],
-                matches: '6',
+                matches: '8',
                 goals: '1',
                 assists: '3',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '21',
                 name: '亮 谷',
                 position: ['MF', 'ST'],
-                matches: '6',
-                goals: '5',
+                matches: '8',
+                goals: '7',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '22',
                 name: '明 澤',
                 position: ['ST'],
-                matches: '5',
+                matches: '7',
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
             },
             {
                 number: '23',
@@ -140,11 +140,11 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 position: ['GK', 'DF'],
-                matches: '5',
-                goals: '0',
+                matches: '7',
+                goals: '1',
                 assists: '0',
                 cleansheets: '3',
-                appearance: '<ul><li>2020 大安盃 / 3 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 5 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '30',
@@ -160,19 +160,19 @@ new Vue({
                 number: '55',
                 name: '宥 融',
                 position: ['GK', 'ST'],
-                matches: '6',
+                matches: '8',
                 goals: '1',
-                assists: 'N/A',
-                cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                assists: '1',
+                cleansheets: '1',
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
             {
                 number: '77',
                 name: '昕 叡',
                 position: ['ST'],
                 matches: '2',
-                goals: 'N/A',
-                assists: 'N/A',
+                goals: '0',
+                assists: '0',
                 cleansheets: 'N/A',
                 appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             },
@@ -180,11 +180,11 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 position: ['MF', 'ST'],
-                matches: '6',
-                goals: '2',
+                matches: '8',
+                goals: '3',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
             }
         ],
         videos: [{
