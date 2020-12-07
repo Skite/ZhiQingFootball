@@ -190,23 +190,31 @@ new Vue({
         videos: [{
             cupName: '大安盃',
             videos: [{
-                date: 1025,
+                date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1s23y3EqhXcsJCS1coScLHcXAT7buq2xx&export=download&authuser=0" type="video/mp4"></video>`
             }, {
-                date: 1108,
+                date: '11/08',
                 opponents: '磐石',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa&export=download&authuser=0" type="video/mp4"></video>`
+            }, {
+                date: '12/06',
+                opponents: '銘傳之星 （準決賽）',
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI&export=download&authuser=0" type="video/mp4"></video>`
+            }, {
+                date: '12/06',
+                opponents: '公館popcorn （季軍戰）',
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fas fa-futbol'
         }, {
             cupName: '新北聯合盃',
             videos: [{
-                date: 1121,
+                date: '11/21',
                 opponents: '航源FC',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn&export=download&authuser=0" type="video/mp4"></video>`
             }, {
-                date: 1122,
+                date: '11/22',
                 opponents: '虎鯊HSFC',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH&export=download&authuser=0" type="video/mp4"></video>`
             }],
