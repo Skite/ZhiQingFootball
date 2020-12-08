@@ -1,5 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Nunito:300,400,700';
 
+.player-card .modal-dialog {
+    max-width: 60%;
+}
+
+@media (max-width: 960px) {
+    .player-card .modal-dialog {
+        max-width: 95%;
+    }
+}
+
 .profile-card {
     /*max-width: 300px;*/
     background-color: #FFF;

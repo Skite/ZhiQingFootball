@@ -14,7 +14,14 @@ new Vue({
                 goals: '0',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 4 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '4',
+                    goals: '0',
+                    asts: '1',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '3',
@@ -24,7 +31,14 @@ new Vue({
                 goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '7',
@@ -34,7 +48,21 @@ new Vue({
                 goals: '0',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '0',
+                    asts: '1',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '8',
@@ -44,7 +72,7 @@ new Vue({
                 goals: 'N/A',
                 assists: 'N/A',
                 cleansheets: 'N/A',
-                appearance: '<ul></ul>'
+                appearance: []
             },
             {
                 number: '9',
@@ -54,7 +82,21 @@ new Vue({
                 goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '10',
@@ -64,17 +106,24 @@ new Vue({
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '11',
                 name: '定 緯',
                 position: ['N/A'],
-                matches: '2',
-                goals: '0',
-                assists: '0',
+                matches: '0',
+                goals: 'N/A',
+                assists: 'N/A',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 2 appearances</li></ul>'
+                appearance: []
             },
             {
                 number: '12',
@@ -84,7 +133,21 @@ new Vue({
                 goals: '1',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '1',
+                    asts: '1',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '15',
@@ -94,7 +157,14 @@ new Vue({
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '18',
@@ -104,7 +174,21 @@ new Vue({
                 goals: '1',
                 assists: '3',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '0',
+                    asts: '2',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '21',
@@ -114,7 +198,21 @@ new Vue({
                 goals: '7',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '5',
+                    asts: '0',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '2',
+                    asts: '1',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '22',
@@ -124,7 +222,21 @@ new Vue({
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 1 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '23',
@@ -134,7 +246,7 @@ new Vue({
                 goals: 'N/A',
                 assists: 'N/A',
                 cleansheets: 'N/A',
-                appearance: '<ul></ul>'
+                appearance: []
             },
             {
                 number: '27',
@@ -144,7 +256,21 @@ new Vue({
                 goals: '1',
                 assists: '0',
                 cleansheets: '3',
-                appearance: '<ul><li>2020 大安盃 / 5 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '2'
+                }]
             },
             {
                 number: '30',
@@ -154,7 +280,7 @@ new Vue({
                 goals: 'N/A',
                 assists: 'N/A',
                 cleansheets: 'N/A',
-                appearance: '<ul></ul>'
+                appearance: []
             },
             {
                 number: '55',
@@ -164,7 +290,21 @@ new Vue({
                 goals: '1',
                 assists: '1',
                 cleansheets: '1',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '0',
+                    asts: '1',
+                    cs: '1'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '77',
@@ -174,7 +314,14 @@ new Vue({
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '97',
@@ -184,11 +331,25 @@ new Vue({
                 goals: '3',
                 assists: '1',
                 cleansheets: 'N/A',
-                appearance: '<ul><li>2020 大安盃 / 6 appearances</li><li>2020 新北聯合盃 / 2 appearances</li></ul>'
+                appearance: [{
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '6',
+                    goals: '3',
+                    asts: '0',
+                    cs: 'N/A'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: 'N/A'
+                }]
             }
         ],
         videos: [{
-            cupName: '大安盃',
+            cupName: '秋季大安盃',
             videos: [{
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
@@ -203,7 +364,7 @@ new Vue({
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0&export=download&authuser=0" type="video/mp4"></video>`
             }, {
                 date: '12/06',
-                opponents: '公館popcorn （季軍戰）',
+                opponents: '公館小雷霆 （季軍戰）',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fas fa-futbol'
@@ -273,7 +434,7 @@ new Vue({
             let positionFilteredArray = this.positionFilter(this.players)
             let numberFilteredArray = this.numberFilter(this.players)
             let allFilteredArray = nameFilteredArray.concat(positionFilteredArray).concat(numberFilteredArray)
-            console.log(nameFilteredArray, positionFilteredArray, numberFilteredArray, allFilteredArray)
+            // console.log(nameFilteredArray, positionFilteredArray, numberFilteredArray, allFilteredArray)
 
             var counts = {}
 
