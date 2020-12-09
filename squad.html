@@ -101,7 +101,7 @@
                             <div class="profile-position">
                                 <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
                             </div>
-                            <div class="profile-overview">
+                            <div class="profile-overview" v-if="player.matches !== '0'">
                                 <div class="profile-overview">
                                     <div class="row text-center">
                                         <div class="col-sm">
@@ -118,7 +118,7 @@
                                             <h3>{{ player.assists }}</h3>
                                             <p>Ast</p>
                                         </div>
-                                        <div class="col-sm">
+                                        <div class="col-sm" v-if="player.cleansheets !== 'N/A'">
                                             <h3>{{ player.cleansheets }}</h3>
                                             <p>CS</p>
                                         </div>
@@ -144,7 +144,7 @@
                                                 <th>出場</th>
                                                 <th>進球</th>
                                                 <th>助攻</th>
-                                                <th>零失球</th>
+                                                <th v-if="player.cleansheets !== 'N/A'">零失球</th>
                                             </tr>
                                             <tr v-for="app in player.appearance">
                                                 <td>{{ app.year }}</td>
@@ -152,7 +152,7 @@
                                                 <td>{{ app.g }}</td>
                                                 <td>{{ app.goals }}</td>
                                                 <td>{{ app.asts }}</td>
-                                                <td>{{ app.cs }}</td>
+                                                <td v-if="player.cleansheets !== 'N/A'">{{ app.cs }}</td>
                                             </tr>
                                         </table>
                                     </div>

@@ -10,6 +10,10 @@
     }
 }
 
+.modal-body {
+    background-color: #aff0fb;
+}
+
 .profile-card {
     /*max-width: 300px;*/
     background-color: #FFF;
