@@ -171,14 +171,14 @@ new Vue({
                 name: '維 恩（C）',
                 position: ['DF', 'MF', 'ST'],
                 matches: '8',
-                goals: '1',
+                goals: '2',
                 assists: '3',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
                     g: '6',
-                    goals: '0',
+                    goals: '1',
                     asts: '2',
                     cs: 'N/A'
                 }, {
