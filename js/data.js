@@ -65,16 +65,6 @@ new Vue({
                 }]
             },
             {
-                number: '8',
-                name: '翊 愷',
-                position: 'N/A',
-                matches: '0',
-                goals: 'N/A',
-                assists: 'N/A',
-                cleansheets: 'N/A',
-                appearance: []
-            },
-            {
                 number: '9',
                 name: '紘 豪',
                 position: ['DF'],
@@ -276,6 +266,16 @@ new Vue({
                 number: '30',
                 name: '品 叡',
                 position: ['N/A'],
+                matches: '0',
+                goals: 'N/A',
+                assists: 'N/A',
+                cleansheets: 'N/A',
+                appearance: []
+            },
+            {
+                number: '33',
+                name: '翊 愷',
+                position: 'N/A',
                 matches: '0',
                 goals: 'N/A',
                 assists: 'N/A',
