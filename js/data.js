@@ -10,31 +10,40 @@ new Vue({
                 number: '2',
                 name: '定 宸',
                 position: ['DF', 'MF'],
-                matches: '4',
+                matches: '5',
                 goals: '0',
                 assists: '1',
                 cleansheets: 'N/A',
                 appearance: [{
-                    year: '2020',
-                    cup: '秋季大安盃',
-                    g: '4',
-                    goals: '0',
-                    asts: '1',
-                    cs: 'N/A'
-                }]
+                        year: '2020',
+                        cup: '秋季大安盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '1',
+                        cs: 'N/A'
+                    },
+                    {
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: 'N/A'
+                    }
+                ]
             },
             {
                 number: '3',
                 name: '晉 丞',
-                position: ['MF'],
-                matches: '2',
+                position: ['MF', 'ST'],
+                matches: '3',
                 goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '1',
                     asts: '0',
                     cs: 'N/A'
@@ -43,8 +52,8 @@ new Vue({
             {
                 number: '7',
                 name: '黃 衍',
-                position: ['DF'],
-                matches: '7',
+                position: ['DF', 'MF'],
+                matches: '8',
                 goals: '0',
                 assists: '1',
                 cleansheets: 'N/A',
@@ -58,7 +67,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '1',
+                    g: '2',
                     goals: '0',
                     asts: '0',
                     cs: 'N/A'
@@ -67,8 +76,8 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
-                position: ['DF'],
-                matches: '8',
+                position: ['DF', 'MF'],
+                matches: '9',
                 goals: '1',
                 assists: '0',
                 cleansheets: 'N/A',
@@ -82,7 +91,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '1',
                     asts: '0',
                     cs: 'N/A'
@@ -91,15 +100,15 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
-                position: ['MF'],
-                matches: '2',
+                position: ['DF'],
+                matches: '3',
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: 'N/A'
@@ -119,7 +128,7 @@ new Vue({
                 number: '12',
                 name: '皓 宇',
                 position: ['MF', 'ST'],
-                matches: '8',
+                matches: '9',
                 goals: '1',
                 assists: '1',
                 cleansheets: 'N/A',
@@ -133,7 +142,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: 'N/A'
@@ -143,14 +152,14 @@ new Vue({
                 number: '15',
                 name: '凱 泰',
                 position: ['GK', 'DF'],
-                matches: '2',
+                matches: '3',
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: 'N/A'
@@ -160,8 +169,8 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 position: ['DF', 'MF', 'ST'],
-                matches: '8',
-                goals: '2',
+                matches: '9',
+                goals: '3',
                 assists: '3',
                 cleansheets: 'N/A',
                 appearance: [{
@@ -174,8 +183,8 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
-                    goals: '1',
+                    g: '3',
+                    goals: '2',
                     asts: '1',
                     cs: 'N/A'
                 }]
@@ -184,9 +193,9 @@ new Vue({
                 number: '21',
                 name: '亮 谷',
                 position: ['MF', 'ST'],
-                matches: '8',
+                matches: '9',
                 goals: '7',
-                assists: '1',
+                assists: '2',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
@@ -198,16 +207,16 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '2',
-                    asts: '1',
+                    asts: '2',
                     cs: 'N/A'
                 }]
             },
             {
                 number: '22',
                 name: '明 澤',
-                position: ['ST'],
+                position: ['DF', 'ST'],
                 matches: '7',
                 goals: '0',
                 assists: '0',
@@ -242,7 +251,7 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 position: ['GK', 'DF'],
-                matches: '7',
+                matches: '8',
                 goals: '1',
                 assists: '0',
                 cleansheets: '3',
@@ -256,7 +265,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: '2'
@@ -265,28 +274,42 @@ new Vue({
             {
                 number: '30',
                 name: '品 叡',
-                position: ['N/A'],
-                matches: '0',
-                goals: 'N/A',
-                assists: 'N/A',
+                position: ['MF'],
+                matches: '1',
+                goals: '0',
+                assists: '0',
                 cleansheets: 'N/A',
-                appearance: []
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '33',
                 name: '翊 愷',
-                position: 'N/A',
-                matches: '0',
-                goals: 'N/A',
-                assists: 'N/A',
+                position: 'MF',
+                matches: '1',
+                goals: '0',
+                assists: '0',
                 cleansheets: 'N/A',
-                appearance: []
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: 'N/A'
+                }]
             },
             {
                 number: '55',
                 name: '宥 融',
-                position: ['GK', 'ST'],
-                matches: '8',
+                position: ['GK', 'MF', 'ST'],
+                matches: '9',
                 goals: '1',
                 assists: '1',
                 cleansheets: '1',
@@ -300,7 +323,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '1',
                     asts: '0',
                     cs: 'N/A'
@@ -310,14 +333,14 @@ new Vue({
                 number: '77',
                 name: '昕 叡',
                 position: ['ST'],
-                matches: '2',
+                matches: '3',
                 goals: '0',
                 assists: '0',
                 cleansheets: 'N/A',
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: 'N/A'
@@ -327,7 +350,7 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 position: ['MF', 'ST'],
-                matches: '8',
+                matches: '9',
                 goals: '3',
                 assists: '1',
                 cleansheets: 'N/A',
@@ -341,7 +364,7 @@ new Vue({
                 }, {
                     year: '2020',
                     cup: '新北聯合盃',
-                    g: '2',
+                    g: '3',
                     goals: '0',
                     asts: '1',
                     cs: 'N/A'
