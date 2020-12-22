@@ -401,6 +401,10 @@ new Vue({
                 date: '11/22',
                 opponents: '虎鯊HSFC',
                 url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH&export=download&authuser=0" type="video/mp4"></video>`
+            }, {
+                date: '12/19',
+                opponents: '新北銀河',
+                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1KPj1DEaR9a5eLLwVgLwXNaQKI7UJD0om&export=download&authuser=0" type="video/mp4"></video>`
             }],
             icon: 'fab fa-unity'
         }]
