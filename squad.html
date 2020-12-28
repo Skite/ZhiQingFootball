@@ -105,21 +105,21 @@
                                 <div class="profile-overview">
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.matches }}</h3>
+                                            <h3>{{ player.appearance | totalMatches }}</h3>
                                             <p>Matches</p>
                                         </div>
                                     </div>
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.goals }}</h3>
+                                            <h3>{{ player.appearance | totalGoals }}</h3>
                                             <p>Goals</p>
                                         </div>
                                         <div class="col-sm">
-                                            <h3>{{ player.assists }}</h3>
+                                            <h3>{{ player.appearance | totalAssists }}</h3>
                                             <p>Ast</p>
                                         </div>
-                                        <div class="col-sm" v-if="player.cleansheets !== 'N/A'">
-                                            <h3>{{ player.cleansheets }}</h3>
+                                        <div class="col-sm" v-if="player.position.includes('GK')">
+                                            <h3>{{ player.appearance | totalCS }}</h3>
                                             <p>CS</p>
                                         </div>
                                     </div>

@@ -28,3 +28,7 @@ section {
 #matches .table tr td {
     vertical-align: middle;
 }
+
+.trophy-icon {
+    max-height: 2.5rem;
+}
