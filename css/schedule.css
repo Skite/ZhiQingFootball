@@ -20,6 +20,12 @@ section {
     max-width: 80%;
 }
 
+@media (max-width: 960px) {
+    #matches .modal-dialog {
+        max-width: 95%;
+    }
+}
+
 #matches .history-detail {
     cursor: pointer;
     color: #ffc107;
