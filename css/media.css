@@ -744,6 +744,12 @@ label {
     width: 75%;
 }
 
+@media (max-width: 960px) {
+    .image-container {
+        width: 95%;
+    }
+}
+
 .image {
     opacity: 1;
     display: block;

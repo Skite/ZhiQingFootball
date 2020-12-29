@@ -183,7 +183,7 @@
                             </button>
                         </div>
                         <div class="row">
-                            <div class="modal-body col-md-6" v-for="photo in item.photos">
+                            <div class="modal-body col-md-6" v-for="photo in item.photos" v-if="!!photo.url">
                                 <h3>{{ photo.date }} vs {{ photo.opponents }}</h3>
                                 <div v-html="photo.url"></div>
                             </div>

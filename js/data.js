@@ -339,13 +339,17 @@ new Vue({
         photos: [{
             cupName: '秋季大安盃',
             photos: [{
+                date: '09/20',
+                opponents: 'HePing踢豹',
+                url: `<a href="https://photos.app.goo.gl/uYKVkaoPvcHqT652A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: ``
+                url: `<a href="https://photos.app.goo.gl/UoqhNEpAVytZ6ERb6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/08',
                 opponents: '磐石',
-                url: ``
+                url: `<a href="https://photos.app.goo.gl/nT9d2yqqEdJvdsN66"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
@@ -365,7 +369,7 @@ new Vue({
             }, {
                 date: '11/22',
                 opponents: '虎鯊HSFC',
-                url: ``
+                url: `<a href="https://photos.app.goo.gl/SZD1ZL6a9atX1Ejd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201122-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/19',
                 opponents: '新北銀河',
