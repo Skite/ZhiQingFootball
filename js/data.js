@@ -304,19 +304,19 @@ new Vue({
             videos: [{
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1s23y3EqhXcsJCS1coScLHcXAT7buq2xx&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1s23y3EqhXcsJCS1coScLHcXAT7buq2xx'
             }, {
                 date: '11/08',
                 opponents: '磐石',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa'
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0'
             }, {
                 date: '12/06',
                 opponents: '公館小雷霆 （季軍戰）',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI'
             }],
             icon: 'fas fa-futbol'
         }, {
@@ -324,15 +324,19 @@ new Vue({
             videos: [{
                 date: '11/21',
                 opponents: '航源FC',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn'
             }, {
                 date: '11/22',
                 opponents: '虎鯊HSFC',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH&export=download&authuser=0" type="video/mp4"></video>`
+                url: '1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH'
             }, {
                 date: '12/19',
                 opponents: '新北銀河',
-                url: `<video width="85%" controls><source src="https://drive.google.com/uc?id=1KPj1DEaR9a5eLLwVgLwXNaQKI7UJD0om&export=download&authuser=0" type="video/mp4"></video>`
+                url: '12aurjoYOgoGY1Mhlq7LIdqj3eFgTw6Bn'
+            }, {
+                date: '12/26',
+                opponents: '日新Yoyo',
+                url: '1bYrUe8unchONs350c2xCS4a-ia4e9495'
             }],
             icon: 'fab fa-unity'
         }],
