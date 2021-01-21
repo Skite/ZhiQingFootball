@@ -62,6 +62,19 @@ new Vue({
                 }]
             },
             {
+                number: '8',
+                name: '翊 愷',
+                position: 'MF',
+                appearance: [{
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
                 number: '9',
                 name: '紘 豪',
                 position: ['DF', 'MF'],
@@ -229,19 +242,6 @@ new Vue({
                     g: '2',
                     goals: '0',
                     asts: '1',
-                    cs: '0'
-                }]
-            },
-            {
-                number: '33',
-                name: '翊 愷',
-                position: 'MF',
-                appearance: [{
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '1',
-                    goals: '0',
-                    asts: '0',
                     cs: '0'
                 }]
             },
@@ -481,8 +481,8 @@ new Vue({
             }, 0);
         },
         total: function(matches, type) {
-            return matches.map((appearance) => appearance.g).reduce(function(total, appearance) {
-                console.log(matches, appearance)
+            console.log(this.filteredResult, matches)
+            return matches.map((appearance) => appearance.type).reduce(function(total, appearance) {
                 return parseInt(total) + parseInt(appearance)
             }, 0);
         }
