@@ -332,11 +332,11 @@ new Vue({
             }, {
                 date: '12/19',
                 opponents: '新北銀河',
-                url: '12aurjoYOgoGY1Mhlq7LIdqj3eFgTw6Bn'
+                url: '1O0J7LKyUBjAItq-VqUxjxVHpahpZHwKr'
             }, {
                 date: '12/26',
                 opponents: '日新Yoyo',
-                url: '1bYrUe8unchONs350c2xCS4a-ia4e9495'
+                url: '17RtDOvbsN7Et7rwa5NRHOvsoBXjemMuu'
             }],
             icon: 'fab fa-unity'
         }],
