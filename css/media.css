@@ -734,7 +734,7 @@ label {
 }
 
 .media-box {
-    background-image: url(/img/bg-masthead2.jpg);
+    background-image: url(../img/bg-masthead2.jpg);
     background-position: center;
     background-size: cover;
 }
