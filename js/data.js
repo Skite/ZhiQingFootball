@@ -39,6 +39,13 @@ new Vue({
                     goals: '2',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '4',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -59,6 +66,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -77,7 +91,7 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
-                position: ['DF', 'MF'],
+                position: ['MF', 'ST'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -92,6 +106,13 @@ new Vue({
                     goals: '1',
                     asts: '1',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -104,6 +125,13 @@ new Vue({
                     g: '4',
                     goals: '0',
                     asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '0',
+                    asts: '1',
                     cs: '0'
                 }]
             },
@@ -131,6 +159,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -141,6 +176,13 @@ new Vue({
                     year: '2020',
                     cup: '新北聯合盃',
                     g: '4',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '3',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -164,6 +206,13 @@ new Vue({
                     goals: '3',
                     asts: '1',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -182,6 +231,13 @@ new Vue({
                     cup: '新北聯合盃',
                     g: '4',
                     goals: '4',
+                    asts: '2',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '1',
                     asts: '2',
                     cs: '0'
                 }]
@@ -230,6 +286,13 @@ new Vue({
                     goals: '2',
                     asts: '0',
                     cs: '2'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -263,6 +326,13 @@ new Vue({
                     goals: '1',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '1'
                 }]
             },
             {
@@ -293,6 +363,13 @@ new Vue({
                     year: '2020',
                     cup: '新北聯合盃',
                     g: '4',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
                     goals: '1',
                     asts: '1',
                     cs: '0'
@@ -384,6 +461,14 @@ new Vue({
                 url: `<a href="https://photos.google.com/share/AF1QipM4L5XkFPoPmWFiZy6pkdpZQnhxDTg8DmERQoy8VYgwuktqpYqKKututuLhXu0FzA?key=cy1KMUFpb0Fra2ZiencwR0RlTnBUdE1rSjlJWGVR"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-unity'
+        }, {
+            cupName: '扶輪社暨航源足球賽',
+            photos: [{
+                date: '11/21',
+                opponents: '熱血足球、北新國小、夢幻之星、TFA尤文圖斯、暴風',
+                url: `<a href="https://photos.google.com/share/AF1QipO6pB9bAp1BADIemkkXvLcoOHdkDY8_fbqC0wcNDRYbTmJqDNsHhvFEIz0XKWKJBg?key=cW9LOTdWWldtWGJiYXBYR0M1N2d4d1B2c0x1Yldn"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fa fa-plane'
         }]
     },
     methods: {
