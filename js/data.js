@@ -46,6 +46,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -73,6 +80,13 @@ new Vue({
                     goals: '2',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -91,7 +105,7 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
-                position: ['MF', 'ST'],
+                position: ['DF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -113,6 +127,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
                 }]
             },
             {
@@ -132,6 +153,13 @@ new Vue({
                     g: '5',
                     goals: '0',
                     asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
                     cs: '0'
                 }]
             },
@@ -166,6 +194,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
                 }]
             },
             {
@@ -186,6 +221,13 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
                 }]
             },
             {
@@ -211,6 +253,13 @@ new Vue({
                     cup: '扶輪社暨航源足球賽',
                     g: '5',
                     goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
                     asts: '0',
                     cs: '0'
                 }]
@@ -240,12 +289,19 @@ new Vue({
                     goals: '1',
                     asts: '2',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
                 number: '22',
                 name: '明 澤',
-                position: ['DF', 'ST'],
+                position: ['DF', 'MF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -259,6 +315,13 @@ new Vue({
                     g: '2',
                     goals: '0',
                     asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
                     cs: '0'
                 }]
             },
@@ -333,16 +396,30 @@ new Vue({
                     goals: '1',
                     asts: '0',
                     cs: '1'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
                 number: '77',
                 name: '昕 叡',
-                position: ['ST'],
+                position: ['MF', 'ST'],
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
                     g: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '1',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -373,6 +450,13 @@ new Vue({
                     goals: '1',
                     asts: '1',
                     cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '金年賀歲盃',
+                    g: '2',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
                 }]
             }
         ],
@@ -395,7 +479,7 @@ new Vue({
                 opponents: '公館小雷霆 （季軍戰）',
                 url: '1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI'
             }],
-            icon: 'fas fa-futbol'
+            icon: 'fad fa-futbol'
         }, {
             cupName: '新北聯合盃',
             videos: [{
@@ -415,7 +499,19 @@ new Vue({
                 opponents: '日新Yoyo',
                 url: '17RtDOvbsN7Et7rwa5NRHOvsoBXjemMuu'
             }],
-            icon: 'fab fa-unity'
+            icon: 'fas fa-infinity'
+        }, {
+            cupName: '金牛賀歲盃',
+            videos: [{
+                date: '1/30',
+                opponents: '森巴小獵豹',
+                url: '1FhO3YI1jHC7E6Cr41tjhtXmUhE8fVmiV'
+            }, {
+                date: '1/31',
+                opponents: '新北銀河',
+                url: '1T06Ab76fOFMXllJyCpM3uP0pTgIozULu'
+            }],
+            icon: 'fal fa-skull-cow'
         }],
         photos: [{
             cupName: '秋季大安盃',
@@ -440,7 +536,7 @@ new Vue({
                 opponents: '公館小雷霆 （季軍戰）',
                 url: ``
             }],
-            icon: 'fas fa-futbol'
+            icon: 'fad fa-futbol'
         }, {
             cupName: '新北聯合盃',
             photos: [{
@@ -458,9 +554,9 @@ new Vue({
             }, {
                 date: '12/26',
                 opponents: '日新Yoyo',
-                url: `<a href="https://photos.google.com/share/AF1QipM4L5XkFPoPmWFiZy6pkdpZQnhxDTg8DmERQoy8VYgwuktqpYqKKututuLhXu0FzA?key=cy1KMUFpb0Fra2ZiencwR0RlTnBUdE1rSjlJWGVR"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a href="https://photos.google.com/share/AF1QipM4L5XkFPoPmWFiZy6pkdpZQnhxDTg8DmERQoy8VYgwuktqpYqKKututuLhXu0FzA?key=cy1KMUFpb0Fra2ZiencwR0RlTnBUdE1rSjlJWGVR"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cov.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
-            icon: 'fab fa-unity'
+            icon: 'fas fa-infinity'
         }, {
             cupName: '扶輪社暨航源足球賽',
             photos: [{

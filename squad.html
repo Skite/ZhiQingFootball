@@ -144,7 +144,7 @@
                                                 <th>出場</th>
                                                 <th>進球</th>
                                                 <th>助攻</th>
-                                                <th v-if="player.cleansheets !== 'N/A'">零失球</th>
+                                                <th v-if="player.position.includes('GK')">零失球</th>
                                             </tr>
                                             <tr v-for="app in player.appearance">
                                                 <td>{{ app.year }}</td>
@@ -152,7 +152,7 @@
                                                 <td>{{ app.g }}</td>
                                                 <td>{{ app.goals }}</td>
                                                 <td>{{ app.asts }}</td>
-                                                <td v-if="player.cleansheets !== 'N/A'">{{ app.cs }}</td>
+                                                <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
                                             </tr>
                                         </table>
                                     </div>
