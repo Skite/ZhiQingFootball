@@ -493,13 +493,13 @@ new Vue({
             }, {
                 date: '12/19',
                 opponents: '新北銀河',
-                url: '1O0J7LKyUBjAItq-VqUxjxVHpahpZHwKr'
+                url: '18pp8I_47K6RgkLcSa6o-2-4LQiV1f80L'
             }, {
                 date: '12/26',
                 opponents: '日新Yoyo',
-                url: '17RtDOvbsN7Et7rwa5NRHOvsoBXjemMuu'
+                url: '1kKhGm47FFqZW093JTl7nHIxLrN623dle'
             }],
-            icon: 'fas fa-infinity'
+            icon: 'fas fa-link'
         }, {
             cupName: '金牛賀歲盃',
             videos: [{
@@ -556,7 +556,7 @@ new Vue({
                 opponents: '日新Yoyo',
                 url: `<a href="https://photos.google.com/share/AF1QipM4L5XkFPoPmWFiZy6pkdpZQnhxDTg8DmERQoy8VYgwuktqpYqKKututuLhXu0FzA?key=cy1KMUFpb0Fra2ZiencwR0RlTnBUdE1rSjlJWGVR"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cov.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
-            icon: 'fas fa-infinity'
+            icon: 'fas fa-link'
         }, {
             cupName: '扶輪社暨航源足球賽',
             photos: [{
