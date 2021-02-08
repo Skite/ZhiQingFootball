@@ -62,7 +62,7 @@ new Vue({
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
-                    g: '7',
+                    g: '6',
                     goals: '0',
                     asts: '1',
                     cs: '0'
@@ -233,7 +233,7 @@ new Vue({
             {
                 number: '18',
                 name: '維 恩（C）',
-                position: ['DF', 'MF', 'ST'],
+                position: ['DF', 'MF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -267,7 +267,7 @@ new Vue({
             {
                 number: '21',
                 name: '亮 谷',
-                position: ['MF', 'ST'],
+                position: ['MF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -334,7 +334,7 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
-                position: ['GK', 'DF'],
+                position: ['GK', 'MF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -381,7 +381,7 @@ new Vue({
             {
                 number: '55',
                 name: '宥 融',
-                position: ['GK', 'MF', 'ST'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
                     year: '2020',
                     cup: '秋季大安盃',
@@ -415,7 +415,7 @@ new Vue({
             {
                 number: '77',
                 name: '昕 叡',
-                position: ['MF', 'ST'],
+                position: ['DF', 'MF'],
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',
@@ -469,6 +469,7 @@ new Vue({
         ],
         videos: [{
             cupName: '秋季大安盃',
+            cover: '2020daancup',
             videos: [{
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
@@ -489,6 +490,7 @@ new Vue({
             icon: 'fad fa-futbol'
         }, {
             cupName: '新北聯合盃',
+            cover: '2020unitedcup',
             videos: [{
                 date: '11/21',
                 opponents: '航源FC',
@@ -509,6 +511,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             cupName: '金牛賀歲盃',
+            cover: '2021oxcup',
             videos: [{
                 date: '1/30',
                 opponents: '森巴小獵豹',
@@ -522,6 +525,7 @@ new Vue({
         }],
         photos: [{
             cupName: '秋季大安盃',
+            cover: '2020daancup',
             photos: [{
                 date: '09/20',
                 opponents: 'HePing踢豹',
@@ -546,6 +550,7 @@ new Vue({
             icon: 'fad fa-futbol'
         }, {
             cupName: '新北聯合盃',
+            cover: '2020unitedcup',
             photos: [{
                 date: '11/21',
                 opponents: '航源FC',
@@ -566,12 +571,22 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             cupName: '扶輪社暨航源足球賽',
+            cover: '2021hunyuancup',
             photos: [{
                 date: '11/21',
                 opponents: '熱血足球、北新國小、夢幻之星、TFA尤文圖斯、暴風',
                 url: `<a href="https://photos.google.com/share/AF1QipO6pB9bAp1BADIemkkXvLcoOHdkDY8_fbqC0wcNDRYbTmJqDNsHhvFEIz0XKWKJBg?key=cW9LOTdWWldtWGJiYXBYR0M1N2d4d1B2c0x1Yldn"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-plane'
+        }, {
+            cupName: '金牛賀歲盃',
+            cover: '2021oxcup',
+            photos: [{
+                date: '2/6',
+                opponents: '虎鯊HSFC',
+                url: `<a href="https://photos.google.com/share/AF1QipN50AycoRelF-DIqFYhG6Q0I16gFcQDr7uuCEgdWZt2FWzgf_GqcGS1OlDTLiAlgg?key=TTRWRFVoSE96OEI1cEJsRllWNVFHbVphS3llYnd3"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210206-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fal fa-skull-cow'
         }]
     },
     methods: {
