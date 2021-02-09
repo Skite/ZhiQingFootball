@@ -64,11 +64,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="wrapper">
-                            <div class="media col-md-4" v-for="item in videos">
+                        <div class="wrapper row">
+                            <div class="media col-md-4 my-3" v-for="item in videos">
                                 <div class="layer" data-toggle="modal" :data-target="'#video' + item.cupName">
                                     <i :class="item.icon"></i>
-                                    <p>{{ item.cupName }}</p>
+                                    <p class="mx-2">{{ item.cupName }}</p>
                                 </div>
                                 <img :src="'img/matches/'+ item.cover +'.jpg'" class="img-fluid" alt="" />
                             </div>
@@ -108,11 +108,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="wrapper">
-                            <div class="media col-md-4" v-for="item in photos">
+                        <div class="wrapper row">
+                            <div class="media col-md-4 my-3" v-for="item in photos">
                                 <div class="layer" data-toggle="modal" :data-target="'#photo' + item.cupName">
                                     <i :class="item.icon"></i>
-                                    <p>{{ item.cupName }}</p>
+                                    <p class="mx-2">{{ item.cupName }}</p>
                                 </div>
                                 <img :src="'img/matches/'+ item.cover +'.jpg'" class="img-fluid" alt="" />
                             </div>

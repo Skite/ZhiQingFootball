@@ -111,26 +111,20 @@ main p:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    >* {
-        margin: 5px;
-    }
 }
 
 .media {
-    width: 300px;
-    height: 200px;
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    img {
+.media img {
         max-width: 100%;
         height: auto;
     }
-}
 
 .layer {
     opacity: 0;
@@ -143,30 +137,27 @@ main p:last-child {
     background: #FFF;
     color: #151E3F;
     transition: all 0.9s ease;
+}
 
-    p {
+.layer p {
         transition: all 0.9s ease;
         transform: scale(0.1)
     }
-}
 
-p {
-    font-family: 'Inconsolata', monospace;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
+
 
 .media:hover .layer {
     opacity: 0.8;
     width: 90%;
     transition: all 0.5s ease;
+    font-size: 1.5rem;
+}
 
-    p {
+.media:hover .layer    p {
         transform: scale(1);
         transition: all 0.9s ease;
     }
-}
+
 
 @media (max-width: 800px) {
     body {
@@ -177,10 +168,6 @@ p {
 @media (max-width: 600px) {
     .wrapper {
         display: block;
-
-        >* {
-            margin: 10px;
-        }
     }
 }
 
