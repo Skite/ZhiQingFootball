@@ -614,7 +614,7 @@ new Vue({
         }],
         photos: [{
             cupName: '秋季大安盃',
-            cover: '2020daancup',
+            cover: '20200920-cover',
             photos: [{
                 date: '09/20',
                 opponents: 'HePing踢豹',
@@ -639,7 +639,7 @@ new Vue({
             icon: 'fad fa-futbol'
         }, {
             cupName: '新北聯合盃',
-            cover: '2020unitedcup',
+            cover: '20201122-cover',
             photos: [{
                 date: '11/21',
                 opponents: '航源FC',
@@ -660,7 +660,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             cupName: '扶輪社暨航源足球賽',
-            cover: '2021hunyuancup',
+            cover: '20210124-cover',
             photos: [{
                 date: '11/21',
                 opponents: '熱血足球、北新國小、夢幻之星、TFA尤文圖斯、暴風',
@@ -669,13 +669,22 @@ new Vue({
             icon: 'fa fa-plane'
         }, {
             cupName: '金牛賀歲盃',
-            cover: '2021oxcup',
+            cover: '20210206-cover',
             photos: [{
                 date: '2/6',
                 opponents: '虎鯊HSFC',
                 url: `<a href="https://photos.google.com/share/AF1QipN50AycoRelF-DIqFYhG6Q0I16gFcQDr7uuCEgdWZt2FWzgf_GqcGS1OlDTLiAlgg?key=TTRWRFVoSE96OEI1cEJsRllWNVFHbVphS3llYnd3"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210206-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fal fa-skull-cow'
+        }, {
+            cupName: '萬歲盃',
+            cover: '20210328-cover',
+            photos: [{
+                date: '3/27',
+                opponents: '足球心想事成、吉利港宜大、大暴風足球、淡水小獵豹',
+                url: `<a href="https://photos.app.goo.gl/8KdgXhpSsxgCHvYd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210328-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-vuejs'
         }]
     },
     methods: {

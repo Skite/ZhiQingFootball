@@ -122,11 +122,12 @@ main p:last-child {
 }
 
 .media img {
-        max-width: 100%;
-        height: auto;
-    }
+    max-width: 100%;
+    height: auto;
+}
 
 .layer {
+    cursor: pointer;
     opacity: 0;
     position: absolute;
     display: flex;
@@ -140,9 +141,9 @@ main p:last-child {
 }
 
 .layer p {
-        transition: all 0.9s ease;
-        transform: scale(0.1)
-    }
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+}
 
 
 
@@ -153,10 +154,10 @@ main p:last-child {
     font-size: 1.5rem;
 }
 
-.media:hover .layer    p {
-        transform: scale(1);
-        transition: all 0.9s ease;
-    }
+.media:hover .layer p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+}
 
 
 @media (max-width: 800px) {
