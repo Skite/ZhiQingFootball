@@ -215,7 +215,7 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
-                position: ['DF'],
+                position: ['GK', 'DF'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
