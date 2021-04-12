@@ -33,6 +33,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -69,6 +77,14 @@ new Vue({
                         goals: '0',
                         asts: '1',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -77,34 +93,43 @@ new Vue({
                 name: '黃 衍',
                 position: ['DF', 'MF'],
                 appearance: [{
-                    year: '2020',
-                    cup: '秋季大安盃',
-                    g: '6',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    goals: '2',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
+                        year: '2020',
+                        cup: '秋季大安盃',
+                        g: '6',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '扶輪社暨航源足球賽',
+                        g: '5',
+                        goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '金牛賀歲盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '3',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '8',
@@ -122,6 +147,14 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -168,6 +201,14 @@ new Vue({
                         goals: '0',
                         asts: '1',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -204,6 +245,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -218,34 +267,43 @@ new Vue({
                 name: '皓 宇',
                 position: ['MF', 'ST'],
                 appearance: [{
-                    year: '2020',
-                    cup: '秋季大安盃',
-                    g: '6',
-                    goals: '1',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '4',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }]
+                        year: '2020',
+                        cup: '秋季大安盃',
+                        g: '6',
+                        goals: '1',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '扶輪社暨航源足球賽',
+                        g: '5',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '金牛賀歲盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '15',
@@ -280,6 +338,14 @@ new Vue({
                         goals: '1',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -288,34 +354,43 @@ new Vue({
                 name: '維 恩（C）',
                 position: ['DF', 'MF'],
                 appearance: [{
-                    year: '2020',
-                    cup: '秋季大安盃',
-                    g: '6',
-                    goals: '1',
-                    asts: '2',
-                    cs: '0'
-                }, {
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '4',
-                    goals: '3',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
+                        year: '2020',
+                        cup: '秋季大安盃',
+                        g: '6',
+                        goals: '1',
+                        asts: '2',
+                        cs: '0'
+                    }, {
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '4',
+                        goals: '3',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '扶輪社暨航源足球賽',
+                        g: '5',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '金牛賀歲盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '1',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '21',
@@ -357,6 +432,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -393,6 +476,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -400,7 +491,14 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 position: ['N/A'],
-                appearance: []
+                appearance: [{
+                    year: '2021',
+                    cup: '春季大安盃',
+                    g: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
             },
             {
                 number: '27',
@@ -442,6 +540,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -463,54 +569,72 @@ new Vue({
                 name: '宥 融',
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
-                    year: '2020',
-                    cup: '秋季大安盃',
-                    g: '6',
-                    goals: '0',
-                    asts: '1',
-                    cs: '1'
-                }, {
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '4',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    goals: '1',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    year: '2021',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }]
+                        year: '2020',
+                        cup: '秋季大安盃',
+                        g: '6',
+                        goals: '0',
+                        asts: '1',
+                        cs: '1'
+                    }, {
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '4',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '扶輪社暨航源足球賽',
+                        g: '5',
+                        goals: '1',
+                        asts: '0',
+                        cs: '1'
+                    }, {
+                        year: '2021',
+                        cup: '金牛賀歲盃',
+                        g: '3',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '77',
                 name: '昕 叡',
                 position: ['DF', 'MF'],
                 appearance: [{
-                    year: '2020',
-                    cup: '新北聯合盃',
-                    g: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2021',
-                    cup: '金牛賀歲盃',
-                    g: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
+                        year: '2020',
+                        cup: '新北聯合盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '金牛賀歲盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '97',
@@ -550,6 +674,14 @@ new Vue({
                         cup: '萬歲盃',
                         g: '2',
                         goals: '3',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '1',
+                        goals: '4',
                         asts: '0',
                         cs: '0'
                     }
@@ -611,6 +743,15 @@ new Vue({
                 url: '1T06Ab76fOFMXllJyCpM3uP0pTgIozULu'
             }],
             icon: 'fal fa-skull-cow'
+        }, {
+            cupName: '春季大安盃',
+            cover: '2021daanspringcup',
+            videos: [{
+                date: '4/10',
+                opponents: '熱血足球 U8',
+                url: '1oUKoqHtp_A-RtVroe_x3u3hFCcjSMDVG'
+            }],
+            icon: 'fad fa-futbol'
         }],
         photos: [{
             cupName: '秋季大安盃',
@@ -683,6 +824,15 @@ new Vue({
                 date: '3/27',
                 opponents: '足球心想事成、吉利港宜大、大暴風足球、淡水小獵豹',
                 url: `<a href="https://photos.app.goo.gl/8KdgXhpSsxgCHvYd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210328-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-vuejs'
+        }, {
+            cupName: '春季大安盃',
+            cover: '20210410-cover',
+            photos: [{
+                date: '4/10',
+                opponents: '國北實小-U8、熱血足球U8',
+                url: `<a href="https://photos.app.goo.gl/8eXh7Tb2eURyhuhm8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vuejs'
         }]
