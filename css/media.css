@@ -43,8 +43,12 @@ main {
     padding: 0;
 }
 
-.modal-body {
+.media-group {
     background-image: url('../img/bg-grass.jpg');
+}
+
+.modal-body {
+    /*background-image: url('../img/bg-grass.jpg');*/
     background-position: cover;
     background-repeat: repeat-x;
 }

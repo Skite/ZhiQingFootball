@@ -91,16 +91,16 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-center media-group">
                             <div class="modal-body col-md-6" v-for="videos in item.videos">
                                 <h3>{{ videos.date }} vs {{ videos.opponents }}</h3>
                                 <div>
                                     <video width="85%" controls>
                                         <source :src="'https://drive.google.com/uc?id=' + videos.url" type="video/mp4"></video></div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+                        </div>
+                        <div class="row modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -135,14 +135,14 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-center media-group">
                             <div class="modal-body col-md-6" v-for="photo in item.photos" v-if="!!photo.url">
                                 <h3>{{ photo.date }} vs {{ photo.opponents }}</h3>
                                 <div v-html="photo.url"></div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+                        </div>
+                        <div class="row modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
