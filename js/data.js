@@ -741,6 +741,10 @@ new Vue({
                 date: '1/31',
                 opponents: '新北銀河',
                 url: '1T06Ab76fOFMXllJyCpM3uP0pTgIozULu'
+            }, {
+                date: '2/6',
+                opponents: '虎鯊HSFC',
+                url: '1ENIzrE_rJB1hfzuJI6TjOEqi8n42IBZQ'
             }],
             icon: 'fal fa-skull-cow'
         }, {
