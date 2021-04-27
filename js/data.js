@@ -9,7 +9,7 @@ new Vue({
         players: [{
                 number: '2',
                 name: '定 宸',
-                position: ['DF', 'MF'],
+                position: ['DF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -37,7 +37,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -81,7 +81,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -154,7 +154,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -308,7 +308,7 @@ new Vue({
             {
                 number: '15',
                 name: '凱 泰',
-                position: ['GK', 'DF'],
+                position: ['GK', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -342,7 +342,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -480,7 +480,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -490,11 +490,11 @@ new Vue({
             {
                 number: '23',
                 name: '柏 燁',
-                position: ['N/A'],
+                position: ['MF'],
                 appearance: [{
                     year: '2021',
                     cup: '春季大安盃',
-                    g: '1',
+                    g: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -503,7 +503,7 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
-                position: ['GK', 'MF'],
+                position: ['GK', 'MF', 'ST'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -544,8 +544,8 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
-                        goals: '1',
+                        g: '2',
+                        goals: '2',
                         asts: '0',
                         cs: '0'
                     }
@@ -629,7 +629,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '春季大安盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -837,6 +837,10 @@ new Vue({
                 date: '4/10',
                 opponents: '國北實小-U8、熱血足球U8',
                 url: `<a href="https://photos.app.goo.gl/8eXh7Tb2eURyhuhm8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '4/24',
+                opponents: '炫風小尖兵',
+                url: `<a href="https://photos.app.goo.gl/YttUBD5T1YsTBSao8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210424-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vuejs'
         }]
