@@ -158,6 +158,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -253,6 +261,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '1'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -301,6 +317,14 @@ new Vue({
                         g: '1',
                         goals: '0',
                         asts: '1',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '5',
+                        asts: '2',
                         cs: '0'
                     }
                 ]
@@ -484,6 +508,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
                     }
                 ]
             },
@@ -492,13 +524,22 @@ new Vue({
                 name: '柏 燁',
                 position: ['MF'],
                 appearance: [{
-                    year: '2021',
-                    cup: '春季大安盃',
-                    g: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
+                        year: '2021',
+                        cup: '春季大安盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    }
+                ]
             },
             {
                 number: '27',
@@ -547,6 +588,14 @@ new Vue({
                         g: '2',
                         goals: '2',
                         asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '2',
+                        asts: '2',
                         cs: '0'
                     }
                 ]
@@ -604,6 +653,14 @@ new Vue({
                         goals: '2',
                         asts: '0',
                         cs: '1'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
                     }
                 ]
             },
@@ -684,6 +741,14 @@ new Vue({
                         goals: '4',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '安聯小小世界盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             }
@@ -756,6 +821,15 @@ new Vue({
                 url: '1oUKoqHtp_A-RtVroe_x3u3hFCcjSMDVG'
             }],
             icon: 'fad fa-futbol'
+        }, {
+            cupName: '安聯小小世界盃',
+            cover: '2021allianzcup',
+            videos: [{
+                date: '5/02',
+                opponents: 'Dreamers FC、鬥牛犬、LSFC',
+                url: '1BK6RGXQS9hPrm0FPGE-SL-hHMk4lrFKC'
+            }],
+            icon: 'fab fa-angular'
         }],
         photos: [{
             cupName: '秋季大安盃',
@@ -843,6 +917,15 @@ new Vue({
                 url: `<a href="https://photos.app.goo.gl/YttUBD5T1YsTBSao8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210424-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vuejs'
+        }, {
+            cupName: '安聯小小世界盃',
+            cover: '20210502-cover',
+            photos: [{
+                date: '5/2',
+                opponents: 'Dreamers FC、鬥牛犬、LSFC',
+                url: `<a href="https://photos.app.goo.gl/KJYq8ddTvxRo5WXR7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210502-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-angular'
         }]
     },
     methods: {
