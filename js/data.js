@@ -134,7 +134,7 @@ new Vue({
             {
                 number: '8',
                 name: '翊 愷',
-                position: 'MF',
+                position: ['MF'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
