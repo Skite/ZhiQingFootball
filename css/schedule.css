@@ -2,6 +2,19 @@ section {
     margin-top: 2%;
 }
 
+#matches .modal-body kbd {
+    font-size: 2rem;
+}
+
+#matches .nav-item .active {
+    color: #525cfa;
+    background-color: #ffffff !important;
+}
+
+#matches .nav-item .nav-link {
+    background-color: #dbdbdb;
+}
+
 .card {
     overflow-y: auto;
 }
