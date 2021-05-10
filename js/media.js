@@ -89,15 +89,15 @@ new Vue({
             photos: [{
                 date: '09/20',
                 opponents: 'HePing踢豹',
-                url: `<a href="https://photos.app.goo.gl/uYKVkaoPvcHqT652A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a href="https://photos.app.goo.gl/uYKVkaoPvcHqT652A" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: `<a href="https://photos.app.goo.gl/UoqhNEpAVytZ6ERb6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a href="https://photos.app.goo.gl/UoqhNEpAVytZ6ERb6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/08',
                 opponents: '磐石',
-                url: `<a href="https://photos.app.goo.gl/nT9d2yqqEdJvdsN66"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a href="https://photos.app.goo.gl/nT9d2yqqEdJvdsN66" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
