@@ -97,29 +97,39 @@
                                             <div class="modal-content container-fluid">
                                                 <div class="modal-header">
                                                     <kbd class="match-date">{{ game.date.slice(0,4) }} / {{ game.date.slice(4,6) }} / {{ game.date.slice(6,8) }}</kbd>
+                                                    <div class="mt-4 mx-4 align-items-bottom text-success" v-if="!!game.pitch">
+                                                        <i class="fas fa-map-marked-alt"></i> {{ game.pitch }}
+                                                    </div>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
                                                 <div class="modal-title">
-                                                    <div class="row">
-                                                        <div class="col-3 border-right" v-if="!!game.subTeam">志清種子-{{ game.subTeam }}</div>
-                                                        <div class="col-3 border-right" v-else>志清種子</div>
-                                                        <div class="col-6 text-primary">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-lg-5 col-md-4 border-right text-md-right" v-if="!!game.subTeam">
+                                                            志清種子-{{ game.subTeam }}
+                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2">
+                                                        </div>
+                                                        <div class="col-lg-5 col-md-4 border-right text-md-right" v-else>
+                                                            志清種子
+                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2">
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-4 text-primary">
                                                             {{ game.final_score }} 【{{ game.wdl }}】
                                                             <br v-if="!!game.pso">
                                                             <div v-if="!!game.pso">(PSO {{ game.pso }})</div>
                                                         </div>
-                                                        <div class="col-3">
+                                                        <div class="col-lg-5 col-md-4 text-md-left">
+                                                            <img :src="'img/logo/' + game.opponent + '.jpg'" class="club-logo img-fluid mr-2">
                                                             {{ game.opponent }}
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="modal-body">
                                                     <div v-for="team in match.team" v-if="team.name === game.subTeam">
-                                                        Match Squad: 志清種子-{{ team.name }} : {{ team.members }}
+                                                        Match Squad: <br>
+                                                        【志清種子{{ team.name }}】 {{ team.members }}
                                                     </div>
-                                                    <div class="mt-4 align-items-bottom">{{ game.note }}</div>
                                                     <ul class="nav nav-tabs mt-3" role="tablist">
                                                         <li class="nav-item">
                                                             <a class="nav-link active" id="formation-tab" data-toggle="tab" :href="'#form' + game.date + game.opponent" role="tab" aria-controls="formation" aria-selected="true">Formation / Starters</a>
@@ -133,8 +143,14 @@
                                                     </ul>
                                                     <div class="tab-content">
                                                         <div class="tab-pane fade show active" :id="'form' + game.date + game.opponent" role="tabpanel" aria-labelledby="formation-tab">
-                                                            <div class="my-2">
-                                                                <img :src="'img/formations/' + game.date +  game.opponent + '.png'" class="img-fluid">
+                                                            <div class="row">
+                                                                <div class="col my-2">
+                                                                    <img :src="'img/formations/' + game.date +  game.opponent + '.png'" class="img-fluid">
+                                                                </div>
+                                                                <div class="col my-2" v-if="!!game.subs">
+                                                                    <div class="text-info my-4">Subs:</div>
+                                                                    <h5 v-for="player in game.subs">{{ player.number }} {{ player.name }}</h5>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" :id="'score' + game.date + game.opponent" role="tabpanel" aria-labelledby="score-tab">
@@ -157,6 +173,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="text-warning bg-secondary text-left pl-4 mt-4 align-items-bottom">{{ game.note }}</div>
                                                 </div>
                                             </div>
                                         </div>

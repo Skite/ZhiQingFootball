@@ -2,6 +2,10 @@ section {
     margin-top: 2%;
 }
 
+#matches .club-logo {
+    max-height: 44px;
+}
+
 #matches .modal-title {
     font-size: 2.1rem;
     font-weight: 700;
@@ -47,10 +51,6 @@ section {
 #matches .history-detail {
     cursor: pointer;
     color: #ffc107;
-}
-
-#matches .table tr td {
-    vertical-align: middle;
 }
 
 .trophy-icon {
