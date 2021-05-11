@@ -66,7 +66,7 @@
         <h2>Trophies and Match Recap</h2>
         <div class="container-fluid" id="zhiqinfootball">
             <div class="row px-4">
-                <div class="col-xl-6" v-for="match in sortMatches">
+                <div class="col-xl-4 col-md-6" v-for="match in sortMatches">
                     <div class="card bg-dark text-white mt-4">
                         <img class="card-img img-fluid" :src="'img/matches/' + match.cover + '.jpg'" alt="Card image">
                         <div class="card-img-overlay">
@@ -88,7 +88,7 @@
                                 <template v-for="game in match.matches">
                                     <div class="row justify-content-start align-items-center my-2">
                                         <div class="col">{{ game.opponent }}</div>
-                                        <div class="col">{{ game.final_score }} {{ game.wdl }} <span v-if="!!game.pso">(PSO {{ game.pso }})</span></div>
+                                        <div class="col">{{ game.final_score }} <span v-if="!!game.pso">(PSO {{ game.pso }})</span> {{ game.wdl }}</div>
                                         <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent + game.date" v-if="game.starters.length > 0">比賽記錄</a></div>
                                     </div>
                                     <!-- Modal -->
