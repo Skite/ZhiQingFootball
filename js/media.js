@@ -33,14 +33,14 @@ new Vue({
                 date: '11/22',
                 opponents: '虎鯊HSFC',
                 url: '1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH'
-            }, {
-                date: '12/19',
-                opponents: '新北銀河',
-                url: '18pp8I_47K6RgkLcSa6o-2-4LQiV1f80L'
-            }, {
-                date: '12/26',
-                opponents: '日新Yoyo',
-                url: '1kKhGm47FFqZW093JTl7nHIxLrN623dle'
+                // }, {
+                //     date: '12/19',
+                //     opponents: '新北銀河',
+                //     url: '1TdzOUOWPdgV9P2hQL3-XMKaWpg_RXv9V'
+                // }, {
+                //     date: '12/26',
+                //     opponents: '日新Yoyo',
+                //     url: '1mhcWWPTujXKlo9cohGoSEFiInU0S32FF'
             }],
             icon: 'fas fa-link'
         }, {
@@ -71,6 +71,10 @@ new Vue({
                 date: '5/8',
                 opponents: '公館紅雷霆',
                 url: '1m6rNl5uJeju9WX_u3m5n_0fOafO1tc74'
+            }, {
+                date: '5/8',
+                opponents: '磐石U8',
+                url: '1ZiESQqGS1dJW_uy67OAz3c13ZREMXfKs'
             }],
             icon: 'fad fa-futbol'
         }, {
