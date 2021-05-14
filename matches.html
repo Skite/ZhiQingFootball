@@ -105,23 +105,23 @@
                                                     </button>
                                                 </div>
                                                 <div class="modal-title">
-                                                    <div class="row align-items-center">
+                                                    <div class="row align-items-center pt-3">
                                                         <div class="col-lg-5 col-md-4 border-right text-md-right" v-if="!!game.subTeam">
-                                                            志清種子-{{ game.subTeam }}
-                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2">
+                                                            <div class="my-1 d-inline">志清種子-{{ game.subTeam }}</div>
+                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2 mb-2 d-inline">
                                                         </div>
                                                         <div class="col-lg-5 col-md-4 border-right text-md-right" v-else>
-                                                            志清種子
-                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2">
+                                                            <div class="my-1 d-inline">志清種子</div>
+                                                            <img src="img/logo.jpeg" class="club-logo img-fluid ml-2 mb-2 d-inline">
                                                         </div>
-                                                        <div class="col-lg-2 col-md-4 text-primary">
+                                                        <div class="col-lg-2 col-md-4 mb-2 text-primary">
                                                             {{ game.final_score }} 【{{ game.wdl }}】
                                                             <br v-if="!!game.pso">
                                                             <div v-if="!!game.pso">(PSO {{ game.pso }})</div>
                                                         </div>
                                                         <div class="col-lg-5 col-md-4 text-md-left">
-                                                            <img :src="'img/logo/' + game.opponent + '.jpg'" class="club-logo img-fluid mr-2">
-                                                            {{ game.opponent }}
+                                                            <img :src="'img/logo/' + game.opponent + '.jpg'" class="club-logo img-fluid mr-2 mb-2 d-inline">
+                                                            <div class="my-1 d-inline">{{ game.opponent }}</div>
                                                         </div>
                                                     </div>
                                                 </div>
