@@ -21,7 +21,7 @@ new Vue({
                 opponents: '公館小雷霆 （季軍戰）',
                 url: '1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI'
             }],
-            icon: 'fad fa-futbol'
+            icon: 'far fa-futbol'
         }, {
             cupName: '新北聯合盃',
             cover: '2020unitedcup',
@@ -76,7 +76,7 @@ new Vue({
                 opponents: '磐石U8',
                 url: '1ZiESQqGS1dJW_uy67OAz3c13ZREMXfKs'
             }],
-            icon: 'fad fa-futbol'
+            icon: 'far fa-futbol'
         }, {
             cupName: '安聯小小世界盃',
             cover: '2021allianzcup',
@@ -111,7 +111,7 @@ new Vue({
                 opponents: '公館小雷霆 （季軍戰）',
                 url: ``
             }],
-            icon: 'fad fa-futbol'
+            icon: 'far fa-futbol'
         }, {
             cupName: '新北聯合盃',
             cover: '20201122-cover',
@@ -176,7 +176,7 @@ new Vue({
                 opponents: '公館紅雷霆、磐石U8',
                 url: `<a href="https://photos.app.goo.gl/M9usrPcX69wa246f8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210508-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
-            icon: 'fab fa-vuejs'
+            icon: 'far fa-futbol'
         }, {
             cupName: '安聯小小世界盃',
             cover: '20210502-cover',
@@ -188,13 +188,7 @@ new Vue({
             icon: 'fab fa-angular'
         }]
     },
-    methods: {
-
-    },
-    computed: {
-
-    },
-    filters: {
-
-    }
+    methods: {},
+    computed: {},
+    filters: {}
 })
