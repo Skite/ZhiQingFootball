@@ -9,6 +9,7 @@ new Vue({
         players: [{
                 number: '2',
                 name: '定 宸',
+                active: false,
                 position: ['DF'],
                 appearance: [{
                         year: '2020',
@@ -47,6 +48,7 @@ new Vue({
             {
                 number: '3',
                 name: '晉 丞',
+                active: true,
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2020',
@@ -91,6 +93,7 @@ new Vue({
             {
                 number: '7',
                 name: '黃 衍',
+                active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -134,6 +137,7 @@ new Vue({
             {
                 number: '8',
                 name: '翊 愷',
+                active: false,
                 position: ['MF'],
                 appearance: [{
                         year: '2020',
@@ -172,6 +176,7 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
+                active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -223,6 +228,7 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
+                active: true,
                 position: ['GK', 'DF'],
                 appearance: [{
                         year: '2020',
@@ -275,12 +281,14 @@ new Vue({
             {
                 number: '11',
                 name: '定 緯',
+                active: true,
                 position: ['N/A'],
                 appearance: []
             },
             {
                 number: '12',
                 name: '皓 宇',
+                active: true,
                 position: ['DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
@@ -332,6 +340,7 @@ new Vue({
             {
                 number: '15',
                 name: '凱 泰',
+                active: true,
                 position: ['GK', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -376,6 +385,7 @@ new Vue({
             {
                 number: '18',
                 name: '維 恩（C）',
+                active: true,
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -419,6 +429,7 @@ new Vue({
             {
                 number: '21',
                 name: '亮 谷',
+                active: true,
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2020',
@@ -470,6 +481,7 @@ new Vue({
             {
                 number: '22',
                 name: '明 澤',
+                active: false,
                 position: ['DF'],
                 appearance: [{
                         year: '2020',
@@ -522,6 +534,7 @@ new Vue({
             {
                 number: '23',
                 name: '柏 燁',
+                active: true,
                 position: ['MF'],
                 appearance: [{
                         year: '2021',
@@ -544,6 +557,7 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
+                active: true,
                 position: ['GK', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
@@ -603,6 +617,7 @@ new Vue({
             {
                 number: '30',
                 name: '品 叡',
+                active: false,
                 position: ['MF'],
                 appearance: [{
                     year: '2020',
@@ -616,6 +631,7 @@ new Vue({
             {
                 number: '55',
                 name: '宥 融',
+                active: true,
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -667,6 +683,7 @@ new Vue({
             {
                 number: '77',
                 name: '昕 叡',
+                active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
@@ -696,6 +713,7 @@ new Vue({
             {
                 number: '97',
                 name: '宇 正',
+                active: true,
                 position: ['GK', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
@@ -828,7 +846,10 @@ new Vue({
 
             filteredResult = _.uniq(result, 'number')
 
-            return filteredResult
+            return {
+                active: _.filter(filteredResult, ['active', true]),
+                retire: _.filter(filteredResult, ['active', false])
+            }
         }
     },
     filters: {

@@ -96,8 +96,81 @@
                         <button class="btn btn-primary" @click="resetFilter()">Clear Filter</button>
                     </div>
                 </div>
+                <h3 class="text-left text-white bg-secondary p-2">現役球員</h3>
                 <div class="row">
-                    <div class="player-card col-md-4" v-for="player in playerFilter" data-toggle="modal" :data-target="'#player' + player.number">
+                    <div class="player-card col-md-4" v-for="player in playerFilter.active" data-toggle="modal" :data-target="'#player' + player.number">
+                        <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
+                            <div class="profile-name"> {{ player.name }} </div>
+                            <div class="profile-number">{{ player.number }}</div>
+                            <div class="profile-position">
+                                <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
+                            </div>
+                            <div class="profile-overview" v-if="player.matches !== '0'">
+                                <div class="profile-overview">
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.appearance | totalMatches }}</h3>
+                                            <p>Matches</p>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.appearance | totalGoals }}</h3>
+                                            <p>Goals</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <h3>{{ player.appearance | totalAssists }}</h3>
+                                            <p>Ast</p>
+                                        </div>
+                                        <div class="col-sm" v-if="player.position.includes('GK')">
+                                            <h3>{{ player.appearance | totalCS }}</h3>
+                                            <p>CS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" :id="'player'+ player.number" tabindex="-1" role="dialog" aria-labelledby="playerCareer" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="playerCareer">出賽記錄</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body table-responsive">
+                                        <table class="table">
+                                            <tr>
+                                                <th>年份</th>
+                                                <th>賽事</th>
+                                                <th>出場</th>
+                                                <th>進球</th>
+                                                <th>助攻</th>
+                                                <th v-if="player.position.includes('GK')">零失球</th>
+                                            </tr>
+                                            <tr v-for="app in player.appearance">
+                                                <td>{{ app.year }}</td>
+                                                <td>{{ app.cup }}</td>
+                                                <td>{{ app.g }}</td>
+                                                <td>{{ app.goals }}</td>
+                                                <td>{{ app.asts }}</td>
+                                                <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-left text-white mt-4 bg-secondary p-2">退役球員</h3>
+                <div class="row">
+                    <div class="player-card col-md-4" v-for="player in playerFilter.retire" data-toggle="modal" :data-target="'#player' + player.number">
                         <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
                             <div class="profile-name"> {{ player.name }} </div>
                             <div class="profile-number">{{ player.number }}</div>

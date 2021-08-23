@@ -855,10 +855,10 @@ new Vue({
                     name: '凱泰',
                     assist: ''
                 }],
-                goalkeepers: ['凱泰', '東允**'],
+                goalkeepers: ['凱泰', '東允*'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '* 學弟'
             }]
         }, {
             id: 6,
@@ -1046,7 +1046,7 @@ new Vue({
                     name: '皓宇',
                     assist: ''
                 }, {
-                    name: 'Own Goal',
+                    name: '公館 Own Goal',
                     assist: ''
                 }, {
                     name: '宇正',
@@ -1173,7 +1173,7 @@ new Vue({
                     name: '定謙',
                     assist: '皓宇'
                 }, {
-                    name: 'OG',
+                    name: '鬥牛犬 Own Goal',
                     assist: ''
                 }, {
                     name: '定謙',
