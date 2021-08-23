@@ -256,7 +256,7 @@ new Vue({
             matches: [{
                 date: '20201121',
                 pitch: '新莊體育場',
-                opponent: '航源FC',
+                opponent: '航源FC U7',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-善捷', 'CB-維恩', 'LB-紘豪', 'RM-宇正', 'CM-亮谷', 'LM-宥融', 'CF-皓宇'],
                 subs: [{
