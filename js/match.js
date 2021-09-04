@@ -9,7 +9,7 @@ new Vue({
             cover: '2020daancup',
             trophy: '季軍',
             team: [{
-                name: '',
+                name: '種子',
                 members: '定宸、黃衍、紘豪、皓宇、維恩、亮谷、明澤、定謙、宥融、宇正'
             }],
             note: '',
@@ -249,7 +249,7 @@ new Vue({
             cover: '2020unitedcup',
             trophy: '亞軍',
             team: [{
-                name: '',
+                name: '種子',
                 members: '定宸、晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、明澤、定謙、品叡、宥融、昕叡、宇正'
             }],
             note: '',
@@ -428,7 +428,7 @@ new Vue({
             cover: '2021hunyuancup',
             trophy: '季軍',
             team: [{
-                name: '',
+                name: '種子',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、定謙、宥融、宇正'
             }],
             note: '',
@@ -605,7 +605,7 @@ new Vue({
             cover: '2021oxcup',
             trophy: '冠軍',
             team: [{
-                name: '',
+                name: '種子',
                 members: '晉丞、黃衍、翊凱、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、明澤、柏燁、定謙、宥融、昕叡、宇正'
             }],
             note: '',
@@ -723,13 +723,13 @@ new Vue({
             cover: '2021vivacup',
             trophy: '',
             team: [{
-                name: '藍',
+                name: '種子-藍',
                 members: '黃衍、定緯、皓宇、維恩、柏燁、宥融、昕叡'
             }, {
-                name: '紅',
+                name: '種子-紅',
                 members: '定宸、晉丞、翊凱、善捷、紘豪、亮谷、定謙、宇正'
             }, {
-                name: '閃電',
+                name: '種子-閃電',
                 members: '凱泰、明澤、學弟們'
             }],
             note: '',
@@ -868,10 +868,10 @@ new Vue({
             cover: '2021daanspringcup',
             trophy: '',
             team: [{
-                name: '藍',
+                name: '種子-藍',
                 members: '定宸、晉丞、翊凱、凱泰、明澤、柏燁、定謙、昕叡'
             }, {
-                name: '紅',
+                name: '種子-紅',
                 members: '黃衍、紘豪、善捷、皓宇、維恩、亮谷、宥融、宇正'
             }],
             note: '',
