@@ -7,7 +7,7 @@ section {
 }
 
 #matches .modal-title {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -35,7 +35,7 @@ section {
 }
 
 #matches .card-img {
-    min-height: 400px;
+    min-height: 20vw;
 }
 
 #matches .modal-dialog {

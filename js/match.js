@@ -35,7 +35,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 0',
                 pso: '',
                 wdl: 'W',
@@ -72,7 +72,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '4 : 1',
                 pso: '',
                 wdl: 'W',
@@ -115,7 +115,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 6',
                 pso: '',
                 wdl: 'L',
@@ -148,7 +148,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 1',
                 pso: '4 : 1',
                 wdl: 'W',
@@ -185,7 +185,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 1',
                 pso: '1 : 3',
                 wdl: 'L',
@@ -222,7 +222,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '3 : 0',
                 pso: '',
                 wdl: 'W',
@@ -256,7 +256,7 @@ new Vue({
             matches: [{
                 date: '20201121',
                 pitch: '新莊體育場',
-                opponent: '航源FC',
+                opponent: '航源FC-U7',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-善捷', 'CB-維恩', 'LB-紘豪', 'RM-宇正', 'CM-亮谷', 'LM-宥融', 'CF-皓宇'],
                 subs: [{
@@ -269,7 +269,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 0',
                 pso: '',
                 wdl: 'W',
@@ -303,7 +303,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '3 : 0',
                 pso: '',
                 wdl: 'W',
@@ -349,7 +349,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 2',
                 pso: '',
                 wdl: 'L',
@@ -389,7 +389,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '7 : 0',
                 pso: '',
                 wdl: 'W',
@@ -451,7 +451,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
@@ -485,7 +485,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 0',
                 pso: '',
                 wdl: 'W',
@@ -525,7 +525,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 5',
                 pso: '',
                 wdl: 'L',
@@ -562,7 +562,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '0 : 9',
                 pso: '',
                 wdl: 'L',
@@ -587,7 +587,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 0',
                 pso: '',
                 wdl: 'W',
@@ -631,7 +631,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '1 : 0',
                 pso: '',
                 wdl: 'W',
@@ -665,7 +665,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
@@ -702,7 +702,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '種子',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
@@ -740,7 +740,7 @@ new Vue({
                 formation: 'Square（2-0-2）',
                 starters: [''],
                 subs: [''],
-                subTeam: '藍',
+                subTeam: '種子-藍',
                 final_score: '0 : 2*',
                 pso: '',
                 wdl: 'L',
@@ -756,7 +756,7 @@ new Vue({
                 formation: 'Square（2-0-2）',
                 starters: [''],
                 subs: [''],
-                subTeam: '藍',
+                subTeam: '種子-藍',
                 final_score: '0 : 2*',
                 pso: '',
                 wdl: 'L',
@@ -781,7 +781,7 @@ new Vue({
                     number: 9,
                     name: '紘豪'
                 }],
-                subTeam: '紅',
+                subTeam: '種子-紅',
                 final_score: '3 : 1',
                 pso: '',
                 wdl: 'W',
@@ -815,7 +815,7 @@ new Vue({
                     number: 9,
                     name: '紘豪'
                 }],
-                subTeam: '紅',
+                subTeam: '種子-紅',
                 final_score: '0 : 6',
                 pso: '',
                 wdl: 'L',
@@ -831,7 +831,7 @@ new Vue({
                 formation: 'Square（2-0-2）',
                 starters: ['GK-凱泰', 'RB-', 'LB-', 'RF-明澤', 'LF-'],
                 subs: [''],
-                subTeam: '閃電',
+                subTeam: '種子-閃電',
                 final_score: '0 : 1',
                 pso: '',
                 wdl: 'L',
@@ -847,7 +847,7 @@ new Vue({
                 formation: 'Square（2-0-2）',
                 starters: ['GK-凱泰', 'RB-', 'LB-', 'RF-明澤', 'LF-'],
                 subs: [''],
-                subTeam: '閃電',
+                subTeam: '種子-閃電',
                 final_score: '1 : 4',
                 pso: '',
                 wdl: 'L',
@@ -891,7 +891,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: '藍',
+                subTeam: '種子-藍',
                 final_score: '1 : 3',
                 pso: '',
                 wdl: 'L',
@@ -919,7 +919,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '紅',
+                subTeam: '種子-紅',
                 final_score: '8 : 0',
                 pso: '',
                 wdl: 'W',
@@ -968,7 +968,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: '藍',
+                subTeam: '種子-藍',
                 final_score: '1 : 7',
                 pso: '',
                 wdl: 'L',
@@ -996,7 +996,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '紅',
+                subTeam: '種子-紅',
                 final_score: '17 : 0',
                 pso: '',
                 wdl: 'W',
@@ -1072,7 +1072,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '紅',
+                subTeam: '種子-紅',
                 final_score: '6 : 0',
                 pso: '',
                 wdl: 'W',
@@ -1108,7 +1108,7 @@ new Vue({
             cover: '2021allianzcup',
             trophy: '',
             team: [{
-                name: 'B',
+                name: '種子-B',
                 members: '翊愷、善捷、皓宇、明澤、柏燁、定謙、宥融、宇正、禹豪*'
             }],
             note: '',
@@ -1122,7 +1122,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: 'B',
+                subTeam: '種子-B',
                 final_score: '4 : 3',
                 pso: '',
                 wdl: 'W',
@@ -1162,7 +1162,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: 'B',
+                subTeam: '種子-B',
                 final_score: '4 : 1',
                 pso: '',
                 wdl: 'W',
@@ -1202,7 +1202,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: 'B',
+                subTeam: '種子-B',
                 final_score: '1 : 6',
                 pso: '',
                 wdl: 'L',
@@ -1214,6 +1214,47 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍', '阿祥'],
                 note: '* 學弟'
+            }]
+        }, {
+            id: 8,
+            year: '2021',
+            cupName: '學童盃',
+            system: '8人制',
+            cover: '2021studentcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇辰*、稟嚴*'
+            }],
+            note: '',
+            matches: [{
+                date: '20210904',
+                pitch: '新莊體育場',
+                opponent: '航源FC-U9',
+                formation: '3-3-1',
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-秉嚴'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇辰'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['子珩'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '怡萍'],
+                note: '* 學長／姐'
             }]
         }]
     },

@@ -98,7 +98,7 @@
                 </div>
                 <h3 class="text-left text-white bg-secondary p-2">Active Players</h3>
                 <div class="row">
-                    <div class="player-card col-md-4" v-for="player in playerFilter.active" data-toggle="modal" :data-target="'#player' + player.number">
+                    <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.active" data-toggle="modal" :data-target="'#player' + player.number">
                         <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
                             <div class="profile-name"> {{ player.name }} </div>
                             <div class="profile-number">{{ player.number }}</div>

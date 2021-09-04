@@ -186,6 +186,15 @@ new Vue({
                 url: `<a href="https://photos.app.goo.gl/KJYq8ddTvxRo5WXR7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210502-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
+        }, {
+            cupName: '學童盃',
+            cover: '20210904-cover',
+            photos: [{
+                date: '9/4',
+                opponents: '航源FC-U9',
+                url: `<a href="https://photos.app.goo.gl/4v6XY9LLmTD2oDUj6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210904-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-user-graduate'
         }]
     },
     methods: {},

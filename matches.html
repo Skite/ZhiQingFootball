@@ -64,9 +64,9 @@
     <!-- matches -->
     <section id="matches" class="bg-light text-center">
         <h2>Trophies and Match Recap</h2>
-        <div class="container-fluid" id="zhiqinfootball">
+        <div class="container-fluid" id="zhiqinfootball" v-cloak>
             <div class="row px-4">
-                <div class="col-xl-4 col-md-6" v-for="match in sortMatches">
+                <div class="col-lg-6 col-md-12" v-for="match in sortMatches">
                     <div class="card bg-dark text-white mt-4">
                         <img class="card-img img-fluid" :src="'img/matches/' + match.cover + '.jpg'" alt="Card image">
                         <div class="card-img-overlay">
@@ -107,11 +107,11 @@
                                                 <div class="modal-title">
                                                     <div class="row align-items-center pt-3">
                                                         <div class="col-lg-5 col-md-4 border-right text-md-right" v-if="!!game.subTeam">
-                                                            <div class="my-1 d-inline">志清種子-{{ game.subTeam }}</div>
+                                                            <div class="my-1 d-inline">志清{{ game.subTeam }}</div>
                                                             <img src="img/logo.jpeg" class="club-logo img-fluid ml-2 mb-2 d-inline">
                                                         </div>
                                                         <div class="col-lg-5 col-md-4 border-right text-md-right" v-else>
-                                                            <div class="my-1 d-inline">志清種子</div>
+                                                            <div class="my-1 d-inline">志清</div>
                                                             <img src="img/logo.jpeg" class="club-logo img-fluid ml-2 mb-2 d-inline">
                                                         </div>
                                                         <div class="col-lg-2 col-md-4 mb-2 text-primary">
@@ -128,7 +128,7 @@
                                                 <div class="modal-body">
                                                     <div v-for="team in match.team" v-if="team.name === game.subTeam">
                                                         Match Squad: <br>
-                                                        【志清種子{{ team.name }}】 {{ team.members }}
+                                                        【志清{{ team.name }}】 {{ team.members }}
                                                     </div>
                                                     <ul class="nav nav-tabs mt-3" role="tablist">
                                                         <li class="nav-item">

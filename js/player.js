@@ -131,6 +131,14 @@ new Vue({
                         goals: '4',
                         asts: '3',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -334,6 +342,14 @@ new Vue({
                         goals: '5',
                         asts: '2',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -386,7 +402,7 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -423,6 +439,14 @@ new Vue({
                         goals: '2',
                         asts: '1',
                         cs: '1'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -474,6 +498,14 @@ new Vue({
                         g: '3',
                         goals: '4',
                         asts: '2',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
                         cs: '0'
                     }
                 ]
@@ -611,6 +643,14 @@ new Vue({
                         goals: '2',
                         asts: '2',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -677,6 +717,14 @@ new Vue({
                         goals: '0',
                         asts: '1',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -707,6 +755,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -714,7 +770,7 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 active: true,
-                position: ['GK', 'MF', 'FW'],
+                position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -764,6 +820,14 @@ new Vue({
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
