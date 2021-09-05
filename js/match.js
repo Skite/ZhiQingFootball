@@ -1224,7 +1224,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '勇士',
-                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇辰*、稟嚴*'
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、稟嚴*'
             }],
             note: '',
             matches: [{
@@ -1232,13 +1232,13 @@ new Vue({
                 pitch: '新莊體育場',
                 opponent: '航源FC-U9',
                 formation: '3-3-1',
-                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-秉嚴'],
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-稟嚴'],
                 subs: [{
                     number: 12,
                     name: '皓宇'
                 }, {
                     number: 17,
-                    name: '宇辰'
+                    name: '宇晨'
                 }, {
                     number: 27,
                     name: '定謙'
@@ -1252,6 +1252,46 @@ new Vue({
                     assist: ''
                 }],
                 goalkeepers: ['子珩'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '怡萍'],
+                note: '* 學長／姐'
+            }, {
+                date: '20210905',
+                pitch: '新莊體育場',
+                opponent: '台北Playone',
+                formation: '3-3-1',
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-黃衍', 'RM-昕叡', 'CM-皓宇', 'LM-定謙', 'CF-稟嚴'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 17,
+                    name: '宇晨'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['子珩', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['柏豪', '怡萍'],
                 note: '* 學長／姐'

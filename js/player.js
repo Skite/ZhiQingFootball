@@ -49,7 +49,7 @@ new Vue({
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['MF', 'FW'],
+                position: ['DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -84,6 +84,14 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -135,7 +143,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -230,6 +238,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -280,6 +296,14 @@ new Vue({
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -346,7 +370,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -392,6 +416,14 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -443,7 +475,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '1',
                         asts: '0',
                         cs: '0'
@@ -503,7 +535,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -567,7 +599,7 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 active: true,
-                position: ['MF'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2021',
                         cup: '春季大安盃',
@@ -581,6 +613,14 @@ new Vue({
                         cup: '安聯小小世界盃',
                         g: '3',
                         goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '學童盃',
+                        g: '1',
+                        goals: '0',
                         asts: '0',
                         cs: '0'
                     }
@@ -647,7 +687,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -721,7 +761,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -759,7 +799,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -827,7 +867,7 @@ new Vue({
                     {
                         year: '2021',
                         cup: '學童盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
