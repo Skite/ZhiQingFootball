@@ -86,6 +86,19 @@ new Vue({
                 url: '1BK6RGXQS9hPrm0FPGE-SL-hHMk4lrFKC'
             }],
             icon: 'fab fa-angular'
+        }, {
+            cupName: '學童盃',
+            cover: '2021studentcup',
+            videos: [{
+                date: '9/04',
+                opponents: '航源FC-U9',
+                url: '1Y8ad0_KeeEHT-z7dDizFuFHo17UP9cwo'
+            }, {
+                date: '9/05',
+                opponents: '台北Playone',
+                url: '1blNzkJj1sLvYqT30MPJFnPUvUgdR51Co'
+            }],
+            icon: 'fas fa-user-graduate'
         }],
         photos: [{
             cupName: '秋季大安盃',
@@ -193,6 +206,10 @@ new Vue({
                 date: '9/4',
                 opponents: '航源FC-U9',
                 url: `<a href="https://photos.app.goo.gl/4v6XY9LLmTD2oDUj6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210904-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/5',
+                opponents: '台北Playone',
+                url: `<a href="https://photos.app.goo.gl/XZENTw9BpYBKX4Kj9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210905-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
         }]
