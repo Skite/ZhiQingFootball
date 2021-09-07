@@ -2,6 +2,7 @@ new Vue({
     el: '#zhiqinfootball',
     data: {
         videos: [{
+            id: 1,
             cupName: '秋季大安盃',
             cover: '2020daancup',
             videos: [{
@@ -23,6 +24,7 @@ new Vue({
             }],
             icon: 'far fa-futbol'
         }, {
+            id: 2,
             cupName: '新北聯合盃',
             cover: '2020unitedcup',
             videos: [{
@@ -44,6 +46,7 @@ new Vue({
             }],
             icon: 'fas fa-link'
         }, {
+            id: 3,
             cupName: '金牛賀歲盃',
             cover: '2021oxcup',
             videos: [{
@@ -61,6 +64,7 @@ new Vue({
             }],
             icon: 'fal fa-skull-cow'
         }, {
+            id: 4,
             cupName: '春季大安盃',
             cover: '2021daanspringcup',
             videos: [{
@@ -78,6 +82,7 @@ new Vue({
             }],
             icon: 'far fa-futbol'
         }, {
+            id: 5,
             cupName: '安聯小小世界盃',
             cover: '2021allianzcup',
             videos: [{
@@ -87,6 +92,7 @@ new Vue({
             }],
             icon: 'fab fa-angular'
         }, {
+            id: 6,
             cupName: '學童盃',
             cover: '2021studentcup',
             videos: [{
@@ -101,6 +107,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }],
         photos: [{
+            id: 1,
             cupName: '秋季大安盃',
             cover: '20200920-cover',
             photos: [{
@@ -126,6 +133,7 @@ new Vue({
             }],
             icon: 'far fa-futbol'
         }, {
+            id: 2,
             cupName: '新北聯合盃',
             cover: '20201122-cover',
             photos: [{
@@ -147,6 +155,7 @@ new Vue({
             }],
             icon: 'fas fa-link'
         }, {
+            id: 3,
             cupName: '扶輪社暨航源足球賽',
             cover: '20210124-cover',
             photos: [{
@@ -154,8 +163,9 @@ new Vue({
                 opponents: '熱血足球、北新國小、夢幻之星、TFA尤文圖斯、暴風',
                 url: `<a href="https://photos.google.com/share/AF1QipO6pB9bAp1BADIemkkXvLcoOHdkDY8_fbqC0wcNDRYbTmJqDNsHhvFEIz0XKWKJBg?key=cW9LOTdWWldtWGJiYXBYR0M1N2d4d1B2c0x1Yldn"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
-            icon: 'fa fa-plane'
+            icon: 'fal fa-dharmachakra'
         }, {
+            id: 4,
             cupName: '金牛賀歲盃',
             cover: '20210206-cover',
             photos: [{
@@ -165,6 +175,7 @@ new Vue({
             }],
             icon: 'fal fa-skull-cow'
         }, {
+            id: 5,
             cupName: '萬歲盃',
             cover: '20210328-cover',
             photos: [{
@@ -174,6 +185,7 @@ new Vue({
             }],
             icon: 'fab fa-vuejs'
         }, {
+            id: 6,
             cupName: '春季大安盃',
             cover: '20210410-cover',
             photos: [{
@@ -191,6 +203,7 @@ new Vue({
             }],
             icon: 'far fa-futbol'
         }, {
+            id: 7,
             cupName: '安聯小小世界盃',
             cover: '20210502-cover',
             photos: [{
@@ -200,6 +213,7 @@ new Vue({
             }],
             icon: 'fab fa-angular'
         }, {
+            id: 8,
             cupName: '學童盃',
             cover: '20210904-cover',
             photos: [{
@@ -215,6 +229,13 @@ new Vue({
         }]
     },
     methods: {},
-    computed: {},
+    computed: {
+        sortVideos: function() {
+            return this.videos.concat().sort((a, b) => b.id - a.id)
+        },
+        sortAlbums: function() {
+            return this.photos.concat().sort((a, b) => b.id - a.id)
+        }
+    },
     filters: {}
 })
