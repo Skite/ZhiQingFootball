@@ -820,7 +820,7 @@ new Vue({
                 pso: '',
                 wdl: 'L',
                 scorers: [],
-                goalkeepers: ['凱泰'],
+                goalkeepers: ['定謙'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
