@@ -1099,6 +1099,49 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20211002',
+                pitch: '華中五人制足球場',
+                opponent: '國北實小U8',
+                formation: 'Square（2-0-2）',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-皓宇', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }],
+                subTeam: '種子-紅',
+                final_score: '6 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: '紘豪'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['宥融', '善捷', '維恩'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 7,
@@ -1287,7 +1330,7 @@ new Vue({
                     name: '宥融'
                 }],
                 subTeam: '勇士',
-                final_score: '0 : 8',
+                final_score: '0 : 6',
                 pso: '',
                 wdl: 'L',
                 scorers: [],

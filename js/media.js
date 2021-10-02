@@ -3,7 +3,7 @@ new Vue({
     data: {
         videos: [{
             id: 1,
-            cupName: '秋季大安盃',
+            cupName: '2020秋季大安盃',
             cover: '2020daancup',
             videos: [{
                 date: '10/25',
@@ -25,7 +25,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 2,
-            cupName: '新北聯合盃',
+            cupName: '2020新北聯合盃',
             cover: '2020unitedcup',
             videos: [{
                 date: '11/21',
@@ -47,7 +47,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 3,
-            cupName: '金牛賀歲盃',
+            cupName: '2021金牛賀歲盃',
             cover: '2021oxcup',
             videos: [{
                 date: '1/30',
@@ -65,7 +65,7 @@ new Vue({
             icon: 'fal fa-skull-cow'
         }, {
             id: 4,
-            cupName: '春季大安盃',
+            cupName: '2021春季大安盃',
             cover: '2021daanspringcup',
             videos: [{
                 date: '4/10',
@@ -83,7 +83,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 5,
-            cupName: '安聯小小世界盃',
+            cupName: '2021安聯小小世界盃',
             cover: '2021allianzcup',
             videos: [{
                 date: '5/02',
@@ -93,7 +93,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 6,
-            cupName: '學童盃',
+            cupName: '2021學童盃',
             cover: '2021studentcup',
             videos: [{
                 date: '9/04',
@@ -108,7 +108,7 @@ new Vue({
         }],
         photos: [{
             id: 1,
-            cupName: '秋季大安盃',
+            cupName: '2020秋季大安盃',
             cover: '20200920-cover',
             photos: [{
                 date: '09/20',
@@ -134,7 +134,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 2,
-            cupName: '新北聯合盃',
+            cupName: '2020新北聯合盃',
             cover: '20201122-cover',
             photos: [{
                 date: '11/21',
@@ -156,7 +156,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 3,
-            cupName: '扶輪社暨航源足球賽',
+            cupName: '2021扶輪社暨航源足球賽',
             cover: '20210124-cover',
             photos: [{
                 date: '11/21',
@@ -166,7 +166,7 @@ new Vue({
             icon: 'fal fa-dharmachakra'
         }, {
             id: 4,
-            cupName: '金牛賀歲盃',
+            cupName: '2021金牛賀歲盃',
             cover: '20210206-cover',
             photos: [{
                 date: '2/6',
@@ -176,7 +176,7 @@ new Vue({
             icon: 'fal fa-skull-cow'
         }, {
             id: 5,
-            cupName: '萬歲盃',
+            cupName: '2021萬歲盃',
             cover: '20210328-cover',
             photos: [{
                 date: '3/27',
@@ -186,11 +186,11 @@ new Vue({
             icon: 'fab fa-vuejs'
         }, {
             id: 6,
-            cupName: '春季大安盃',
+            cupName: '2021春季大安盃',
             cover: '20210410-cover',
             photos: [{
                 date: '4/10',
-                opponents: '國北實小-U8、熱血足球U8',
+                opponents: '國北實小U8、熱血足球U8',
                 url: `<a href="https://photos.app.goo.gl/8eXh7Tb2eURyhuhm8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '4/24',
@@ -200,11 +200,15 @@ new Vue({
                 date: '5/8',
                 opponents: '公館紅雷霆、磐石U8',
                 url: `<a href="https://photos.app.goo.gl/M9usrPcX69wa246f8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210508-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '10/2',
+                opponents: '國北實小U8',
+                url: `<a href="https://photos.app.goo.gl/dq4CGS2rUxBTaQxx7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-futbol'
         }, {
             id: 7,
-            cupName: '安聯小小世界盃',
+            cupName: '2021安聯小小世界盃',
             cover: '20210502-cover',
             photos: [{
                 date: '5/2',
@@ -214,7 +218,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 8,
-            cupName: '學童盃',
+            cupName: '2021學童盃',
             cover: '20210904-cover',
             photos: [{
                 date: '9/4',
