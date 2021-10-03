@@ -1046,7 +1046,7 @@ new Vue({
                     name: '皓宇',
                     assist: ''
                 }, {
-                    name: '公館 Own Goal',
+                    name: 'Own Goal',
                     assist: ''
                 }, {
                     name: '宇正',
@@ -1132,7 +1132,7 @@ new Vue({
                     name: '亮谷',
                     assist: ''
                 }, {
-                    name: '宇正',
+                    name: 'Own Goal',
                     assist: ''
                 }, {
                     name: '宥融',
@@ -1216,7 +1216,7 @@ new Vue({
                     name: '定謙',
                     assist: '皓宇'
                 }, {
-                    name: '鬥牛犬 Own Goal',
+                    name: 'Own Goal',
                     assist: ''
                 }, {
                     name: '定謙',

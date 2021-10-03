@@ -852,7 +852,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '4',
-                        goals: '12',
+                        goals: '11',
                         asts: '5',
                         cs: '0'
                     },

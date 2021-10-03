@@ -79,6 +79,10 @@ new Vue({
                 date: '5/8',
                 opponents: '磐石U8',
                 url: '1ZiESQqGS1dJW_uy67OAz3c13ZREMXfKs'
+            }, {
+                date: '10/2',
+                opponents: '國北實小U8',
+                url: '1nr3lrc-53E9DAgEIkRflaVhDZPin6zBW'
             }],
             icon: 'far fa-futbol'
         }, {
