@@ -85,13 +85,13 @@
                     </h2>
                     <div class="row my-2">
                         <div class="search-wrapper panel-heading col-sm-5">
-                            <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="背號範圍（小）" />
+                            <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="Kit Number (min)" />
                         </div>
                         <div class="search-wrapper panel-heading col-sm-1">
                             ~
                         </div>
                         <div class="search-wrapper panel-heading col-sm-5">
-                            <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="背號範圍（大）" />
+                            <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="Kit Number (max)" />
                         </div>
                     </div>
                     <div class="row my-2">
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         <div class="search-wrapper panel-heading col-sm-6">
-                            <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="球員姓名" />
+                            <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="Player Name" />
                         </div>
                     </div>
                     <div class="row my-2">
@@ -151,7 +151,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="playerCareer">出賽記錄</h5>
+                                        <h5 class="modal-title" id="playerCareer">Statics</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -159,12 +159,12 @@
                                     <div class="modal-body table-responsive">
                                         <table class="table">
                                             <tr>
-                                                <th>年份</th>
-                                                <th>賽事</th>
-                                                <th>出場</th>
-                                                <th>進球</th>
-                                                <th>助攻</th>
-                                                <th v-if="player.position.includes('GK')">零失球</th>
+                                                <th>Year</th>
+                                                <th>Tournament</th>
+                                                <th>Appearances</th>
+                                                <th>Goals</th>
+                                                <th>Assists</th>
+                                                <th v-if="player.position.includes('GK')">CS</th>
                                             </tr>
                                             <tr v-for="app in player.appearance">
                                                 <td>{{ app.year }}</td>

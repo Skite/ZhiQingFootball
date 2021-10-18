@@ -81,15 +81,15 @@
                             </h3>
                             <div class="card-text">
                                 <div class="row justify-content-between">
-                                    <div class="col">對手</div>
-                                    <div class="col">比數</div>
+                                    <div class="col">Opponents</div>
+                                    <div class="col">Final Scores</div>
                                     <div class="col"></div>
                                 </div>
                                 <template v-for="game in match.matches">
                                     <div class="row justify-content-start align-items-center my-2">
                                         <div class="col">{{ game.opponent }}</div>
                                         <div class="col">{{ game.final_score }} <span v-if="!!game.pso">(PSO {{ game.pso }})</span> {{ game.wdl }}</div>
-                                        <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent + game.date" v-if="game.starters.length > 0">比賽記錄</a></div>
+                                        <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent + game.date" v-if="game.starters.length > 0">Recap</a></div>
                                     </div>
                                     <!-- Modal -->
                                     <div class="modal fade text-dark" :id="game.opponent + game.date" tabindex="-1" role="dialog" :aria-labelledby="game.opponent + game.date" aria-hidden="true">
@@ -160,13 +160,13 @@
                                                         </div>
                                                         <div class="tab-pane fade" :id="'goalkeeper' + game.date + game.opponent" role="tabpanel" aria-labelledby="goalkeeper-tab">
                                                             <div class="row border-bottom my-4">
-                                                                <div class="col-6 text-right">門將：</div>
+                                                                <div class="col-6 text-right">GK:</div>
                                                                 <div class="col-6 text-left">
                                                                     <h5 v-for="gk in game.goalkeepers"> {{ gk }} <span v-if="!!game.isCleanSheet">(CS)</span> </h5>
                                                                 </div>
                                                             </div>
                                                             <div class="row border-bottom my-4">
-                                                                <div class="col-6 text-right">指導教練：</div>
+                                                                <div class="col-6 text-right">Coach:</div>
                                                                 <div class="col-6 text-left">
                                                                     <h5 v-for="coach in game.instructors"> {{ coach }} </h5>
                                                                 </div>
