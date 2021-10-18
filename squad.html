@@ -65,35 +65,51 @@
         <!-- Icons Grid -->
         <section id="lists" class="features-icons bg-light text-center">
             <div class="container">
-                <h2>
-                    Player Filter
-                </h2>
-                <div class="row my-2">
-                    <div class="search-wrapper panel-heading col-sm-5">
-                        <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="背號範圍（小）" />
-                    </div>
-                    <div class="search-wrapper panel-heading col-sm-1">
-                        ~
-                    </div>
-                    <div class="search-wrapper panel-heading col-sm-5">
-                        <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="背號範圍（大）" />
-                    </div>
-                </div>
-                <div class="row my-2">
-                    <div class="search-wrapper panel-heading col-sm-6">
-                        <div class="position-selectors" v-for="position in positions">
-                            <label>
-                                <input type="radio" class="" v-model="selectedPosition" :value="position"><span>{{ position }}</span>
-                            </label>
+                <div class="">
+                    <h2>
+                        Sort Players by
+                    </h2>
+                    <div class="row my-2">
+                        <div class="search-wrapper panel-heading col-12">
+                            <button class="btn btn-success" @click="setSortType('number')"><span>Kit Number</span></button>
+                            <button class="btn btn-success" @click="setSortType('totalMatches')"><span>Appearances</span></button>
+                            <button class="btn btn-success" @click="setSortType('totalGoals')"><span>Goals</span></button>
+                            <button class="btn btn-success" @click="setSortType('totalAsts')"><span>Assitsts</span></button>
+                            <button class="btn btn-success" @click="setSortType('totalCS')"><span>Clean Sheets</span></button>
                         </div>
                     </div>
-                    <div class="search-wrapper panel-heading col-sm-6">
-                        <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="球員姓名" />
-                    </div>
                 </div>
-                <div class="row my-2">
-                    <div class="col-sm-12">
-                        <button class="btn btn-primary" @click="resetFilter()">Clear Filter</button>
+                <div class="">
+                    <h2>
+                        Player Filter
+                    </h2>
+                    <div class="row my-2">
+                        <div class="search-wrapper panel-heading col-sm-5">
+                            <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="背號範圍（小）" />
+                        </div>
+                        <div class="search-wrapper panel-heading col-sm-1">
+                            ~
+                        </div>
+                        <div class="search-wrapper panel-heading col-sm-5">
+                            <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="背號範圍（大）" />
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="search-wrapper panel-heading col-sm-6">
+                            <div class="position-selectors" v-for="position in positions">
+                                <label>
+                                    <input type="radio" class="" v-model="selectedPosition" :value="position"><span>{{ position }}</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="search-wrapper panel-heading col-sm-6">
+                            <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="球員姓名" />
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col-sm-12">
+                            <button class="btn btn-primary" @click="resetFilter()">Clear Filter</button>
+                        </div>
                     </div>
                 </div>
                 <h3 class="text-left text-white bg-secondary p-2">Active Players</h3>
@@ -109,21 +125,21 @@
                                 <div class="profile-overview">
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalMatches }}</h3>
+                                            <h3>{{ player.totalMatches }}</h3>
                                             <p>Matches</p>
                                         </div>
                                     </div>
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalGoals }}</h3>
+                                            <h3>{{ player.totalGoals }}</h3>
                                             <p>Goals</p>
                                         </div>
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalAssists }}</h3>
+                                            <h3>{{ player.totalAsts }}</h3>
                                             <p>Ast</p>
                                         </div>
                                         <div class="col-sm" v-if="player.position.includes('GK')">
-                                            <h3>{{ player.appearance | totalCS }}</h3>
+                                            <h3>{{ player.totalCS }}</h3>
                                             <p>CS</p>
                                         </div>
                                     </div>
@@ -181,21 +197,21 @@
                                 <div class="profile-overview">
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalMatches }}</h3>
+                                            <h3>{{ player.totalMatches }}</h3>
                                             <p>Matches</p>
                                         </div>
                                     </div>
                                     <div class="row text-center">
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalGoals }}</h3>
+                                            <h3>{{ player.totalGoals }}</h3>
                                             <p>Goals</p>
                                         </div>
                                         <div class="col-sm">
-                                            <h3>{{ player.appearance | totalAssists }}</h3>
+                                            <h3>{{ player.totalAsts }}</h3>
                                             <p>Ast</p>
                                         </div>
                                         <div class="col-sm" v-if="player.position.includes('GK')">
-                                            <h3>{{ player.appearance | totalCS }}</h3>
+                                            <h3>{{ player.totalCS }}</h3>
                                             <p>CS</p>
                                         </div>
                                     </div>

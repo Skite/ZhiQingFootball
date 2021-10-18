@@ -1,6 +1,7 @@
 new Vue({
     el: '#zhiqinfootball',
     data: {
+        sortType: 'number',
         searchText: '',
         minNumber: '',
         maxNumber: '',
@@ -889,10 +890,8 @@ new Vue({
             } else {
                 return this.players
             }
-
         },
         positionFilter: function(players) {
-
             if (this.selectedPosition.length > 0) {
                 return players.filter((player) => {
                     return player.position.indexOf(this.selectedPosition) !== -1;
@@ -900,11 +899,8 @@ new Vue({
             } else {
                 return this.players
             }
-
-
         },
         nameFilter: function(players) {
-
             if (!!this.searchText) {
                 return players.filter((player) => {
                     return player.name.includes(this.searchText);
@@ -912,18 +908,20 @@ new Vue({
             } else {
                 return this.players
             }
-
-
         },
         resetFilter: function() {
             this.searchText = null;
             this.minNumber = null;
             this.maxNumber = null;
             this.selectedPosition = [];
+            this.sortType = 'number'
+        },
+        setSortType: function(val) {
+            this.sortType = val
         }
     },
     computed: {
-        playerFilter: function() {
+        playerFilter: function(type) {
             let nameFilteredArray = this.nameFilter(this.players)
             let positionFilteredArray = this.positionFilter(this.players)
             let numberFilteredArray = this.numberFilter(this.players)
@@ -950,38 +948,59 @@ new Vue({
 
             filteredResult = _.uniq(result, 'number')
 
+            function sumGame(o) {
+                let sGame = _.sumBy(o.appearance, app => {
+                    return parseInt(app.g)
+                })
+                return sGame
+            }
+
+            function sumGoal(o) {
+                let sGoal = _.sumBy(o.appearance, app => {
+                    return parseInt(app.goals)
+                })
+                return sGoal
+            }
+
+            function sumAst(o) {
+                let sAst = _.sumBy(o.appearance, app => {
+                    return parseInt(app.asts)
+                })
+                return sAst
+            }
+
+            function sumCS(o) {
+                let sCS = _.sumBy(o.appearance, app => {
+                    return parseInt(app.cs)
+                })
+                return sCS
+            }
+
+            filteredResult = filteredResult.map(v => ({ ...v,
+                totalMatches: sumGame(v),
+                totalGoals: sumGoal(v),
+                totalAsts: sumAst(v),
+                totalCS: sumCS(v)
+            }))
+
+            type = this.sortType
+
+            if (type === 'number') {
+                filteredResult = _.orderBy(filteredResult, function(obj) {
+                    return parseInt(obj[type], 10);
+                })
+            } else {
+                filteredResult = _.orderBy(filteredResult, function(obj) {
+                    return parseInt(obj[type], 10)
+                }, 'desc')
+            }
+
+            // console.log(filteredResult)
+
             return {
                 active: _.filter(filteredResult, ['active', true]),
                 retire: _.filter(filteredResult, ['active', false])
             }
-        }
-    },
-    filters: {
-        totalMatches: function(matches) {
-            return matches.map((appearance) => appearance.g).reduce(function(total, appearance) {
-                return parseInt(total) + parseInt(appearance)
-            }, 0);
-        },
-        totalGoals: function(matches) {
-            return matches.map((appearance) => appearance.goals).reduce(function(total, appearance) {
-                return parseInt(total) + parseInt(appearance)
-            }, 0);
-        },
-        totalAssists: function(matches) {
-            return matches.map((appearance) => appearance.asts).reduce(function(total, appearance) {
-                return parseInt(total) + parseInt(appearance)
-            }, 0);
-        },
-        totalCS: function(matches) {
-            return matches.map((appearance) => appearance.cs).reduce(function(total, appearance) {
-                return parseInt(total) + parseInt(appearance)
-            }, 0);
-        },
-        total: function(matches, type) {
-            console.log(this.filteredResult, matches)
-            return matches.map((appearance) => appearance.type).reduce(function(total, appearance) {
-                return parseInt(total) + parseInt(appearance)
-            }, 0);
         }
     }
 })
