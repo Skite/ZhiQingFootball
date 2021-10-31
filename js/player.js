@@ -948,39 +948,18 @@ new Vue({
 
             filteredResult = _.uniq(result, 'number')
 
-            function sumGame(o) {
-                let sGame = _.sumBy(o.appearance, app => {
-                    return parseInt(app.g)
+            function sumStat(o, type) {
+                let sum = _.sumBy(o.appearance, app => {
+                    return parseInt(app[type])
                 })
-                return sGame
-            }
-
-            function sumGoal(o) {
-                let sGoal = _.sumBy(o.appearance, app => {
-                    return parseInt(app.goals)
-                })
-                return sGoal
-            }
-
-            function sumAst(o) {
-                let sAst = _.sumBy(o.appearance, app => {
-                    return parseInt(app.asts)
-                })
-                return sAst
-            }
-
-            function sumCS(o) {
-                let sCS = _.sumBy(o.appearance, app => {
-                    return parseInt(app.cs)
-                })
-                return sCS
+                return sum
             }
 
             filteredResult = filteredResult.map(v => ({ ...v,
-                totalMatches: sumGame(v),
-                totalGoals: sumGoal(v),
-                totalAsts: sumAst(v),
-                totalCS: sumCS(v)
+                totalMatches: sumStat(v, 'g'),
+                totalGoals: sumStat(v, 'goals'),
+                totalAsts: sumStat(v, 'asts'),
+                totalCS: sumStat(v, 'cs')
             }))
 
             type = this.sortType
