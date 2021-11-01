@@ -1339,6 +1339,145 @@ new Vue({
                 instructors: ['柏豪', '怡萍'],
                 note: '* 學長／姐'
             }]
+        }, {
+            id: 9,
+            year: '2021',
+            cupName: '中正主委盃',
+            system: '8人制',
+            cover: '2021chairmancup',
+            trophy: '亞軍',
+            team: [{
+                name: '勇士',
+                members: '晉丞、子珩*、黃衍、善捷、皓宇、凱泰、宇晨*、維恩、亮谷、柏燁、振綸*、定謙、稟嚴*、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20211030',
+                pitch: '台北田徑場',
+                opponent: '台北Playone',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-子珩', 'RM-亮谷', 'CM-振綸', 'LM-黃衍', 'CF-稟嚴'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['凱泰', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20211031',
+                pitch: '台北田徑場',
+                opponent: '銘傳之星',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-稟嚴', 'CB-維恩', 'LB-子珩', 'RM-黃衍', 'CM-振綸', 'LM-亮谷', 'CF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '2 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '定謙',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20211031',
+                pitch: '台北田徑場',
+                opponent: '光復國小',
+                formation: '3-3-1',
+                starters: ['GK-昕叡', 'RB-柏燁', 'CB-振綸', 'LB-善捷', 'RM-宇晨', 'CM-維恩', 'LM-皓宇', 'CF-凱泰'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 26,
+                    name: '定謙'
+                }, {
+                    number: 33,
+                    name: '稟嚴'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '種子',
+                final_score: '6 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '振綸*',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '稟嚴*',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '宇晨*'
+                }],
+                goalkeepers: ['昕叡', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
