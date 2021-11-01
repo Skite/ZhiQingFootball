@@ -164,11 +164,11 @@ main p:last-child {
 }
 
 
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
     body {
         transform: scale(0.6);
     }
-}
+}*/
 
 @media (max-width: 600px) {
     .wrapper {
