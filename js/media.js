@@ -109,6 +109,16 @@ new Vue({
                 url: '1blNzkJj1sLvYqT30MPJFnPUvUgdR51Co'
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 7,
+            cupName: '2021中正主委盃',
+            cover: '2021chairmancup',
+            videos: [{
+                date: '10/31',
+                opponents: '銘傳之星',
+                url: '1VZtsJYLJNKTlao7SMdMOw2Jtd4kBcac8'
+            }],
+            icon: 'far fa-gavel'
         }],
         photos: [{
             id: 1,
@@ -234,6 +244,16 @@ new Vue({
                 url: `<a href="https://photos.app.goo.gl/XZENTw9BpYBKX4Kj9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210905-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 9,
+            cupName: '2021中正主委盃',
+            cover: '20211030-cover',
+            photos: [{
+                date: '9/4',
+                opponents: '台北Playone、銘傳之星、光復國小',
+                url: `<a href="https://photos.app.goo.gl/xzmidiqjZ1gnEYkr6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211030-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-gavel'
         }]
     },
     methods: {},

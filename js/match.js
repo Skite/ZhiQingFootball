@@ -1387,7 +1387,7 @@ new Vue({
                 goalkeepers: ['凱泰', '定謙'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '* 學長／姐'
             }, {
                 date: '20211031',
                 pitch: '台北田徑場',
@@ -1424,7 +1424,7 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
                 instructors: ['柏豪'],
-                note: ''
+                note: '* 學長／姐'
             }, {
                 date: '20211031',
                 pitch: '台北田徑場',
@@ -1476,7 +1476,7 @@ new Vue({
                 goalkeepers: ['昕叡', '黃衍'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '* 學長／姐'
             }]
         }]
     },

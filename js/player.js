@@ -96,6 +96,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -103,7 +111,7 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -145,6 +153,14 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -308,6 +324,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -375,6 +399,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '2',
+                        cs: '0'
                     }
                 ]
             },
@@ -428,6 +460,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '1'
                     }
                 ]
             },
@@ -478,6 +518,14 @@ new Vue({
                         cup: '學童盃',
                         g: '2',
                         goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '2',
                         asts: '0',
                         cs: '0'
                     }
@@ -539,6 +587,14 @@ new Vue({
                         g: '2',
                         goals: '0',
                         asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '1',
                         cs: '0'
                     }
                 ]
@@ -624,6 +680,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -690,6 +754,14 @@ new Vue({
                         cup: '學童盃',
                         g: '2',
                         goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '1',
                         asts: '0',
                         cs: '0'
                     }
@@ -804,6 +876,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -870,6 +950,14 @@ new Vue({
                         cup: '學童盃',
                         g: '2',
                         goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '中正主委盃',
+                        g: '3',
+                        goals: '2',
                         asts: '0',
                         cs: '0'
                     }
