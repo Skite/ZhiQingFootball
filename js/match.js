@@ -1450,7 +1450,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '種子',
+                subTeam: '勇士',
                 final_score: '6 : 1',
                 pso: '',
                 wdl: 'W',
