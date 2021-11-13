@@ -1267,7 +1267,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '勇士',
-                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、稟嚴*'
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、稟巖*'
             }],
             note: '',
             matches: [{
@@ -1275,7 +1275,7 @@ new Vue({
                 pitch: '新莊體育場',
                 opponent: '航源FC-U9',
                 formation: '3-3-1',
-                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-稟嚴'],
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-稟巖'],
                 subs: [{
                     number: 12,
                     name: '皓宇'
@@ -1303,7 +1303,7 @@ new Vue({
                 pitch: '新莊體育場',
                 opponent: '台北Playone',
                 formation: '3-3-1',
-                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-黃衍', 'RM-昕叡', 'CM-皓宇', 'LM-定謙', 'CF-稟嚴'],
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-黃衍', 'RM-昕叡', 'CM-皓宇', 'LM-定謙', 'CF-稟巖'],
                 subs: [{
                     number: 3,
                     name: '晉丞'
@@ -1348,7 +1348,7 @@ new Vue({
             trophy: '亞軍',
             team: [{
                 name: '勇士',
-                members: '晉丞、子珩*、黃衍、善捷、皓宇、凱泰、宇晨*、維恩、亮谷、柏燁、振綸*、定謙、稟嚴*、宥融、昕叡、宇正'
+                members: '晉丞、子珩*、黃衍、善捷、皓宇、凱泰、宇晨*、維恩、亮谷、柏燁、振綸*、定謙、稟巖*、宥融、昕叡、宇正'
             }],
             note: '',
             matches: [{
@@ -1356,7 +1356,7 @@ new Vue({
                 pitch: '台北田徑場',
                 opponent: '台北Playone',
                 formation: '3-3-1',
-                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-子珩', 'RM-亮谷', 'CM-振綸', 'LM-黃衍', 'CF-稟嚴'],
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-子珩', 'RM-亮谷', 'CM-振綸', 'LM-黃衍', 'CF-稟巖'],
                 subs: [{
                     number: 3,
                     name: '晉丞'
@@ -1393,7 +1393,7 @@ new Vue({
                 pitch: '台北田徑場',
                 opponent: '銘傳之星',
                 formation: '3-3-1',
-                starters: ['GK-凱泰', 'RB-稟嚴', 'CB-維恩', 'LB-子珩', 'RM-黃衍', 'CM-振綸', 'LM-亮谷', 'CF-宇正'],
+                starters: ['GK-凱泰', 'RB-稟巖', 'CB-維恩', 'LB-子珩', 'RM-黃衍', 'CM-振綸', 'LM-亮谷', 'CF-宇正'],
                 subs: [{
                     number: 3,
                     name: '晉丞'
@@ -1445,12 +1445,12 @@ new Vue({
                     name: '定謙'
                 }, {
                     number: 33,
-                    name: '稟嚴'
+                    name: '稟巖'
                 }, {
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '種子',
+                subTeam: '勇士',
                 final_score: '6 : 1',
                 pso: '',
                 wdl: 'W',
@@ -1467,7 +1467,7 @@ new Vue({
                     name: '宇正',
                     assist: ''
                 }, {
-                    name: '稟嚴*',
+                    name: '稟巖*',
                     assist: ''
                 }, {
                     name: '晉丞',
