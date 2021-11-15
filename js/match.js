@@ -866,7 +866,7 @@ new Vue({
             cupName: '春季大安盃',
             system: '5人制',
             cover: '2021daanspringcup',
-            trophy: '',
+            trophy: '冠軍',
             team: [{
                 name: '種子-藍',
                 members: '定宸、晉丞、翊凱、凱泰、明澤、柏燁、定謙、昕叡'
@@ -1137,6 +1137,86 @@ new Vue({
                 }, {
                     name: '宥融',
                     assist: '宇正'
+                }],
+                goalkeepers: ['宥融', '善捷', '維恩'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20211113',
+                pitch: '華中五人制足球場',
+                opponent: '熱血踢豹',
+                formation: 'Diamond（1-2-1）',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-亮谷', 'LM-宇正', 'CF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '種子-紅',
+                final_score: '7 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '黃衍'
+                }, {
+                    name: '宇正',
+                    assist: '亮谷'
+                }, {
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '亮谷'
+                }, {
+                    name: '皓宇',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融', '善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20211113',
+                pitch: '華中五人制足球場',
+                opponent: '公館藍雷霆',
+                formation: 'Diamond（1-2-1）',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '種子-紅',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: '維恩'
                 }],
                 goalkeepers: ['宥融', '善捷', '維恩'],
                 isCleanSheet: true,

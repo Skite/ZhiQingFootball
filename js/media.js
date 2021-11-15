@@ -83,6 +83,14 @@ new Vue({
                 date: '10/2',
                 opponents: '國北實小U8',
                 url: '1nr3lrc-53E9DAgEIkRflaVhDZPin6zBW'
+            }, {
+                date: '11/13',
+                opponents: '熱血踢豹',
+                url: '1R3vVQFXE05XtEsg2yGBs_whlG-YFyEN0'
+            }, {
+                date: '11/13',
+                opponents: '公館藍雷霆',
+                url: '1ENIzrE_rJB1hfzuJI6TjOEqi8n42IBZQ'
             }],
             icon: 'far fa-futbol'
         }, {
@@ -218,6 +226,10 @@ new Vue({
                 date: '10/2',
                 opponents: '國北實小U8',
                 url: `<a href="https://photos.app.goo.gl/dq4CGS2rUxBTaQxx7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '11/13',
+                opponents: '熱血踢豹、公館藍雷霆',
+                url: `<a href="https://photos.app.goo.gl/wU8sEiBA1nm1S8cm6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211113-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-futbol'
         }, {
