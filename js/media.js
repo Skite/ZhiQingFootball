@@ -90,7 +90,7 @@ new Vue({
             }, {
                 date: '11/13',
                 opponents: '公館藍雷霆',
-                url: '1ENIzrE_rJB1hfzuJI6TjOEqi8n42IBZQ'
+                url: '14_wWlPAUhYon-uE3M9IvVueNTVkBPcUK'
             }],
             icon: 'far fa-futbol'
         }, {
