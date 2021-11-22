@@ -104,6 +104,14 @@ new Vue({
                         goals: '1',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -161,6 +169,14 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -407,6 +423,14 @@ new Vue({
                         goals: '0',
                         asts: '2',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -468,6 +492,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '1'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -526,6 +558,14 @@ new Vue({
                         cup: '中正主委盃',
                         g: '3',
                         goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
                         asts: '0',
                         cs: '0'
                     }
@@ -595,6 +635,14 @@ new Vue({
                         g: '2',
                         goals: '0',
                         asts: '1',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
                         cs: '0'
                     }
                 ]
@@ -688,6 +736,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -764,6 +820,14 @@ new Vue({
                         goals: '1',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -785,7 +849,7 @@ new Vue({
                 number: '55',
                 name: '宥 融',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -838,6 +902,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -845,7 +917,7 @@ new Vue({
                 number: '77',
                 name: '昕 叡',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -881,6 +953,14 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -958,6 +1038,14 @@ new Vue({
                         cup: '中正主委盃',
                         g: '3',
                         goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: '聯合盃',
+                        g: '1',
+                        goals: '0',
                         asts: '0',
                         cs: '0'
                     }

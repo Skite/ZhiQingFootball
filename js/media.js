@@ -127,6 +127,16 @@ new Vue({
                 url: '1VZtsJYLJNKTlao7SMdMOw2Jtd4kBcac8'
             }],
             icon: 'far fa-gavel'
+        }, {
+            id: 8,
+            cupName: '2021聯合盃',
+            cover: '2021unitedcup',
+            videos: [{
+                date: '11/20',
+                opponents: 'Unity',
+                url: '11Oj2T8grYYfZ_1XKL_3wKilur9AKO9kt'
+            }],
+            icon: 'fas fa-link'
         }],
         photos: [{
             id: 1,
@@ -266,6 +276,16 @@ new Vue({
                 url: `<a href="https://photos.app.goo.gl/xzmidiqjZ1gnEYkr6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211030-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-gavel'
+        }, {
+            id: 10,
+            cupName: '2021聯合盃',
+            cover: '20211120-cover',
+            photos: [{
+                date: '11/20',
+                opponents: 'Unity',
+                url: `<a href="https://photos.app.goo.gl/68m1TpswiS2dkQGY6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-link'
         }]
     },
     methods: {},

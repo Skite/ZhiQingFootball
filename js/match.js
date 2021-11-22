@@ -1558,6 +1558,53 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
             }]
+        }, {
+            id: 10,
+            year: '2021',
+            cupName: '聯合盃',
+            system: '8人制',
+            cover: '2021unitedcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、子珩*、黃衍、皓宇、凱泰、駿毅*、宇晨*、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20211120',
+                pitch: '新莊體育場',
+                opponent: 'Unity',
+                formation: '3-3-1',
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-黃衍', 'CM-皓宇', 'LM-亮谷', 'CF-宥融'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 16,
+                    name: '駿毅*'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 12',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['子珩*', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '* 學長／姐'
+            }]
         }]
     },
     methods: {},
