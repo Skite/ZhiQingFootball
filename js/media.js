@@ -129,7 +129,7 @@ new Vue({
             icon: 'far fa-gavel'
         }, {
             id: 8,
-            cupName: '2021聯合盃',
+            cupName: '2021新北聯合盃',
             cover: '2021unitedcup',
             videos: [{
                 date: '11/20',
@@ -278,7 +278,7 @@ new Vue({
             icon: 'far fa-gavel'
         }, {
             id: 10,
-            cupName: '2021聯合盃',
+            cupName: '2021新北聯合盃',
             cover: '20211120-cover',
             photos: [{
                 date: '11/20',

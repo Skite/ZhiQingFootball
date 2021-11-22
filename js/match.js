@@ -1561,7 +1561,7 @@ new Vue({
         }, {
             id: 10,
             year: '2021',
-            cupName: '聯合盃',
+            cupName: '新北聯合盃',
             system: '8人制',
             cover: '2021unitedcup',
             trophy: '',
