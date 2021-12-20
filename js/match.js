@@ -1604,6 +1604,143 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: '* 學長／姐'
+            }, {
+                date: '20211218',
+                pitch: '新莊體育場',
+                opponent: '海山國小',
+                formation: '3-3-1',
+                starters: ['GK-子珩', 'RB-宇正', 'CB-維恩', 'LB-善捷', 'RM-宥融', 'CM-振綸', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '振綸*'
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }]
+        }, {
+            id: 11,
+            year: '2021',
+            cupName: 'A-Star聖誕盃',
+            system: '7人制',
+            cover: '2021astarcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20211219',
+                pitch: '環河足球場',
+                opponent: '台北曄拓',
+                formation: '3-3-0',
+                starters: ['GK-宥融', 'RB-黃衍', 'CB-維恩', 'LB-善捷', 'RM-亮谷', 'CM-皓宇', 'LM-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 11,
+                    name: '定緯'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20211219',
+                pitch: '環河足球場',
+                opponent: 'SLFC',
+                formation: '3-3-0',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-亮谷', 'LB-黃衍', 'RM-皓宇', 'CM-維恩', 'LM-定謙'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20211219',
+                pitch: '環河足球場',
+                opponent: 'CFT',
+                formation: '3-3-0',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-亮谷', 'LB-皓宇', 'RM-紘豪', 'CM-維恩', 'LM-晉丞'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 11,
+                    name: '定緯'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '定謙',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }]
     },

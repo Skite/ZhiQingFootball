@@ -108,7 +108,15 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -176,7 +184,15 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -279,6 +295,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -348,6 +372,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -355,8 +387,15 @@ new Vue({
                 number: '11',
                 name: '定 緯',
                 active: true,
-                position: ['N/A'],
-                appearance: []
+                position: ['MF'],
+                appearance: [{
+                    year: '2021',
+                    cup: 'A-Star聖誕盃',
+                    g: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
             },
             {
                 number: '12',
@@ -427,7 +466,15 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -500,6 +547,14 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
                     }
                 ]
             },
@@ -564,7 +619,15 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -640,8 +703,16 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
+                        goals: '1',
                         asts: '0',
                         cs: '0'
                     }
@@ -751,7 +822,7 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 active: true,
-                position: ['GK', 'MF', 'FW'],
+                position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -824,8 +895,16 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
+                        goals: '1',
                         asts: '0',
                         cs: '0'
                     }
@@ -906,10 +985,18 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
+                        goals: '0',
+                        asts: '1',
+                        cs: '1'
                     }
                 ]
             },
@@ -961,6 +1048,14 @@ new Vue({
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1044,7 +1139,15 @@ new Vue({
                     {
                         year: '2021',
                         cup: '新北聯合盃',
-                        g: '1',
+                        g: '2',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },
+                    {
+                        year: '2021',
+                        cup: 'A-Star聖誕盃',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
