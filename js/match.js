@@ -1274,7 +1274,7 @@ new Vue({
                 starters: ['GK-宥融', 'RB-宇正', 'LB-善捷', 'RF-定謙', 'LF-皓宇'],
                 subs: [{
                     number: 1,
-                    name: '禹豪'
+                    name: '禹豪*'
                 }, {
                     number: 8,
                     name: '翊愷'
@@ -1314,7 +1314,7 @@ new Vue({
                 starters: ['GK-宥融', 'RB-宇正', 'LB-善捷', 'RF-定謙', 'LF-皓宇'],
                 subs: [{
                     number: 1,
-                    name: '禹豪'
+                    name: '禹豪*'
                 }, {
                     number: 8,
                     name: '翊愷'
