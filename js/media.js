@@ -149,15 +149,15 @@ new Vue({
             photos: [{
                 date: '09/20',
                 opponents: 'HePing踢豹',
-                url: `<a href="https://photos.app.goo.gl/uYKVkaoPvcHqT652A" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/orpEqaYAWVcjQG2t6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: `<a href="https://photos.app.goo.gl/UoqhNEpAVytZ6ERb6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/DtZb1piKzPZCBzDF6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/08',
                 opponents: '磐石',
-                url: `<a href="https://photos.app.goo.gl/nT9d2yqqEdJvdsN66" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/yRPBJbRBmE73rBAPA" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
@@ -179,15 +179,15 @@ new Vue({
             }, {
                 date: '11/22',
                 opponents: '虎鯊HSFC',
-                url: `<a href="https://photos.app.goo.gl/SZD1ZL6a9atX1Ejd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201122-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/HcFDZjg9PdoWczQw8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201122-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/19',
                 opponents: '新北銀河',
-                url: `<a href="https://photos.app.goo.gl/4Egd69UpdbTQa1ff8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/bzZ7tfYXbHgoshoq8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/26',
                 opponents: '日新Yoyo',
-                url: `<a href="https://photos.app.goo.gl/f64iyKi4T8uyrEFy9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cov.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/hj7Apba1PAuXJd2E7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cov.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
@@ -197,7 +197,7 @@ new Vue({
             photos: [{
                 date: '11/21',
                 opponents: '熱血足球、北新國小、夢幻之星、TFA尤文圖斯、暴風',
-                url: `<a href="https://photos.app.goo.gl/JTS1iLC6kbSamztB9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/gZviaRjQX3MyX6Dy5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fal fa-dharmachakra'
         }, {
@@ -207,7 +207,7 @@ new Vue({
             photos: [{
                 date: '2/6',
                 opponents: '虎鯊HSFC',
-                url: `<a href="https://photos.app.goo.gl/ddcYymhQt6BbpSTw6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210206-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/hmCsAS3rqi3K4UKb8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210206-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fal fa-skull-cow'
         }, {
@@ -217,7 +217,7 @@ new Vue({
             photos: [{
                 date: '3/27',
                 opponents: '足球心想事成、吉利港宜大、大暴風足球、淡水小獵豹',
-                url: `<a href="https://photos.app.goo.gl/8KdgXhpSsxgCHvYd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210328-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/GgvQnTeG8cNKMxEn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210328-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vuejs'
         }, {
@@ -227,23 +227,23 @@ new Vue({
             photos: [{
                 date: '4/10',
                 opponents: '國北實小U8、熱血足球U8',
-                url: `<a href="https://photos.app.goo.gl/8eXh7Tb2eURyhuhm8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/SBGbfrbstgtJPvJS9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '4/24',
                 opponents: '炫風小尖兵',
-                url: `<a href="https://photos.app.goo.gl/YttUBD5T1YsTBSao8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210424-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/f6maDyxXj44Gg1DM9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210424-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '5/8',
                 opponents: '公館紅雷霆、磐石U8',
-                url: `<a href="https://photos.app.goo.gl/M9usrPcX69wa246f8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210508-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/tdDpWkEveKAiagJ76"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210508-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '10/2',
                 opponents: '國北實小U8',
-                url: `<a href="https://photos.app.goo.gl/dq4CGS2rUxBTaQxx7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3LgaqU2iWLru7PKG7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/13',
                 opponents: '熱血踢豹、公館藍雷霆',
-                url: `<a href="https://photos.app.goo.gl/wU8sEiBA1nm1S8cm6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211113-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/Q4eLkCoCtyPvYtDr7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211113-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-futbol'
         }, {
@@ -253,7 +253,7 @@ new Vue({
             photos: [{
                 date: '5/2',
                 opponents: 'Dreamers FC、鬥牛犬、LSFC',
-                url: `<a href="https://photos.app.goo.gl/KJYq8ddTvxRo5WXR7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210502-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3FyWZwPyt7oitWEK8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210502-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
         }, {
@@ -263,11 +263,11 @@ new Vue({
             photos: [{
                 date: '9/4',
                 opponents: '航源FC-U9',
-                url: `<a href="https://photos.app.goo.gl/4v6XY9LLmTD2oDUj6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210904-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/teDJgEmf4dV9KtD4A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210904-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '9/5',
                 opponents: '台北Playone',
-                url: `<a href="https://photos.app.goo.gl/XZENTw9BpYBKX4Kj9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210905-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/QfcGdmS169MiyHHB7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210905-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
         }, {
@@ -277,7 +277,7 @@ new Vue({
             photos: [{
                 date: '9/4',
                 opponents: '台北Playone、銘傳之星、光復國小',
-                url: `<a href="https://photos.app.goo.gl/xzmidiqjZ1gnEYkr6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211030-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/h8rtmVqjEbALRrcm6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211030-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-gavel'
         }, {
@@ -287,11 +287,11 @@ new Vue({
             photos: [{
                 date: '11/20',
                 opponents: 'Unity',
-                url: `<a href="https://photos.app.goo.gl/68m1TpswiS2dkQGY6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/c7jQ8k9JRVFd1mQ97"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/18',
                 opponents: '海山國小',
-                url: `<a href="https://photos.app.goo.gl/jBN2zJPnAkJ3AHrV6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211218-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/jBN2zJPnAkJ3AHrV6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211218-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
@@ -301,7 +301,7 @@ new Vue({
             photos: [{
                 date: '12/19',
                 opponents: '台北曄拓、SLFC、CFT',
-                url: `<a href="https://photos.app.goo.gl/BASK51ry3nYhdrYR8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/BASK51ry3nYhdrYR8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-star'
         }]
