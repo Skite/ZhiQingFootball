@@ -139,6 +139,10 @@ new Vue({
                 date: '12/18',
                 opponents: '海山國小',
                 url: '14ZS3fH8IA-rmCT426GkPpNag7_7ASuSF'
+            }, {
+                date: '12/25',
+                opponents: '磐石U10',
+                url: '1lbLB9vXYiETiUjWC_NkK8gDW6guQhjtQ'
             }],
             icon: 'fas fa-link'
         }],
@@ -292,6 +296,14 @@ new Vue({
                 date: '12/18',
                 opponents: '海山國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/jBN2zJPnAkJ3AHrV6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211218-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/25',
+                opponents: '磐石U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/DczCUU9hctFqcJoe8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211225-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/26',
+                opponents: 'Lion',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/2yS1LC5cr1bejVXH8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
