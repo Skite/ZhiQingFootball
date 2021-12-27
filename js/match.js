@@ -1652,7 +1652,7 @@ new Vue({
                     name: '維恩'
                 }, {
                     number: 33,
-                    name: '俊毅'
+                    name: '駿毅*'
                 }, {
                     number: 77,
                     name: '昕叡'
