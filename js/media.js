@@ -143,6 +143,10 @@ new Vue({
                 date: '12/25',
                 opponents: '磐石U10',
                 url: '1lbLB9vXYiETiUjWC_NkK8gDW6guQhjtQ'
+            }, {
+                date: '12/26',
+                opponents: 'Lion',
+                url: '1_l5jC3PV9w4KAUI6n-RtR_xU9PNWEAr9'
             }],
             icon: 'fas fa-link'
         }],
