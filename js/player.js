@@ -1004,7 +1004,7 @@ new Vue({
                 number: '77',
                 name: '昕 叡',
                 active: true,
-                position: ['DF', 'MF', 'FW'],
+                position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
