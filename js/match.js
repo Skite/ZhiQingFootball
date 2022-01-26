@@ -591,7 +591,10 @@ new Vue({
                 final_score: '1 : 0',
                 pso: '',
                 wdl: 'W',
-                scorers: [],
+                scorers: [{
+                    name: '亮谷',
+                    assist: '宇正'
+                }],
                 goalkeepers: ['宥融'],
                 isCleanSheet: true,
                 instructors: ['芳儀'],
@@ -709,6 +712,9 @@ new Vue({
                 scorers: [{
                     name: '宥融',
                     assist: '亮谷'
+                }, {
+                    name: 'Own Goal',
+                    assist: '黃衍'
                 }],
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
@@ -1361,7 +1367,7 @@ new Vue({
                     name: '皓宇'
                 }, {
                     number: 17,
-                    name: '宇晨'
+                    name: '宇晨*'
                 }, {
                     number: 27,
                     name: '定謙'
@@ -1398,7 +1404,7 @@ new Vue({
                     name: '凱泰'
                 }, {
                     number: 17,
-                    name: '宇晨'
+                    name: '宇晨*'
                 }, {
                     number: 21,
                     name: '亮谷'
