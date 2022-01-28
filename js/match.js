@@ -1754,7 +1754,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '1 : 0',
                 pso: '',
                 wdl: 'W',
@@ -1791,7 +1791,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '1 : 3',
                 pso: '',
                 wdl: 'L',
