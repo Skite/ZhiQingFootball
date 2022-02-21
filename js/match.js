@@ -1804,6 +1804,199 @@ new Vue({
                 instructors: ['怡萍'],
                 note: ''
             }]
+        }, {
+            id: 12,
+            year: '2022',
+            cupName: '迎虎盃',
+            system: '5人制',
+            cover: '2022tigercup',
+            trophy: '亞軍',
+            team: [{
+                name: '超能勇士',
+                members: '晉丞、紘豪、凱泰、亮谷、宥融、昕叡、宇正'
+            }, {
+                name: '無敵勇士',
+                members: '黃衍、善捷、定緯、皓宇、維恩、柏燁、定謙'
+            }],
+            note: '',
+            matches: [{
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: 'BT-Spirits',
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-亮谷', 'RM-昕叡', 'LM-宇正', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '超能勇士',
+                final_score: '1 : 1',
+                pso: '0 : 1',
+                wdl: 'D*',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '依賽事規定本場比賽正規時間結束1：1應為和局，唯裁判因失職誤認賽制並要求雙方加踢PK，PK結果為BT Spirits勝出'
+            }, {
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: '桃園自強衝鋒少年',
+                formation: '1-2-1',
+                starters: ['GK-宇正', 'CB-亮谷', 'RM-宥融', 'LM-紘豪', 'CF-昕叡'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }],
+                subTeam: '超能勇士',
+                final_score: '0 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '',
+                    assist: ''
+                }],
+                goalkeepers: ['宇正'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: '森巴獵豹',
+                formation: '2-0-2',
+                starters: ['GK-善捷', 'RB-維恩', 'LB-黃衍', 'RF-皓宇', 'LF-定謙'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '無敵勇士',
+                final_score: '1 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '定謙',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: 'twfc-豹',
+                formation: '2-0-2',
+                starters: ['GK-柏燁', 'CB-維恩', 'RM-善捷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '無敵勇士',
+                final_score: '0 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '',
+                    assist: ''
+                }],
+                goalkeepers: ['柏燁'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: 'Vikings',
+                formation: '1-2-1',
+                starters: ['GK-宇正', 'CB-亮谷', 'RM-宥融', 'LM-紘豪', 'CF-晉丞'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '超能勇士',
+                final_score: '14 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融（P）',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '紘豪'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '紘豪',
+                    assist: '昕叡'
+                }, {
+                    name: 'Own Goal',
+                    assist: '亮谷'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '宇正'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '昕叡'
+                }, {
+                    name: '紘豪',
+                    assist: ''
+                }],
+                goalkeepers: ['宇正'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220219',
+                pitch: '浮洲足球場',
+                opponent: '長庚',
+                formation: '2-0-2',
+                starters: ['GK-善捷', 'RB-維恩', 'LB-柏燁', 'RF-黃衍', 'LF-定謙'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '無敵勇士',
+                final_score: '3 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '善捷'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '柏燁',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
