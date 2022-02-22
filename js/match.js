@@ -1866,7 +1866,7 @@ new Vue({
             }, {
                 date: '20220219',
                 pitch: '浮洲足球場',
-                opponent: '森巴獵豹',
+                opponent: '森巴獵豹U10',
                 formation: '2-0-2',
                 starters: ['GK-善捷', 'RB-維恩', 'LB-黃衍', 'RF-皓宇', 'LF-定謙'],
                 subs: [{
@@ -1971,7 +1971,7 @@ new Vue({
             }, {
                 date: '20220219',
                 pitch: '浮洲足球場',
-                opponent: '長庚',
+                opponent: '長庚國小',
                 formation: '2-0-2',
                 starters: ['GK-善捷', 'RB-維恩', 'LB-柏燁', 'RF-黃衍', 'LF-定謙'],
                 subs: [{

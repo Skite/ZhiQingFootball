@@ -149,6 +149,20 @@ new Vue({
                 url: '1_l5jC3PV9w4KAUI6n-RtR_xU9PNWEAr9'
             }],
             icon: 'fas fa-link'
+        }, {
+            id: 9,
+            cupName: '2022迎虎盃',
+            cover: '2022tigercup',
+            videos: [{
+                date: '2/19',
+                opponents: 'BT-Spirits、桃園自強衝鋒少年、Vikings',
+                url: '1wmKLUbpzKxk6RAYiKswuWtDgjZo8cbFR'
+            }, {
+                date: '2/19',
+                opponents: '長庚國小',
+                url: '12m-04fBxNvTQGkC0cUSnpk1QAChVIM_N'
+            }],
+            icon: 'far fa-paw-claws'
         }],
         photos: [{
             id: 1,
@@ -318,6 +332,16 @@ new Vue({
                 date: '12/19',
                 opponents: '台北曄拓、SLFC、CFT',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/BASK51ry3nYhdrYR8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-star'
+        }, {
+            id: 12,
+            cupName: '2022迎虎盃',
+            cover: '20220219-cover',
+            photos: [{
+                date: '2/19',
+                opponents: 'BT-Spirits、桃園自強衝鋒少年、森巴獵豹U10、twfc-豹、Vikings、長庚國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/AwBDskj5a7yoU2Fc7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-star'
         }]
