@@ -96,7 +96,7 @@
                                 <h3>{{ videos.date }} vs {{ videos.opponents }}</h3>
                                 <div>
                                     <video width="85%" controls>
-                                        <source :src="'https://drive.google.com/uc?id=' + videos.url" type="video/mp4"></video></div>
+                                        <source :src="'https://www.googleapis.com/drive/v3/files/' + videos.url + '?key=AIzaSyDCwrjAxBMmD2woGaz773X6MFgrHu4nDrQ&alt=media'" type="video/mp4"></video></div>
                             </div>
                         </div>
                         <div class="row modal-footer">
