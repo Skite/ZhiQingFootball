@@ -163,6 +163,20 @@ new Vue({
                 url: '12m-04fBxNvTQGkC0cUSnpk1QAChVIM_N'
             }],
             icon: 'far fa-paw-claws'
+        }, {
+            id: 10,
+            cupName: '2022新北市少年八人制足球聯賽',
+            cover: '2022eightmanleague',
+            videos: [{
+                date: '3/5',
+                opponents: '台北曄拓',
+                url: '1pdKZg1bVDdPOWIKhsvvMdw1m-XA0TzvD'
+            }, {
+                date: '3/6',
+                opponents: '樂活鯊',
+                url: '15eHTziH-kPy5ixSI8EeBoZzLhxn9xELW'
+            }],
+            icon: 'fas fa-running'
         }],
         photos: [{
             id: 1,

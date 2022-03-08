@@ -2002,7 +2002,7 @@ new Vue({
             year: '2022',
             cupName: '新北市八人制足球聯賽',
             system: '8人制',
-            cover: '2022newtpeleague',
+            cover: '2022eightmanleague',
             trophy: '',
             team: [{
                 name: '小勇士',
@@ -2050,11 +2050,11 @@ new Vue({
                     number: 3,
                     name: '晉丞'
                 }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
                     number: 23,
                     name: '柏燁'
-                }, {
-                    number: 9,
-                    name: '紘豪'
                 }],
                 subTeam: '小勇士',
                 final_score: '0 : 5',
