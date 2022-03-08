@@ -2000,7 +2000,7 @@ new Vue({
         }, {
             id: 13,
             year: '2022',
-            cupName: '新北市八人制足球聯賽',
+            cupName: '新北市少年八人制足球聯賽',
             system: '8人制',
             cover: '2022eightmanleague',
             trophy: '',
