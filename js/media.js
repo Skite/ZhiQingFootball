@@ -361,13 +361,23 @@ new Vue({
         }, {
             id: 13,
             cupName: '2022新北市少年八人制足球聯賽',
-            cover: '20220219-cover',
+            cover: '20220306-cover',
             photos: [{
                 date: '3/6',
-                opponents: '台北曄拓',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/CuuvTG5cbXuiA9uk8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                opponents: '樂活鯊',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/CuuvTG5cbXuiA9uk8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220306-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 14,
+            cupName: '2022台北市教育盃',
+            cover: '20220315-cover',
+            photos: [{
+                date: '3/14-15',
+                opponents: '日新國小、永樂國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/7KnPZQw1txMyjC2aA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220315-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-book'
         }]
     },
     methods: {},

@@ -2066,6 +2066,135 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 14,
+            year: '2022',
+            cupName: '臺北市教育盃',
+            system: '5人制',
+            cover: '2022educationcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、善捷、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、振綸*、秉俊*'
+            }],
+            note: '',
+            matches: [{
+                date: '20220314',
+                pitch: '成德國小',
+                opponent: '日新國小',
+                formation: '2-0-2（Square）',
+                starters: ['GK-子珩*', 'RB-亮谷', 'LB-振綸*', 'RF-維恩', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }, {
+                    number: 99,
+                    name: '秉俊*'
+                }],
+                subTeam: '勇士',
+                final_score: '7 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '振綸*'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20220315',
+                pitch: '成德國小',
+                opponent: '永樂國小',
+                formation: '2-0-2（Square）',
+                starters: ['GK-子珩', 'RB-振綸*', 'LB-維恩', 'RF-宇正', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 99,
+                    name: '秉俊*'
+                }],
+                subTeam: '勇士',
+                final_score: '6 : 0',
+                pso: '',
+                wdl: 'w',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: '振綸*'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇晨*',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }]
         }]
     },
     methods: {},
