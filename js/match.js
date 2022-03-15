@@ -1997,6 +1997,75 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 13,
+            year: '2022',
+            cupName: '新北市少年八人制足球聯賽',
+            system: '8人制',
+            cover: '2022eightmanleague',
+            trophy: '',
+            team: [{
+                name: '小勇士',
+                members: '晉丞、黃衍、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20220305',
+                pitch: '新莊體育場',
+                opponent: '台北曄拓',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '小勇士',
+                final_score: '2 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220306',
+                pitch: '新莊體育場',
+                opponent: '樂活鯊',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-黃衍', 'LM-善捷', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['凱泰', '柏燁'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
