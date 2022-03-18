@@ -376,6 +376,10 @@ new Vue({
                 date: '3/14-15',
                 opponents: '日新國小、永樂國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7KnPZQw1txMyjC2aA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220315-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '3/18',
+                opponents: '成德國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/StJL89DsVcvbj5N7A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220318-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-book'
         }]

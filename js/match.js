@@ -2194,6 +2194,43 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
+            }, {
+                date: '20220318',
+                pitch: '成德國小',
+                opponent: '成德國小',
+                formation: '2-0-2（Square）',
+                starters: ['GK-子珩', 'RB-維恩', 'LB-振綸*', 'RF-黃衍', 'LF-亮谷'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }, {
+                    number: 99,
+                    name: '秉俊*'
+                }],
+                subTeam: '勇士',
+                final_score: '3 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['子珩*', '秉俊*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
             }]
         }]
     },
