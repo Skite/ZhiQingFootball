@@ -8,19 +8,19 @@ new Vue({
             videos: [{
                 date: '10/25',
                 opponents: '炫風新尖兵、熱血足球 U8',
-                url: '1s23y3EqhXcsJCS1coScLHcXAT7buq2xx'
+                url: 'Q2B33TAQ#15xClbnpLLSZydKeKy4nGj6mKLKc-vM-eXtCINLwig0'
             }, {
                 date: '11/08',
                 opponents: '磐石',
-                url: '1EcdAxtVYgD3wTJ6NdEGFkWo-RFw3YNKa'
+                url: '0mxEVBzK#Euv5443UIbmjBBD5uFCgK9TeqThwGnzVpAk_7IMGYY4'
             }, {
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
-                url: '1rzldKj3K7BL6qqfYehCRPaTXQQGy3Tz0'
+                url: 'cjxlTIoS#5pqbu-BDRpwikT4NCNwfAbgee-yZxSgF3FNeFBaDKw4'
             }, {
                 date: '12/06',
                 opponents: '公館小雷霆 （季軍戰）',
-                url: '1u6bHo5xwaBV19ucVLRm-LLGuw-71UGJI'
+                url: 'Y2wHVLKL#PlSQIyrpj79qsgsU1FPNE70_fnrngHGcleP77rwmebE'
             }],
             icon: 'far fa-futbol'
         }, {
@@ -30,19 +30,11 @@ new Vue({
             videos: [{
                 date: '11/21',
                 opponents: '航源FC',
-                url: '1o83cpxGXXb0AuVD7DA6QZjkBA0lZwRGn'
+                url: 'NjJmQYrD#INtTmZivgS628KBrFikzCdvhCYtTvUOHn6GAY05LQb8'
             }, {
                 date: '11/22',
                 opponents: '虎鯊HSFC',
-                url: '1H7zY3OWRGLVpVr1t9K5SiBgCBEJPQNZH'
-                // }, {
-                //     date: '12/19',
-                //     opponents: '新北銀河',
-                //     url: '1TdzOUOWPdgV9P2hQL3-XMKaWpg_RXv9V'
-                // }, {
-                //     date: '12/26',
-                //     opponents: '日新Yoyo',
-                //     url: '1mhcWWPTujXKlo9cohGoSEFiInU0S32FF'
+                url: '86RUSIpY#xWFVqLV0_COEx0c4LRg22MkD7WTQRuhvjzyPbs4ze_4'
             }],
             icon: 'fas fa-link'
         }, {
@@ -52,15 +44,15 @@ new Vue({
             videos: [{
                 date: '1/30',
                 opponents: '森巴小獵豹',
-                url: '1FhO3YI1jHC7E6Cr41tjhtXmUhE8fVmiV'
+                url: 'QnARCJ7T#fwurQfONLYHQ77xEHdzJ4_uMixQmOFj-9ZlZCltZZwU'
             }, {
                 date: '1/31',
                 opponents: '新北銀河',
-                url: '1T06Ab76fOFMXllJyCpM3uP0pTgIozULu'
+                url: '0nAmkBgY#olbSMsP3Rn4uOkJKwuVduCOwFdOIg7Fg3VsPzzO5Iyc'
             }, {
                 date: '2/6',
                 opponents: '虎鯊HSFC',
-                url: '1yqiEb9wltIXa6SZDJu2eov9tIXh3N-hO'
+                url: 'hyYC1Z5a#wLzGBK1Ze90wC9BobZ1yWDiSlJLQYkkb098vRSrZCy8'
             }],
             icon: 'fal fa-skull-cow'
         }, {
@@ -70,27 +62,27 @@ new Vue({
             videos: [{
                 date: '4/10',
                 opponents: '熱血足球 U8',
-                url: '1oUKoqHtp_A-RtVroe_x3u3hFCcjSMDVG'
+                url: '96pn3LJC#aj9cByclKl1n-RUNI5CxEc91bmurkKsBDMC9COjoQ_E'
             }, {
                 date: '5/8',
                 opponents: '公館紅雷霆',
-                url: '1m6rNl5uJeju9WX_u3m5n_0fOafO1tc74'
+                url: 'Yv5FUZhY#SUOkCpuTdM9oRU0jNXIO-ytjBmgfcRKQYK9akPikBTU'
             }, {
                 date: '5/8',
                 opponents: '磐石U8',
-                url: '1ZiESQqGS1dJW_uy67OAz3c13ZREMXfKs'
+                url: 'UnQ0xDaD#178MiVAB9pDsSUiCqdw9uy3_CPjQOWg1VfjKilYdlX8'
             }, {
                 date: '10/2',
                 opponents: '國北實小U8',
-                url: '1nr3lrc-53E9DAgEIkRflaVhDZPin6zBW'
+                url: 'xiQAiSJQ#rfK4ug60y4NeeD0zJdjECCrJgL4YoNcl_JH6hhOb_RA'
             }, {
                 date: '11/13',
                 opponents: '熱血踢豹',
-                url: '1R3vVQFXE05XtEsg2yGBs_whlG-YFyEN0'
+                url: 'YzZh0LYT#IDbgqgWodZ2qPMIO-ecqOa5NgcIpByutXC3jJHbI8uA'
             }, {
                 date: '11/13',
                 opponents: '公館藍雷霆',
-                url: '14_wWlPAUhYon-uE3M9IvVueNTVkBPcUK'
+                url: '5m4lASCb#19bY2Gj4GEZtWLflJJ9_wVVPXyvG3PVjKPm3chGcYyU'
             }],
             icon: 'far fa-futbol'
         }, {
@@ -100,7 +92,7 @@ new Vue({
             videos: [{
                 date: '5/02',
                 opponents: 'Dreamers FC、鬥牛犬、LSFC',
-                url: '1BK6RGXQS9hPrm0FPGE-SL-hHMk4lrFKC'
+                url: 'sy4CHBiD#uCFRbwTPbVC0Kq3gO-_-g7UtvQhuCo__V3hd1ero1A4'
             }],
             icon: 'fab fa-angular'
         }, {
@@ -110,11 +102,11 @@ new Vue({
             videos: [{
                 date: '9/04',
                 opponents: '航源FC-U9',
-                url: '1Y8ad0_KeeEHT-z7dDizFuFHo17UP9cwo'
+                url: 'IrR2kZoQ#_x1Ha6YxMYiQHahXo5ws316x9_CmW9pY-JmaibVgdpA'
             }, {
                 date: '9/05',
                 opponents: '台北Playone',
-                url: '1blNzkJj1sLvYqT30MPJFnPUvUgdR51Co'
+                url: 'NjZ1yRRL#ePlhmlJiVdXElkk1Fbb3Rv5tygkWFBBpzCVKtj5x6zw'
             }],
             icon: 'fas fa-user-graduate'
         }, {
@@ -124,7 +116,7 @@ new Vue({
             videos: [{
                 date: '10/31',
                 opponents: '銘傳之星',
-                url: '1VZtsJYLJNKTlao7SMdMOw2Jtd4kBcac8'
+                url: 'o6B2AYhL#omoPlTX48THxcsSEdg2ot95_KGyRPaLFssBalb0cdxw'
             }],
             icon: 'far fa-gavel'
         }, {
@@ -134,19 +126,19 @@ new Vue({
             videos: [{
                 date: '11/20',
                 opponents: 'Unity',
-                url: '11Oj2T8grYYfZ_1XKL_3wKilur9AKO9kt'
+                url: 'ZuZkESAR#Jes4cn5owitkDJ8YIkMI22G73P_XjG6SRinwWw2nnfY'
             }, {
                 date: '12/18',
                 opponents: '海山國小',
-                url: '14ZS3fH8IA-rmCT426GkPpNag7_7ASuSF'
+                url: '525AXIJK#5_9W9zWKrYj-XqyZjboxL_zjeTB1dWVmnrOaKTwFy_Q'
             }, {
                 date: '12/25',
                 opponents: '磐石U10',
-                url: '1lbLB9vXYiETiUjWC_NkK8gDW6guQhjtQ'
+                url: 'k7g2FLwY#qlLRYWnRdSKYJGjAzh-LiqlWgwW6lU9hETF6285nqnE'
             }, {
                 date: '12/26',
                 opponents: 'Lion',
-                url: '1_l5jC3PV9w4KAUI6n-RtR_xU9PNWEAr9'
+                url: 'QrAW2IDa#xGz3ohCLy0lE_CljQoXlLsXgQLR1_dHawaoLLQHcuCo'
             }],
             icon: 'fas fa-link'
         }, {
@@ -156,11 +148,11 @@ new Vue({
             videos: [{
                 date: '2/19',
                 opponents: 'BT-Spirits、桃園自強衝鋒少年、Vikings',
-                url: '1wmKLUbpzKxk6RAYiKswuWtDgjZo8cbFR'
+                url: 'h2Y0AA6K#Q0SmmJbKcdWgWqe9W7x_eXUw6kwxfJE54Ub4U0Zr1iQ'
             }, {
                 date: '2/19',
                 opponents: '長庚國小',
-                url: '12m-04fBxNvTQGkC0cUSnpk1QAChVIM_N'
+                url: 'R3IHmLAZ#hkzr-CONL0CtZuvQ2UERp7OXQL6wVvnmtvbBZDBkPJo'
             }],
             icon: 'far fa-paw-claws'
         }, {
@@ -170,11 +162,11 @@ new Vue({
             videos: [{
                 date: '3/5',
                 opponents: '台北曄拓',
-                url: '1pdKZg1bVDdPOWIKhsvvMdw1m-XA0TzvD'
+                url: 'tjpkiThS#qNDdm5q8w4fvRwU0jDXj1HkG51baD7KcA-brXQTyziA'
             }, {
                 date: '3/6',
                 opponents: '樂活鯊',
-                url: '15eHTziH-kPy5ixSI8EeBoZzLhxn9xELW'
+                url: 'cjZT3BQB#aW5oP0RO0G0zrbN66_3ELdTuei1MxsMY3DyBkSg7JwU'
             }],
             icon: 'fas fa-running'
         }],
