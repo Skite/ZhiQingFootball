@@ -2232,6 +2232,66 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
             }]
+        }, {
+            id: 15,
+            year: '2022',
+            cupName: '中華五人制足球錦標賽',
+            system: '5人制',
+            cover: '2022chtfivemanchamp',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '黃衍、皓宇、維恩、亮谷、宥融、宇正、子珩*、振綸*、稟巖*、秉俊*'
+            }],
+            note: '',
+            matches: [{
+                date: '20220402',
+                pitch: '海洋科技大學淡水校區',
+                opponent: 'twfc-豹',
+                formation: '2-0-2',
+                starters: ['GK-子珩*', 'RB-振綸*', 'LB-維恩', 'RF-稟巖*', 'LF-宇正'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 10',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '振綸*'
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220403',
+                pitch: '海洋科技大學淡水校區',
+                opponent: '光復皇馬',
+                formation: '3-0-1',
+                starters: ['GK-子珩*', 'RB-稟巖*', 'CB-振綸*', 'LB-維恩', 'CF-宇正'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['子珩*', '秉俊*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},

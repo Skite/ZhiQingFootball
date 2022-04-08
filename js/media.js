@@ -374,6 +374,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/StJL89DsVcvbj5N7A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220318-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 15,
+            cupName: '2022中華五人制錦標賽',
+            cover: '20220402-cover',
+            photos: [{
+                date: '4/2-3',
+                opponents: 'twfc-豹、光復皇馬',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/KC1ycezmXgK3gxJt9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-dice-five'
         }]
     },
     methods: {},
