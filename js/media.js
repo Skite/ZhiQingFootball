@@ -169,6 +169,16 @@ new Vue({
                 url: 'cjZT3BQB#aW5oP0RO0G0zrbN66_3ELdTuei1MxsMY3DyBkSg7JwU'
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 11,
+            cupName: '2022中華五人制錦標賽',
+            cover: '2022chtfivemanchamp',
+            videos: [{
+                date: '4/3',
+                opponents: '光復皇馬',
+                url: '5zwwERiI#6LVygHd8gWUWtGdHGOfrYQb-pfmPP8AbqqU3vA5Gxis'
+            }],
+            icon: 'far fa-dice-five'
         }],
         photos: [{
             id: 1,
