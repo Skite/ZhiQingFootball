@@ -2065,6 +2065,28 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20220521',
+                pitch: '新莊體育場',
+                opponent: 'MFA-U10',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-亮谷', 'LB-黃衍', 'RM-柏燁', 'CM-維恩', 'LM-昕叡', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }, {
             id: 14,
