@@ -943,7 +943,7 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2021',
                         cup: '春季大安盃',
