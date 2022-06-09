@@ -50,7 +50,7 @@ new Vue({
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['DF', 'MF', 'FW'],
+                position: ['MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -132,7 +132,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '1',
                         asts: '0',
                         cs: '0'
@@ -151,7 +151,7 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -232,7 +232,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -363,7 +363,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '2',
+                        g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -489,7 +489,7 @@ new Vue({
                 number: '12',
                 name: '皓 宇',
                 active: true,
-                position: ['DF', 'MF', 'FW'],
+                position: ['MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -589,7 +589,7 @@ new Vue({
                 number: '15',
                 name: '凱 泰',
                 active: true,
-                position: ['GK', 'MF', 'FW'],
+                position: ['GK'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -674,7 +674,7 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -755,7 +755,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -782,7 +782,7 @@ new Vue({
                 number: '21',
                 name: '亮 谷',
                 active: true,
-                position: ['MF', 'FW'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -871,7 +871,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -943,7 +943,7 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2021',
                         cup: '春季大安盃',
@@ -995,7 +995,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1006,7 +1006,7 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['GK', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -1103,7 +1103,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1209,7 +1209,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1236,7 +1236,7 @@ new Vue({
                 number: '77',
                 name: '昕 叡',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
@@ -1303,7 +1303,7 @@ new Vue({
                     {
                         year: '2022',
                         cup: '新北市少年八人制足球聯賽',
-                        g: '3',
+                        g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'

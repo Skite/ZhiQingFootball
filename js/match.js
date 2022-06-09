@@ -2087,6 +2087,25 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: ''
+            }, {
+                date: '20220605',
+                pitch: '錦和運動公園',
+                opponent: 'Torero',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-昕叡', 'CB-維恩', 'LB-紘豪', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [{}],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 14,
