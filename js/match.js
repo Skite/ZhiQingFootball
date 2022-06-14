@@ -2333,6 +2333,91 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 16,
+            year: '2022',
+            cupName: '包中盃',
+            system: '8人制',
+            cover: '2022ricedumplingcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20220611',
+                pitch: '新莊體育場',
+                opponent: '海山U10',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-善捷', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 1',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220612',
+                pitch: '新莊體育場',
+                opponent: '樂活鯊',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宥融', 'CB-亮谷', 'LB-昕叡', 'RM-定謙', 'CM-維恩', 'LM-宇正', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220612',
+                pitch: '新莊體育場',
+                opponent: 'GSC',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-晉丞', 'CB-維恩', 'LB-善捷', 'RM-黃衍', 'CM-亮谷', 'LM-紘豪', 'CF-柏燁'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '小勇士',
+                final_score: '0 : 1',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }]
         }]
     },
     methods: {},

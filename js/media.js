@@ -402,6 +402,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/KC1ycezmXgK3gxJt9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-dice-five'
+        }, {
+            id: 16,
+            cupName: '2022包中盃',
+            cover: '20220611-cover',
+            photos: [{
+                date: '6/11',
+                opponents: '海山U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/RyrS2V4UGUaUS5Jx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/12',
+                opponents: '樂活鯊、GSC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/sd3cKTTa2ikfvSsk9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-bullseye-arrow'
         }]
     },
     methods: {},
