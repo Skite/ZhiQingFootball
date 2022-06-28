@@ -2106,6 +2106,62 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20220625',
+                pitch: '新莊體育場',
+                opponent: '百齡國小',
+                formation: '3-3-1',
+                starters: ['GK-定謙', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小勇士',
+                final_score: '1 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220626',
+                pitch: '新莊體育場',
+                opponent: 'Monster',
+                formation: '3-3-1',
+                starters: ['GK-定謙', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-柏燁'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '小勇士',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '晉丞'
+                }, {
+                    name: '黃衍',
+                    assist: '昕叡'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['定謙', '柏燁'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 14,

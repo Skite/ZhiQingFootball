@@ -171,6 +171,10 @@ new Vue({
                 date: '5/21',
                 opponents: 'MFA-U10',
                 url: 'BjwgjDIA#h-FEgcq9Y797IpX43lkHYRyOOTKQdQqNznCW6zl4NFI'
+            }, {
+                date: '6/26',
+                opponents: 'Monster',
+                url: '4jhk0ZyK#UKLk1DO8zPG623wTv25onDQ-Hj4yndhDgPHLny8odC8'
             }],
             icon: 'fas fa-running'
         }, {
@@ -376,6 +380,10 @@ new Vue({
                 date: '5/21',
                 opponents: 'MFA-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FozTCY8FwgLUJ2rU6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220521-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/25-26',
+                opponents: '百齡國小、Monster',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/ZNEosocK7Nay1z3QA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220625-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {
