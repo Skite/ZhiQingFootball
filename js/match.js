@@ -706,7 +706,7 @@ new Vue({
                     name: '定謙'
                 }],
                 subTeam: '種子',
-                final_score: '2 : 1',
+                final_score: '1 : 0',
                 pso: '',
                 wdl: 'W',
                 scorers: [{
@@ -2267,7 +2267,7 @@ new Vue({
                 subTeam: '勇士',
                 final_score: '6 : 0',
                 pso: '',
-                wdl: 'w',
+                wdl: 'W',
                 scorers: [{
                     name: '黃衍',
                     assist: ''
