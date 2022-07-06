@@ -79,6 +79,7 @@
                                     <img class="trophy-icon img-fluid" src="img/trophy-1st.svg"> {{ match.trophy }}
                                 </template>
                             </h3>
+                            <div v-if="!!match.note" v-html="match.note"></div>
                             <div class="card-text">
                                 <div class="row justify-content-between">
                                     <div class="col">Opponents</div>
