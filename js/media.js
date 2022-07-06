@@ -167,8 +167,26 @@ new Vue({
                 date: '3/6',
                 opponents: '樂活鯊',
                 url: 'cjZT3BQB#aW5oP0RO0G0zrbN66_3ELdTuei1MxsMY3DyBkSg7JwU'
+            }, {
+                date: '5/21',
+                opponents: 'MFA-U10',
+                url: 'BjwgjDIA#h-FEgcq9Y797IpX43lkHYRyOOTKQdQqNznCW6zl4NFI'
+            }, {
+                date: '6/26',
+                opponents: 'Monster',
+                url: '4jhk0ZyK#UKLk1DO8zPG623wTv25onDQ-Hj4yndhDgPHLny8odC8'
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 11,
+            cupName: '2022中華五人制錦標賽',
+            cover: '2022chtfivemanchamp',
+            videos: [{
+                date: '4/3',
+                opponents: '光復皇馬',
+                url: '5zwwERiI#6LVygHd8gWUWtGdHGOfrYQb-pfmPP8AbqqU3vA5Gxis'
+            }],
+            icon: 'far fa-dice-five'
         }],
         photos: [{
             id: 1,
@@ -358,6 +376,14 @@ new Vue({
                 date: '3/6',
                 opponents: '樂活鯊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/CuuvTG5cbXuiA9uk8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220306-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '5/21',
+                opponents: 'MFA-U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/FozTCY8FwgLUJ2rU6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220521-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/25-26',
+                opponents: '百齡國小、Monster',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/ZNEosocK7Nay1z3QA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220625-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {
@@ -384,6 +410,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/KC1ycezmXgK3gxJt9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-dice-five'
+        }, {
+            id: 16,
+            cupName: '2022包中盃',
+            cover: '20220611-cover',
+            photos: [{
+                date: '6/11',
+                opponents: '海山U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/RyrS2V4UGUaUS5Jx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/12',
+                opponents: '樂活鯊、GSC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/sd3cKTTa2ikfvSsk9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-bullseye-arrow'
         }]
     },
     methods: {},
