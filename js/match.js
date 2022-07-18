@@ -2005,7 +2005,7 @@ new Vue({
                 name: '小勇士',
                 members: '晉丞、黃衍、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: '',
+            note: `<a class="text-warning" target="_blank" href="./img/table/2022.jpg"><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220305',
                 pitch: '新莊體育場',
