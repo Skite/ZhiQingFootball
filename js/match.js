@@ -710,9 +710,6 @@ new Vue({
                 pso: '',
                 wdl: 'W',
                 scorers: [{
-                    name: '宥融',
-                    assist: '亮谷'
-                }, {
                     name: 'Own Goal',
                     assist: '黃衍'
                 }],
