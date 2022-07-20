@@ -2471,6 +2471,84 @@ new Vue({
                 instructors: ['怡萍'],
                 note: ''
             }]
+        }, {
+            id: 17,
+            year: '2022',
+            cupName: '2022臺北市五人制足球聯賽',
+            system: '5人制',
+            cover: '2022tpefivemanleague',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '黃衍、皓宇、維恩、亮谷、宥融、宇正、子珩*、振編*、稟巖*、秉俊*'
+            }],
+            note: '',
+            matches: [{
+                date: '20220717',
+                pitch: '南港高中',
+                opponent: 'BLES-U10',
+                formation: '2-2',
+                starters: ['GK-子珩*', 'RB-稟巖*', 'LB-宇正', 'RF-維恩', 'LF-振綸*'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }],
+                subTeam: '',
+                final_score: '3 : 3',
+                pso: '3-4',
+                wdl: 'L',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長'
+            }, {
+                date: '20220717',
+                pitch: '南港高中',
+                opponent: '石牌國小',
+                formation: '2-2',
+                starters: ['GK-子珩*', 'RB-稟巖*', 'LB-振綸*', 'RF-維恩', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '',
+                final_score: '2 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: '振綸*'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }],
+                goalkeepers: ['子珩*'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '* 學長'
+            }]
         }]
     },
     methods: {},

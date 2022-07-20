@@ -187,6 +187,20 @@ new Vue({
                 url: '5zwwERiI#6LVygHd8gWUWtGdHGOfrYQb-pfmPP8AbqqU3vA5Gxis'
             }],
             icon: 'far fa-dice-five'
+        }, {
+            id: 12,
+            cupName: '2022臺北市五人制足球聯賽',
+            cover: '2022tpefivemanleague',
+            videos: [{
+                date: '7/17',
+                opponents: 'BLES-U10',
+                url: 'UrASRZDC#lMCH3b99CVxDyi0v8qvMc-ozblH5he_9aua3PVl95g4'
+            }, {
+                date: '7/17',
+                opponents: '石牌國小',
+                url: 'hrRjBBIT#mzaTzMUHZw5SuWMroGYJUqaEVuGAqwyiZspysAse9Y0'
+            }],
+            icon: 'fa fa-users'
         }],
         photos: [{
             id: 1,
@@ -417,13 +431,23 @@ new Vue({
             photos: [{
                 date: '6/11',
                 opponents: '海山U10',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/RyrS2V4UGUaUS5Jx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/RyrS2V4UGUaUS5Jx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220611-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '6/12',
                 opponents: '樂活鯊、GSC',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/sd3cKTTa2ikfvSsk9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/sd3cKTTa2ikfvSsk9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220612-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-bullseye-arrow'
+        }, {
+            id: 17,
+            cupName: '2022臺北市五人制足球聯賽',
+            cover: '20220717-cover',
+            photos: [{
+                date: '7/17',
+                opponents: 'BLES-U10、石牌國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/szpZ3eAATgHQ8NtBA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/202207117-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fa fa-users'
         }]
     },
     methods: {},
