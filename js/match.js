@@ -2474,7 +2474,7 @@ new Vue({
         }, {
             id: 17,
             year: '2022',
-            cupName: '2022臺北市五人制足球聯賽',
+            cupName: '臺北市五人制足球聯賽',
             system: '5人制',
             cover: '2022tpefivemanleague',
             trophy: '',
