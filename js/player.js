@@ -139,14 +139,6 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '臺北市教育盃',
-                        g: '1',
-                        goals: '0',
-                        asts: '0',
-                        cs: '0'
-                    },
-                    {
-                        year: '2022',
                         cup: '包中盃',
                         g: '3',
                         goals: '0',
@@ -263,7 +255,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -617,7 +609,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022中華五人制足球錦標賽',
+                        cup: '中華五人制足球錦標賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -625,7 +617,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -818,7 +810,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022中華五人制足球錦標賽',
+                        cup: '中華五人制足球錦標賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -834,7 +826,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '1',
                         asts: '0',
@@ -958,7 +950,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '1',
                         asts: '1',
@@ -1023,7 +1015,7 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'MF', 'FW'],
                 appearance: [{
                         year: '2021',
                         cup: '春季大安盃',
@@ -1320,7 +1312,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022中華五人制足球錦標賽',
+                        cup: '中華五人制足球錦標賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -1336,7 +1328,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '2',
                         asts: '0',
@@ -1554,7 +1546,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022中華五人制足球錦標賽',
+                        cup: '中華五人制足球錦標賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
@@ -1570,7 +1562,7 @@ new Vue({
                     },
                     {
                         year: '2022',
-                        cup: '2022臺北市五人制足球聯賽',
+                        cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '1',
                         asts: '0',
@@ -1682,6 +1674,13 @@ new Vue({
             return {
                 active: _.filter(filteredResult, ['active', true]),
                 retire: _.filter(filteredResult, ['active', false])
+            }
+        },
+        yearFilter: function(app, val) {
+            let appYear = app
+            console.log(appYear)
+            return function(appYear) {
+                return appYear
             }
         }
     }

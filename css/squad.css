@@ -115,6 +115,21 @@
     text-align: left;
 }
 
+.modal-body2020 {
+    text-align: left;
+    background-color: #32fdac;
+}
+
+.modal-body2021 {
+    text-align: left;
+    background-color: #ddfd13;
+}
+
+.modal-body2022 {
+    text-align: left;
+    background-color: #a5dfa2;
+}
+
 /*style checkbox*/
 
 .position-selectors {
