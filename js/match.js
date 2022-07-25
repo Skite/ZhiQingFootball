@@ -46,7 +46,7 @@ new Vue({
                     name: '宇正',
                     assist: ''
                 }],
-                goalkeepers: ['定謙'],
+                goalkeepers: ['宥融'],
                 isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: ''
@@ -2614,7 +2614,7 @@ new Vue({
                     assist: '定謙'
                 }],
                 goalkeepers: ['仲謙*'],
-                isCleanSheet: true,
+                isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: '* 學長'
             }]
