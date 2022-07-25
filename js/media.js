@@ -201,6 +201,16 @@ new Vue({
                 url: 'hrRjBBIT#mzaTzMUHZw5SuWMroGYJUqaEVuGAqwyiZspysAse9Y0'
             }],
             icon: 'fa fa-users'
+        }, {
+            id: 13,
+            cupName: '2022春季大安盃',
+            cover: '2022daanspringcup',
+            videos: [{
+                date: '7/23',
+                opponents: '國北實小',
+                url: 'cixShBpR#5R5wb_J-jpuoKAi_ACeb0nsDQ6wXIQ0gyW87L-roGhY'
+            }],
+            icon: 'far fa-futbol'
         }],
         photos: [{
             id: 1,
@@ -396,7 +406,7 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FozTCY8FwgLUJ2rU6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220521-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '6/25-26',
-                opponents: '百齡國小、Monster',
+                opponents: 'BLES-U10、Monster',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ZNEosocK7Nay1z3QA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220625-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
@@ -445,7 +455,17 @@ new Vue({
             photos: [{
                 date: '7/17',
                 opponents: 'BLES-U10、石牌國小',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/szpZ3eAATgHQ8NtBA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/202207117-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/szpZ3eAATgHQ8NtBA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220717-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fa fa-users'
+        }, {
+            id: 18,
+            cupName: '2022春季大安盃',
+            cover: '20220723-cover',
+            photos: [{
+                date: '7/23',
+                opponents: '中正炫風、國北實小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3y8VYksUKzDaaYXn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220723-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-users'
         }]
