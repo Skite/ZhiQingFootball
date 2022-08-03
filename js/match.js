@@ -2616,7 +2616,7 @@ new Vue({
                 goalkeepers: ['仲謙*'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: '* 學長'
+                note: '* 學長／姐'
             }]
         }]
     },
