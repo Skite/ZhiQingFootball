@@ -2618,6 +2618,115 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
             }]
+        }, {
+            id: 19,
+            year: '2022',
+            cupName: '新北市夏季主委盃草地五人制',
+            system: '5人制',
+            cover: '2022grassfiveman',
+            trophy: '亞軍',
+            team: [{
+                name: '勇士',
+                members: '黃衍、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡'
+            }],
+            note: '',
+            matches: [{
+                date: '20220820',
+                pitch: '陽光足球場',
+                opponent: 'BT-Spirits雷羊',
+                formation: '2-2',
+                starters: ['GK-定謙', 'RB-亮谷', 'LB-維恩', 'RF-宥融', 'LF-皓宇'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '',
+                final_score: '2 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220821',
+                pitch: '陽光足球場',
+                opponent: '暴風足球',
+                formation: '2-2',
+                starters: ['GK-善捷', 'RB-黃衍', 'LB-亮谷', 'RF-宥融', 'LF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: '黃衍'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷', '黃衍'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220821',
+                pitch: '陽光足球場',
+                opponent: '永士FC',
+                formation: '2-2',
+                starters: ['GK-善捷', 'RB-宥融', 'LB-維恩', 'RF-黃衍', 'LF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '',
+                final_score: '0 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }]
         }]
     },
     methods: {},
