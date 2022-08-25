@@ -2179,9 +2179,6 @@ new Vue({
                 formation: '2-0-2（Square）',
                 starters: ['GK-子珩*', 'RB-亮谷', 'LB-振綸*', 'RF-維恩', 'LF-黃衍'],
                 subs: [{
-                    number: 3,
-                    name: '晉丞'
-                }, {
                     number: 10,
                     name: '善捷'
                 }, {
