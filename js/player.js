@@ -900,7 +900,7 @@ new Vue({
             },
             {
                 number: '21',
-                name: '亮 谷',
+                name: '亮 谷（VC）',
                 active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
