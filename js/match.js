@@ -2591,7 +2591,7 @@ new Vue({
                 pitch: '華中五人制足球場',
                 opponent: '國北實小',
                 formation: '2-2',
-                starters: ['GK-仲謙*', 'RB-善捷', 'LB-紘豪', 'RF-宇晨', 'LF-昕叡'],
+                starters: ['GK-仲謙*', 'RB-善捷', 'LB-紘豪', 'RF-宇晨*', 'LF-昕叡'],
                 subs: [{
                     number: 23,
                     name: '柏燁'
@@ -2613,6 +2613,40 @@ new Vue({
                 goalkeepers: ['仲謙*'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20220827',
+                pitch: '華中五人制足球場',
+                opponent: '熱血JMES',
+                formation: '2-2',
+                starters: ['GK-仲謙*', 'RB-善捷', 'LB-昕叡', 'RF-駿逸*', 'LF-宇晨*'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '宇晨*'
+                }, {
+                    name: '駿逸*',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '定謙*'
+                }, {
+                    name: '宇晨*',
+                    assist: '凱泰'
+                }],
+                goalkeepers: ['仲謙*'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
                 note: '* 學長／姐'
             }]
         }, {
