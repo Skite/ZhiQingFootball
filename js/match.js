@@ -1997,15 +1997,15 @@ new Vue({
         }, {
             id: 13,
             year: '2022',
-            cupName: '新北市少年八人制足球聯賽',
+            cupName: '新北市少年八人制春季聯賽',
             system: '8人制',
-            cover: '2022eightmanleague',
+            cover: '2022eightmanspring',
             trophy: '',
             team: [{
                 name: '小勇士',
                 members: '晉丞、黃衍、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: `<a class="text-warning" target="_blank" href="./img/table/2022.jpg"><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
+            note: `<a class="text-warning" target="_blank" href="./img/table/2022eightmanspring.jpg"><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220305',
                 pitch: '新莊體育場',
@@ -2657,7 +2657,7 @@ new Vue({
             cover: '2022grassfiveman',
             trophy: '亞軍',
             team: [{
-                name: '勇士',
+                name: '大勇士',
                 members: '黃衍、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡'
             }],
             note: '',
@@ -2756,6 +2756,74 @@ new Vue({
                 goalkeepers: ['善捷'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
+                note: ''
+            }]
+        }, {
+            id: 20,
+            year: '2022',
+            cupName: '新北市少年八人制秋季聯賽',
+            system: '8人制',
+            cover: '2022eightmanfall',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: `<a class="text-warning" target="_blank" href=""><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
+            matches: [{
+                date: '20220903',
+                pitch: '新莊體育場',
+                opponent: 'Monster',
+                formation: '3-3-1',
+                starters: ['GK-定謙', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '',
+                final_score: '9 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '晉丞'
+                }, {
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '柏燁'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '定謙'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '柏燁'
+                }],
+                goalkeepers: ['定謙', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
                 note: ''
             }]
         }]

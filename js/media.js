@@ -157,7 +157,7 @@ new Vue({
             icon: 'far fa-paw-claws'
         }, {
             id: 10,
-            cupName: '2022新北市少年八人制足球聯賽',
+            cupName: '2022新北市少年八人制春季聯賽',
             cover: '2022eightmanleague',
             videos: [{
                 date: '3/5',
@@ -394,7 +394,7 @@ new Vue({
             icon: 'far fa-paw-claws'
         }, {
             id: 13,
-            cupName: '2022新北市少年八人制足球聯賽',
+            cupName: '2022新北市少年八人制春季聯賽',
             cover: '20220306-cover',
             photos: [{
                 date: '3/6',
@@ -468,6 +468,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3y8VYksUKzDaaYXn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220723-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-users'
+        }, {
+            id: 19,
+            cupName: '2022新北市少年八人制秋季聯賽',
+            cover: '20220903-cover',
+            photos: [{
+                date: '9/3',
+                opponents: 'Monster',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/FLVzvAj2cjUCDBoK9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220903-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-running'
         }]
     },
     methods: {},
