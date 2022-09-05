@@ -2798,7 +2798,7 @@ new Vue({
                     assist: ''
                 }, {
                     name: '昕叡',
-                    assist: '晉丞'
+                    assist: ''
                 }, {
                     name: '晉丞',
                     assist: '皓宇'
