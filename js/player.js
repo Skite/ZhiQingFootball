@@ -810,7 +810,7 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -950,7 +950,7 @@ new Vue({
                 number: '21',
                 name: '亮 谷（VC）',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -1392,7 +1392,7 @@ new Vue({
                 number: '55',
                 name: '宥 融',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -1650,7 +1650,7 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['DF', 'MF', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '秋季大安盃',
@@ -1902,7 +1902,6 @@ new Vue({
         },
         yearFilter: function(app, val) {
             let appYear = app
-            console.log(appYear)
             return function(appYear) {
                 return appYear
             }
