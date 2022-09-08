@@ -158,7 +158,7 @@ new Vue({
         }, {
             id: 10,
             cupName: '2022新北市少年八人制春季聯賽',
-            cover: '2022eightmanleague',
+            cover: '2022eightmanspring',
             videos: [{
                 date: '3/5',
                 opponents: '台北曄拓',
