@@ -725,7 +725,7 @@ new Vue({
                 number: '15',
                 name: '凱 泰',
                 active: true,
-                position: ['GK'],
+                position: ['GK', 'FW'],
                 appearance: [{
                         year: '2020',
                         cup: '新北聯合盃',
