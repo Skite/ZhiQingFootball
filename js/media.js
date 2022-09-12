@@ -478,6 +478,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FLVzvAj2cjUCDBoK9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220903-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 20,
+            cupName: '2022臺北市足球Ｕ聯賽',
+            cover: '20220910-cover',
+            photos: [{
+                date: '9/10',
+                opponents: '熱血希望',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/7ZRkZoBnxAAXxnFT7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220910-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-underline'
         }]
     },
     methods: {},

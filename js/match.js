@@ -2826,6 +2826,57 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 21,
+            year: '2022',
+            cupName: '臺北市足球Ｕ聯賽',
+            system: '8人制',
+            cover: '2022uleague',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20220910',
+                pitch: '迎風足球場',
+                opponent: '北新國小',
+                formation: 'N/A',
+                starters: [''],
+                subs: [],
+                subTeam: '',
+                final_score: '3 : 0*',
+                pso: '',
+                wdl: 'W',
+                scorers: [],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: '對手北新國小因疫情影響參賽人賽不足棄賽，依大會規定判定 3 : 0 志清勝'
+            }, {
+                date: '20220910',
+                pitch: '迎風足球場',
+                opponent: '熱血希望',
+                formation: '3-3-1',
+                starters: ['GK-定謙', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-亮谷', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '',
+                final_score: '0 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['定謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
