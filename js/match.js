@@ -2846,14 +2846,14 @@ new Vue({
                 starters: [''],
                 subs: [],
                 subTeam: '',
-                final_score: '3 : 0*',
+                final_score: '2 : 0*',
                 pso: '',
                 wdl: 'W',
                 scorers: [],
                 goalkeepers: [],
                 isCleanSheet: false,
                 instructors: [],
-                note: '對手北新國小因疫情影響參賽人賽不足棄賽，依大會規定判定 3 : 0 志清勝'
+                note: '對手北新國小因疫情影響參賽人賽不足棄賽，依大會規定裁決 2 : 0 志清勝'
             }, {
                 date: '20220910',
                 pitch: '迎風足球場',
