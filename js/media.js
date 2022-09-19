@@ -466,6 +466,10 @@ new Vue({
                 date: '7/23',
                 opponents: '中正炫風、國北實小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3y8VYksUKzDaaYXn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220723-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/17',
+                opponents: '大安雲豹',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/Ekxycxu755mpgdrL6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220917-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-users'
         }, {
@@ -476,6 +480,10 @@ new Vue({
                 date: '9/3',
                 opponents: 'Monster',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FLVzvAj2cjUCDBoK9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220903-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/18',
+                opponents: '樂活鯊',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/fFuvUGGZHgBs9trV8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220918-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {

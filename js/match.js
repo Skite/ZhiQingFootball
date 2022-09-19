@@ -2648,6 +2648,37 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: '* 學長／姐'
+            }, {
+                date: '20220917',
+                pitch: '華中五人制足球場',
+                opponent: '大安雲豹',
+                formation: '2-2',
+                starters: ['GK-柏燁*', 'RB-定謙', 'LB-善捷', 'RF-晉丞', 'LF-昕叡'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 16,
+                    name: '駿逸*'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 38,
+                    name: '仲謙*'
+                }],
+                subTeam: '',
+                final_score: '0 : 12',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['柏燁', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
             }]
         }, {
             id: 19,
@@ -2824,6 +2855,40 @@ new Vue({
                 goalkeepers: ['定謙', '凱泰'],
                 isCleanSheet: true,
                 instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220918',
+                pitch: '新莊體育場',
+                opponent: '樂活鯊',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-宇正', 'LB-晉丞', 'RM-昕叡', 'CM-黃衍', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['凱泰', '宥融'],
+                isCleanSheet: true,
+                instructors: ['家緯'],
                 note: ''
             }]
         }, {
