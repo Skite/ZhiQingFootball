@@ -1430,7 +1430,7 @@ new Vue({
             cover: '2021chairmancup',
             trophy: '亞軍',
             team: [{
-                name: '勇士',
+                name: 'SC',
                 members: '晉丞、黃衍、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、振綸*、稟巖*'
             }],
             note: '',
@@ -1462,7 +1462,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '勇士',
+                subTeam: 'SC',
                 final_score: '0 : 4',
                 pso: '',
                 wdl: 'L',
@@ -1474,7 +1474,7 @@ new Vue({
             }, {
                 date: '20211031',
                 pitch: '台北田徑場',
-                opponent: '銘傳之星',
+                opponent: '銘傳之星U10',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-稟巖', 'CB-維恩', 'LB-子珩*', 'RM-黃衍', 'CM-振綸*', 'LM-亮谷', 'CF-宇正'],
                 subs: [{
@@ -1493,7 +1493,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '勇士',
+                subTeam: 'SC',
                 final_score: '2 : 0',
                 pso: '',
                 wdl: 'W',
@@ -1533,7 +1533,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '勇士',
+                subTeam: 'SC',
                 final_score: '6 : 1',
                 pso: '',
                 wdl: 'W',
@@ -2331,7 +2331,7 @@ new Vue({
             cover: '2022chtfivemanchamp',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '勇士-A',
                 members: '黃衍、皓宇、維恩、亮谷、宥融、宇正、子珩*、振綸*、稟巖*、秉俊*'
             }],
             note: '',
@@ -2348,7 +2348,7 @@ new Vue({
                     number: 55,
                     name: '宥融'
                 }],
-                subTeam: '勇士',
+                subTeam: '勇士-A',
                 final_score: '1 : 10',
                 pso: '',
                 wdl: 'L',
@@ -2373,7 +2373,7 @@ new Vue({
                     number: 55,
                     name: '宥融'
                 }],
-                subTeam: '勇士',
+                subTeam: '勇士-A',
                 final_score: '0 : 6',
                 pso: '',
                 wdl: 'L',
@@ -2391,7 +2391,7 @@ new Vue({
             cover: '2022ricedumplingcup',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '小勇士',
                 members: '晉丞、黃衍、紘豪、善捷、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
             note: '',
@@ -2476,7 +2476,7 @@ new Vue({
             cover: '2022tpefivemanleague',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '勇士-A',
                 members: '黃衍、皓宇、維恩、亮谷、宥融、宇正、子珩*、振編*、稟巖*、秉俊*'
             }],
             note: '',
@@ -2496,7 +2496,7 @@ new Vue({
                     number: 21,
                     name: '亮谷'
                 }],
-                subTeam: '',
+                subTeam: '勇士-A',
                 final_score: '3 : 3',
                 pso: '3-4',
                 wdl: 'L',
@@ -2530,7 +2530,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '',
+                subTeam: '勇士-A',
                 final_score: '2 : 5',
                 pso: '',
                 wdl: 'L',
@@ -2554,7 +2554,7 @@ new Vue({
             cover: '2022daanspringcup',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '勇士-B',
                 members: '晉丞、紘豪、善捷、凱泰、柏燁、定謙、定煒、昕叡、駿毅*、宇晨*、仲謙*'
             }],
             note: '',
@@ -2577,7 +2577,7 @@ new Vue({
                     number: 16,
                     name: '駿毅*'
                 }],
-                subTeam: '',
+                subTeam: '勇士-B',
                 final_score: '0 : 9',
                 pso: '',
                 wdl: 'L',
@@ -2599,7 +2599,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '勇士-B',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
@@ -2627,7 +2627,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '勇士-B',
                 final_score: '4 : 1',
                 pso: '',
                 wdl: 'W',
@@ -2670,7 +2670,7 @@ new Vue({
                     number: 38,
                     name: '仲謙*'
                 }],
-                subTeam: '',
+                subTeam: '勇士-B',
                 final_score: '0 : 12',
                 pso: '',
                 wdl: 'L',
@@ -2708,7 +2708,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '2 : 5',
                 pso: '',
                 wdl: 'L',
@@ -2742,7 +2742,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '3 : 0',
                 pso: '',
                 wdl: 'W',
@@ -2779,7 +2779,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '0 : 5',
                 pso: '',
                 wdl: 'L',
@@ -2820,7 +2820,7 @@ new Vue({
                     number: 23,
                     name: '柏燁'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '9 : 0',
                 pso: '',
                 wdl: 'W',
@@ -2872,7 +2872,7 @@ new Vue({
                     number: 27,
                     name: '定謙'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '3 : 0',
                 pso: '',
                 wdl: 'W',
@@ -2932,7 +2932,7 @@ new Vue({
                     number: 15,
                     name: '凱泰'
                 }],
-                subTeam: '',
+                subTeam: '大勇士',
                 final_score: '0 : 7',
                 pso: '',
                 wdl: 'L',
@@ -2940,6 +2940,146 @@ new Vue({
                 goalkeepers: ['定謙', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: ''
+            }]
+        }, {
+            id: 22,
+            year: '2022',
+            cupName: '全國學童盃',
+            system: '8人制',
+            cover: '2022studentcup',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20220919',
+                pitch: '青埔足球場',
+                opponent: '天母國小',
+                formation: '3-3-1',
+                starters: ['GK-黃衍', 'RB-善捷', 'CB-維恩', 'LB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '晉丞',
+                    assist: '亮谷'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '昕叡',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['黃衍', '善捷', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220919',
+                pitch: '青埔足球場',
+                opponent: '石牌國小',
+                formation: '3-3-1',
+                starters: ['GK-黃衍', 'RB-善捷', 'CB-亮谷', 'LB-宇正', 'RM-宥融', 'CM-維恩', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '0 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['黃衍', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20220921',
+                pitch: '青埔足球場',
+                opponent: '安和國小',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宇正', 'CB-亮谷', 'LB-宥融', 'RM-昕叡', 'CM-維恩', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '4 : 3',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['善捷', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20220921',
+                pitch: '青埔足球場',
+                opponent: '自強國小',
+                formation: '1-3-2-1',
+                starters: ['GK-善捷', 'SW-維恩', 'RB-宥融', 'CB-亮谷', 'LB-宇正', 'RCM-昕叡', 'LCM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '3 : 4',
+                wdl: 'L',
+                scorers: [{
+                    name: '晉丞',
+                    assist: '宥融'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷', '宇正'],
+                isCleanSheet: false,
+                instructors: ['怡萍', '柏豪'],
                 note: ''
             }]
         }]

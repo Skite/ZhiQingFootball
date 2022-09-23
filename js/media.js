@@ -496,6 +496,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7ZRkZoBnxAAXxnFT7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220910-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-underline'
+        }, {
+            id: 21,
+            cupName: '2022學童盃',
+            cover: '20220919-cover',
+            photos: [{
+                date: '9/19',
+                opponents: '天母國小、石牌國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3nz3GurLngSoRsqSA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220919-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/21',
+                opponents: '自強國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3kwF5dVhcHVzerNq9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220921-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-user-graduate'
         }]
     },
     methods: {},
