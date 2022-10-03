@@ -14,13 +14,19 @@ new Vue({
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '3',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
@@ -62,8 +68,7 @@ new Vue({
                         goals: '3',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '2',
@@ -136,101 +141,96 @@ new Vue({
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '2',
                         asts: '0',
                         cs: '1'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
                         goals: '2',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '2',
                         goals: '0',
                         asts: '1',
                         cs: '1'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '3',
                         goals: '2',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '6',
                         goals: '1',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
                         goals: '1',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '4',
                         goals: '1',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '學童盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
@@ -258,8 +258,7 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '6',
@@ -276,85 +275,82 @@ new Vue({
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '春季大安盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
                         goals: '2',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '學童盃',
                         g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
                         goals: '0',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
@@ -382,8 +378,7 @@ new Vue({
                         goals: '1',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '6',
@@ -405,96 +400,84 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '1'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '1'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '春季大安盃',
                         g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
                         goals: '0',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '學童盃',
                         g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
                         goals: '0',
                         asts: '0',
                         cs: '5'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
@@ -546,101 +529,96 @@ new Vue({
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '0',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
                         goals: '1',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市五人制足球聯賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '中華五人制足球錦標賽',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
                         goals: '0',
                         asts: '2',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '學童盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
                         goals: '5',
                         asts: '2',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
@@ -686,124 +664,118 @@ new Vue({
                 position: ['GK', 'FW'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '1'
-                },
-                {
-                    year: "2022",
-                    cup: "臺北市足球Ｕ聯賽",
-                    g: "1",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市少年八人制秋季聯賽",
-                    g: "2",
-                    goals: "0",
-                    asts: "0",
-                    cs: "2"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市夏季主委盃草地五人制",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "春季大安盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "1",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市少年八人制春季聯賽",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "1"
-                },
-                {
-                    year: "2021",
-                    cup: "A-Star聖誕盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "新北聯合盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "中正主委盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "1"
-                },
-                {
-                    year: "2021",
-                    cup: "學童盃",
-                    g: "1",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "春季大安盃",
-                    g: "2",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "萬歲盃",
-                    g: "2",
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "金牛賀歲盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "2"
-                },
-                {
-                    year: "2021",
-                    cup: "扶輪社暨航源足球賽",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "1"
-                },
-                {
-                    year: "2020",
-                    cup: "新北聯合盃",
-                    g: "4",
-                    goals: "0",
-                    asts: "0",
-                    cs: "1"
-                }]
+                    }, {
+                        year: "2022",
+                        cup: "臺北市足球Ｕ聯賽",
+                        g: "1",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "新北市少年八人制秋季聯賽",
+                        g: "2",
+                        goals: "0",
+                        asts: "0",
+                        cs: "2"
+                    }, {
+                        year: "2022",
+                        cup: "新北市夏季主委盃草地五人制",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "春季大安盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "新北市少年八人制春季聯賽",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "1"
+                    }, {
+                        year: "2021",
+                        cup: "A-Star聖誕盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "新北聯合盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "中正主委盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "1"
+                    }, {
+                        year: "2021",
+                        cup: "學童盃",
+                        g: "1",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "春季大安盃",
+                        g: "2",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "萬歲盃",
+                        g: "2",
+                        goals: "1",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "金牛賀歲盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "2"
+                    }, {
+                        year: "2021",
+                        cup: "扶輪社暨航源足球賽",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "1"
+                    }, {
+                        year: "2020",
+                        cup: "新北聯合盃",
+                        g: "4",
+                        goals: "0",
+                        asts: "0",
+                        cs: "1"
+                    }
+                ]
             },
             {
                 number: '18',
@@ -812,308 +784,286 @@ new Vue({
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
-                },
-                {
-                    year: "2022",
-                    cup: "臺北市足球Ｕ聯賽",
-                    g: "1",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市少年八人制秋季聯賽",
-                    g: "2",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市夏季主委盃草地五人制",
-                                g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "臺北市五人制足球聯賽",
-                    g: "2",
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "包中盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "中華五人制足球錦標賽",
-                    g: "2",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "臺北市教育盃",
-                    g: "3",
-                    goals: "4",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "新北市少年八人制春季聯賽",
-                    g: "6",
-                    goals: "1",
-                    asts: "1",
-                    cs: "0"
-                },
-                {
-                    year: "2022",
-                    cup: "迎虎盃",
-                    g: "3",
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "A-Star聖誕盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "新北聯合盃",
-                    g: "4",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "中正主委盃",
-                    g: "3",
-                    goals: "2",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "學童盃",
-                    g: "2",
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "春季大安盃",
-                    g: "6",
-                    goals: "5",
-                    asts: "2",
-                    cs: "3"
-                },
-                {
-                    year: "2021",
-                    cup: "金牛賀歲盃",
-                    g: "3",
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2021",
-                    cup: "扶輪社暨航源足球賽",
-                    g: "5",
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                },
-                {
-                    year: "2020",
-                    cup: "新北聯合盃",
-                    g: "4",
-                    goals: "3",
-                    asts: "1",
-                    cs: "0"
-                },
-                {
-                    year: "2020",
-                    cup: "秋季大安盃",
-                    g: "6",
-                    goals: "1",
-                    asts: "2",
-                    cs: "0"
-                }]
-            },
-            {
-                number: '21',
-                name: '亮 谷（VC）',
-                active: true,
-                position: ['DF', 'MF'],
-                appearance: [
-                    {
-                        year: '2022',
-                        cup: '全國學童盃',
-                        g: '4',
-                        goals: '0',
-                        asts: '1',
-                        cs: '0'
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
-                        goals: "2",
-                        asts: "1",
+                        goals: "0",
+                        asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
-                        g: "2",
-                        goals: "3",
-                        asts: "1",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
                         goals: "1",
-                        asts: "1",
+                        asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
+                        year: "2022",
+                        cup: "中華五人制足球錦標賽",
+                        g: "2",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
-                        goals: "0",
-                        asts: "2",
+                        goals: "4",
+                        asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
-                        goals: "3",
+                        goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "迎虎盃",
-                        g: "3",
-                        goals: "3",
-                        asts: "1",
-                        cs: "0"
-                    },
-                    {
-                        year: "2021",
-                        cup: "A-Star聖誕盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
+                        year: "2021",
+                        cup: "A-Star聖誕盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "中正主委盃",
-                        g: "2",
-                        goals: "0",
-                        asts: "1",
+                        g: "3",
+                        goals: "2",
+                        asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
-                        goals: "0",
+                        goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
-                        goals: "8",
-                        asts: "5",
-                        cs: "0"
-                    },
-                    {
-                        year: "2021",
-                        cup: "萬歲盃",
-                        g: "2",
-                        goals: "0",
-                        asts: "0",
-                        cs: "0"
-                    },
-                    {
+                        goals: "5",
+                        asts: "2",
+                        cs: "3"
+                    }, {
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
+                        year: "2021",
+                        cup: "扶輪社暨航源足球賽",
+                        g: "5",
+                        goals: "1",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2020",
+                        cup: "新北聯合盃",
+                        g: "4",
+                        goals: "3",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2020",
+                        cup: "秋季大安盃",
+                        g: "6",
+                        goals: "1",
+                        asts: "2",
+                        cs: "0"
+                    }
+                ]
+            },
+            {
+                number: '21',
+                name: '亮 谷（VC）',
+                active: true,
+                position: ['DF', 'MF'],
+                appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
+                        cup: '全國學童盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: "2022",
+                        cup: "臺北市足球Ｕ聯賽",
+                        g: "1",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "新北市少年八人制秋季聯賽",
+                        g: "2",
+                        goals: "2",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "新北市夏季主委盃草地五人制",
+                        g: "2",
+                        goals: "3",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "臺北市五人制足球聯賽",
+                        g: "2",
+                        goals: "1",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "包中盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "臺北市教育盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "2",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "新北市少年八人制春季聯賽",
+                        g: "6",
+                        goals: "3",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2022",
+                        cup: "迎虎盃",
+                        g: "3",
+                        goals: "3",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "A-Star聖誕盃",
+                        g: "3",
+                        goals: "1",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "新北聯合盃",
+                        g: "4",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "中正主委盃",
+                        g: "2",
+                        goals: "0",
+                        asts: "1",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "學童盃",
+                        g: "2",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "春季大安盃",
+                        g: "6",
+                        goals: "8",
+                        asts: "5",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "萬歲盃",
+                        g: "2",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
+                        year: "2021",
+                        cup: "金牛賀歲盃",
+                        g: "3",
+                        goals: "0",
+                        asts: "0",
+                        cs: "0"
+                    }, {
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
                         goals: "1",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "4",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
@@ -1136,88 +1086,77 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "1",
                         goals: "0",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "春季大安盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "包中盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
                         goals: "0",
                         asts: "0",
                         cs: "1"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "學童盃",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
@@ -1240,144 +1179,126 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
                         goals: "0",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "春季大安盃",
                         g: "4",
                         goals: "1",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
                         goals: "0",
                         asts: "0",
                         cs: "2"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
                         goals: "2",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
                         goals: "2",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "2",
                         asts: "0",
                         cs: "2"
-                    },
-                    {
+                    }, {
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "5",
@@ -1392,152 +1313,140 @@ new Vue({
                 name: '宥 融',
                 active: true,
                 position: ['GK', 'DF', 'MF'],
-                appearance: [
-                    {
+                appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
                         goals: "1",
                         asts: "1",
                         cs: "1"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
                         goals: "2",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "中華五人制足球錦標賽",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
                         goals: "5",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
                         goals: "0",
                         asts: "1",
                         cs: "1"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    }, {
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
                         goals: "0",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
                         goals: "4",
                         asts: "3",
                         cs: "4"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
                         goals: "1",
                         asts: "0",
                         cs: "2"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "1",
                         asts: "0",
                         cs: "1"
-                    },
-                    {                
+                    },　{                
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
@@ -1552,128 +1461,119 @@ new Vue({
                 name: '昕 叡',
                 active: true,
                 position: ['DF', 'MF'],
-                appearance: [
-                    {
+                appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '1',
+                        asts: '1',
+                        cs: '0'
+                    },　{
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '2',
                         asts: '1',
                         cs: '0'
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "春季大安盃",
                         g: "4",
                         goals: "2",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "2",
                         goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
                         goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
                         goals: "0",
                         asts: "2",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "3",
@@ -1688,160 +1588,147 @@ new Vue({
                 name: '宇 正',
                 active: true,
                 position: ['GK', 'DF', 'MF', 'FW'],
-                appearance: [
-                    {
+                appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    },　{
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
                         goals: "1",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "中華五人制足球錦標賽",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
                         goals: "3",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "5",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
                         goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
                         goals: "2",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
                         goals: "14",
                         asts: "6",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
                         goals: "3",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
                         goals: "2",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
                         goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
                         goals: "1",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
@@ -1900,24 +1787,21 @@ new Vue({
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    },　{
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    },　{
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
-                    },
-                    {
+                    },　{
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '1',
@@ -1940,40 +1824,35 @@ new Vue({
                         goals: "0",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
                         goals: "0",
                         asts: "0",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "2",
                         goals: "0",
                         asts: "1",
                         cs: "0"
-                    },
-                    {
+                    },　{
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",

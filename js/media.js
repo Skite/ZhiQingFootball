@@ -510,6 +510,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3kwF5dVhcHVzerNq9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220921-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 22,
+            cupName: '2022新北聯合盃',
+            cover: '20221002-cover',
+            photos: [{
+                date: '10/2',
+                opponents: '新北銀河',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/iTq2fjXp1qH6W3qS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-link'
         }]
     },
     methods: {},

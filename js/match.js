@@ -3082,6 +3082,47 @@ new Vue({
                 instructors: ['怡萍', '柏豪'],
                 note: ''
             }]
+        }, {
+            id: 23,
+            year: '2022',
+            cupName: '新北聯合盃',
+            system: '8人制',
+            cover: '2022unitedcup',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20221002',
+                pitch: '新莊體育場',
+                opponent: '新北銀河',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
