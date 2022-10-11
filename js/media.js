@@ -211,6 +211,28 @@ new Vue({
                 url: 'cixShBpR#5R5wb_J-jpuoKAi_ACeb0nsDQ6wXIQ0gyW87L-roGhY'
             }],
             icon: 'far fa-futbol'
+        }, {
+            id: 14,
+            cupName: '2022安聯小小世界盃',
+            cover: '2022allianzcup',
+            videos: [{
+                date: '10/09',
+                opponents: '天母白',
+                url: 'drZgkQwQ#0ttXglvVGP0tjv9cgxQMqmD7qeAqQjVtWdoiyNLZxPY'
+            }, {
+                date: '10/09',
+                opponents: '百齡國小',
+                url: 'MqQiRDhY#lxFcPmUjMLDr0Eeyh1HedU33yA-doqZtat98Mo_A3Gk'
+            }, {
+                date: '10/09',
+                opponents: '長庚綠',
+                url: 'dy5jmDxB#i7S1UHG64Q0aVnDGQV4zW24ekLk7aLQocxtb0FrTSeg'
+            }, {
+                date: '10/09',
+                opponents: '基隆雷鷹',
+                url: 'wzIxBIIQ#YTDgis3Rc0lN6m0Anfk5LbpTzIs7m-AsDeMIOTc6Cjw'
+            }],
+            icon: 'fab fa-angular'
         }],
         photos: [{
             id: 1,
@@ -520,6 +542,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/iTq2fjXp1qH6W3qS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
+        }, {
+            id: 23,
+            cupName: '2021安聯小小世界盃',
+            cover: '20221009-cover',
+            photos: [{
+                date: '10/9',
+                opponents: '天母白、百齡國小、長庚綠、基隆雷鷹',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/202101009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-angular'
         }]
     },
     methods: {},

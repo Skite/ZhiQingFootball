@@ -3123,6 +3123,191 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 24,
+            year: '2022',
+            cupName: '安聯小小世界盃',
+            system: '5人制',
+            cover: '2022allianzcup',
+            trophy: '臺北分區冠軍',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20221009',
+                pitch: '北市大天母校區田徑場',
+                opponent: '天母白',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '5 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '昕叡'
+                }, {
+                    name: '宇正',
+                    assist: '昕叡'
+                }, {
+                    name: '定謙',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221009',
+                pitch: '北市大天母校區田徑場',
+                opponent: '百齡國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '維恩'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: '維恩'
+                }, {
+                    name: '定謙',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['宥融', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221009',
+                pitch: '北市大天母校區田徑場',
+                opponent: '長庚綠',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '宇正'
+                }, {
+                    name: '宇正',
+                    assist: '定謙'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融', '維恩'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221009',
+                pitch: '北市大天母校區田徑場',
+                opponent: '基隆雷鷹',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '宇正'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融', '黃衍'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},

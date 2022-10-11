@@ -14,6 +14,13 @@ new Vue({
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '2',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
                         goals: '0',
@@ -141,11 +148,18 @@ new Vue({
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
                         year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
                         goals: '1',
                         asts: '0',
-                        cs: '0'
+                        cs: '1'
                     }, {
                         year: '2022',
                         cup: '全國學童盃',
@@ -274,6 +288,13 @@ new Vue({
                 active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
@@ -529,6 +550,13 @@ new Vue({
                 position: ['MF', 'FW'],
                 appearance: [{
                         year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
                         goals: '0',
@@ -781,8 +809,15 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['GK', 'DF', 'MF'],
                 appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '3',
+                        asts: '4',
+                        cs: '1'
+                    }, {
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
@@ -931,6 +966,13 @@ new Vue({
                 active: true,
                 position: ['DF', 'MF'],
                 appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '2',
+                        asts: '0',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
@@ -1171,8 +1213,14 @@ new Vue({
                 name: '定 謙',
                 active: true,
                 position: ['GK', 'FW'],
-                appearance: [
-                    {
+                appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '3',
+                        asts: '1',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
@@ -1192,7 +1240,7 @@ new Vue({
                         g: "2",
                         goals: "0",
                         asts: "1",
-                        cs: "0"
+                        cs: "1"
                     }, {
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
@@ -1314,6 +1362,13 @@ new Vue({
                 active: true,
                 position: ['GK', 'DF', 'MF'],
                 appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '0',
+                        cs: '2'
+                    }, {
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
@@ -1463,6 +1518,13 @@ new Vue({
                 position: ['DF', 'MF'],
                 appearance: [{
                         year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '0',
+                        asts: '2',
+                        cs: '0'
+                    }, {
+                        year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
                         goals: '1',
@@ -1589,6 +1651,13 @@ new Vue({
                 active: true,
                 position: ['GK', 'DF', 'MF', 'FW'],
                 appearance: [{
+                        year: '2022',
+                        cup: '安聯小小世界盃',
+                        g: '4',
+                        goals: '3',
+                        asts: '3',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
