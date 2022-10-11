@@ -549,7 +549,7 @@ new Vue({
             photos: [{
                 date: '10/9',
                 opponents: '天母白、百齡國小、長庚綠、基隆雷鷹',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/202101009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
         }]
