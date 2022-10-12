@@ -111,6 +111,17 @@
     padding-bottom: 25px;
 }
 
+.profile-retire:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#959595,#333333);
+    opacity: .5; 
+}
+
 .modal-body {
     text-align: left;
 }
