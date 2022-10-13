@@ -16,6 +16,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '0',
                         goals: '2',
                         asts: '1',
                         cs: '0'
@@ -23,6 +24,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -30,6 +32,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '3',
                         goals: '3',
                         asts: '1',
                         cs: '0'
@@ -37,6 +40,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -44,6 +48,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
+                        gs: '2',
                         goals: '4',
                         asts: '1',
                         cs: '0'
@@ -51,6 +56,7 @@ new Vue({
                         year: '2022',
                         cup: '春季大安盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -58,6 +64,7 @@ new Vue({
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -65,6 +72,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '6',
+                        gs: '2',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -72,6 +80,7 @@ new Vue({
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
+                        gs: '2',
                         goals: '3',
                         asts: '0',
                         cs: '0'
@@ -79,6 +88,7 @@ new Vue({
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '2',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -86,6 +96,7 @@ new Vue({
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '3',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -93,6 +104,7 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        gs: '0',
                         goals: '1',
                         asts: '0',
                         cs: '0'
@@ -100,6 +112,7 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -107,6 +120,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -114,6 +128,7 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -121,6 +136,7 @@ new Vue({
                         year: '2021',
                         cup: '金牛賀歲盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -128,6 +144,7 @@ new Vue({
                         year: '2021',
                         cup: '扶輪社暨航源足球賽',
                         g: '4',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -135,6 +152,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '4',
+                        gs: '2',
                         goals: '2',
                         asts: '0',
                         cs: '0'
@@ -150,6 +168,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '4',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -157,6 +176,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '1',
                         asts: '0',
                         cs: '1'
@@ -164,6 +184,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '4',
                         goals: '2',
                         asts: '0',
                         cs: '1'
@@ -171,6 +192,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
+                        gs: '2',
                         goals: '2',
                         asts: '0',
                         cs: '0'
@@ -178,6 +200,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '1',
                         cs: '1'
@@ -185,6 +208,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市五人制足球聯賽',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -192,6 +216,7 @@ new Vue({
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -199,6 +224,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '3',
+                        gs: '2',
                         goals: '2',
                         asts: '1',
                         cs: '0'
@@ -206,6 +232,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '6',
+                        gs: '6',
                         goals: '1',
                         asts: '0',
                         cs: '0'
@@ -213,6 +240,7 @@ new Vue({
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
+                        gs: '3',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -220,6 +248,7 @@ new Vue({
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -227,6 +256,7 @@ new Vue({
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '4',
+                        gs: '3',
                         goals: '1',
                         asts: '0',
                         cs: '0'
@@ -234,6 +264,7 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -241,6 +272,7 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -248,6 +280,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
+                        gs: '5',
                         goals: '4',
                         asts: '4',
                         cs: '0'
@@ -255,6 +288,7 @@ new Vue({
                         year: '2021',
                         cup: '金牛賀歲盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -262,6 +296,7 @@ new Vue({
                         year: '2021',
                         cup: '扶輪社暨航源足球賽',
                         g: '5',
+                        gs: '5',
                         goals: '2',
                         asts: '0',
                         cs: '0'
@@ -269,6 +304,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -276,6 +312,7 @@ new Vue({
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '6',
+                        gs: '5',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -291,6 +328,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -298,6 +336,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -305,6 +344,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -312,6 +352,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -319,6 +360,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -326,6 +368,7 @@ new Vue({
                         year: '2022',
                         cup: '春季大安盃',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -333,6 +376,7 @@ new Vue({
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -340,6 +384,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '4',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -347,6 +392,7 @@ new Vue({
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
+                        gs: '2',
                         goals: '2',
                         asts: '1',
                         cs: '0'
@@ -354,6 +400,7 @@ new Vue({
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '2',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -361,6 +408,7 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -368,6 +416,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
+                        gs: '0',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -375,6 +424,7 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -382,6 +432,7 @@ new Vue({
                         year: '2021',
                         cup: '金牛賀歲盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -389,6 +440,7 @@ new Vue({
                         year: '2021',
                         cup: '扶輪社暨航源足球賽',
                         g: '3',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -396,6 +448,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '4',
+                        gs: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -403,6 +456,7 @@ new Vue({
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '6',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -417,7 +471,8 @@ new Vue({
                 appearance: [{
                         year: '2022',
                         cup: '全國學童盃',
-                        g: '3',
+                        g: '4',
+                        gs: '4',
                         goals: '0',
                         asts: '0',
                         cs: '1'
@@ -425,6 +480,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '1'
@@ -432,6 +488,7 @@ new Vue({
                         year: '2022',
                         cup: '春季大安盃',
                         g: '4',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -439,6 +496,7 @@ new Vue({
                         year: '2022',
                         cup: '包中盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -446,6 +504,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -453,6 +512,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制春季聯賽',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -460,6 +520,7 @@ new Vue({
                         year: '2022',
                         cup: '迎虎盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -467,6 +528,15 @@ new Vue({
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
+                        gs: '1',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2021',
+                        cup: '新北聯合盃',
+                        g: '2',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -474,6 +544,7 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -481,6 +552,7 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -488,6 +560,7 @@ new Vue({
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -495,6 +568,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '5'
@@ -502,6 +576,7 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -509,6 +584,7 @@ new Vue({
                         year: '2021',
                         cup: '金牛賀歲盃',
                         g: '3',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -516,6 +592,7 @@ new Vue({
                         year: '2021',
                         cup: '扶輪社暨航源足球賽',
                         g: '5',
+                        gs: '3',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -523,6 +600,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '4',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -538,6 +616,7 @@ new Vue({
                     year: '2021',
                     cup: 'A-Star聖誕盃',
                     g: '2',
+                    gs: '0',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -552,6 +631,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '0',
                         goals: '2',
                         asts: '0',
                         cs: '0'
@@ -559,6 +639,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -566,6 +647,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '2',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -573,6 +655,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市足球Ｕ聯賽',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -580,6 +663,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市少年八人制秋季聯賽',
                         g: '2',
+                        gs: '1',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -587,6 +671,7 @@ new Vue({
                         year: '2022',
                         cup: '新北市夏季主委盃草地五人制',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -594,6 +679,7 @@ new Vue({
                         year: '2022',
                         cup: '臺北市五人制足球聯賽',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -601,6 +687,7 @@ new Vue({
                         year: '2022',
                         cup: '中華五人制足球錦標賽',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -608,6 +695,15 @@ new Vue({
                         year: '2022',
                         cup: '臺北市教育盃',
                         g: '3',
+                        gs: '0',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
+                        year: '2022',
+                        cup: '迎虎盃',
+                        g: '3',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -615,6 +711,7 @@ new Vue({
                         year: '2021',
                         cup: 'A-Star聖誕盃',
                         g: '3',
+                        gs: '3',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -622,6 +719,7 @@ new Vue({
                         year: '2021',
                         cup: '新北聯合盃',
                         g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -629,6 +727,7 @@ new Vue({
                         year: '2021',
                         cup: '中正主委盃',
                         g: '3',
+                        gs: '1',
                         goals: '0',
                         asts: '2',
                         cs: '0'
@@ -636,6 +735,7 @@ new Vue({
                         year: '2021',
                         cup: '學童盃',
                         g: '2',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -643,6 +743,7 @@ new Vue({
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '3',
+                        gs: '3',
                         goals: '5',
                         asts: '2',
                         cs: '0'
@@ -650,6 +751,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '6',
+                        gs: '1',
                         goals: '9',
                         asts: '6',
                         cs: '0'
@@ -657,6 +759,7 @@ new Vue({
                         year: '2021',
                         cup: '金牛賀歲盃',
                         g: '3',
+                        gs: '0',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -664,6 +767,7 @@ new Vue({
                         year: '2021',
                         cup: '扶輪社暨航源足球賽',
                         g: '5',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -671,6 +775,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '4',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -678,6 +783,7 @@ new Vue({
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '6',
+                        gs: '2',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -694,6 +800,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -701,6 +808,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '1'
@@ -708,6 +816,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -715,6 +824,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "2"
@@ -722,6 +832,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -729,6 +840,7 @@ new Vue({
                         year: "2022",
                         cup: "春季大安盃",
                         g: "3",
+                        gs: '0',
                         goals: "0",
                         asts: "1",
                         cs: "0"
@@ -736,6 +848,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "1"
@@ -743,6 +856,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -750,6 +864,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -757,6 +872,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "1"
@@ -764,6 +880,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -771,6 +888,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -778,6 +896,7 @@ new Vue({
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -785,6 +904,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "2"
@@ -792,6 +912,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "3",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "1"
@@ -799,6 +920,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "1"
@@ -814,6 +936,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '4',
                         goals: '3',
                         asts: '4',
                         cs: '1'
@@ -821,6 +944,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -828,6 +952,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -835,6 +960,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -842,6 +968,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -849,6 +976,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -856,6 +984,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -863,6 +992,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -870,6 +1000,7 @@ new Vue({
                         year: "2022",
                         cup: "中華五人制足球錦標賽",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -877,6 +1008,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
+                        gs: '3',
                         goals: "4",
                         asts: "0",
                         cs: "0"
@@ -884,6 +1016,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '6',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -891,6 +1024,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -898,6 +1032,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -905,6 +1040,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -912,6 +1048,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '3',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -919,6 +1056,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -926,6 +1064,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
+                        gs: '6',
                         goals: "5",
                         asts: "2",
                         cs: "3"
@@ -933,6 +1072,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -940,6 +1080,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
+                        gs: '5',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -947,6 +1088,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '4',
                         goals: "3",
                         asts: "1",
                         cs: "0"
@@ -954,6 +1096,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
+                        gs: '5',
                         goals: "1",
                         asts: "2",
                         cs: "0"
@@ -969,6 +1112,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '4',
                         goals: '2',
                         asts: '0',
                         cs: '0'
@@ -976,6 +1120,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -983,6 +1128,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '4',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -990,6 +1136,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -997,6 +1144,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "2",
                         asts: "1",
                         cs: "0"
@@ -1004,6 +1152,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "2",
+                        gs: '2',
                         goals: "3",
                         asts: "1",
                         cs: "0"
@@ -1011,6 +1160,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1018,6 +1168,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1025,6 +1176,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "2",
                         cs: "0"
@@ -1032,6 +1184,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '5',
                         goals: "3",
                         asts: "1",
                         cs: "0"
@@ -1039,6 +1192,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '3',
                         goals: "3",
                         asts: "1",
                         cs: "0"
@@ -1046,6 +1200,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1053,6 +1208,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '4',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1060,6 +1216,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "1",
                         cs: "0"
@@ -1067,6 +1224,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1074,6 +1232,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
+                        gs: '6',
                         goals: "8",
                         asts: "5",
                         cs: "0"
@@ -1081,6 +1240,7 @@ new Vue({
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1088,6 +1248,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1095,6 +1256,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
+                        gs: '5',
                         goals: "1",
                         asts: "2",
                         cs: "0"
@@ -1102,6 +1264,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '3',
                         goals: "4",
                         asts: "2",
                         cs: "0"
@@ -1109,6 +1272,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
+                        gs: '5',
                         goals: "5",
                         asts: "0",
                         cs: "0"
@@ -1125,6 +1289,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1132,6 +1297,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "2",
                         cs: "0"
@@ -1139,6 +1305,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1146,6 +1313,7 @@ new Vue({
                         year: "2022",
                         cup: "春季大安盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1153,6 +1321,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1160,6 +1329,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "1"
@@ -1167,6 +1337,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1174,6 +1345,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1181,6 +1353,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1188,6 +1361,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1195,6 +1369,7 @@ new Vue({
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
+                        gs: '0',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1202,6 +1377,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1217,6 +1393,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '0',
                         goals: '3',
                         asts: '1',
                         cs: '0'
@@ -1224,6 +1401,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1231,6 +1409,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1238,6 +1417,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "1",
                         cs: "1"
@@ -1245,6 +1425,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1252,6 +1433,7 @@ new Vue({
                         year: "2022",
                         cup: "春季大安盃",
                         g: "4",
+                        gs: '1',
                         goals: "1",
                         asts: "2",
                         cs: "0"
@@ -1259,6 +1441,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1266,6 +1449,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '6',
                         goals: "0",
                         asts: "0",
                         cs: "2"
@@ -1273,6 +1457,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1280,6 +1465,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '1',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1287,6 +1473,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1294,6 +1481,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '0',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1301,6 +1489,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1308,6 +1497,7 @@ new Vue({
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
+                        gs: '3',
                         goals: "2",
                         asts: "2",
                         cs: "0"
@@ -1315,6 +1505,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
+                        gs: '2',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -1322,6 +1513,7 @@ new Vue({
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1329,6 +1521,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "1",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1336,6 +1529,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "3",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1343,6 +1537,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '3',
                         goals: "2",
                         asts: "0",
                         cs: "2"
@@ -1350,6 +1545,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "5",
+                        gs: '1',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1365,6 +1561,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '4',
                         goals: '0',
                         asts: '0',
                         cs: '2'
@@ -1372,6 +1569,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1379,6 +1577,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '4',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -1386,6 +1585,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1393,6 +1593,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "1",
                         cs: "1"
@@ -1400,6 +1601,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1407,6 +1609,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
+                        gs: '0',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -1414,6 +1617,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1421,6 +1625,7 @@ new Vue({
                         year: "2022",
                         cup: "中華五人制足球錦標賽",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1428,6 +1633,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
+                        gs: '0',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1435,6 +1641,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '6',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1442,6 +1649,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '3',
                         goals: "5",
                         asts: "1",
                         cs: "0"
@@ -1449,6 +1657,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "1",
                         cs: "1"
@@ -1456,6 +1665,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1463,6 +1673,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1470,6 +1681,7 @@ new Vue({
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "1",
                         cs: "0"
@@ -1477,6 +1689,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
+                        gs: '6',
                         goals: "4",
                         asts: "3",
                         cs: "4"
@@ -1484,6 +1697,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1491,6 +1705,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
+                        gs: '5',
                         goals: "1",
                         asts: "0",
                         cs: "2"
@@ -1498,6 +1713,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '4',
                         goals: "1",
                         asts: "0",
                         cs: "1"
@@ -1505,6 +1721,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
+                        gs: '6',
                         goals: "0",
                         asts: "1",
                         cs: "2"
@@ -1520,6 +1737,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '0',
                         goals: '0',
                         asts: '2',
                         cs: '0'
@@ -1527,6 +1745,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '1',
                         asts: '1',
                         cs: '0'
@@ -1534,6 +1753,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '2',
                         goals: '2',
                         asts: '1',
                         cs: '0'
@@ -1541,6 +1761,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1548,6 +1769,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1555,6 +1777,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市夏季主委盃草地五人制",
                         g: "3",
+                        gs: '0',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1562,6 +1785,7 @@ new Vue({
                         year: "2022",
                         cup: "春季大安盃",
                         g: "4",
+                        gs: '4',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -1569,6 +1793,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1576,6 +1801,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "2",
+                        gs: '0',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1583,6 +1809,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "6",
+                        gs: '6',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1590,6 +1817,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "2",
                         cs: "0"
@@ -1597,6 +1825,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1604,6 +1833,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1611,6 +1841,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1618,6 +1849,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1625,6 +1857,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1632,6 +1865,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "2",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1639,6 +1873,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "3",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1654,6 +1889,7 @@ new Vue({
                         year: '2022',
                         cup: '安聯小小世界盃',
                         g: '4',
+                        gs: '4',
                         goals: '3',
                         asts: '3',
                         cs: '0'
@@ -1661,6 +1897,7 @@ new Vue({
                         year: '2022',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '1',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1668,6 +1905,7 @@ new Vue({
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
+                        gs: '4',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1675,6 +1913,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市足球Ｕ聯賽",
                         g: "1",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1682,6 +1921,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制秋季聯賽",
                         g: "2",
+                        gs: '2',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1689,6 +1929,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市五人制足球聯賽",
                         g: "2",
+                        gs: '1',
                         goals: "1",
                         asts: "0",
                         cs: "0"
@@ -1696,6 +1937,7 @@ new Vue({
                         year: "2022",
                         cup: "包中盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1703,6 +1945,7 @@ new Vue({
                         year: "2022",
                         cup: "中華五人制足球錦標賽",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1710,6 +1953,7 @@ new Vue({
                         year: "2022",
                         cup: "臺北市教育盃",
                         g: "3",
+                        gs: '1',
                         goals: "3",
                         asts: "1",
                         cs: "0"
@@ -1717,6 +1961,7 @@ new Vue({
                         year: "2022",
                         cup: "新北市少年八人制春季聯賽",
                         g: "5",
+                        gs: '5',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1724,6 +1969,7 @@ new Vue({
                         year: "2022",
                         cup: "迎虎盃",
                         g: "3",
+                        gs: '3',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1731,6 +1977,7 @@ new Vue({
                         year: "2021",
                         cup: "A-Star聖誕盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1738,6 +1985,7 @@ new Vue({
                         year: "2021",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '4',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1745,6 +1993,7 @@ new Vue({
                         year: "2021",
                         cup: "中正主委盃",
                         g: "3",
+                        gs: '2',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -1752,6 +2001,7 @@ new Vue({
                         year: "2021",
                         cup: "學童盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1759,6 +2009,7 @@ new Vue({
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "3",
+                        gs: '3',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1766,6 +2017,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "6",
+                        gs: '3',
                         goals: "14",
                         asts: "6",
                         cs: "0"
@@ -1773,6 +2025,7 @@ new Vue({
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
+                        gs: '2',
                         goals: "3",
                         asts: "0",
                         cs: "0"
@@ -1780,6 +2033,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '3',
                         goals: "2",
                         asts: "0",
                         cs: "0"
@@ -1787,6 +2041,7 @@ new Vue({
                         year: "2021",
                         cup: "扶輪社暨航源足球賽",
                         g: "5",
+                        gs: '0',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1794,6 +2049,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "4",
+                        gs: '3',
                         goals: "1",
                         asts: "1",
                         cs: "0"
@@ -1801,6 +2057,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
+                        gs: '3',
                         goals: "3",
                         asts: "0",
                         cs: "0"
@@ -1816,6 +2073,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1823,6 +2081,7 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1830,6 +2089,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '2',
+                        gs: '1',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -1837,6 +2097,7 @@ new Vue({
                         year: '2020',
                         cup: '秋季大安盃',
                         g: '4',
+                        gs: '1',
                         goals: '0',
                         asts: '1',
                         cs: '0'
@@ -1853,6 +2114,7 @@ new Vue({
                         year: '2021',
                         cup: '安聯小小世界盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1860,6 +2122,7 @@ new Vue({
                         year: '2021',
                         cup: '春季大安盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1867,6 +2130,7 @@ new Vue({
                         year: '2021',
                         cup: '萬歲盃',
                         g: '2',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1874,6 +2138,7 @@ new Vue({
                         year: '2020',
                         cup: '新北聯合盃',
                         g: '1',
+                        gs: '0',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -1890,6 +2155,7 @@ new Vue({
                         year: "2021",
                         cup: "安聯小小世界盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "1",
                         cs: "0"
@@ -1897,6 +2163,7 @@ new Vue({
                         year: "2021",
                         cup: "春季大安盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1904,6 +2171,7 @@ new Vue({
                         year: "2021",
                         cup: "萬歲盃",
                         g: "2",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1911,6 +2179,7 @@ new Vue({
                         year: "2021",
                         cup: "金牛賀歲盃",
                         g: "3",
+                        gs: '2',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1918,6 +2187,7 @@ new Vue({
                         year: "2020",
                         cup: "新北聯合盃",
                         g: "2",
+                        gs: '0',
                         goals: "0",
                         asts: "1",
                         cs: "0"
@@ -1925,6 +2195,7 @@ new Vue({
                         year: "2020",
                         cup: "秋季大安盃",
                         g: "6",
+                        gs: '1',
                         goals: "0",
                         asts: "0",
                         cs: "0"
@@ -1940,6 +2211,7 @@ new Vue({
                     year: '2020',
                     cup: '新北聯合盃',
                     g: '2',
+                    gs: '0',
                     goals: '0',
                     asts: '1',
                     cs: '0'
@@ -2027,6 +2299,7 @@ new Vue({
 
             filteredResult = filteredResult.map(v => ({ ...v,
                 totalMatches: sumStat(v, 'g'),
+                totalGS: sumStat(v, 'gs'),
                 totalGoals: sumStat(v, 'goals'),
                 totalAsts: sumStat(v, 'asts'),
                 totalCS: sumStat(v, 'cs')
