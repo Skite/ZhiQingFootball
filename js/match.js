@@ -3122,6 +3122,110 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20221015',
+                pitch: '新莊體育場',
+                opponent: '小炫風',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '大勇士',
+                final_score: '7 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '亮谷'
+                }, {
+                    name: '昕叡',
+                    assist: '黃衍'
+                }, {
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '昕叡',
+                    assist: '晉丞'
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '善捷'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221016',
+                pitch: '新莊體育場',
+                opponent: '先鋒足球',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-皓宇', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '10 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '晉丞'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: 'P'
+                }, {
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '紘豪',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['善捷', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }, {
             id: 24,

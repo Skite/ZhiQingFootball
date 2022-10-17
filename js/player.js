@@ -11,7 +11,7 @@ new Vue({
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['MF', 'FW'],
+                position: ['DF', 'FW'],
                 appearance: [{
                         year: '2022',
                         cup: '安聯小小世界盃',
@@ -23,10 +23,10 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '0',
-                        goals: '0',
-                        asts: '0',
+                        g: '3',
+                        gs: '2',
+                        goals: '1',
+                        asts: '2',
                         cs: '0'
                     }, {
                         year: '2022',
@@ -175,10 +175,10 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
-                        goals: '1',
-                        asts: '0',
+                        g: '3',
+                        gs: '3',
+                        goals: '4',
+                        asts: '1',
                         cs: '1'
                     }, {
                         year: '2022',
@@ -335,9 +335,9 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '0',
-                        goals: '0',
+                        g: '3',
+                        gs: '1',
+                        goals: '1',
                         asts: '0',
                         cs: '0'
                     }, {
@@ -469,6 +469,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'DF'],
                 appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '2',
+                        gs: '1',
+                        goals: '0',
+                        asts: '1',
+                        cs: '1'
+                    }, {
                         year: '2022',
                         cup: '全國學童盃',
                         g: '4',
@@ -638,8 +646,8 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
+                        g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
                         cs: '0'
@@ -799,11 +807,11 @@ new Vue({
                 appearance: [{
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
+                        g: '3',
+                        gs: '2',
                         goals: '0',
                         asts: '0',
-                        cs: '0'
+                        cs: '2'
                     }, {
                         year: '2022',
                         cup: '全國學童盃',
@@ -943,10 +951,10 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
-                        goals: '0',
-                        asts: '0',
+                        g: '3',
+                        gs: '3',
+                        goals: '1',
+                        asts: '2',
                         cs: '0'
                     }, {
                         year: '2022',
@@ -1119,10 +1127,10 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
-                        goals: '0',
-                        asts: '0',
+                        g: '3',
+                        gs: '3',
+                        goals: '1',
+                        asts: '3',
                         cs: '0'
                     }, {
                         year: '2022',
@@ -1284,8 +1292,15 @@ new Vue({
                 name: '柏 燁',
                 active: true,
                 position: ['GK', 'MF', 'FW'],
-                appearance: [
-                    {
+                appearance: [{
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '2',
+                        gs: '0',
+                        goals: '0',
+                        asts: '0',
+                        cs: '0'
+                    }, {
                         year: '2022',
                         cup: '全國學童盃',
                         g: '2',
@@ -1396,6 +1411,14 @@ new Vue({
                         gs: '0',
                         goals: '3',
                         asts: '1',
+                        cs: '0'
+                    }, {
+                        year: '2022',
+                        cup: '新北聯合盃',
+                        g: '1',
+                        gs: '0',
+                        goals: '1',
+                        asts: '0',
                         cs: '0'
                     }, {
                         year: '2022',
@@ -1744,10 +1767,10 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
-                        goals: '1',
-                        asts: '1',
+                        g: '3',
+                        gs: '3',
+                        goals: '9',
+                        asts: '2',
                         cs: '0'
                     },　{
                         year: '2022',
@@ -1896,9 +1919,9 @@ new Vue({
                     }, {
                         year: '2022',
                         cup: '新北聯合盃',
-                        g: '1',
-                        gs: '1',
-                        goals: '0',
+                        g: '3',
+                        gs: '3',
+                        goals: '1',
                         asts: '0',
                         cs: '0'
                     },　{

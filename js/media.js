@@ -540,6 +540,14 @@ new Vue({
                 date: '10/2',
                 opponents: '新北銀河',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/iTq2fjXp1qH6W3qS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '10/15',
+                opponents: '小炫風',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/jXskLBZoJEheEVDR9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '10/16',
+                opponents: '先鋒足球',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/ordyp4R2T68oNHE5A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221016-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
