@@ -173,6 +173,7 @@
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
                                                         <div class="col">Appearances</div>
+                                                        <div class="col">Game Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Assists</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -181,6 +182,7 @@
                                                         <div class="col">{{ app.year }}</div>
                                                         <div class="col-3">{{ app.cup }}</div>
                                                         <div class="col">{{ app.g }}</div>
+                                                        <div class="col">{{ app.gs }}</div>
                                                         <div class="col">{{ app.goals }}</div>
                                                         <div class="col">{{ app.asts }}</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
@@ -202,6 +204,7 @@
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
                                                         <div class="col">Appearances</div>
+                                                        <div class="col">Game Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Assists</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -210,6 +213,7 @@
                                                         <div class="col">{{ app.year }}</div>
                                                         <div class="col-3">{{ app.cup }}</div>
                                                         <div class="col">{{ app.g }}</div>
+                                                        <div class="col">{{ app.gs }}</div>
                                                         <div class="col">{{ app.goals }}</div>
                                                         <div class="col">{{ app.asts }}</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
@@ -231,6 +235,7 @@
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
                                                         <div class="col">Appearances</div>
+                                                        <div class="col">Game Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Assists</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -239,6 +244,7 @@
                                                         <div class="col">{{ app.year }}</div>
                                                         <div class="col-3">{{ app.cup }}</div>
                                                         <div class="col">{{ app.g }}</div>
+                                                        <div class="col">{{ app.gs }}</div>
                                                         <div class="col">{{ app.goals }}</div>
                                                         <div class="col">{{ app.asts }}</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
@@ -257,67 +263,113 @@
                 </div>
                 <h3 class="text-left text-white mt-4 bg-secondary p-2">Non-active Players</h3>
                 <div class="row">
-                    <div class="player-card col-md-4" v-for="player in playerFilter.retire" data-toggle="modal" :data-target="'#player' + player.number">
-                        <div class="profile-card profile-retire"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
-                            <div class="profile-name"> {{ player.name }} </div>
-                            <div class="profile-number">{{ player.number }}</div>
-                            <div class="profile-position">
-                                <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
-                            </div>
-                            <div class="profile-overview" v-if="player.matches !== '0'">
-                                <div class="profile-overview">
-                                    <div class="row text-center">
-                                        <div class="col-sm">
-                                            <h3>{{ player.totalMatches }}</h3>
-                                            <p>Matches</p>
+                    <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.retire">
+                        <a data-toggle="modal" :data-target="'#player' + player.number">
+                            <div class="profile-card profile-retire"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
+                                <div class="profile-name"> {{ player.name }} </div>
+                                <div class="profile-number">{{ player.number }}</div>
+                                <div class="profile-position">
+                                    <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
+                                </div>
+                                <div class="profile-overview" v-if="player.matches !== '0'">
+                                    <div class="profile-overview">
+                                        <div class="row text-center">
+                                            <div class="col-sm">
+                                                <h3>{{ player.totalMatches }}</h3>
+                                                <p>Matches</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row text-center">
-                                        <div class="col-sm">
-                                            <h3>{{ player.totalGoals }}</h3>
-                                            <p>Goals</p>
-                                        </div>
-                                        <div class="col-sm">
-                                            <h3>{{ player.totalAsts }}</h3>
-                                            <p>Ast</p>
-                                        </div>
-                                        <div class="col-sm" v-if="player.position.includes('GK')">
-                                            <h3>{{ player.totalCS }}</h3>
-                                            <p>CS</p>
+                                        <div class="row text-center">
+                                            <div class="col-sm">
+                                                <h3>{{ player.totalGoals }}</h3>
+                                                <p>Goals</p>
+                                            </div>
+                                            <div class="col-sm">
+                                                <h3>{{ player.totalAsts }}</h3>
+                                                <p>Ast</p>
+                                            </div>
+                                            <div class="col-sm" v-if="player.totalCS > 0">
+                                                <h3>{{ player.totalCS }}</h3>
+                                                <p>CS</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <!-- Modal -->
                         <div class="modal fade" :id="'player'+ player.number" tabindex="-1" role="dialog" aria-labelledby="playerCareer" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="playerCareer">出賽記錄</h5>
+                                        <h5 class="modal-title" id="playerCareer">Statics</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body table-responsive">
-                                        <table class="table">
-                                            <tr>
-                                                <th>年份</th>
-                                                <th>賽事</th>
-                                                <th>出場</th>
-                                                <th>進球</th>
-                                                <th>助攻</th>
-                                                <th v-if="player.position.includes('GK')">零失球</th>
-                                            </tr>
-                                            <tr v-for="app in player.appearance">
-                                                <td>{{ app.year }}</td>
-                                                <td>{{ app.cup }}</td>
-                                                <td>{{ app.g }}</td>
-                                                <td>{{ app.goals }}</td>
-                                                <td>{{ app.asts }}</td>
-                                                <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
-                                            </tr>
-                                        </table>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card text-success">
+                                            <div class="card-header" id="heading2021">
+                                                <h2 class="mb-0">
+                                                    <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
+                                                        2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col">Year</div>
+                                                        <div class="col-3">Tournament</div>
+                                                        <div class="col">Appearances</div>
+                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Goals</div>
+                                                        <div class="col">Assists</div>
+                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                    </div>
+                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
+                                                        <div class="col">{{ app.year }}</div>
+                                                        <div class="col-3">{{ app.cup }}</div>
+                                                        <div class="col">{{ app.g }}</div>
+                                                        <div class="col">{{ app.gs }}</div>
+                                                        <div class="col">{{ app.goals }}</div>
+                                                        <div class="col">{{ app.asts }}</div>
+                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card text-info">
+                                            <div class="card-header" id="heading2020">
+                                                <h2 class="mb-0">
+                                                    <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
+                                                        2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col">Year</div>
+                                                        <div class="col-3">Tournament</div>
+                                                        <div class="col">Appearances</div>
+                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Goals</div>
+                                                        <div class="col">Assists</div>
+                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                    </div>
+                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
+                                                        <div class="col">{{ app.year }}</div>
+                                                        <div class="col-3">{{ app.cup }}</div>
+                                                        <div class="col">{{ app.g }}</div>
+                                                        <div class="col">{{ app.gs }}</div>
+                                                        <div class="col">{{ app.goals }}</div>
+                                                        <div class="col">{{ app.asts }}</div>
+                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
