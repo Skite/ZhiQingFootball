@@ -247,7 +247,7 @@ new Vue({
             cupName: '新北聯合盃',
             system: '8人制',
             cover: '2020unitedcup',
-            trophy: '亞軍',
+            trophy: '分組亞軍',
             team: [{
                 name: '種子',
                 members: '定宸、晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、明澤、定謙、品叡、宥融、昕叡、宇正'
@@ -606,7 +606,7 @@ new Vue({
             cupName: '金牛賀歲盃',
             system: '8人制',
             cover: '2021oxcup',
-            trophy: '冠軍',
+            trophy: '分組冠軍',
             team: [{
                 name: '種子',
                 members: '晉丞、黃衍、翊凱、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、明澤、柏燁、定謙、宥融、昕叡、宇正'
@@ -1807,7 +1807,7 @@ new Vue({
             cupName: '迎虎盃',
             system: '5人制',
             cover: '2022tigercup',
-            trophy: '亞軍',
+            trophy: '分組亞軍',
             team: [{
                 name: '超能勇士',
                 members: '晉丞、紘豪、凱泰、亮谷、宥融、昕叡、宇正'
@@ -2005,7 +2005,7 @@ new Vue({
                 name: '小勇士',
                 members: '晉丞、黃衍、紘豪、善捷、定緯、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: `<a class="text-warning" target="_blank" href="./img/table/2022eightmanspring.jpg"><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
+            note: `<a class="text-success" target="_blank" href="./img/table/2022eightmanspring.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220305',
                 pitch: '新莊體育場',
@@ -2686,7 +2686,7 @@ new Vue({
             cupName: '新北市夏季主委盃草地五人制',
             system: '5人制',
             cover: '2022grassfiveman',
-            trophy: '亞軍',
+            trophy: '分組亞軍',
             team: [{
                 name: '大勇士',
                 members: '黃衍、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡'
@@ -2800,7 +2800,7 @@ new Vue({
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: `<a class="text-warning" target="_blank" href=""><i class="fa fa-table text-warning" aria-hidden="true"></i> League Table</a>`,
+            note: `<a class="text-success" target="_blank" href=""><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220903',
                 pitch: '新莊體育場',
@@ -3088,12 +3088,12 @@ new Vue({
             cupName: '新北聯合盃',
             system: '8人制',
             cover: '2022unitedcup',
-            trophy: '',
+            trophy: '分組冠軍',
             team: [{
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: '',
+            note: '<span class="text-success">金靴獎：①昕叡(9球) | ③黃衍(4球)</span>',
             matches: [{
                 date: '20221002',
                 pitch: '新莊體育場',
@@ -3226,6 +3226,34 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['怡萍'],
                 note: ''
+            }, {
+                date: '20221022',
+                pitch: '新莊體育場',
+                opponent: '銘傳之星',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-晉丞', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '1 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: true,
+                instructors: ['家瑋', '柏豪'],
+                note: ''
             }]
         }, {
             id: 24,
@@ -3233,7 +3261,7 @@ new Vue({
             cupName: '安聯小小世界盃',
             system: '5人制',
             cover: '2022allianzcup',
-            trophy: '臺北分區冠軍',
+            trophy: '臺北區冠軍',
             team: [{
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、定謙、宥融、昕叡、宇正'

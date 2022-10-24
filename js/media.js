@@ -548,6 +548,10 @@ new Vue({
                 date: '10/16',
                 opponents: '先鋒足球',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ordyp4R2T68oNHE5A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221016-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '10/22',
+                opponents: '銘傳之星',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/E3B9d8GxPmaq62Av9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221022-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
