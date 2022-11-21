@@ -233,6 +233,20 @@ new Vue({
                 url: 'wzIxBIIQ#YTDgis3Rc0lN6m0Anfk5LbpTzIs7m-AsDeMIOTc6Cjw'
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 15,
+            cupName: '2022Yamaha盃',
+            cover: '2022yamahacup',
+            videos: [{
+                date: '11/19',
+                opponents: 'AC-Taipei-U12',
+                url: 'InABUCAI#6tKHiOeZxd5ehlAmLaGuyvWl8r2KIIy5wTS4qlIN_pM'
+            }, {
+                date: '11/19',
+                opponents: '新市國小',
+                url: 'J2QDVLBb#YRFThbsl-v9N92dY8cgS5HMIM44hsUPAsP59ZWZLsLQ'
+            }],
+            icon: 'fab fa-y-combinator'
         }],
         photos: [{
             id: 1,
@@ -556,7 +570,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 23,
-            cupName: '2021安聯小小世界盃',
+            cupName: '2022安聯小小世界盃',
             cover: '20221009-cover',
             photos: [{
                 date: '10/9',
@@ -564,6 +578,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 24,
+            cupName: '2022Yamaha盃',
+            cover: '20221119-cover',
+            photos: [{
+                date: '11/19',
+                opponents: 'AC Taipei-U12、新市國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/J9Nz5ycYgmFdS9K17"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221119-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-y-combinator'
         }]
     },
     methods: {},

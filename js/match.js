@@ -3440,6 +3440,60 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 25,
+            year: '2022',
+            cupName: 'Yamana 盃',
+            system: '8人制',
+            cover: '2022yamahacup',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20221119',
+                pitch: '迎風足球場',
+                opponent: 'AC-Taipei-U12',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }],
+                subTeam: '大勇士',
+                final_score: '0 : 0',
+                pso: '',
+                wdl: 'D',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: 'MVP-維恩'
+            }, {
+                date: '20221119',
+                pitch: '迎風足球場',
+                opponent: '新市國小',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '0 : 1',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: 'MVP-凱泰'
+            }]
         }]
     },
     methods: {},
