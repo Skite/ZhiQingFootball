@@ -826,11 +826,34 @@ new Vue({
                 }]
             },
             {
+                number: '13',
+                name: '邁 可',
+                active: true,
+                position: [''],
+                appearance: [{
+                    year: '2022',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
                 number: '15',
                 name: '凱 泰',
                 active: true,
                 position: ['GK', 'FW'],
                 appearance: [{
+                    year: '2022',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '1',
