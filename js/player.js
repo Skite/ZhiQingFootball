@@ -164,6 +164,14 @@ new Vue({
                     goals: '2',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -633,6 +641,14 @@ new Vue({
                     goals: '0',
                     asts: '0',
                     cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -645,6 +661,14 @@ new Vue({
                     cup: 'A-Star聖誕盃',
                     g: '2',
                     gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -989,6 +1013,14 @@ new Vue({
                     goals: "0",
                     asts: "0",
                     cs: "1"
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
                 }]
             },
             {
@@ -2175,6 +2207,14 @@ new Vue({
                     asts: "1",
                     cs: "0"
                 }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: "2020",
                     cup: "秋季大安盃",
                     g: "6",
@@ -2190,40 +2230,46 @@ new Vue({
                 active: false,
                 position: ['DF'],
                 appearance: [{
-                        year: '2021',
-                        cup: '春季大安盃',
-                        g: '2',
-                        gs: '2',
-                        goals: '0',
-                        asts: '0',
-                        cs: '0'
-                    }, {
-                        year: '2021',
-                        cup: '萬歲盃',
-                        g: '2',
-                        gs: '0',
-                        goals: '0',
-                        asts: '0',
-                        cs: '0'
-                    }, {
-                        year: '2020',
-                        cup: '新北聯合盃',
-                        g: '2',
-                        gs: '1',
-                        goals: '0',
-                        asts: '1',
-                        cs: '0'
-                    }, {
-                        year: '2020',
-                        cup: '秋季大安盃',
-                        g: '4',
-                        gs: '1',
-                        goals: '0',
-                        asts: '1',
-                        cs: '0'
-                    }
-
-                ]
+                    year: '2021',
+                    cup: '春季大安盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2021',
+                    cup: '萬歲盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '秋季大安盃',
+                    g: '4',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }]
             },
             {
                 number: '8',
@@ -2258,6 +2304,14 @@ new Vue({
                     year: '2020',
                     cup: '新北聯合盃',
                     g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
