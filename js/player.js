@@ -1243,7 +1243,7 @@ new Vue({
                     goals: '2',
                     asts: '0',
                     cs: '0'
-                }, , {
+                }, {
                     year: '2022',
                     cup: '安聯小小世界盃',
                     g: '4',
@@ -1536,7 +1536,7 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 active: true,
-                position: ['GK', 'FW'],
+                position: ['GK', 'DF', 'FW'],
                 appearance: [{
                     year: '2022',
                     cup: 'Yamaha 盃',
