@@ -2890,6 +2890,68 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['家緯'],
                 note: ''
+            }, {
+                date: '20221210',
+                pitch: '新莊體育場',
+                opponent: '百齡國小',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-亮谷', 'LB-善捷', 'RM-黃衍', 'CM-維恩', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '柏燁'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20221211',
+                pitch: '新莊體育場',
+                opponent: 'TCFA',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宥融', 'CB-維恩', 'LB-定謙', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '1 : 1',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 21,
