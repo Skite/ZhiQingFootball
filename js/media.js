@@ -235,6 +235,20 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 15,
+            cupName: '2022新北少年八人制秋季聯賽',
+            cover: '2022eightmanfall',
+            videos: [{
+                date: '12/10',
+                opponents: '百齡國小',
+                url: 'Anx22bBL#BnnL_BIVz57iSvsqMDsm-JhYjcZqj_ezX96nFpojIcc'
+            }, {
+                date: '12/11',
+                opponents: 'TCFA衝鋒少年',
+                url: 'E6xQ2QRJ#NJ4vLHL1YPhrzM4t_EKcdC2a5HdpTPaxDBOKJiuHGyw'
+            }],
+            icon: 'fas fa-running'
+        }, {
+            id: 16,
             cupName: '2022Yamaha盃',
             cover: '2022yamahacup',
             videos: [{
@@ -520,6 +534,14 @@ new Vue({
                 date: '9/18',
                 opponents: '樂活鯊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/fFuvUGGZHgBs9trV8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220918-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/10',
+                opponents: '百齡國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/RNrHaSFT3UfLUT8P7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221210-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/11',
+                opponents: 'TCFA衝鋒少年',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/ttLWB6Cgzg6ECx2i9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221211-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {
