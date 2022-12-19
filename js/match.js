@@ -2619,7 +2619,7 @@ new Vue({
                 pitch: '華中五人制足球場',
                 opponent: '熱血JMES',
                 formation: '2-2',
-                starters: ['GK-仲謙*', 'RB-善捷', 'LB-昕叡', 'RF-駿逸*', 'LF-宇晨*'],
+                starters: ['GK-仲謙*', 'RB-善捷', 'LB-昕叡', 'RF-駿毅*', 'LF-宇晨*'],
                 subs: [{
                     number: 15,
                     name: '凱泰'
@@ -2635,7 +2635,7 @@ new Vue({
                     name: '昕叡',
                     assist: '宇晨*'
                 }, {
-                    name: '駿逸*',
+                    name: '駿毅*',
                     assist: ''
                 }, {
                     name: '昕叡',
@@ -2662,7 +2662,7 @@ new Vue({
                     name: '凱泰'
                 }, {
                     number: 16,
-                    name: '駿逸*'
+                    name: '駿毅*'
                 }, {
                     number: 17,
                     name: '宇晨*'

@@ -1,0 +1,221 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+[v-cloak] {
+    display: none;
+}
+
+body {
+    font-family: '微軟正黑體', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: '微軟正黑體', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav .navbar-nav {
+    margin-left: auto !important;
+}
+
+@media (max-width: 991px) {
+    nav .navbar-nav {
+        text-align: center
+    }
+}
+
+nav span {
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 10px;
+}
+
+nav .nav-logo {
+    height: 60px;
+}
+
+nav .btn {
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+header.masthead {
+    position: relative;
+    object-position: bottom;
+    background-color: #343a40;
+    background: url("../img/event/cover.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+header.masthead h1 {
+    font-size: 3rem;
+}
+
+#menu .lead {
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    header.masthead h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    header.masthead {
+        background: url("../img/event/cover.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
+
+.funny-activity {
+    vertical-align: middle !important;
+}
+
+.td-dark {
+    background-color: #c6c8ca;
+    color: #fff;
+}
+
+.bg-pink {
+    background-color: #e83e8c !important;
+}
+
+.bg-teal {
+    background-color: #20c997 !important;
+}
+
+.bg-orange {
+    background-color: #fd7e14 !important;
+}
+
+.showcase h2 {
+    font-size: 1.5rem;
+}
+
+.showcase .showcase-text {
+    padding: 3rem;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    header.masthead {
+        background: url("../img/bg-masthead.jpg") no-repeat center 100px;
+        background-size: cover;
+    }
+
+    .showcase .showcase-img {
+        min-height: 12rem;
+        background-size: cover;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .showcase .showcase-text {
+        padding: 5rem;
+    }
+}
+
+.showcase .no-gutters:nth-child(odd) {
+    animation: example 5s linear 2s infinite alternate;
+}
+
+
+.features-icons {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+.testimonials {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/bg-masthead1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+footer.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
