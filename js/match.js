@@ -2800,7 +2800,7 @@ new Vue({
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: `<a class="text-success" target="_blank" href=""><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
+            note: `<a class="text-success" target="_blank" href="img/table/2022eightmanfall.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220903',
                 pitch: '新莊體育場',
@@ -2927,7 +2927,7 @@ new Vue({
             }, {
                 date: '20221211',
                 pitch: '新莊體育場',
-                opponent: 'TCFA',
+                opponent: 'TCFA衝鋒少年',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宥融', 'CB-維恩', 'LB-定謙', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
                 subs: [{
@@ -2941,7 +2941,7 @@ new Vue({
                     name: '柏燁'
                 }],
                 subTeam: '大勇士',
-                final_score: '1 : 1',
+                final_score: '1 : 1*',
                 pso: '',
                 wdl: 'D',
                 scorers: [{
@@ -2951,7 +2951,115 @@ new Vue({
                 goalkeepers: ['善捷'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: '本場比賽依大會規定列為友誼賽，不採計積分與球員成績'
+            }, {
+                date: '20221217',
+                pitch: '新莊體育場',
+                opponent: 'TCFA衝鋒少年',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '大勇士',
+                final_score: '1 : 1',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20221217',
+                pitch: '新莊體育場',
+                opponent: '樂活鯊',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-定謙', 'CB-維恩', 'LB-晉丞', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-昕叡'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 4*',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '定謙',
+                    assist: '宥融'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '本場比賽依大會規定列為友誼賽，不採計積分與球員成績'
+            }, {
+                date: '20221218',
+                pitch: '新莊體育場',
+                opponent: 'MFA-U9',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宇正', 'CB-晉丞', 'LB-宥融', 'RM-昕叡', 'CM-維恩', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['善捷', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '本場比賽為升級附加賽'
             }]
         }, {
             id: 21,
