@@ -78,6 +78,7 @@ header.masthead .overlay {
 
 header.masthead h1 {
     font-size: 3rem;
+    text-shadow: black 0.1em 0.1em 0.4em;
 }
 
 #menu .lead {
@@ -92,6 +93,7 @@ header.masthead h1 {
 
     header.masthead h1 {
         font-size: 4rem;
+        text-shadow: black 0.1em 0.1em 0.4em;
     }
 }
 
@@ -99,10 +101,11 @@ header.masthead h1 {
     header.masthead {
         background: url("../img/event/cover.jpg") no-repeat center;
         background-size: cover;
+        text-shadow: black 0.1em 0.1em 0.4em;
     }
 }
 
-.funny-activity {
+.minigame {
     vertical-align: middle !important;
 }
 
