@@ -245,6 +245,18 @@ new Vue({
                 date: '12/11',
                 opponents: 'TCFA衝鋒少年',
                 url: 'E6xQ2QRJ#NJ4vLHL1YPhrzM4t_EKcdC2a5HdpTPaxDBOKJiuHGyw'
+            }, {
+                date: '12/17',
+                opponents: 'TCFA衝鋒少年',
+                url: 'FzACCYjT#yQN5m2kPrBIpr1HvL-hYnozxtGn6S4nTgAhvjzRzX3k'
+            }, {
+                date: '12/17',
+                opponents: '樂活鯊',
+                url: 'lzJHzYiB#rb-pwawk9EbdgjY4afJEh-ipIxnx-lPhslTbygfQCFs'
+            }, {
+                date: '12/18',
+                opponents: 'MFA-U9',
+                url: '5uInkYDZ#HLGGQMJqjufUR3FfwU60sqBu6r_dUdUOiypnyn2swGk'
             }],
             icon: 'fas fa-running'
         }, {
@@ -542,6 +554,14 @@ new Vue({
                 date: '12/11',
                 opponents: 'TCFA衝鋒少年',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ttLWB6Cgzg6ECx2i9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221211-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/17',
+                opponents: 'TCFA衝鋒少年、樂活鯊',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/DjuZUBYkN5AR1W1i7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221217-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/18',
+                opponents: 'MFA-U9',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/EnyKgYrtBV268AZe7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221218-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {

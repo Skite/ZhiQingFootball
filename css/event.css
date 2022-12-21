@@ -64,6 +64,7 @@ header.masthead {
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    text-shadow: black 0.1em 0.1em 0.4em;
 }
 
 header.masthead .overlay {
@@ -78,7 +79,6 @@ header.masthead .overlay {
 
 header.masthead h1 {
     font-size: 3rem;
-    text-shadow: black 0.1em 0.1em 0.4em;
 }
 
 #menu .lead {
@@ -89,11 +89,11 @@ header.masthead h1 {
     header.masthead {
         padding-top: 12rem;
         padding-bottom: 12rem;
+        text-shadow: black 0.1em 0.1em 0.4em;
     }
 
     header.masthead h1 {
         font-size: 4rem;
-        text-shadow: black 0.1em 0.1em 0.4em;
     }
 }
 
