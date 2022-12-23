@@ -7,7 +7,23 @@ new Vue({
         maxNumber: '',
         selectedPosition: [],
         positions: ['GK', 'DF', 'MF', 'FW'],
-        players: [{
+        players: [
+            // {
+            //     number: '',
+            //     name: '瑀 東',
+            //     active: true,
+            //     position: ['MF'],
+            //     appearance: [{
+            //         year: '',
+            //         cup: '',
+            //         g: '',
+            //         gs: '0',
+            //         goals: '0',
+            //         asts: '0',
+            //         cs: '0'
+            //     }]
+            // },
+            {
                 number: '3',
                 name: '晉 丞',
                 active: true,
