@@ -3008,13 +3008,13 @@ new Vue({
                     assist: ''
                 }, {
                     name: '黃衍',
-                    assist: '晉丞'
+                    assist: '宥融'
                 }, {
                     name: '定謙',
                     assist: '宥融'
                 }, {
                     name: '黃衍',
-                    assist: ''
+                    assist: '亮谷'
                 }],
                 goalkeepers: ['善捷', '凱泰'],
                 isCleanSheet: false,
@@ -3625,7 +3625,7 @@ new Vue({
             matches: [{
                 date: '20221119',
                 pitch: '迎風足球場',
-                opponent: 'AC-Taipei-U12',
+                opponent: 'ACTaipei-U12',
                 formation: '3-3-1',
                 starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
                 subs: [{
