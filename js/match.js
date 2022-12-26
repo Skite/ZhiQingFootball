@@ -3609,6 +3609,111 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20221224',
+                pitch: '臺北田徑場',
+                opponent: '進擊的矮人',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221224',
+                pitch: '臺北田徑場',
+                opponent: 'AegonFC',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-維恩', 'LB-晉丞', 'RF-宥融', 'LF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '昕叡'
+                }, {
+                    name: '宇正',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20221224',
+                pitch: '臺北田徑場',
+                opponent: '北埔國小貝貝鷹',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '1 : 0',
+                wdl: 'D*',
+                scorers: [{
+                    name: '宇正',
+                    assist: '昕叡'
+                }, {
+                    name: '維恩',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '依大會規定加踢 PSO 僅為若需要時決定晉級資格時之判斷依據，不影響比賽勝負'
             }]
         }, {
             id: 25,

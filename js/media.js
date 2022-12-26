@@ -231,6 +231,18 @@ new Vue({
                 date: '10/09',
                 opponents: '基隆雷鷹',
                 url: 'wzIxBIIQ#YTDgis3Rc0lN6m0Anfk5LbpTzIs7m-AsDeMIOTc6Cjw'
+            }, {
+                date: '12/24',
+                opponents: '進擊的矮人',
+                url: 'Y34EAQrT#HRq0qpAsqVncIQfgCMyRPDH1gUCVwbDqngH1gwcZANA'
+            }, {
+                date: '12/24',
+                opponents: 'AegonFC',
+                url: 'FvBkUSqZ#zSjF267gQXH2GXJrQL56nEIf03KbJK70StbnEFyomQo'
+            }, {
+                date: '12/24',
+                opponents: '北埔國小貝貝鷹',
+                url: 'oqwSkBrB#ybeNqBVg9cOLE-5SbEROGFA3Bn3cZnsaemUg6QaO6Ms'
             }],
             icon: 'fab fa-angular'
         }, {
@@ -613,11 +625,15 @@ new Vue({
         }, {
             id: 23,
             cupName: '2022安聯小小世界盃',
-            cover: '20221009-cover',
+            cover: '20221224-cover',
             photos: [{
                 date: '10/9',
                 opponents: '天母白、百齡國小、長庚綠、基隆雷鷹',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/24',
+                opponents: '進擊的矮人、AegonFC、北埔國小貝貝鷹',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/vaqcNFDEoGVGdbT29"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221224-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
         }, {
