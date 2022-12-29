@@ -676,29 +676,6 @@ new Vue({
                 }]
             },
             {
-                number: '11',
-                name: '定 緯',
-                active: true,
-                position: ['MF'],
-                appearance: [{
-                    year: '2021',
-                    cup: 'A-Star聖誕盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: '2020',
-                    cup: '新北迷你盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '12',
                 name: '皓 宇',
                 active: true,
@@ -2353,6 +2330,29 @@ new Vue({
                     cup: '新北迷你盃',
                     g: '2',
                     gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
+                number: '11',
+                name: '定 緯',
+                active: false,
+                position: ['MF'],
+                appearance: [{
+                    year: '2021',
+                    cup: 'A-Star聖誕盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2020',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
