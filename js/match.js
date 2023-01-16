@@ -255,7 +255,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20201121',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '航源FC-U7',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-善捷', 'CB-維恩', 'LB-紘豪', 'RM-宇正', 'CM-亮谷', 'LM-宥融', 'CF-皓宇'],
@@ -286,7 +286,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20201122',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '虎鯊HSFC',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-善捷', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-宇正'],
@@ -614,7 +614,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20210130',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '森巴小獵豹',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-明澤', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-宇正'],
@@ -648,7 +648,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20210124',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '新北銀河',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-明澤', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-宇正'],
@@ -1355,7 +1355,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20210904',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '航源FC-U9',
                 formation: '3-3-1',
                 starters: ['GK-子珩*', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-稟巖*'],
@@ -1383,7 +1383,7 @@ new Vue({
                 note: '* 學長／姐'
             }, {
                 date: '20210905',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '台北Playone',
                 formation: '3-3-1',
                 starters: ['GK-子珩*', 'RB-宇正', 'CB-維恩', 'LB-黃衍', 'RM-昕叡', 'CM-皓宇', 'LM-定謙', 'CF-稟巖*'],
@@ -1575,7 +1575,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20211120',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'Unity',
                 formation: '3-3-1',
                 starters: ['GK-子珩*', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-黃衍', 'CM-皓宇', 'LM-亮谷', 'CF-宥融'],
@@ -1609,7 +1609,7 @@ new Vue({
                 note: '* 學長／姐'
             }, {
                 date: '20211218',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '海山國小',
                 formation: '3-3-1',
                 starters: ['GK-子珩*', 'RB-宇正', 'CB-維恩', 'LB-善捷', 'RM-宥融', 'CM-振綸*', 'LM-亮谷', 'CF-皓宇'],
@@ -2008,7 +2008,7 @@ new Vue({
             note: `<a class="text-success" target="_blank" href="./img/table/2022eightmanspring.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220305',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '台北曄拓',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
@@ -2039,7 +2039,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220306',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '樂活鯊',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-昕叡', 'RM-宥融', 'CM-黃衍', 'LM-善捷', 'CF-定謙'],
@@ -2064,7 +2064,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220521',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'MFA-U10',
                 formation: '3-3-1',
                 starters: ['GK-宥融', 'RB-宇正', 'CB-亮谷', 'LB-黃衍', 'RM-柏燁', 'CM-維恩', 'LM-昕叡', 'CF-定謙'],
@@ -2105,7 +2105,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220625',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'BLES-U10',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-晉丞'],
@@ -2127,7 +2127,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220626',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'Monster',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-柏燁'],
@@ -2397,7 +2397,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20220611',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '海山U10',
                 formation: '3-3-1',
                 starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-善捷', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
@@ -2419,7 +2419,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220612',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '樂活鯊',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宥融', 'CB-亮谷', 'LB-昕叡', 'RM-定謙', 'CM-維恩', 'LM-宇正', 'CF-黃衍'],
@@ -2444,7 +2444,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220612',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'GSC',
                 formation: '3-3-1',
                 starters: ['GK-宥融', 'RB-晉丞', 'CB-維恩', 'LB-善捷', 'RM-黃衍', 'CM-亮谷', 'LM-紘豪', 'CF-柏燁'],
@@ -2803,7 +2803,7 @@ new Vue({
             note: `<a class="text-success" target="_blank" href="img/table/2022eightmanfall.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20220903',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'Monster',
                 formation: '3-3-1',
                 starters: ['GK-定謙', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
@@ -2858,7 +2858,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20220918',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '樂活鯊',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宥融', 'CB-宇正', 'LB-晉丞', 'RM-昕叡', 'CM-黃衍', 'LM-亮谷', 'CF-皓宇'],
@@ -2892,7 +2892,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221210',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '百齡國小',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宥融', 'CB-亮谷', 'LB-善捷', 'RM-黃衍', 'CM-維恩', 'LM-皓宇', 'CF-晉丞'],
@@ -2926,7 +2926,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221211',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'TCFA衝鋒少年',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宥融', 'CB-維恩', 'LB-定謙', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
@@ -2954,7 +2954,7 @@ new Vue({
                 note: '本場比賽依大會規定列為友誼賽，不採計積分與球員成績'
             }, {
                 date: '20221217',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'TCFA衝鋒少年',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
@@ -2982,7 +2982,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221217',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '樂活鯊',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-定謙', 'CB-維恩', 'LB-晉丞', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-昕叡'],
@@ -3022,7 +3022,7 @@ new Vue({
                 note: '本場比賽依大會規定列為友誼賽，不採計積分與球員成績'
             }, {
                 date: '20221218',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: 'MFA-U9',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宇正', 'CB-晉丞', 'LB-宥融', 'RM-昕叡', 'CM-維恩', 'LM-黃衍', 'CF-定謙'],
@@ -3266,7 +3266,7 @@ new Vue({
             note: '<span class="text-success">金靴獎：①昕叡(9球) | ③黃衍(4球)</span>',
             matches: [{
                 date: '20221002',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '新北銀河',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
@@ -3294,7 +3294,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221015',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '小炫風',
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
@@ -3343,7 +3343,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221016',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '先鋒足球',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-皓宇', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-昕叡', 'CF-晉丞'],
@@ -3398,7 +3398,7 @@ new Vue({
                 note: ''
             }, {
                 date: '20221022',
-                pitch: '新莊體育場',
+                pitch: '新莊田徑場',
                 opponent: '銘傳之星',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-晉丞', 'CB-維恩', 'LB-宥融', 'RM-昕叡', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
@@ -3768,6 +3768,62 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: 'MVP-凱泰'
+            }]
+        }, {
+            id: 26,
+            year: '2023',
+            cupName: '金兔賀歲盃',
+            system: '8人制',
+            cover: '2023rabbitcup',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230114',
+                pitch: '新莊田徑場',
+                opponent: 'ACTaipei-U10',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-紘豪', 'CB-維恩', 'LB-宇正', 'RM-定謙', 'CM-皓宇', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '8 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: '維恩'
+                }, {
+                    name: '定謙',
+                    assist: '昕叡'
+                }, {
+                    name: '維恩',
+                    assist: '宇正'
+                }, {
+                    name: 'Own Goal',
+                    assist: '宥融'
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '維恩',
+                    assist: '宥融'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }]
     },

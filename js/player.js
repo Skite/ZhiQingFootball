@@ -6,29 +6,21 @@ new Vue({
         minNumber: '',
         maxNumber: '',
         selectedPosition: [],
-        positions: ['GK', 'DF', 'MF', 'FW'],
-        players: [
-            // {
-            //     number: '',
-            //     name: '瑀 東',
-            //     active: true,
-            //     position: ['MF'],
-            //     appearance: [{
-            //         year: '',
-            //         cup: '',
-            //         g: '',
-            //         gs: '0',
-            //         goals: '0',
-            //         asts: '0',
-            //         cs: '0'
-            //     }]
-            // },
-            {
+        positions: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
+        players: [{
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['DF', 'FW'],
+                position: ['RB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -194,8 +186,16 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'LB', 'RM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -361,8 +361,16 @@ new Vue({
                 number: '9',
                 name: '紘 豪',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '1',
@@ -512,7 +520,7 @@ new Vue({
                 number: '10',
                 name: '善 捷',
                 active: true,
-                position: ['GK', 'DF'],
+                position: ['GK', 'RB', 'LB'],
                 appearance: [{
                     year: '2022',
                     cup: '新北聯合盃',
@@ -679,8 +687,16 @@ new Vue({
                 number: '12',
                 name: '皓 宇',
                 active: true,
-                position: ['MF', 'FW'],
+                position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -869,7 +885,7 @@ new Vue({
                 number: '15',
                 name: '凱 泰',
                 active: true,
-                position: ['GK', 'FW'],
+                position: ['GK', 'CF'],
                 appearance: [{
                     year: '2022',
                     cup: '黃蜂盃',
@@ -1028,8 +1044,16 @@ new Vue({
                 number: '18',
                 name: '維 恩（C）',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -1215,11 +1239,26 @@ new Vue({
                     cs: "0"
                 }]
             },
+            // {
+            //     number: '20',
+            //     name: '瑀 東',
+            //     active: true,
+            //     position: [''],
+            //     appearance: [{
+            //         year: '',
+            //         cup: '',
+            //         g: '',
+            //         gs: '0',
+            //         goals: '0',
+            //         asts: '0',
+            //         cs: '0'
+            //     }]
+            // },
             {
                 number: '21',
                 name: '亮 谷（VC）',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['CB', 'CM', 'RM', 'LM'],
                 appearance: [{
                     year: '2022',
                     cup: 'Yamaha 盃',
@@ -1410,7 +1449,7 @@ new Vue({
                 number: '23',
                 name: '柏 燁',
                 active: true,
-                position: ['GK', 'MF', 'FW'],
+                position: ['GK', 'RM', 'CF'],
                 appearance: [{
                     year: '2022',
                     cup: 'Yamaha 盃',
@@ -1529,8 +1568,16 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 active: true,
-                position: ['GK', 'DF', 'FW'],
+                position: ['GK', 'RB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -1712,8 +1759,16 @@ new Vue({
                 number: '55',
                 name: '宥 融',
                 active: true,
-                position: ['GK', 'DF', 'MF'],
+                position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -1895,8 +1950,16 @@ new Vue({
                 number: '77',
                 name: '昕 叡',
                 active: true,
-                position: ['DF', 'MF'],
+                position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: '安聯小小世界盃',
                     g: '7',
@@ -2046,8 +2109,16 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 active: true,
-                position: ['GK', 'DF', 'MF', 'FW'],
+                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',

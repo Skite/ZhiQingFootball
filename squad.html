@@ -74,7 +74,7 @@
                             <button class="btn btn-outline-primary btn-sm" @click="setSortType('number')"><span>Kit Number</span></button>
                             <button class="btn btn-outline-primary btn-sm" @click="setSortType('totalMatches')"><span>Appearances</span></button>
                             <button class="btn btn-outline-primary btn-sm" @click="setSortType('totalGoals')"><span>Goals</span></button>
-                            <button class="btn btn-outline-primary btn-sm" @click="setSortType('totalAsts')"><span>Assitsts</span></button>
+                            <button class="btn btn-outline-primary btn-sm" @click="setSortType('totalAsts')"><span>Assists</span></button>
                             <button class="btn btn-outline-primary btn-sm" @click="setSortType('totalCS')"><span>Clean Sheets</span></button>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                                 <div class="profile-name"> {{ player.name }} </div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
-                                    <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
+                                    <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
                                 </div>
                                 <div class="profile-overview" v-if="player.matches !== '0'">
                                     <div class="profile-overview">
@@ -172,10 +172,10 @@
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Appearances</div>
-                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Apps</div>
+                                                        <div class="col">GS</div>
                                                         <div class="col">Goals</div>
-                                                        <div class="col">Assists</div>
+                                                        <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
                                                     <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2022'">
@@ -203,10 +203,10 @@
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Appearances</div>
-                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Apps</div>
+                                                        <div class="col">GS</div>
                                                         <div class="col">Goals</div>
-                                                        <div class="col">Assists</div>
+                                                        <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
                                                     <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
@@ -234,10 +234,10 @@
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Appearances</div>
-                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Apps</div>
+                                                        <div class="col">GS</div>
                                                         <div class="col">Goals</div>
-                                                        <div class="col">Assists</div>
+                                                        <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
                                                     <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
@@ -269,7 +269,7 @@
                                 <div class="profile-name"> {{ player.name }} </div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
-                                    <div class="position-item" v-for="pos in player.position">{{ pos }}</div>
+                                    <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
                                 </div>
                                 <div class="profile-overview" v-if="player.matches !== '0'">
                                     <div class="profile-overview">
@@ -321,10 +321,10 @@
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Appearances</div>
-                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Apps</div>
+                                                        <div class="col">GS</div>
                                                         <div class="col">Goals</div>
-                                                        <div class="col">Assists</div>
+                                                        <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
                                                     <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
@@ -352,10 +352,10 @@
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Appearances</div>
-                                                        <div class="col">Game Starts</div>
+                                                        <div class="col">Apps</div>
+                                                        <div class="col">GS</div>
                                                         <div class="col">Goals</div>
-                                                        <div class="col">Assists</div>
+                                                        <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
                                                     <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
