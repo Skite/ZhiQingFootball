@@ -11,7 +11,7 @@ new Vue({
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['RB', 'CF'],
+                position: ['RB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
@@ -186,7 +186,7 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 active: true,
-                position: ['GK', 'LB', 'RM', 'LM'],
+                position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
@@ -2109,7 +2109,7 @@ new Vue({
                 number: '97',
                 name: '宇 正',
                 active: true,
-                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
+                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
@@ -2316,7 +2316,7 @@ new Vue({
                 number: '2',
                 name: '定 宸',
                 active: false,
-                position: ['DF'],
+                position: ['RB', 'CB'],
                 appearance: [{
                     year: '2021',
                     cup: '春季大安盃',
@@ -2363,7 +2363,7 @@ new Vue({
                 number: '8',
                 name: '翊 愷',
                 active: false,
-                position: ['MF'],
+                position: [],
                 appearance: [{
                     year: '2021',
                     cup: '安聯小小世界盃',
@@ -2410,7 +2410,7 @@ new Vue({
                 number: '11',
                 name: '定 緯',
                 active: false,
-                position: ['MF'],
+                position: [],
                 appearance: [{
                     year: '2021',
                     cup: 'A-Star聖誕盃',
@@ -2433,7 +2433,7 @@ new Vue({
                 number: '22',
                 name: '明 澤',
                 active: false,
-                position: ['DF'],
+                position: ['RB', 'LB'],
                 appearance: [{
                     year: "2021",
                     cup: "安聯小小世界盃",
@@ -2488,7 +2488,7 @@ new Vue({
                 number: '30',
                 name: '品 叡',
                 active: false,
-                position: ['MF'],
+                position: [],
                 appearance: [{
                     year: '2020',
                     cup: '新北聯合盃',

@@ -154,18 +154,25 @@
     border: 1px solid #D0D0D0;
     overflow: auto;
     float: left;
+    cursor: pointer;
+}
+
+.position-selectors:hover {
+    background-color: #a9ecef;
 }
 
 .position-selectors label {
     float: left;
     width: 4.0em;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .position-selectors label span {
     text-align: center;
     padding: 3px 0px;
     display: block;
+    cursor: pointer;
 }
 
 .position-selectors label input {

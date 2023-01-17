@@ -83,31 +83,28 @@
                     <h2>
                         Player Filter
                     </h2>
-                    <div class="row my-2">
-                        <div class="search-wrapper panel-heading col-sm-5">
+                    <div class="row my-2 justify-content-between">
+                        <div class="search-wrapper panel-heading col-sm-3">
                             <input class="form-control" type="text" v-model="minNumber" :value="minNumber" placeholder="Kit Number (min)" />
                         </div>
-                        <div class="search-wrapper panel-heading col-sm-1">
-                            ~
-                        </div>
-                        <div class="search-wrapper panel-heading col-sm-5">
+                        ~
+                        <div class="search-wrapper panel-heading col-sm-3">
                             <input class="form-control" type="text" v-model="maxNumber" :value="maxNumber" placeholder="Kit Number (max)" />
                         </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="search-wrapper panel-heading col-sm-6">
-                            <div class="position-selectors" v-for="position in positions">
-                                <label>
-                                    <input type="radio" class="" v-model="selectedPosition" :value="position"><span>{{ position }}</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="search-wrapper panel-heading col-sm-6">
+                        <div class="search-wrapper panel-heading col-sm-4">
                             <input class="form-control" type="text" v-model="searchText" :value="searchText" placeholder="Player Name" />
                         </div>
                     </div>
-                    <div class="row my-2">
-                        <div class="col-sm-12">
+                    <div class="row my-2 justify-content-center">
+                        <div class="position-selectors" v-for="position in positions">
+                            <label>
+                                {{ position }}
+                                <input type="radio" class="text-center" v-model="selectedPosition" :value="position">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row my-2 justify-content-center">
+                        <div class="col-sm-2">
                             <button class="btn btn-primary" @click="resetFilter()">Clear Filter</button>
                         </div>
                     </div>
