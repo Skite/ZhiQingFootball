@@ -870,7 +870,7 @@ new Vue({
                 number: '13',
                 name: '邁 可',
                 active: true,
-                position: [''],
+                position: ['CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
