@@ -293,6 +293,10 @@ new Vue({
                 date: '1/14',
                 opponents: 'AC-Taipei-U10',
                 url: 'oyJ0mBRL#wBpZo74JnZz-OkoijWhcraRiMAgqqonTbZkOtICkgbA'
+            }, {
+                date: '1/28',
+                opponents: '皇家野馬',
+                url: '5rhiRZLZ#CG8ixx0rZGFhDK0c8xJZgBhuX4tWFeTHU0jkJMeg2rI'
             }],
             icon: 'fas fa-rabbit-fast'
         }],
@@ -659,11 +663,15 @@ new Vue({
         }, {
             id: 25,
             cupName: '2023金兔賀歲盃',
-            cover: '20221114-cover',
+            cover: '20230114-cover',
             photos: [{
                 date: '1/14',
                 opponents: 'AC Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/G7aAxSJzCrv9ynDK7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230114-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/28',
+                opponents: '皇家野馬',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/vHzPmsAoLPTmc5uo9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230228-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-rabbit-fast'
         }]
