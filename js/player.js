@@ -11,12 +11,12 @@ new Vue({
                 number: '3',
                 name: '晉 丞',
                 active: true,
-                position: ['RB', 'CF'],
+                position: ['RB', 'CB', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '1',
                     asts: '1',
                     cs: '0'
@@ -190,10 +190,10 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '2',
-                    asts: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '4',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: '2022',
@@ -365,7 +365,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '0',
@@ -691,10 +691,10 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
-                    asts: '0',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: '2022',
@@ -872,6 +872,14 @@ new Vue({
                 active: true,
                 position: [''],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: '黃蜂盃',
                     g: '2',
@@ -887,6 +895,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: '2022',
                     cup: '黃蜂盃',
                     g: '2',
@@ -1260,6 +1276,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'CM', 'RM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -1568,13 +1592,13 @@ new Vue({
                 number: '27',
                 name: '定 謙',
                 active: true,
-                position: ['GK', 'RB', 'CF'],
+                position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '1',
+                    g: '2',
+                    gs: '2',
+                    goals: '2',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -1763,11 +1787,11 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
                     asts: '3',
-                    cs: '0'
+                    cs: '1'
                 }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
@@ -1954,7 +1978,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '1',
@@ -2113,10 +2137,10 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '1',
-                    asts: '1',
+                    g: '2',
+                    gs: '2',
+                    goals: '4',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: '2022',

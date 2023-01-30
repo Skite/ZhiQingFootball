@@ -3824,6 +3824,71 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: ''
+            }, {
+                date: '20230128',
+                pitch: '新莊田徑場',
+                opponent: '皇家野馬',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-晉丞', 'LB-宥融', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '8 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '定謙',
+                    assist: '宇正'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: '邁可'
+                }, {
+                    name: '宥融',
+                    assist: '邁可'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '邁可',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['凱泰', '宥融'],
+                isCleanSheet: true,
+                instructors: ['柏豪', '家緯'],
+                note: ''
+            }, {
+                date: '20230129',
+                pitch: '新莊田徑場',
+                opponent: '皇家野馬',
+                formation: 'N/A',
+                starters: [''],
+                subs: [''],
+                subTeam: '大勇士',
+                final_score: '3 : 0*',
+                pso: '',
+                wdl: 'W',
+                scorers: [],
+                goalkeepers: [],
+                isCleanSheet: true,
+                instructors: [],
+                note: '對手皇家野馬因出賽人數不足棄賽，依大會規定裁決志清勇士 3 : 0 勝。'
             }]
         }]
     },
