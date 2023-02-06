@@ -3775,7 +3775,7 @@ new Vue({
             cupName: '金兔賀歲盃',
             system: '8人制',
             cover: '2023rabbitcup',
-            trophy: '',
+            trophy: '分組冠軍',
             team: [{
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
@@ -3889,6 +3889,52 @@ new Vue({
                 isCleanSheet: true,
                 instructors: [],
                 note: '對手皇家野馬因出賽人數不足棄賽，依大會規定裁決志清勇士 3 : 0 勝。'
+            }, {
+                date: '20230205',
+                pitch: '新莊田徑場',
+                opponent: 'ACTaipei-U10',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-善捷', 'RM-宥融', 'CM-皓宇', 'LM-柏燁', 'CF-定謙'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰', '宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }]
     },

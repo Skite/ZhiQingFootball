@@ -663,15 +663,19 @@ new Vue({
         }, {
             id: 25,
             cupName: '2023金兔賀歲盃',
-            cover: '20230114-cover',
+            cover: '20230205-cover',
             photos: [{
                 date: '1/14',
                 opponents: 'AC Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/G7aAxSJzCrv9ynDK7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230114-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/28',
+                date: '1/28',
                 opponents: '皇家野馬',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/vHzPmsAoLPTmc5uo9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230228-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/vHzPmsAoLPTmc5uo9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230128-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/5',
+                opponents: 'AC Taipei-U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/e1ny2UZiHxbyNmVUA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230205-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-rabbit-fast'
         }]
