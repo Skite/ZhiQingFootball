@@ -155,7 +155,7 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="accordion" id="accordionExample">
+                                    <div class="accordion" :id="`accordion${player.number}`">
                                         <div class="card text-primary">
                                             <div class="card-header" id="heading2023">
                                                 <h2 class="mb-0">
@@ -164,13 +164,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2023" class="collapse text-info show" aria-labelledby="year2023" data-parent="#accordionExample">
+                                            <div id="year2023" class="collapse text-info show" aria-labelledby="year2023" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -195,13 +195,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2022" class="collapse text-info" aria-labelledby="year2022" data-parent="#accordionExample">
+                                            <div id="year2022" class="collapse text-info" aria-labelledby="year2022" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -226,13 +226,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" data-parent="#accordionExample">
+                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -257,13 +257,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" data-parent="#accordionExample">
+                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -335,7 +335,7 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="accordion" id="accordionExample">
+                                    <div class="accordion" :id="`accordion${player.number}`">
                                         <div class="card text-success">
                                             <div class="card-header" id="heading2021">
                                                 <h2 class="mb-0">
@@ -344,13 +344,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" data-parent="#accordionExample">
+                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
@@ -375,13 +375,13 @@
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" data-parent="#accordionExample">
+                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col">Year</div>
                                                         <div class="col-3">Tournament</div>
-                                                        <div class="col">Apps</div>
-                                                        <div class="col">GS</div>
+                                                        <div class="col">GPs</div>
+                                                        <div class="col">Starts</div>
                                                         <div class="col">Goals</div>
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
