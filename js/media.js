@@ -297,6 +297,10 @@ new Vue({
                 date: '1/28',
                 opponents: '皇家野馬',
                 url: '5rhiRZLZ#CG8ixx0rZGFhDK0c8xJZgBhuX4tWFeTHU0jkJMeg2rI'
+            }, {
+                date: '2/5',
+                opponents: 'AC-Taipei-U10',
+                url: 'lyowGBKb#Rg0iHJ2VYrEgeJJ8InbYJpRW2wMGvc0JOGoBpwASP28'
             }],
             icon: 'fas fa-rabbit-fast'
         }],
