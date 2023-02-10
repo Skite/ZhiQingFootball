@@ -101,7 +101,15 @@
             </div>
         </div>
     </section>
-    <!-- <canvas id="myChart"></canvas> -->
+    <section class="charts">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Image Showcases -->
     <section class="showcase">
         <div class="container-fluid p-0">
@@ -284,23 +292,34 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript">
-    $.getJSON("js/dashboard.json", function(data) {
-        var labels = data.test_data.map(function(e) {
-            return e[0];
-        });
-        var data = data.test_data.map(function(e) {
-            return e[1];
-        });
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/goals.json", function(goals) {
+
+        // let goals = {
+        //     "five": ["80", "52", "24"],
+        //     "eight": ["17", "17", "73"],
+        //     "seven": ["0", "2", "0"]
+        // }
 
         var ctx = document.getElementById('myChart').getContext('2d');
         var chart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: labels,
+                labels: ["U8", "U9", "U10"],
                 datasets: [{
-                    backgroundColor: 'rgb(129, 198, 2228)',
+                    label: '5人制',
+                    backgroundColor: 'rgb(129, 198, 228)',
                     borderColor: 'rgb(0, 150, 215)',
-                    data: data
+                    data: goals.five
+                }, {
+                    label: '8人制',
+                    backgroundColor: 'rgb(168, 50, 119)',
+                    borderColor: 'rgb(207, 66, 148)',
+                    data: goals.eight
+                }, {
+                    label: '7人制',
+                    backgroundColor: 'rgb(49, 189, 119)',
+                    borderColor: 'rgb(38, 148, 93)',
+                    data: goals.seven
                 }]
             },
             options: {
