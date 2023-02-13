@@ -3713,7 +3713,7 @@ new Vue({
                 goalkeepers: ['宥融', '定謙'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: '依大會規定加踢 PSO 僅為若需要時決定晉級資格時之判斷依據，不影響比賽勝負'
+                note: 'PSO：維恩○ | 依大會規定加踢 PSO 僅為若需要時決定晉級資格時之判斷依據，不影響比賽勝負'
             }]
         }, {
             id: 25,
@@ -3935,6 +3935,207 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: ''
+            }]
+        }, {
+            id: 27,
+            year: '2023',
+            cupName: '明道盃',
+            system: '5人制',
+            cover: '2023mingdaocup',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230211',
+                pitch: '明道國小體育館',
+                opponent: '銘傳國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-皓宇', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '5 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '昕叡',
+                    assist: '宇正'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }, {
+                    name: '柏燁',
+                    assist: '定謙'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230211',
+                pitch: '明道國小體育館',
+                opponent: '明道國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-亮谷', 'LF-定謙'],
+                subs: [],
+                subTeam: '大勇士',
+                final_score: '0 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230211',
+                pitch: '明道國小體育館',
+                opponent: '建安國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-皓宇', 'LF-亮谷'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: 'p'
+                }, {
+                    name: '亮谷',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '晉丞',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230212',
+                pitch: '明道國小體育館',
+                opponent: '銘傳國小',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-宇正', 'LB-維恩', 'RF-昕叡', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '大勇士',
+                final_score: '3 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230212',
+                pitch: '明道國小體育館',
+                opponent: '建安國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-亮谷', 'LB-維恩', 'RF-皓宇', 'LF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '0 : 0',
+                pso: '3 : 4',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: 'PSO：亮谷○、宇正×、維恩○、黃衍○、宥融×、皓宇×、定謙×'
             }]
         }]
     },

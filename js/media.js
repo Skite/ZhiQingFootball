@@ -303,6 +303,16 @@ new Vue({
                 url: 'lyowGBKb#Rg0iHJ2VYrEgeJJ8InbYJpRW2wMGvc0JOGoBpwASP28'
             }],
             icon: 'fas fa-rabbit-fast'
+        }, {
+            id: 18,
+            cupName: '2023明道盃',
+            cover: '2023mingdaocup',
+            videos: [{
+                date: '2/11',
+                opponents: '銘傳國小、明道國小、建安國小',
+                url: 'lvRAQb6D#5oioaCW_fUh_tS9KlsXDmyb7RrPzZaM_gYaRjxS9ZsY'
+            }],
+            icon: 'fab fa-medium'
         }],
         photos: [{
             id: 1,
@@ -682,6 +692,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/e1ny2UZiHxbyNmVUA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230205-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-rabbit-fast'
+        }, {
+            id: 26,
+            cupName: '2023明道盃',
+            cover: '20230211-cover',
+            photos: [{
+                date: '2/11',
+                opponents: '銘傳國小、明道國小、建安國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3qRhJwP9qeqhdUKU7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230211-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-medium'
         }]
     },
     methods: {},

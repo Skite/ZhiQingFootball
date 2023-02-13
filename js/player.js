@@ -14,6 +14,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
                     gs: '2',
@@ -188,6 +196,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '3',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
@@ -364,6 +380,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
                     gs: '2',
@@ -522,6 +546,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '1',
@@ -697,6 +729,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '3',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
@@ -881,6 +921,14 @@ new Vue({
                 position: ['CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '2',
                     gs: '0',
@@ -903,6 +951,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '2',
@@ -1070,6 +1126,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '2',
@@ -1285,6 +1349,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '2',
                     gs: '1',
@@ -1483,6 +1555,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2022',
                     cup: 'Yamaha 盃',
                     g: '2',
@@ -1602,6 +1682,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
@@ -1794,6 +1882,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '4',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
                     gs: '3',
@@ -1985,6 +2081,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',
                     gs: '0',
@@ -2143,6 +2247,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '金兔賀歲盃',
                     g: '3',

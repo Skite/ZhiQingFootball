@@ -101,17 +101,44 @@
             </div>
         </div>
     </section>
-    <section class="charts">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <canvas id="myChart"></canvas>
+    <section class="charts text-center">
+        <div class="container-fluid px-4">
+            <h2 class="my-5">球隊成績</h2>
+            <div class="row my-4">
+                <div class="col-4">
+                    <h5 class="text-center">Matches</h5>
+                    <canvas id="matches"></canvas>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">Win-Lose</h5>
+                    <canvas id="winlose"></canvas>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">Win Pct.</h5>
+                    <canvas id="winpct"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-4">
+            <h2 class="my-5">球隊成績</h2>
+            <div class="row my-4">
+                <div class="col-4">
+                    <h5 class="text-center">CS</h5>
+                    <canvas id="cs"></canvas>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">Goals</h5>
+                    <canvas id="goals"></canvas>
+                </div>
+                <div class="col-4">
+                    <h5 class="text-center">GD</h5>
+                    <canvas id="gd"></canvas>
                 </div>
             </div>
         </div>
     </section>
     <!-- Image Showcases -->
-    <section class="showcase">
+    <!-- <section class="showcase">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
@@ -162,7 +189,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Testimonials -->
     <section class="testimonials text-center bg-secondary">
         <div class="container">
@@ -292,38 +319,210 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript">
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/goals.json", function(goals) {
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/matches.json", function(matches) {
 
-        // let goals = {
-        //     "five": ["80", "52", "24"],
-        //     "eight": ["17", "17", "73"],
-        //     "seven": ["0", "2", "0"]
-        // }
-
-        var ctx = document.getElementById('myChart').getContext('2d');
+        var ctx = document.getElementById('matches').getContext('2d');
         var chart = new Chart(ctx, {
             type: 'line',
             data: {
                 labels: ["U8", "U9", "U10"],
                 datasets: [{
                     label: '5人制',
-                    backgroundColor: 'rgb(129, 198, 228)',
-                    borderColor: 'rgb(0, 150, 215)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: matches.five
+                }, {
+                    label: '8人制',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: matches.eight
+                }, {
+                    label: '7人制',
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
+                    data: matches.seven
+                }]
+            },
+            options: {
+                responsive: 'true',
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 30,
+                    }
+                }
+            }
+        });
+    });
+
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/goals.json", function(goals) {
+
+        var ctx = document.getElementById('goals').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["U8", "U9", "U10"],
+                datasets: [{
+                    label: '5人制',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
                     data: goals.five
                 }, {
                     label: '8人制',
-                    backgroundColor: 'rgb(168, 50, 119)',
-                    borderColor: 'rgb(207, 66, 148)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
                     data: goals.eight
                 }, {
                     label: '7人制',
-                    backgroundColor: 'rgb(49, 189, 119)',
-                    borderColor: 'rgb(38, 148, 93)',
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
                     data: goals.seven
                 }]
             },
             options: {
                 responsive: 'true',
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 100,
+                    }
+                }
+            }
+        });
+    });
+
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/gd.json", function(gd) {
+
+        var ctx = document.getElementById('gd').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["U8", "U9", "U10"],
+                datasets: [{
+                    label: '5人制',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: gd.five
+                }, {
+                    label: '8人制',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: gd.eight
+                }, {
+                    label: '7人制',
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
+                    data: gd.seven
+                }]
+            },
+            options: {
+                responsive: 'true',
+                borderWidth: 2,
+                scales: {
+                    y: {
+                        min: -50,
+                        max: 50,
+                    }
+                }
+            }
+        });
+    });
+
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/cs.json", function(cs) {
+
+        var ctx = document.getElementById('cs').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["U8", "U9", "U10"],
+                datasets: [{
+                    label: '5人制',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: cs.five
+                }, {
+                    label: '8人制',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: cs.eight
+                }, {
+                    label: '7人制',
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
+                    data: cs.seven
+                }]
+            },
+            options: {
+                responsive: 'true',
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 15,
+                    }
+                }
+            }
+        });
+    });
+
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/winpct.json", function(winpct) {
+
+        var ctx = document.getElementById('winpct').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["U8", "U9", "U10"],
+                datasets: [{
+                    label: '5人制',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: winpct.five
+                }, {
+                    label: '8人制',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: winpct.eight
+                }, {
+                    label: '7人制',
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
+                    data: winpct.seven
+                }]
+            },
+            options: {
+                responsive: 'true',
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 100,
+                    }
+                }
+            }
+        });
+    });
+
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/winlose.json", function(winlose) {
+
+        var ctx = document.getElementById('winlose').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ["5人制-U8", "5人制-U9", "5人制-U10"],
+                datasets: [{
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [winlose.wins.five[0], winlose.draws.five[0], winlose, loses.five[0]]
+                }, {
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: [winlose.wins.five[1], winlose.draws.five[1], winlose, loses.five[1]]
+                }, {
+                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
+                    borderColor: 'rgb(255, 205, 86)',
+                    data: [winlose.wins.five[2], winlose.draws.five[2], winlose, loses.five[2]]
+                }]
+            },
+            options: {
+                responsive: 'true'
             }
         });
     });
