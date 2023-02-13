@@ -102,35 +102,46 @@
         </div>
     </section>
     <section class="charts text-center">
-        <div class="container-fluid px-4">
+        <div class="container px-4">
             <h2 class="my-5">球隊成績</h2>
             <div class="row my-4">
-                <div class="col-4">
+                <div class="col">
                     <h5 class="text-center">Matches</h5>
                     <canvas id="matches"></canvas>
                 </div>
-                <div class="col-4">
-                    <h5 class="text-center">Win-Lose</h5>
-                    <canvas id="winlose"></canvas>
-                </div>
-                <div class="col-4">
+                <div class="col">
                     <h5 class="text-center">Win Pct.</h5>
                     <canvas id="winpct"></canvas>
                 </div>
             </div>
         </div>
-        <div class="container-fluid px-4">
-            <h2 class="my-5">球隊成績</h2>
+        <div class="container px-4">
             <div class="row my-4">
-                <div class="col-4">
+                <div class="col">
+                    <h5 class="text-center">Win-Lose 5人制</h5>
+                    <canvas id="winlosefive"></canvas>
+                </div>
+                <div class="col">
+                    <h5 class="text-center">Win-Lose 8人制</h5>
+                    <canvas id="winloseeight"></canvas>
+                </div>
+                <div class="col">
+                    <h5 class="text-center">Win-Lose 7人制</h5>
+                    <canvas id="winloseseven"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4">
+            <div class="row my-4">
+                <div class="col">
                     <h5 class="text-center">CS</h5>
                     <canvas id="cs"></canvas>
                 </div>
-                <div class="col-4">
+                <div class="col">
                     <h5 class="text-center">Goals</h5>
                     <canvas id="goals"></canvas>
                 </div>
-                <div class="col-4">
+                <div class="col">
                     <h5 class="text-center">GD</h5>
                     <canvas id="gd"></canvas>
                 </div>
@@ -502,29 +513,123 @@
 
     $.getJSON("https://skite.github.io/ZhiQinFootball/data/winlose.json", function(winlose) {
 
-        var ctx = document.getElementById('winlose').getContext('2d');
-        var chart = new Chart(ctx, {
+        let u8color = ['rgba(255, 99, 132, 0.8)', 'rgba(255, 99, 132, 0.5)', 'rgba(255, 99, 132, 0.2)']
+        let u9color = ['rgba(75, 192, 192, 0.8)', 'rgba(75, 192, 192, 0.5)', 'rgba(75, 192, 192, 0.2)']
+        let u10color = ['rgba(255, 205, 86, 0.8)', 'rgba(255, 205, 86, 0.5)', 'rgba(255, 205, 86, 0.2)']
+
+        let data5 = {
+            labels: ["勝", "和", "敗"],
+            datasets: [{
+                label: 'U10',
+                backgroundColor: u8color,
+                borderColor: 'rgb(255, 99, 132)',
+                data: [winlose.Wins.five[2], winlose.Draws.five[2], winlose.Loses.five[2]]
+            }, {
+                label: 'U9',
+                backgroundColor: u9color,
+                borderColor: 'rgb(75, 192, 192)',
+                data: [winlose.Wins.five[1], winlose.Draws.five[1], winlose.Loses.five[1]]
+            }, {
+                label: 'U8',
+                backgroundColor: u10color,
+                borderColor: 'rgb(255, 205, 86)',
+                data: [winlose.Wins.five[0], winlose.Draws.five[0], winlose.Loses.five[0]]
+            }]
+        };
+
+        let data8 = {
+            labels: ["勝", "和", "敗"],
+            datasets: [{
+                label: 'U10',
+                backgroundColor: u8color,
+                borderColor: 'rgb(255, 99, 132)',
+                data: [winlose.Wins.eight[2], winlose.Draws.eight[2], winlose.Loses.eight[2]]
+            }, {
+                label: 'U9',
+                backgroundColor: u9color,
+                borderColor: 'rgb(75, 192, 192)',
+                data: [winlose.Wins.eight[1], winlose.Draws.eight[1], winlose.Loses.eight[1]]
+            }, {
+                label: 'U8',
+                backgroundColor: u10color,
+                borderColor: 'rgb(255, 205, 86)',
+                data: [winlose.Wins.eight[0], winlose.Draws.eight[0], winlose.Loses.eight[0]]
+            }]
+        };
+
+        let data7 = {
+            labels: ["勝", "和", "敗"],
+            datasets: [{
+                label: 'U10',
+                backgroundColor: u8color,
+                borderColor: 'rgb(255, 99, 132)',
+                data: [winlose.Wins.seven[2], winlose.Draws.seven[2], winlose.Loses.seven[2]]
+            }, {
+                label: 'U9',
+                backgroundColor: u9color,
+                borderColor: 'rgb(75, 192, 192)',
+                data: [winlose.Wins.seven[1], winlose.Draws.seven[1], winlose.Loses.seven[1]]
+            }, {
+                label: 'U8',
+                backgroundColor: u10color,
+                borderColor: 'rgb(255, 205, 86)',
+                data: [winlose.Wins.seven[0], winlose.Draws.seven[0], winlose.Loses.seven[0]]
+            }]
+        };
+
+        var ctx1 = document.getElementById('winlosefive').getContext('2d');
+        var chart1 = new Chart(ctx1, {
             type: 'doughnut',
-            data: {
-                labels: ["5人制-U8", "5人制-U9", "5人制-U10"],
-                datasets: [{
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [winlose.wins.five[0], winlose.draws.five[0], winlose, loses.five[0]]
-                }, {
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [winlose.wins.five[1], winlose.draws.five[1], winlose, loses.five[1]]
-                }, {
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [winlose.wins.five[2], winlose.draws.five[2], winlose, loses.five[2]]
-                }]
-            },
+            data: data5,
             options: {
-                responsive: 'true'
+                responsive: 'true',
+                cutout: '30%',
+                plugins: {
+                    datalabels: {
+                        textAlign: 'center'
+                    },
+                    legend: {
+                        display: true
+                    }
+                }
             }
-        });
+        })
+
+        var ctx2 = document.getElementById('winloseeight').getContext('2d');
+        var chart2 = new Chart(ctx2, {
+            type: 'doughnut',
+            data: data8,
+            options: {
+                responsive: 'true',
+                cutout: '30%',
+                plugins: {
+                    datalabels: {
+                        textAlign: 'center'
+                    },
+                    legend: {
+                        display: true
+                    }
+                }
+            }
+        })
+
+        var ctx3 = document.getElementById('winloseseven').getContext('2d');
+        var chart3 = new Chart(ctx3, {
+            type: 'doughnut',
+            data: data7,
+            options: {
+                responsive: 'true',
+                cutout: '30%',
+                plugins: {
+                    datalabels: {
+                        textAlign: 'center'
+                    },
+                    legend: {
+                        display: true
+                    }
+                }
+            }
+        })
     });
     </script>
 </body>
