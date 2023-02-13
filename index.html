@@ -106,11 +106,11 @@
             <h2 class="my-5">球隊成績</h2>
             <div class="row my-4">
                 <div class="col">
-                    <h5 class="text-center">Matches</h5>
+                    <h5 class="text-center">場次</h5>
                     <canvas id="matches"></canvas>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">Win Pct.</h5>
+                    <h5 class="text-center">勝率</h5>
                     <canvas id="winpct"></canvas>
                 </div>
             </div>
@@ -118,15 +118,15 @@
         <div class="container px-4">
             <div class="row my-4">
                 <div class="col">
-                    <h5 class="text-center">Win-Lose 5人制</h5>
+                    <h5 class="text-center">勝-和-敗 5人制</h5>
                     <canvas id="winlosefive"></canvas>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">Win-Lose 8人制</h5>
+                    <h5 class="text-center">勝-和-敗 8人制</h5>
                     <canvas id="winloseeight"></canvas>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">Win-Lose 7人制</h5>
+                    <h5 class="text-center">勝-和-敗 7人制</h5>
                     <canvas id="winloseseven"></canvas>
                 </div>
             </div>
@@ -134,15 +134,15 @@
         <div class="container px-4">
             <div class="row my-4">
                 <div class="col">
-                    <h5 class="text-center">CS</h5>
+                    <h5 class="text-center">完封</h5>
                     <canvas id="cs"></canvas>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">Goals</h5>
+                    <h5 class="text-center">進球</h5>
                     <canvas id="goals"></canvas>
                 </div>
                 <div class="col">
-                    <h5 class="text-center">GD</h5>
+                    <h5 class="text-center">得失球差</h5>
                     <canvas id="gd"></canvas>
                 </div>
             </div>
@@ -334,7 +334,7 @@
 
         var ctx = document.getElementById('matches').getContext('2d');
         var chart = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                 labels: ["U8", "U9", "U10"],
                 datasets: [{
@@ -356,6 +356,7 @@
             },
             options: {
                 responsive: 'true',
+                borderWidth: 2,
                 scales: {
                     y: {
                         min: 0,
@@ -370,7 +371,7 @@
 
         var ctx = document.getElementById('goals').getContext('2d');
         var chart = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                 labels: ["U8", "U9", "U10"],
                 datasets: [{
@@ -392,6 +393,7 @@
             },
             options: {
                 responsive: 'true',
+                borderWidth: 2,
                 scales: {
                     y: {
                         min: 0,
@@ -443,7 +445,7 @@
 
         var ctx = document.getElementById('cs').getContext('2d');
         var chart = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                 labels: ["U8", "U9", "U10"],
                 datasets: [{
@@ -465,6 +467,7 @@
             },
             options: {
                 responsive: 'true',
+                borderWidth: 2,
                 scales: {
                     y: {
                         min: 0,
@@ -479,7 +482,7 @@
 
         var ctx = document.getElementById('winpct').getContext('2d');
         var chart = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                 labels: ["U8", "U9", "U10"],
                 datasets: [{
@@ -501,6 +504,7 @@
             },
             options: {
                 responsive: 'true',
+                borderWidth: 2,
                 scales: {
                     y: {
                         min: 0,
@@ -513,26 +517,21 @@
 
     $.getJSON("https://skite.github.io/ZhiQinFootball/data/winlose.json", function(winlose) {
 
-        let u8color = ['rgba(255, 99, 132, 0.8)', 'rgba(255, 99, 132, 0.5)', 'rgba(255, 99, 132, 0.2)']
-        let u9color = ['rgba(75, 192, 192, 0.8)', 'rgba(75, 192, 192, 0.5)', 'rgba(75, 192, 192, 0.2)']
-        let u10color = ['rgba(255, 205, 86, 0.8)', 'rgba(255, 205, 86, 0.5)', 'rgba(255, 205, 86, 0.2)']
+        let color = ['rgba(235, 64, 52, 0.8)', 'rgba(111, 242, 240, 0.8)', 'rgba(109, 110, 110, 0.8)']
 
         let data5 = {
             labels: ["勝", "和", "敗"],
             datasets: [{
                 label: 'U10',
-                backgroundColor: u8color,
-                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: color,
                 data: [winlose.Wins.five[2], winlose.Draws.five[2], winlose.Loses.five[2]]
             }, {
                 label: 'U9',
-                backgroundColor: u9color,
-                borderColor: 'rgb(75, 192, 192)',
+                backgroundColor: color,
                 data: [winlose.Wins.five[1], winlose.Draws.five[1], winlose.Loses.five[1]]
             }, {
                 label: 'U8',
-                backgroundColor: u10color,
-                borderColor: 'rgb(255, 205, 86)',
+                backgroundColor: color,
                 data: [winlose.Wins.five[0], winlose.Draws.five[0], winlose.Loses.five[0]]
             }]
         };
@@ -541,18 +540,15 @@
             labels: ["勝", "和", "敗"],
             datasets: [{
                 label: 'U10',
-                backgroundColor: u8color,
-                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: color,
                 data: [winlose.Wins.eight[2], winlose.Draws.eight[2], winlose.Loses.eight[2]]
             }, {
                 label: 'U9',
-                backgroundColor: u9color,
-                borderColor: 'rgb(75, 192, 192)',
+                backgroundColor: color,
                 data: [winlose.Wins.eight[1], winlose.Draws.eight[1], winlose.Loses.eight[1]]
             }, {
                 label: 'U8',
-                backgroundColor: u10color,
-                borderColor: 'rgb(255, 205, 86)',
+                backgroundColor: color,
                 data: [winlose.Wins.eight[0], winlose.Draws.eight[0], winlose.Loses.eight[0]]
             }]
         };
@@ -561,18 +557,15 @@
             labels: ["勝", "和", "敗"],
             datasets: [{
                 label: 'U10',
-                backgroundColor: u8color,
-                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: color,
                 data: [winlose.Wins.seven[2], winlose.Draws.seven[2], winlose.Loses.seven[2]]
             }, {
                 label: 'U9',
-                backgroundColor: u9color,
-                borderColor: 'rgb(75, 192, 192)',
+                backgroundColor: color,
                 data: [winlose.Wins.seven[1], winlose.Draws.seven[1], winlose.Loses.seven[1]]
             }, {
                 label: 'U8',
-                backgroundColor: u10color,
-                borderColor: 'rgb(255, 205, 86)',
+                backgroundColor: color,
                 data: [winlose.Wins.seven[0], winlose.Draws.seven[0], winlose.Loses.seven[0]]
             }]
         };
