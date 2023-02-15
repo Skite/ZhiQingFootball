@@ -1128,7 +1128,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '國小世界盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
