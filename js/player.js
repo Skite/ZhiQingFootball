@@ -1127,6 +1127,14 @@ new Vue({
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
                     year: '2023',
+                    cup: '國小世界盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '明道盃',
                     g: '5',
                     gs: '5',

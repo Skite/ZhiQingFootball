@@ -330,7 +330,13 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript">
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/matches.json", function(matches) {
+    $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(stats) {
+
+        function getData(size, grade, category) {
+            let dataName = size + grade + category
+            const data = stats.size.grade.category
+            return data
+        }
 
         var ctx = document.getElementById('matches').getContext('2d');
         var chart = new Chart(ctx, {
@@ -341,17 +347,17 @@
                     label: '5人制',
                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: matches.five
+                    data: [getData("five", "U8", "matches"), getData("five", "U9", "matches"), getData("five", "U10", "matches"), ]
                 }, {
                     label: '8人制',
                     backgroundColor: 'rgba(75, 192, 192, 0.2)',
                     borderColor: 'rgb(75, 192, 192)',
-                    data: matches.eight
+                    data: [getData("eight", "U8", "matches"), getData("eight", "U9", "matches"), getData("eight", "U10", "matches"), ]
                 }, {
                     label: '7人制',
                     backgroundColor: 'rgba(255, 205, 86, 0.2)',
                     borderColor: 'rgb(255, 205, 86)',
-                    data: matches.seven
+                    data: [getData("seven", "U8", "matches"), getData("seven", "U9", "matches"), getData("seven", "U10", "matches"), ]
                 }]
             },
             options: {
@@ -367,263 +373,263 @@
         });
     });
 
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/goals.json", function(goals) {
+    // $.getJSON("https://skite.github.io/ZhiQinFootball/data/goals.json", function(goals) {
 
-        var ctx = document.getElementById('goals').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: goals.five
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: goals.eight
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: goals.seven
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 100,
-                    }
-                }
-            }
-        });
-    });
+    //     var ctx = document.getElementById('goals').getContext('2d');
+    //     var chart = new Chart(ctx, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: ["U8", "U9", "U10"],
+    //             datasets: [{
+    //                 label: '5人制',
+    //                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    //                 borderColor: 'rgb(255, 99, 132)',
+    //                 data: goals.five
+    //             }, {
+    //                 label: '8人制',
+    //                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    //                 borderColor: 'rgb(75, 192, 192)',
+    //                 data: goals.eight
+    //             }, {
+    //                 label: '7人制',
+    //                 backgroundColor: 'rgba(255, 205, 86, 0.2)',
+    //                 borderColor: 'rgb(255, 205, 86)',
+    //                 data: goals.seven
+    //             }]
+    //         },
+    //         options: {
+    //             responsive: 'true',
+    //             borderWidth: 2,
+    //             scales: {
+    //                 y: {
+    //                     min: 0,
+    //                     max: 100,
+    //                 }
+    //             }
+    //         }
+    //     });
+    // });
 
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/gd.json", function(gd) {
+    // $.getJSON("https://skite.github.io/ZhiQinFootball/data/gd.json", function(gd) {
 
-        var ctx = document.getElementById('gd').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: gd.five
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: gd.eight
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: gd.seven
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: -50,
-                        max: 50,
-                    }
-                }
-            }
-        });
-    });
+    //     var ctx = document.getElementById('gd').getContext('2d');
+    //     var chart = new Chart(ctx, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: ["U8", "U9", "U10"],
+    //             datasets: [{
+    //                 label: '5人制',
+    //                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    //                 borderColor: 'rgb(255, 99, 132)',
+    //                 data: gd.five
+    //             }, {
+    //                 label: '8人制',
+    //                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    //                 borderColor: 'rgb(75, 192, 192)',
+    //                 data: gd.eight
+    //             }, {
+    //                 label: '7人制',
+    //                 backgroundColor: 'rgba(255, 205, 86, 0.2)',
+    //                 borderColor: 'rgb(255, 205, 86)',
+    //                 data: gd.seven
+    //             }]
+    //         },
+    //         options: {
+    //             responsive: 'true',
+    //             borderWidth: 2,
+    //             scales: {
+    //                 y: {
+    //                     min: -50,
+    //                     max: 50,
+    //                 }
+    //             }
+    //         }
+    //     });
+    // });
 
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/cs.json", function(cs) {
+    // $.getJSON("https://skite.github.io/ZhiQinFootball/data/cs.json", function(cs) {
 
-        var ctx = document.getElementById('cs').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: cs.five
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: cs.eight
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: cs.seven
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 15,
-                    }
-                }
-            }
-        });
-    });
+    //     var ctx = document.getElementById('cs').getContext('2d');
+    //     var chart = new Chart(ctx, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: ["U8", "U9", "U10"],
+    //             datasets: [{
+    //                 label: '5人制',
+    //                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    //                 borderColor: 'rgb(255, 99, 132)',
+    //                 data: cs.five
+    //             }, {
+    //                 label: '8人制',
+    //                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    //                 borderColor: 'rgb(75, 192, 192)',
+    //                 data: cs.eight
+    //             }, {
+    //                 label: '7人制',
+    //                 backgroundColor: 'rgba(255, 205, 86, 0.2)',
+    //                 borderColor: 'rgb(255, 205, 86)',
+    //                 data: cs.seven
+    //             }]
+    //         },
+    //         options: {
+    //             responsive: 'true',
+    //             borderWidth: 2,
+    //             scales: {
+    //                 y: {
+    //                     min: 0,
+    //                     max: 15,
+    //                 }
+    //             }
+    //         }
+    //     });
+    // });
 
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/winpct.json", function(winpct) {
+    // $.getJSON("https://skite.github.io/ZhiQinFootball/data/winpct.json", function(winpct) {
 
-        var ctx = document.getElementById('winpct').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: winpct.five
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: winpct.eight
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: winpct.seven
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 100,
-                    }
-                }
-            }
-        });
-    });
+    //     var ctx = document.getElementById('winpct').getContext('2d');
+    //     var chart = new Chart(ctx, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: ["U8", "U9", "U10"],
+    //             datasets: [{
+    //                 label: '5人制',
+    //                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    //                 borderColor: 'rgb(255, 99, 132)',
+    //                 data: winpct.five
+    //             }, {
+    //                 label: '8人制',
+    //                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
+    //                 borderColor: 'rgb(75, 192, 192)',
+    //                 data: winpct.eight
+    //             }, {
+    //                 label: '7人制',
+    //                 backgroundColor: 'rgba(255, 205, 86, 0.2)',
+    //                 borderColor: 'rgb(255, 205, 86)',
+    //                 data: winpct.seven
+    //             }]
+    //         },
+    //         options: {
+    //             responsive: 'true',
+    //             borderWidth: 2,
+    //             scales: {
+    //                 y: {
+    //                     min: 0,
+    //                     max: 100,
+    //                 }
+    //             }
+    //         }
+    //     });
+    // });
 
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/winlose.json", function(winlose) {
+    // $.getJSON("https://skite.github.io/ZhiQinFootball/data/winlose.json", function(winlose) {
 
-        let color = ['rgba(235, 64, 52, 0.8)', 'rgba(111, 242, 240, 0.8)', 'rgba(109, 110, 110, 0.8)']
+    //     let color = ['rgba(235, 64, 52, 0.8)', 'rgba(111, 242, 240, 0.8)', 'rgba(109, 110, 110, 0.8)']
 
-        let data5 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [winlose.Wins.five[2], winlose.Draws.five[2], winlose.Loses.five[2]]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [winlose.Wins.five[1], winlose.Draws.five[1], winlose.Loses.five[1]]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [winlose.Wins.five[0], winlose.Draws.five[0], winlose.Loses.five[0]]
-            }]
-        };
+    //     let data5 = {
+    //         labels: ["勝", "和", "敗"],
+    //         datasets: [{
+    //             label: 'U10',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.five[2], winlose.Draws.five[2], winlose.Loses.five[2]]
+    //         }, {
+    //             label: 'U9',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.five[1], winlose.Draws.five[1], winlose.Loses.five[1]]
+    //         }, {
+    //             label: 'U8',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.five[0], winlose.Draws.five[0], winlose.Loses.five[0]]
+    //         }]
+    //     };
 
-        let data8 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [winlose.Wins.eight[2], winlose.Draws.eight[2], winlose.Loses.eight[2]]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [winlose.Wins.eight[1], winlose.Draws.eight[1], winlose.Loses.eight[1]]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [winlose.Wins.eight[0], winlose.Draws.eight[0], winlose.Loses.eight[0]]
-            }]
-        };
+    //     let data8 = {
+    //         labels: ["勝", "和", "敗"],
+    //         datasets: [{
+    //             label: 'U10',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.eight[2], winlose.Draws.eight[2], winlose.Loses.eight[2]]
+    //         }, {
+    //             label: 'U9',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.eight[1], winlose.Draws.eight[1], winlose.Loses.eight[1]]
+    //         }, {
+    //             label: 'U8',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.eight[0], winlose.Draws.eight[0], winlose.Loses.eight[0]]
+    //         }]
+    //     };
 
-        let data7 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [winlose.Wins.seven[2], winlose.Draws.seven[2], winlose.Loses.seven[2]]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [winlose.Wins.seven[1], winlose.Draws.seven[1], winlose.Loses.seven[1]]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [winlose.Wins.seven[0], winlose.Draws.seven[0], winlose.Loses.seven[0]]
-            }]
-        };
+    //     let data7 = {
+    //         labels: ["勝", "和", "敗"],
+    //         datasets: [{
+    //             label: 'U10',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.seven[2], winlose.Draws.seven[2], winlose.Loses.seven[2]]
+    //         }, {
+    //             label: 'U9',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.seven[1], winlose.Draws.seven[1], winlose.Loses.seven[1]]
+    //         }, {
+    //             label: 'U8',
+    //             backgroundColor: color,
+    //             data: [winlose.Wins.seven[0], winlose.Draws.seven[0], winlose.Loses.seven[0]]
+    //         }]
+    //     };
 
-        var ctx1 = document.getElementById('winlosefive').getContext('2d');
-        var chart1 = new Chart(ctx1, {
-            type: 'doughnut',
-            data: data5,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
+    //     var ctx1 = document.getElementById('winlosefive').getContext('2d');
+    //     var chart1 = new Chart(ctx1, {
+    //         type: 'doughnut',
+    //         data: data5,
+    //         options: {
+    //             responsive: 'true',
+    //             cutout: '30%',
+    //             plugins: {
+    //                 datalabels: {
+    //                     textAlign: 'center'
+    //                 },
+    //                 legend: {
+    //                     display: true
+    //                 }
+    //             }
+    //         }
+    //     })
 
-        var ctx2 = document.getElementById('winloseeight').getContext('2d');
-        var chart2 = new Chart(ctx2, {
-            type: 'doughnut',
-            data: data8,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
+    //     var ctx2 = document.getElementById('winloseeight').getContext('2d');
+    //     var chart2 = new Chart(ctx2, {
+    //         type: 'doughnut',
+    //         data: data8,
+    //         options: {
+    //             responsive: 'true',
+    //             cutout: '30%',
+    //             plugins: {
+    //                 datalabels: {
+    //                     textAlign: 'center'
+    //                 },
+    //                 legend: {
+    //                     display: true
+    //                 }
+    //             }
+    //         }
+    //     })
 
-        var ctx3 = document.getElementById('winloseseven').getContext('2d');
-        var chart3 = new Chart(ctx3, {
-            type: 'doughnut',
-            data: data7,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
-    });
+    //     var ctx3 = document.getElementById('winloseseven').getContext('2d');
+    //     var chart3 = new Chart(ctx3, {
+    //         type: 'doughnut',
+    //         data: data7,
+    //         options: {
+    //             responsive: 'true',
+    //             cutout: '30%',
+    //             plugins: {
+    //                 datalabels: {
+    //                     textAlign: 'center'
+    //                 },
+    //                 legend: {
+    //                     display: true
+    //                 }
+    //             }
+    //         }
+    //     })
+    // });
     </script>
 </body>
 
