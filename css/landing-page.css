@@ -235,3 +235,8 @@ nav-pills-custom .nav-link {
     min-height: 100vh;
     background: linear-gradient(to left, #45b649, #30b191);
 }
+
+.chart {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
