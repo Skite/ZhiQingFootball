@@ -10,6 +10,7 @@ new Vue({
         players: [{
                 number: '3',
                 name: '晉 丞',
+                info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與創造得分機會。',
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
@@ -193,6 +194,7 @@ new Vue({
             {
                 number: '7',
                 name: '黃 衍',
+                info: '球隊元老成員之一，有著出色的速度和身體條件，身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。',
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -376,6 +378,7 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
+                info: '一年級時加入球隊，在防守端下足苦功，是球隊後防不可缺少的大將。進入中年級後亦加強了進攻意識與技巧，向全能球員之路邁進。',
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
@@ -543,6 +546,7 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
+                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的力量，把守大門的功力亦十分了得。',
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
@@ -726,6 +730,7 @@ new Vue({
             {
                 number: '12',
                 name: '皓 宇',
+                info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中場指揮官等多種角色的多面手。',
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
@@ -917,6 +922,7 @@ new Vue({
             {
                 number: '13',
                 name: '邁 可',
+                info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。',
                 active: true,
                 position: ['CF'],
                 appearance: [{
@@ -948,6 +954,7 @@ new Vue({
             {
                 number: '15',
                 name: '凱 泰',
+                info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。',
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
@@ -1123,6 +1130,7 @@ new Vue({
             {
                 number: '18',
                 name: '維 恩（C）',
+                info: '球隊的創隊元老之一，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。目前擔任球隊隊長的他，用全能的身手帶領著大家立下無數戰功，是球隊最重要支柱。',
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
@@ -1338,6 +1346,7 @@ new Vue({
             // {
             //     number: '20',
             //     name: '瑀 東',
+            //     info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，常有讓人驚艷的表現。',
             //     active: true,
             //     position: [''],
             //     appearance: [{
@@ -1353,6 +1362,7 @@ new Vue({
             {
                 number: '21',
                 name: '亮 谷（VC）',
+                info: '二年級加入球隊時表現就已相當亮眼，身為球隊裡足球知識最豐富的小博士，有著頂級的視野、傳球和閱讀比賽的能力。是擔任球場大腦、中場指揮官的不二人選。',
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
@@ -1560,6 +1570,7 @@ new Vue({
             {
                 number: '23',
                 name: '柏 燁',
+                info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。身兼交響樂團首席的他，為球隊提供能文能武的滿滿活力。',
                 active: true,
                 position: ['GK', 'RM', 'CF'],
                 appearance: [{
@@ -1687,6 +1698,7 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
+                info: '二年級時加入球隊，是隊上力量最強、身材最好的球員。不但把守大門的功夫了得，當需要身體對抗時，無論遇到什麼樣的對手也都不會落於下風。',
                 active: true,
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
@@ -1886,6 +1898,7 @@ new Vue({
             {
                 number: '55',
                 name: '宥 融',
+                info: '一年級便加入球隊的早期成員，力量、鬥志和速度是他著名的武器。除了是球隊重要的大門守護神，後衛、中場與前鋒等各種角色也難不倒他。',
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -2085,6 +2098,7 @@ new Vue({
             {
                 number: '77',
                 name: '昕 叡',
+                info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦讓人驚嘆',
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -2252,6 +2266,7 @@ new Vue({
             {
                 number: '97',
                 name: '宇 正',
+                info: '二年級下學期才加入球隊，在場上總是用速度和各種違反人體工學的動作打擊對手。從門將到前鋒等角色的轉換迅速且能穩定貢獻，是球隊最萬用的工具人之一。',
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
