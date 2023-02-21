@@ -123,8 +123,8 @@
                                     <div class="profile-overview">
                                         <div class="row text-center">
                                             <div class="col-sm">
-                                                <h3>{{ player.totalMatches }}</h3>
-                                                <p>Matches</p>
+                                                <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
+                                                <p>Matches <small>(Starts)</small></p>
                                             </div>
                                         </div>
                                         <div class="row text-center">
@@ -155,127 +155,233 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="accordion" :id="`accordion${player.number}`">
-                                        <div class="card text-primary">
-                                            <div class="card-header" id="heading2023">
-                                                <h2 class="mb-0">
-                                                    <button class="btn text-info btn-outline-light btn-block text-left" data-toggle="collapse" data-target="#year2023" aria-expanded="true" aria-controls="year2023">
-                                                        2023 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                    </button>
-                                                </h2>
-                                            </div>
-                                            <div id="year2023" class="collapse text-info show" aria-labelledby="year2023" :data-parent="`#accordion${player.number}`">
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col">Year</div>
-                                                        <div class="col-3">Tournament</div>
-                                                        <div class="col">GPs</div>
-                                                        <div class="col">Starts</div>
-                                                        <div class="col">Goals</div>
-                                                        <div class="col">Asts</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                    </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2023'">
-                                                        <div class="col">{{ app.year }}</div>
-                                                        <div class="col-3">{{ app.cup }}</div>
-                                                        <div class="col">{{ app.g }}</div>
-                                                        <div class="col">{{ app.gs }}</div>
-                                                        <div class="col">{{ app.goals }}</div>
-                                                        <div class="col">{{ app.asts }}</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card text-secondary">
-                                            <div class="card-header" id="heading2022">
-                                                <h2 class="mb-0">
-                                                    <button class="btn text-info btn-outline-light btn-block text-left collapsed" data-toggle="collapse" data-target="#year2022" aria-expanded="false" aria-controls="year2022">
-                                                        2022 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                    </button>
-                                                </h2>
-                                            </div>
-                                            <div id="year2022" class="collapse text-info" aria-labelledby="year2022" :data-parent="`#accordion${player.number}`">
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col">Year</div>
-                                                        <div class="col-3">Tournament</div>
-                                                        <div class="col">GPs</div>
-                                                        <div class="col">Starts</div>
-                                                        <div class="col">Goals</div>
-                                                        <div class="col">Asts</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                    </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2022'">
-                                                        <div class="col">{{ app.year }}</div>
-                                                        <div class="col-3">{{ app.cup }}</div>
-                                                        <div class="col">{{ app.g }}</div>
-                                                        <div class="col">{{ app.gs }}</div>
-                                                        <div class="col">{{ app.goals }}</div>
-                                                        <div class="col">{{ app.asts }}</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card text-success">
-                                            <div class="card-header" id="heading2021">
-                                                <h2 class="mb-0">
-                                                    <button class="btn text-success btn-outline-light btn-block text-left collapsed" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
-                                                        2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                    </button>
-                                                </h2>
-                                            </div>
-                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col">Year</div>
-                                                        <div class="col-3">Tournament</div>
-                                                        <div class="col">GPs</div>
-                                                        <div class="col">Starts</div>
-                                                        <div class="col">Goals</div>
-                                                        <div class="col">Asts</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                    </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                        <div class="col">{{ app.year }}</div>
-                                                        <div class="col-3">{{ app.cup }}</div>
-                                                        <div class="col">{{ app.g }}</div>
-                                                        <div class="col">{{ app.gs }}</div>
-                                                        <div class="col">{{ app.goals }}</div>
-                                                        <div class="col">{{ app.asts }}</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="profile-card-4 z-depth-3">
+                                                    <div class="card">
+                                                        <div class="card-body text-center bg-primary rounded-top">
+                                                            <div class="user-box">
+                                                                <img :src="'img/players/player-' + player.number + '.jpg'" alt="user avatar">
+                                                            </div>
+                                                            <h5 class="mb-1 text-white">{{player.name}}</h5>
+                                                            <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <ul class="list-group shadow-none">
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-tshirt"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <h3 class="text-primary">{{player.number}}</h3>
+                                                                        <!-- <small>Mobile Number</small> -->
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-map-marked"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-running"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <h4>{{ player.totalMatches }} <small>Appearances</small></h4>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="row text-center mt-4">
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalGoals }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Goals</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalAsts }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Assists</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalCS }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Clean Sheets</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="card-footer text-center">
+                                                            <a class="btn-social btn-facebook waves-effect waves-light m-1"><i class="fa fa-facebook"></i></a>
+                                                            <a class="btn-social btn-google-plus waves-effect waves-light m-1"><i class="fa fa-google-plus"></i></a>
+                                                            <a class="list-inline-item btn-social btn-behance waves-effect waves-light"><i class="fa fa-behance"></i></a>
+                                                            <a class="list-inline-item btn-social btn-dribbble waves-effect waves-light"><i class="fa fa-dribbble"></i></a>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="card text-info">
-                                            <div class="card-header" id="heading2020">
-                                                <h2 class="mb-0">
-                                                    <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
-                                                        2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                    </button>
-                                                </h2>
-                                            </div>
-                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
-                                                <div class="card-body">
-                                                    <div class="row">
-                                                        <div class="col">Year</div>
-                                                        <div class="col-3">Tournament</div>
-                                                        <div class="col">GPs</div>
-                                                        <div class="col">Starts</div>
-                                                        <div class="col">Goals</div>
-                                                        <div class="col">Asts</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                    </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                        <div class="col">{{ app.year }}</div>
-                                                        <div class="col-3">{{ app.cup }}</div>
-                                                        <div class="col">{{ app.g }}</div>
-                                                        <div class="col">{{ app.gs }}</div>
-                                                        <div class="col">{{ app.goals }}</div>
-                                                        <div class="col">{{ app.asts }}</div>
-                                                        <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                            <div class="col-lg-8">
+                                                <div class="card z-depth-3">
+                                                    <div class="card-body">
+                                                        <ul class="nav nav-pills nav-pills-primary nav-justified">
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#profile${player.number}`" data-toggle="pill" class="nav-link active show"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#gamelog${player.number}`" data-toggle="pill" class="nav-link"><i class="fad fa-clipboard-list"></i> <span class="hidden-xs">Game Log</span></a>
+                                                            </li>
+                                                            <!-- <li class="nav-item">
+                                                                <a data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">Edit</span></a>
+                                                            </li> -->
+                                                        </ul>
+                                                        <div class="tab-content p-3">
+                                                            <div class="tab-pane active show" :id="`profile${player.number}`">
+                                                                <h5 class="mb-3">Abstract</h5>
+                                                                <div class="row">
+                                                                    <div class="col-md-12 text-left" v-html="player.info"></div>
+                                                                    <div class="col-md-12">
+                                                                        <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Achievement</h5>
+                                                                        <table class="table table-hover table-striped">
+                                                                            <tbody>
+                                                                                <tr v-for="achieve in player.achievement">
+                                                                                    <td>
+                                                                                        {{achieve}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                                <!--/row-->
+                                                            </div>
+                                                            <div class="tab-pane" :id="`gamelog${player.number}`">
+                                                                <div class="accordion" :id="`accordion${player.number}`">
+                                                                    <div class="card text-primary">
+                                                                        <div class="card-header" id="heading2023">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-info btn-outline-light btn-block text-left" data-toggle="collapse" data-target="#year2023" aria-expanded="true" aria-controls="year2023">
+                                                                                    2023 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2023" class="collapse text-info show" aria-labelledby="year2023" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2023'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card text-secondary">
+                                                                        <div class="card-header" id="heading2022">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-info btn-outline-light btn-block text-left collapsed" data-toggle="collapse" data-target="#year2022" aria-expanded="false" aria-controls="year2022">
+                                                                                    2022 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2022" class="collapse text-info" aria-labelledby="year2022" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2022'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card text-success">
+                                                                        <div class="card-header" id="heading2021">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
+                                                                                    2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card text-info">
+                                                                        <div class="card-header" id="heading2020">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
+                                                                                    2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -303,8 +409,8 @@
                                     <div class="profile-overview">
                                         <div class="row text-center">
                                             <div class="col-sm">
-                                                <h3>{{ player.totalMatches }}</h3>
-                                                <p>Matches</p>
+                                                <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
+                                                <p>Matches <small>(Starts)</small></p>
                                             </div>
                                         </div>
                                         <div class="row text-center">
@@ -335,7 +441,177 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="accordion" :id="`accordion${player.number}`">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="profile-card-4 z-depth-3">
+                                                    <div class="card">
+                                                        <div class="card-body text-center bg-primary rounded-top">
+                                                            <div class="user-box">
+                                                                <img :src="'img/players/player-' + player.number + '.jpg'" alt="user avatar">
+                                                            </div>
+                                                            <h5 class="mb-1 text-white">{{player.name}}</h5>
+                                                            <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <ul class="list-group shadow-none">
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-tshirt"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <h3 class="text-primary">{{player.number}}</h3>
+                                                                        <!-- <small>Mobile Number</small> -->
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-map-marked"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-running"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <h4>{{ player.totalMatches }} <small>Appearances</small></h4>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="row text-center mt-4">
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalGoals }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Goals</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalAsts }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Assists</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalCS }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Clean Sheets</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="card-footer text-center">
+                                                            <a class="btn-social btn-facebook waves-effect waves-light m-1"><i class="fa fa-facebook"></i></a>
+                                                            <a class="btn-social btn-google-plus waves-effect waves-light m-1"><i class="fa fa-google-plus"></i></a>
+                                                            <a class="list-inline-item btn-social btn-behance waves-effect waves-light"><i class="fa fa-behance"></i></a>
+                                                            <a class="list-inline-item btn-social btn-dribbble waves-effect waves-light"><i class="fa fa-dribbble"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="card z-depth-3">
+                                                    <div class="card-body">
+                                                        <ul class="nav nav-pills nav-pills-primary nav-justified">
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#profile${player.number}`" data-toggle="pill" class="nav-link active show"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#gamelog${player.number}`" data-toggle="pill" class="nav-link"><i class="fad fa-clipboard-list"></i> <span class="hidden-xs">Game Log</span></a>
+                                                            </li>
+                                                            <!-- <li class="nav-item">
+                                                                <a data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">Edit</span></a>
+                                                            </li> -->
+                                                        </ul>
+                                                        <div class="tab-content p-3">
+                                                            <div class="tab-pane active show" :id="`profile${player.number}`">
+                                                                <h5 class="mb-3">Abstract</h5>
+                                                                <div class="row">
+                                                                    <div class="col-md-12 text-left" v-html="player.info"></div>
+                                                                    <div class="col-md-12">
+                                                                        <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Achievement</h5>
+                                                                        <table class="table table-hover table-striped">
+                                                                            <tbody>
+                                                                                <tr v-for="achieve in player.achievement">
+                                                                                    <td>
+                                                                                        {{achieve}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                                <!--/row-->
+                                                            </div>
+                                                            <div class="tab-pane" :id="`gamelog${player.number}`">
+                                                                <div class="accordion" :id="`accordion${player.number}`">
+                                                                    <div class="card text-success">
+                                                                        <div class="card-header" id="heading2021">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
+                                                                                    2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card text-info">
+                                                                        <div class="card-header" id="heading2020">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
+                                                                                    2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">Year</div>
+                                                                                    <div class="col-3">Tournament</div>
+                                                                                    <div class="col">GPs</div>
+                                                                                    <div class="col">Starts</div>
+                                                                                    <div class="col">Goals</div>
+                                                                                    <div class="col">Asts</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
+                                                                                </div>
+                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
+                                                                                    <div class="col">{{ app.year }}</div>
+                                                                                    <div class="col-3">{{ app.cup }}</div>
+                                                                                    <div class="col">{{ app.g }}</div>
+                                                                                    <div class="col">{{ app.gs }}</div>
+                                                                                    <div class="col">{{ app.goals }}</div>
+                                                                                    <div class="col">{{ app.asts }}</div>
+                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="accordion" :id="`accordion${player.number}`">
                                         <div class="card text-success">
                                             <div class="card-header" id="heading2021">
                                                 <h2 class="mb-0">
@@ -398,7 +674,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
