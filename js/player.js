@@ -10,6 +10,8 @@ new Vue({
         players: [{
                 number: '3',
                 name: '晉 丞',
+                englishName: 'Brian',
+                title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
                 achievement: [],
                 active: true,
@@ -195,8 +197,10 @@ new Vue({
             {
                 number: '7',
                 name: '黃 衍',
+                englishName: 'Yan',
+                title: '',
                 info: '球隊元老成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。是球隊首任副隊長。',
-                achievement: ['2022 新北聯合盃金靴獎第三名（4球）', '前副隊長'],
+                achievement: ['2022 United Cup Golden Boot Award 3rd place（4 goals）', 'former Vice Captian (2019-20)'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -380,6 +384,8 @@ new Vue({
             {
                 number: '9',
                 name: '紘 豪',
+                englishName: 'Thor',
+                title: '',
                 info: '一年級時加入球隊，在防守端下足苦功，是球隊後防不可缺少的大將。進入中年級後亦加強了進攻意識與技巧，向全能球員之路邁進。',
                 achievement: [],
                 active: true,
@@ -549,7 +555,9 @@ new Vue({
             {
                 number: '10',
                 name: '善 捷',
-                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的力量，把守大門的功力亦十分了得。',
+                englishName: 'Otto',
+                title: '',
+                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。',
                 achievement: [],
                 active: true,
                 position: ['GK', 'RB', 'LB'],
@@ -734,7 +742,9 @@ new Vue({
             {
                 number: '12',
                 name: '皓 宇',
-                info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中場指揮官等多種角色的多面手。',
+                englishName: 'Roy',
+                title: '',
+                info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中路樞紐等多種角色的多面手。',
                 achievement: [],
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
@@ -927,6 +937,8 @@ new Vue({
             {
                 number: '13',
                 name: '邁 可',
+                englishName: 'Michael',
+                title: '',
                 info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
                 achievement: [],
                 active: true,
@@ -960,8 +972,10 @@ new Vue({
             {
                 number: '15',
                 name: '凱 泰',
+                englishName: 'Allen',
+                title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦曾數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
-                achievement: ['2022 Yamaha 盃單場 MVP'],
+                achievement: ['2022 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
@@ -1136,9 +1150,11 @@ new Vue({
             },
             {
                 number: '18',
-                name: '維 恩（C）',
-                info: '球隊的創隊元老之一，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長至今，用全能的身手帶領著大家立下無數戰功，是球隊最重要支柱。',
-                achievement: ['隊長', '隊史出賽紀錄保持人', '隊史先發出賽紀錄保持人', '2022 Yamaha 盃單場 MVP'],
+                name: '維 恩',
+                englishName: 'Lucas',
+                title: 'C',
+                info: '球隊的創隊元老之一，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長至今，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。',
+                achievement: ['Captian (2019-present)', 'Team Appearances Leader', 'Team Appearances as Starter Leader', '2022 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
@@ -1351,28 +1367,32 @@ new Vue({
                     cs: "0"
                 }]
             },
-            // {
-            //     number: '20',
-            //     name: '瑀 東',
-            //     info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，常有讓人驚艷的表現。',
-            //     achievement: [],
-            // active: true,
-            //     position: [''],
-            //     appearance: [{
-            //         year: '',
-            //         cup: '',
-            //         g: '',
-            //         gs: '0',
-            //         goals: '0',
-            //         asts: '0',
-            //         cs: '0'
-            //     }]
-            // },
+            {
+                number: '20',
+                name: '瑀 東',
+                englishName: 'Adam',
+                title: '',
+                info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，常有讓人驚艷的表現。',
+                achievement: [],
+                active: true,
+                position: [''],
+                appearance: [{
+                    year: '',
+                    cup: '',
+                    g: '',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
             {
                 number: '21',
                 name: '亮 谷',
+                englishName: 'Lional',
+                title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一加入球隊的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
-                achievement: ['球隊助攻王', '前副隊長'],
+                achievement: ['Team Assists Leader', 'former Vice Captian (2020-23)'],
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
@@ -1580,7 +1600,9 @@ new Vue({
             {
                 number: '23',
                 name: '柏 燁',
-                info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。身兼交響樂團首席的他，為球隊提供能文能武的滿滿活力。',
+                englishName: 'Brad',
+                title: '',
+                info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
                 achievement: [],
                 active: true,
                 position: ['GK', 'RM', 'CF'],
@@ -1709,6 +1731,8 @@ new Vue({
             {
                 number: '27',
                 name: '定 謙',
+                englishName: 'Dalton',
+                title: '',
                 info: '二年級時加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
                 achievement: [],
                 active: true,
@@ -1910,8 +1934,10 @@ new Vue({
             {
                 number: '55',
                 name: '宥 融',
-                info: '一年級便加入球隊的早期成員，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都難不倒他，全能的身手是球隊不可或缺的重要戰力。',
-                achievement: ['球隊完封王'],
+                englishName: 'Ivan',
+                title: '',
+                info: '一年級便加入球隊的早期成員，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。',
+                achievement: ['Team Clean Sheets Leader'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -2111,8 +2137,10 @@ new Vue({
             {
                 number: '77',
                 name: '昕 叡',
-                info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦讓人驚嘆',
-                achievement: ['2022 新北聯合盃金靴獎（9球）'],
+                englishName: 'Ray',
+                title: '',
+                info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮',
+                achievement: ['2022 United Cup Golden Boot Award 1st place（9 goals）'],
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -2279,9 +2307,11 @@ new Vue({
             },
             {
                 number: '97',
-                name: '宇 正（VC）',
-                info: '二年級下學期才加入球隊，在場上善於利用速度、頭頂腳踢甚至倒掛金勾等誇張動作打擊對手。從門將到前鋒等角色的轉換迅速且能穩定貢獻，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長',
-                achievement: ['副隊長', '球隊進球王'],
+                name: '宇 正',
+                englishName: 'Eugene',
+                title: 'VC',
+                info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊垂換到中路，偶爾亦能客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長',
+                achievement: ['副隊長 (2023-present)', 'Team Goal Scores Leader'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -2497,6 +2527,8 @@ new Vue({
             {
                 number: '2',
                 name: '定 宸',
+                englishName: '',
+                title: '',
                 info: '以厚實的身體和對抗性成為穩定的後防大將，在經歷了 U8 的榮光時期後因課業壓力於二年級下學期結束後退出球隊。',
                 achievement: [],
                 active: false,
@@ -2546,6 +2578,8 @@ new Vue({
             {
                 number: '8',
                 name: '翊 愷',
+                englishName: '',
+                title: '',
                 info: '二年級加入球隊，出賽經驗較少，於二年級下學期結束後退出球隊。',
                 achievement: [],
                 active: false,
@@ -2595,6 +2629,8 @@ new Vue({
             {
                 number: '11',
                 name: '定 緯',
+                englishName: '',
+                title: '',
                 info: '因喜歡和大家一起踢球的感覺而在二年級加入，練球非常認真卻鮮少參加比賽，三年級下學期因自覺跟不上隊友的腳步帶著遺憾退出。',
                 achievement: [],
                 active: false,
@@ -2620,6 +2656,8 @@ new Vue({
             {
                 number: '22',
                 name: '明 澤',
+                englishName: '',
+                title: '',
                 info: '球隊早期成員之一，在 U8 時期為球隊重要的輪替球員，在球隊中亦立下不少戰功。因多方發展難以兼顧於二年級下學期結束後退出球隊。',
                 achievement: [],
                 active: false,
@@ -2677,6 +2715,8 @@ new Vue({
             {
                 number: '30',
                 name: '品 叡',
+                englishName: '',
+                title: '',
                 info: '有著絕佳的身體條件，可惜較缺乏練習與比賽經驗。於二年級下學期結束後退出球隊。',
                 achievement: [],
                 active: false,

@@ -114,14 +114,14 @@
                     <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.active">
                         <a data-toggle="modal" :data-target="'#player' + player.number">
                             <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
-                                <div class="profile-name"> {{ player.name }} </div>
+                                <div class="profile-name"> {{ player.name }} <small v-if="!!player.title">({{player.title}})</small></div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
                                 </div>
-                                <div class="profile-overview" v-if="player.matches !== '0'">
+                                <div class="profile-overview">
                                     <div class="profile-overview">
-                                        <div class="row text-center">
+                                        <div class="row text-center" v-if="player.totalMatches > 0">
                                             <div class="col-sm">
                                                 <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
                                                 <p>Matches <small>(Starts)</small></p>
@@ -161,23 +161,14 @@
                                                 <div class="profile-card-4 z-depth-3">
                                                     <div class="card">
                                                         <div class="card-body text-center bg-primary rounded-top">
+                                                            <h1 class="text-right"><span class="badge badge-pill badge-dark mx-1">{{player.number}}</span></h1>
                                                             <div class="user-box">
-                                                                <img :src="'img/players/player-' + player.number + '.jpg'" alt="user avatar">
+                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
-                                                            <h5 class="mb-1 text-white">{{player.name}}</h5>
-                                                            <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
+                                                            <h5 class="mb-1 text-white">{{player.englishName}} {{player.name}}</h5>
                                                         </div>
                                                         <div class="card-body">
                                                             <ul class="list-group shadow-none">
-                                                                <li class="list-group-item">
-                                                                    <div class="list-icon">
-                                                                        <i class="fas fa-tshirt"></i>
-                                                                    </div>
-                                                                    <div class="list-details">
-                                                                        <h3 class="text-primary">{{player.number}}</h3>
-                                                                        <!-- <small>Mobile Number</small> -->
-                                                                    </div>
-                                                                </li>
                                                                 <li class="list-group-item">
                                                                     <div class="list-icon">
                                                                         <i class="fas fa-map-marked"></i>
@@ -188,10 +179,18 @@
                                                                 </li>
                                                                 <li class="list-group-item">
                                                                     <div class="list-icon">
+                                                                        <i class="fas fa-user"></i>
+                                                                    </div>
+                                                                    <div class="list-details" v-if="player.totalMatches > 0">
+                                                                        <h4>{{ player.totalMatches }} <small>Appearances</small></h4>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
                                                                         <i class="fas fa-running"></i>
                                                                     </div>
-                                                                    <div class="list-details">
-                                                                        <h4>{{ player.totalMatches }} <small>Appearances</small></h4>
+                                                                    <div class="list-details" v-if="player.totalGS > 0">
+                                                                        <h4>{{ player.totalGS }} <small>as Starter</small></h4>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -243,8 +242,8 @@
                                                                         <table class="table table-hover table-striped">
                                                                             <tbody>
                                                                                 <tr v-for="achieve in player.achievement">
-                                                                                    <td>
-                                                                                        {{achieve}}
+                                                                                    <td class="text-left">
+                                                                                        ★ {{achieve}}
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -448,7 +447,7 @@
                                                     <div class="card">
                                                         <div class="card-body text-center bg-primary rounded-top">
                                                             <div class="user-box">
-                                                                <img :src="'img/players/player-' + player.number + '.jpg'" alt="user avatar">
+                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
                                                             <h5 class="mb-1 text-white">{{player.name}}</h5>
                                                             <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
