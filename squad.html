@@ -157,15 +157,15 @@
                                     </div>
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-lg-4">
+                                            <div class="col-xl-4">
                                                 <div class="profile-card-4 z-depth-3">
                                                     <div class="card">
-                                                        <div class="card-body text-center bg-primary rounded-top">
+                                                        <div class="card-body text-center bg-gradien rounded-top">
                                                             <h1 class="text-right"><span class="badge badge-pill badge-dark mx-1">{{player.number}}</span></h1>
                                                             <div class="user-box">
                                                                 <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
-                                                            <h5 class="mb-1 text-white">{{player.englishName}} {{player.name}}</h5>
+                                                            <h5 class="mb-1 text-white">{{player.name}} | {{player.englishName}}</h5>
                                                         </div>
                                                         <div class="card-body">
                                                             <ul class="list-group shadow-none">
@@ -174,7 +174,7 @@
                                                                         <i class="fas fa-map-marked"></i>
                                                                     </div>
                                                                     <div class="list-details">
-                                                                        <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span>
+                                                                        <span v-for="pos in player.position" class="badge badge-dark mx-1 my-1">{{ pos }}</span>
                                                                     </div>
                                                                 </li>
                                                                 <li class="list-group-item">
@@ -218,7 +218,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-8">
+                                            <div class="col-xl-8">
                                                 <div class="card z-depth-3">
                                                     <div class="card-body">
                                                         <ul class="nav nav-pills nav-pills-primary nav-justified">
@@ -234,7 +234,7 @@
                                                         </ul>
                                                         <div class="tab-content p-3">
                                                             <div class="tab-pane active show" :id="`profile${player.number}`">
-                                                                <h5 class="mb-3">Abstract</h5>
+                                                                <h5 class="mb-3">Introduction</h5>
                                                                 <div class="row">
                                                                     <div class="col-md-12 text-left" v-html="player.info"></div>
                                                                     <div class="col-md-12" v-show="player.achievement.length > 0">
@@ -263,25 +263,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2023" class="collapse text-info show" aria-labelledby="year2023" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2023'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2023'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -294,25 +300,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2022" class="collapse text-info" aria-labelledby="year2022" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2022'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2022'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -325,25 +337,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2021'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -356,25 +374,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2020'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -442,10 +466,10 @@
                                     </div>
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-lg-4">
+                                            <div class="col-xl-4">
                                                 <div class="profile-card-4 z-depth-3">
                                                     <div class="card">
-                                                        <div class="card-body text-center bg-primary rounded-top">
+                                                        <div class="card-body text-center bg-gradien rounded-top">
                                                             <div class="user-box">
                                                                 <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
@@ -504,7 +528,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-8">
+                                            <div class="col-xl-8">
                                                 <div class="card z-depth-3">
                                                     <div class="card-body">
                                                         <ul class="nav nav-pills nav-pills-primary nav-justified">
@@ -520,7 +544,7 @@
                                                         </ul>
                                                         <div class="tab-content p-3">
                                                             <div class="tab-pane active show" :id="`profile${player.number}`">
-                                                                <h5 class="mb-3">Abstract</h5>
+                                                                <h5 class="mb-3">Introduction</h5>
                                                                 <div class="row">
                                                                     <div class="col-md-12 text-left" v-html="player.info"></div>
                                                                     <div class="col-md-12">
@@ -549,25 +573,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2021'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -580,25 +610,31 @@
                                                                             </h2>
                                                                         </div>
                                                                         <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body">
-                                                                                <div class="row">
-                                                                                    <div class="col">Year</div>
-                                                                                    <div class="col-3">Tournament</div>
-                                                                                    <div class="col">GPs</div>
-                                                                                    <div class="col">Starts</div>
-                                                                                    <div class="col">Goals</div>
-                                                                                    <div class="col">Asts</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">CS</div>
-                                                                                </div>
-                                                                                <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                                                    <div class="col">{{ app.year }}</div>
-                                                                                    <div class="col-3">{{ app.cup }}</div>
-                                                                                    <div class="col">{{ app.g }}</div>
-                                                                                    <div class="col">{{ app.gs }}</div>
-                                                                                    <div class="col">{{ app.goals }}</div>
-                                                                                    <div class="col">{{ app.asts }}</div>
-                                                                                    <div class="col-1" v-if="player.position.includes('GK')">{{ app.cs }}</div>
-                                                                                </div>
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2020'">
+                                                                                            <td>{{ app.year }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
                                                                             </div>
                                                                         </div>
                                                                     </div>

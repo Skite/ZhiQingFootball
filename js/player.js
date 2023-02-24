@@ -200,7 +200,7 @@ new Vue({
                 englishName: 'Yan',
                 title: '',
                 info: '球隊元老成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。是球隊首任副隊長。',
-                achievement: ['2022 United Cup Golden Boot Award 3rd place（4 goals）', 'former Vice Captian (2019-20)'],
+                achievement: ['2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -942,7 +942,7 @@ new Vue({
                 info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
                 achievement: [],
                 active: true,
-                position: ['CF'],
+                position: [],
                 appearance: [{
                     year: '2023',
                     cup: '明道盃',
@@ -974,7 +974,7 @@ new Vue({
                 name: '凱 泰',
                 englishName: 'Allen',
                 title: '',
-                info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦曾數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
+                info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
                 achievement: ['2022 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CF'],
@@ -1379,7 +1379,7 @@ new Vue({
                 appearance: [{
                     year: '',
                     cup: '',
-                    g: '',
+                    g: '0',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2140,7 +2140,7 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮',
-                achievement: ['2022 United Cup Golden Boot Award 1st place（9 goals）'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）'],
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -2310,8 +2310,8 @@ new Vue({
                 name: '宇 正',
                 englishName: 'Eugene',
                 title: 'VC',
-                info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊垂換到中路，偶爾亦能客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長',
-                achievement: ['副隊長 (2023-present)', 'Team Goal Scores Leader'],
+                info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊垂換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長',
+                achievement: ['Vice Captian (2023-present)', 'Team Goal Scores Leader'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -2834,7 +2834,6 @@ new Vue({
             // console.log(filteredResult)
 
             return {
-                achievement: [],
                 active: _.filter(filteredResult, ['active', true]),
                 retire: _.filter(filteredResult, ['active', false])
             }
