@@ -1007,7 +1007,7 @@ new Vue({
                 englishName: 'Allen',
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
-                achievement: ['2022 Yamaha Cup Match MVP'],
+                achievement: ['2022 Yamaha Cup Match MVP', 'Team Clean Sheets Leader'],
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
