@@ -205,6 +205,14 @@ new Vue({
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '5',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '明道盃',
                     g: '5',
                     gs: '0',
@@ -392,6 +400,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '明道盃',
                     g: '3',
                     gs: '0',
@@ -562,6 +578,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: '2023',
                     cup: '明道盃',
                     g: '3',
@@ -749,6 +773,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '明道盃',
                     g: '5',
@@ -980,6 +1012,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '0',
+                    cs: '3'
+                }, {
+                    year: '2023',
                     cup: '明道盃',
                     g: '2',
                     gs: '0',
@@ -1158,6 +1198,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '國小世界盃',
                     g: '2',
@@ -1379,7 +1427,7 @@ new Vue({
                 appearance: [{
                     year: '',
                     cup: '',
-                    g: '',
+                    g: '0',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -1396,6 +1444,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '明道盃',
                     g: '5',
@@ -1739,6 +1795,14 @@ new Vue({
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '明道盃',
                     g: '5',
                     gs: '2',
@@ -1941,6 +2005,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '4',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '明道盃',
                     g: '5',
@@ -2315,6 +2387,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: 'Kappa 盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '明道盃',
                     g: '5',

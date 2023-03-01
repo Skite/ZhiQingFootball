@@ -4137,6 +4137,147 @@ new Vue({
                 instructors: ['柏豪'],
                 note: 'PSO：亮谷○、宇正×、維恩○、黃衍○、宥融×、皓宇×、定謙×'
             }]
+        }, {
+            id: 28,
+            year: '2023',
+            cupName: 'Kappa 盃',
+            system: '7人制',
+            cover: '2023kappacup',
+            trophy: '亞軍',
+            team: [{
+                name: '大勇士',
+                members: '黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、定謙、宥融、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230226',
+                pitch: '台北田徑場',
+                opponent: '新竹足球學校-紅',
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
+                subs: [],
+                subTeam: '大勇士',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20230226',
+                pitch: '台北田徑場',
+                opponent: 'Yoder',
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
+                subs: [{
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '大勇士',
+                final_score: '1 : 1',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20230226',
+                pitch: '台北田徑場',
+                opponent: 'A-Star',
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
+                subs: [],
+                subTeam: '大勇士',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: 'P'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: 'Own Goal',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20230226',
+                pitch: '台北田徑場',
+                opponent: '北新國小',
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-亮谷', 'LCB-維恩', 'RM-宥融', 'CM-宇正', 'LM-皓宇', 'CF-黃衍'],
+                subs: [],
+                subTeam: '大勇士',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '定謙',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['凱泰', '善捷'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20230226',
+                pitch: '台北田徑場',
+                opponent: 'MFA-U10',
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
+                subs: [],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '0 : 2',
+                wdl: 'L',
+                scorers: [{
+                    name: '宥融',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: 'PSO：維恩×、亮谷×'
+            }]
         }]
     },
     methods: {},

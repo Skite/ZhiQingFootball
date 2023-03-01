@@ -313,6 +313,20 @@ new Vue({
                 url: 'lvRAQb6D#5oioaCW_fUh_tS9KlsXDmyb7RrPzZaM_gYaRjxS9ZsY'
             }],
             icon: 'fab fa-medium'
+        }, {
+            id: 19,
+            cupName: '2023Kappa盃',
+            cover: '2023kappacup',
+            videos: [{
+                date: '2/26',
+                opponents: '新竹足校-紅、Yoder、A-Star',
+                url: 'RmpEXQKC#hhIFR7xbJccVl4FIC4Rqj3KqODb06q-4Y-NhURYU4Ss'
+            }, {
+                date: '2/26',
+                opponents: '北新國小、MFA-U10',
+                url: 'IuQSiA6J#deXnNMlYsc0ZBLgVwWfQmUuTIlckmcbl2b2UCyo3LJw'
+            }],
+            icon: 'fab fa-kickstarter'
         }],
         photos: [{
             id: 1,
@@ -702,6 +716,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3qRhJwP9qeqhdUKU7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230211-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-medium'
+        }, {
+            id: 27,
+            cupName: '2023Kappa盃',
+            cover: '20230226-cover',
+            photos: [{
+                date: '2/26',
+                opponents: '新竹足球學校-紅、Yoder、A-Star、北新國小、MFA-U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/uJU3em7ZRxh7wDkS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-kickstarter'
         }]
     },
     methods: {},
