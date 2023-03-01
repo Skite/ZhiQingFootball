@@ -278,6 +278,12 @@ body {
     margin-top: 15px;
 }
 
+.profile-card-4 .bg-gradien {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
 .profile-card-4 .list-icon {
     display: table-cell;
     font-size: 30px;
@@ -299,7 +305,8 @@ body {
     line-height: 15px;
 }
 
-.profile-card-4 .list-details h3 {
+.profile-card-4 .list-details h3,
+.profile-card-4 .list-details h4 {
     margin-bottom: 0;
 }
 
