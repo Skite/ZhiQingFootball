@@ -4278,6 +4278,62 @@ new Vue({
                 instructors: ['冠岳'],
                 note: 'PSO：維恩×、亮谷×'
             }]
+        }, {
+            id: 29,
+            year: '2023',
+            cupName: '新北市少年八人制春季聯賽',
+            system: '8人制',
+            cover: '2023eightmanspring',
+            trophy: '',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: `<!-- <a class="text-success" target="_blank" href=""><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a> -->`,
+            matches: [{
+                date: '20230304',
+                pitch: '新莊田徑場',
+                opponent: 'ACTaipei-U10',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-宥融', 'CM-皓宇', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '5 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '定謙'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['善捷'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},

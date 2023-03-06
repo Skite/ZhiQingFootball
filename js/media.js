@@ -327,6 +327,16 @@ new Vue({
                 url: 'IuQSiA6J#deXnNMlYsc0ZBLgVwWfQmUuTIlckmcbl2b2UCyo3LJw'
             }],
             icon: 'fab fa-kickstarter'
+        }, {
+            id: 20,
+            cupName: '2023新北少年八人制春季聯賽',
+            cover: '2023eightmanspring',
+            videos: [{
+                date: '3/4',
+                opponents: 'AC-Taipei-U10',
+                url: 'YyJ1UJJD#EcIMZWtsopQCe4Qhs92fScqpirtaRpPSzDdAz-2ZmAs'
+            }],
+            icon: 'fas fa-running'
         }],
         photos: [{
             id: 1,
@@ -726,6 +736,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/uJU3em7ZRxh7wDkS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-kickstarter'
+        }, {
+            id: 28,
+            cupName: '2023新北市少年八人制春季聯賽',
+            cover: '20230304-cover',
+            photos: [{
+                date: '3/4',
+                opponents: 'AC-Taipei-U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/21eYmpzkp81x8roc8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-running'
         }]
     },
     methods: {},
