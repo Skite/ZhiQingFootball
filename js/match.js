@@ -827,41 +827,6 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
-            }, {
-                date: '20210328',
-                pitch: '北市大天母校區田徑場',
-                opponent: '足球心想事成',
-                formation: 'Square（2-0-2）',
-                starters: ['GK-凱泰', 'RB-', 'LB-', 'RF-明澤', 'LF-'],
-                subs: [''],
-                subTeam: '種子-閃電',
-                final_score: '0 : 1',
-                pso: '',
-                wdl: 'L',
-                scorers: [],
-                goalkeepers: ['凱泰'],
-                isCleanSheet: false,
-                instructors: ['柏豪'],
-                note: ''
-            }, {
-                date: '20210328',
-                pitch: '北市大天母校區田徑場',
-                opponent: '淡水小獵豹',
-                formation: 'Square（2-0-2）',
-                starters: ['GK-凱泰', 'RB-', 'LB-', 'RF-明澤', 'LF-'],
-                subs: [''],
-                subTeam: '種子-閃電',
-                final_score: '1 : 4',
-                pso: '',
-                wdl: 'L',
-                scorers: [{
-                    name: '凱泰',
-                    assist: ''
-                }],
-                goalkeepers: ['凱泰', '東允*'],
-                isCleanSheet: false,
-                instructors: ['柏豪'],
-                note: '* 學弟'
             }]
         }, {
             id: 6,
@@ -4333,6 +4298,44 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }]
+        }, {
+            id: 29,
+            year: '2023',
+            cupName: '臺北市教育盃',
+            system: '5人制',
+            cover: '2023educationcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、宸瑜*'
+            }],
+            note: '',
+            matches: [{
+                date: '20230309',
+                pitch: '成德國小',
+                opponent: '幸安國小',
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-皓宇', 'LF-亮谷'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }],
+                subTeam: '勇士',
+                final_score: '2 : 2',
+                pso: '1 : 2',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: 'PSO： 維恩○、 宇正×'
             }]
         }]
     },

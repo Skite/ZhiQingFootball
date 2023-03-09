@@ -213,6 +213,14 @@ new Vue({
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '1',
@@ -798,6 +806,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '1',
@@ -1239,6 +1255,14 @@ new Vue({
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '1',
@@ -1492,6 +1516,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: 'Kappa 盃',
                     g: '5',
@@ -2070,6 +2102,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '1',
@@ -2467,6 +2507,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',

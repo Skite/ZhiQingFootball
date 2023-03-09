@@ -141,8 +141,12 @@
                                             <canvas id="matches"></canvas>
                                         </div>
                                         <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">勝率</h5>
+                                            <h5 class="text-center">分齡勝率</h5>
                                             <canvas id="winpct"></canvas>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <h5 class="text-center">場地勝率</h5>
+                                            <canvas id="pitchwinpct"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -442,7 +446,7 @@
             }
         });
 
-        //勝率
+        //分齡勝率
         var ctx = document.getElementById('winpct').getContext('2d');
         var chart = new Chart(ctx, {
             type: 'line',
@@ -472,6 +476,38 @@
                     y: {
                         min: 0,
                         max: 1,
+                    }
+                }
+            }
+        });
+
+        //場地勝率
+        var ctx = document.getElementById('pitchwinpct').getContext('2d');
+
+
+        var chart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ["勝", "和", "敗"],
+                datasets: [{
+                    label: '硬地',
+                    backgroundColor: ['rgba(3, 44, 252, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(109, 110, 110, 0.8)'],
+                    data: [stats.hard.wins, stats.hard.draws, stats.hard.loses]
+                }, {
+                    label: '草地',
+                    backgroundColor: ['rgba(3, 44, 252, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(109, 110, 110, 0.8)'],
+                    data: [stats.grass.wins, stats.grass.draws, stats.grass.loses]
+                }]
+            },
+            options: {
+                responsive: 'true',
+                cutout: '30%',
+                plugins: {
+                    datalabels: {
+                        textAlign: 'center'
+                    },
+                    legend: {
+                        display: true
                     }
                 }
             }
