@@ -4300,7 +4300,7 @@ new Vue({
                 note: ''
             }]
         }, {
-            id: 29,
+            id: 30,
             year: '2023',
             cupName: '臺北市教育盃',
             system: '5人制',
