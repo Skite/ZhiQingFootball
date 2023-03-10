@@ -159,7 +159,7 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['芳儀'],
-                note: ''
+                note: 'PSO：維恩○、亮谷○、宇正○、黃衍○'
             }, {
                 date: '20201206',
                 pitch: '華中五人制足球場',
@@ -196,7 +196,7 @@ new Vue({
                 goalkeepers: ['定謙', '宥融'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: ''
+                note: 'PSO：維恩×、亮谷×、宇正○、黃衍×'
             }, {
                 date: '20201206',
                 pitch: '華中五人制足球場',
@@ -1802,7 +1802,7 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: '依賽事規定本場比賽正規時間結束1：1應為和局，唯裁判因失職誤認賽制並要求雙方加踢PK，PK結果為BT Spirits勝出'
+                note: 'PSO：亮谷×。依賽事規定本場比賽正規時間結束1：1應為和局，唯裁判因失職誤認賽制並要求雙方加踢PSO，PSO結果為BT Spirits勝出'
             }, {
                 date: '20220219',
                 pitch: '浮洲足球場',
