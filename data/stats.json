@@ -1,8 +1,9 @@
+// updated: 2023/3/14 09:00
 {
     "hard":
     {
-        "matches": "30",
-        "wins": "15",
+        "matches": "31",
+        "wins": "16",
         "draws": "0",
         "loses": "15"
     },
@@ -17,16 +18,16 @@
     {
         "U10":
         {
-            "matches": "13",
-            "wins": "7",
+            "matches": "14",
+            "wins": "8",
             "draws": "1",
             "loses": "5",
             "gold": "2",
             "silver": "2",
             "bronze": "2",
-            "scores": "38",
+            "scores": "42",
             "conc": "24",
-            "cs": "4"
+            "cs": "5"
         },
         "U9":
         {

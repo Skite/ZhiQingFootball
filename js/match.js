@@ -4336,6 +4336,61 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: 'PSO： 維恩○、 宇正×'
+            }, {
+                date: '20230313',
+                pitch: '成德國小',
+                opponent: '五常國小',
+                formation: '1-2-1',
+                starters: ['GK-凱泰', 'CB-晉丞', 'RM-昕叡', 'LM-善捷', 'CF-定謙'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }, {
+                    number: 6,
+                    name: '宸瑜*'
+                }],
+                subTeam: '國小',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '宸瑜*'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: 'P'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '*學弟'
             }]
         }]
     },

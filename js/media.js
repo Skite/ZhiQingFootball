@@ -337,6 +337,16 @@ new Vue({
                 url: 'YyJ1UJJD#EcIMZWtsopQCe4Qhs92fScqpirtaRpPSzDdAz-2ZmAs'
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 21,
+            cupName: '2023臺北市教育盃',
+            cover: '2023educationcup',
+            videos: [{
+                date: '3/9',
+                opponents: '幸安國小',
+                url: '5iYxTIzC#-Ui0zAYd6gAkFb3rovdCAyZ8RGsFfG_m1iBvLAEBEGk'
+            }],
+            icon: 'fas fa-book'
         }],
         photos: [{
             id: 1,
@@ -746,6 +756,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/21eYmpzkp81x8roc8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 29,
+            cupName: '2023臺北市教育盃',
+            cover: '20230314-cover',
+            photos: [{
+                date: '3/13',
+                opponents: '五常國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/jkzpCHrKyKWwPBrb7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-book'
         }]
     },
     methods: {},

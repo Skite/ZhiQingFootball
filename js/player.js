@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '1',
@@ -214,7 +222,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '1',
                     asts: '0',
@@ -424,6 +432,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: 'Kappa 盃',
                     g: '1',
                     gs: '0',
@@ -602,6 +618,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
@@ -807,7 +831,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '0',
@@ -1068,6 +1092,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: '2023',
                     cup: 'Kappa 盃',
                     g: '5',
                     gs: '5',
@@ -1256,7 +1288,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '1',
@@ -1518,9 +1550,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
-                    goals: '0',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -1744,6 +1776,14 @@ new Vue({
                 position: ['GK', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '0',
@@ -1882,6 +1922,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
@@ -2097,15 +2145,15 @@ new Vue({
                 englishName: 'Ivan',
                 title: '',
                 info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。',
-                achievement: ['Team Clean Sheets Leader'],
+                achievement: [],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
-                    goals: '0',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -2329,6 +2377,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '0',
@@ -2509,7 +2565,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市教育盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '1',
                     asts: '0',
