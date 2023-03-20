@@ -763,9 +763,19 @@ new Vue({
             photos: [{
                 date: '3/13',
                 opponents: '五常國小',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/jkzpCHrKyKWwPBrb7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/jkzpCHrKyKWwPBrb7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230314-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 30,
+            cupName: '2023黃蜂盃',
+            cover: '20230319-cover',
+            photos: [{
+                date: '3/19',
+                opponents: 'Teroro、光復Fight',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/gahoxqw5hRARZ3P86"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230319-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-forumbee'
         }]
     },
     methods: {},

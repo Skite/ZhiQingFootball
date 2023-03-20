@@ -4392,6 +4392,87 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '*學弟'
             }]
+        }, {
+            id: 31,
+            year: '2023',
+            cupName: '黃蜂盃',
+            system: '5人制',
+            cover: '2023bumblebeecup',
+            trophy: '分組冠軍',
+            team: [{
+                name: '大勇士',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230319',
+                pitch: '蘆堤足球場',
+                opponent: 'Torero',
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-宇正', 'RF-宥融', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '豪'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20230319',
+                pitch: '蘆堤足球場',
+                opponent: '光復Fight',
+                formation: '1-2-1',
+                starters: ['GK-凱泰', 'CB-維恩', 'RM-皓宇', 'LM-宇正', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: 'Own Goal',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['凱泰', '宥融'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: ''
+            }]
         }]
     },
     methods: {},

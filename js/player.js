@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
                     gs: '1',
@@ -220,6 +228,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '2',
@@ -431,6 +447,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '黃蜂盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
@@ -830,6 +854,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '2',
                     gs: '1',
@@ -1092,6 +1124,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
                     gs: '1',
@@ -1286,6 +1326,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '2',
@@ -1541,7 +1589,7 @@ new Vue({
             {
                 number: '21',
                 name: '亮 谷',
-                englishName: 'Lional',
+                englishName: 'Lionel',
                 title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
                 achievement: ['Team Assists Leader', 'former Vice Captian (2020-23)'],
@@ -2150,6 +2198,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '2',
                     gs: '1',
@@ -2377,6 +2433,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
                     gs: '1',
@@ -2563,6 +2627,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '黃蜂盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '2',
