@@ -1119,7 +1119,7 @@ new Vue({
                 englishName: 'Allen',
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
-                achievement: ['2022 Yamaha Cup Match MVP', 'Team Clean Sheets Leader'],
+                achievement: ['2022 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
@@ -1322,7 +1322,7 @@ new Vue({
                 englishName: 'Lucas',
                 title: 'C',
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長至今，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。',
-                achievement: ['Captian (2019-present)', 'Team Appearances Leader', 'Team Appearances as Starter Leader', '2022 Yamaha Cup Match MVP'],
+                achievement: ['Captian (2019-present)', '2022 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
@@ -1592,7 +1592,7 @@ new Vue({
                 englishName: 'Lionel',
                 title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
-                achievement: ['Team Assists Leader', 'former Vice Captian (2020-23)'],
+                achievement: ['former Vice Captian (2020-23)'],
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
@@ -2623,7 +2623,7 @@ new Vue({
                 englishName: 'Eugene',
                 title: 'VC',
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長。',
-                achievement: ['Vice Captian (2023-present)', 'Team Goal Scores Leader'],
+                achievement: ['Vice Captian (2023-present)'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
