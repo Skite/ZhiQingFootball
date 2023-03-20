@@ -4418,7 +4418,7 @@ new Vue({
                     name: '黃衍'
                 }, {
                     number: 9,
-                    name: '豪'
+                    name: '紘豪'
                 }, {
                     number: 77,
                     name: '昕叡'
