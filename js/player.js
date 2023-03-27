@@ -1339,7 +1339,7 @@ new Vue({
                     g: '2',
                     gs: '2',
                     goals: '0',
-                    asts: '0',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: '2023',
