@@ -180,8 +180,8 @@ header.masthead h1 {
     background-color: #343a40;
     background: url("../img/bg-masthead1.jpg") no-repeat center center;
     background-size: cover;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .call-to-action .overlay {
@@ -294,7 +294,9 @@ nav-pills-custom .nav-link {
     text-align: left;
 }
 
-.stati.wet_asphalt { color: rgb(52, 73, 94); }
+.stati.wet_asphalt {
+    color: rgb(52, 73, 94);
+}
 
 @media (max-width: 992px) {
     .stati {
