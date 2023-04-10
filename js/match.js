@@ -4473,6 +4473,173 @@ new Vue({
                 instructors: ['冠岳'],
                 note: ''
             }]
+        }, {
+            id: 32,
+            year: '2023',
+            cupName: '春季大安盃',
+            system: '5人制',
+            cover: '2023daanspringcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '紘豪、邁可、凱泰、瑀東、凱碩*、宸瑜*、安璞*、浚恩*、宸宇*、昀宸*、羿翔*'
+            }],
+            note: '',
+            matches: [{
+                date: '20230408',
+                pitch: '華中足球場',
+                opponent: 'Lion',
+                formation: '3-0-1',
+                starters: ['GK-瑀東', 'RB-昀宸*', 'CB-邁可', 'LB-羿翔*', 'CF-宸瑜*'],
+                subs: [{
+                    number: 5,
+                    name: '凱碩*'
+                }, {
+                    number: 14,
+                    name: '浚恩*'
+                }],
+                subTeam: '勇士',
+                final_score: '3 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昀宸*',
+                    assist: '邁可'
+                }, {
+                    name: '昀宸*',
+                    assist: '邁可'
+                }, {
+                    name: '宸瑜*',
+                    assist: ''
+                }],
+                goalkeepers: ['瑀東', '羿翔*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
+            }]
+        }, {
+            id: 33,
+            year: '2023',
+            cupName: '臺北市五人制足球聯賽',
+            system: '5人制',
+            cover: '2023tpefivemanleague',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、善捷、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230409',
+                pitch: '明道國小',
+                opponent: 'SLFC',
+                formation: '1-2-1',
+                starters: ['GK-定謙', 'CB-維恩*', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '6 : 5',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '皓宇'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '宇正'
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230409',
+                pitch: '明道國小',
+                opponent: '立農戰將',
+                formation: '1-2-1',
+                starters: ['GK-定謙', 'CB-維恩*', 'RM-宥融', 'LM-亮谷', 'CF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '11 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '宥融'
+                }, {
+                    name: '昕叡',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '善捷',
+                    assist: '晉丞'
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '黃衍'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '昕叡'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},

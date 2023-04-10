@@ -347,6 +347,30 @@ new Vue({
                 url: '5iYxTIzC#-Ui0zAYd6gAkFb3rovdCAyZ8RGsFfG_m1iBvLAEBEGk'
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 22,
+            cupName: '2023春季大安盃',
+            cover: '2023daanspringcup',
+            videos: [{
+                date: '4/8',
+                opponents: 'Lion',
+                url: 'BvIRGDTZ#kqkw4_Yp8NzIx4EVKmi36bK2omqwR4lrppXZNtBz5kw'
+            }],
+            icon: 'far fa-futbol'
+        }, {
+            id: 23,
+            cupName: '2023臺北市五人制足球聯賽',
+            cover: '2023tpefivemanleague',
+            videos: [{
+                date: '4/9',
+                opponents: 'SLFC',
+                url: 'N7ATnSrR#74ZmuSfT09Kfic-7O3glY-O42n3xeyi14bu4Zzgu6gw'
+            }, {
+                date: '4/9',
+                opponents: '立農戰將',
+                url: 'c2ozDDaR#jzQnHD-7O_cRidUX9iWYD7O5heL4PdIHhtoDIa8k13c'
+            }],
+            icon: 'fa fa-users'
         }],
         photos: [{
             id: 1,
@@ -776,6 +800,26 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gahoxqw5hRARZ3P86"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230319-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-forumbee'
+        }, {
+            id: 31,
+            cupName: '2023春季大安盃',
+            cover: '20230408-cover',
+            photos: [{
+                date: '4/8',
+                opponents: 'Lion',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/JiDqmjLvEVyszhKL9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230408-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-futbol'
+        }, {
+            id: 32,
+            cupName: '2023臺北市五人制足球聯賽',
+            cover: '20230409-cover',
+            photos: [{
+                date: '4/9',
+                opponents: 'SLFC、立農戰將',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/Hz8z4FZ6xx9hbbtF9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230409-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fa fa-users'
         }]
     },
     methods: {},

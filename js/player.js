@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '黃蜂盃',
                     g: '2',
                     gs: '0',
@@ -228,6 +236,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '1',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '青年盃',
                     g: '1',
@@ -646,10 +662,18 @@ new Vue({
                 englishName: 'Otto',
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。',
-                achievement: [],
+                achievement: ['1 Time Best Substitution'],
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
@@ -861,6 +885,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '黃蜂盃',
                     g: '2',
@@ -1088,6 +1120,14 @@ new Vue({
                 active: true,
                 position: [],
                 appearance: [{
+                    year: '2023',
+                    cup: '春季大安盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
@@ -1334,6 +1374,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '2',
+                    goals: '4',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '青年盃',
                     g: '2',
@@ -1594,6 +1642,14 @@ new Vue({
                 position: [''],
                 appearance: [{
                     year: '2023',
+                    cup: '春季大安盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '新北市少年八人制春季聯賽',
                     g: '1',
                     gs: '0',
@@ -1612,6 +1668,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '2',
+                    goals: '3',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '青年盃',
                     g: '1',
@@ -1848,6 +1912,14 @@ new Vue({
                 position: ['GK', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
                     gs: '0',
@@ -1994,6 +2066,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市教育盃',
                     g: '1',
@@ -2221,6 +2301,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '1',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '黃蜂盃',
                     g: '2',
@@ -2457,6 +2545,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '黃蜂盃',
                     g: '2',
                     gs: '0',
@@ -2651,6 +2747,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '2',
+                    gs: '2',
+                    goals: '4',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '青年盃',
                     g: '1',

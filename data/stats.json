@@ -2,8 +2,8 @@
     "updated": "2023/3/20 10:00",
     "hard":
     {
-        "matches": "32",
-        "wins": "17",
+        "matches": "35",
+        "wins": "20",
         "draws": "0",
         "loses": "15"
     },
@@ -18,15 +18,15 @@
     {
         "U10":
         {
-            "matches": "16",
-            "wins": "10",
+            "matches": "19",
+            "wins": "13",
             "draws": "1",
             "loses": "5",
             "gold": "2",
             "silver": "0",
             "bronze": "0",
-            "scores": "37",
-            "conc": "25",
+            "scores": "57",
+            "conc": "32",
             "cs": "6"
         },
         "U9":
