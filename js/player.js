@@ -662,7 +662,7 @@ new Vue({
                 englishName: 'Otto',
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。',
-                achievement: ['1 Time Best Substitution'],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
@@ -2540,7 +2540,7 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '1 Time Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
