@@ -335,6 +335,10 @@ new Vue({
                 date: '3/4',
                 opponents: 'AC-Taipei-U10',
                 url: 'YyJ1UJJD#EcIMZWtsopQCe4Qhs92fScqpirtaRpPSzDdAz-2ZmAs'
+            }, {
+                date: '4/16',
+                opponents: '三石訓練',
+                url: 'R2oSFRbC#nasO1XBF-9k55-XpS8Bvs0UrkwWfzr3TY-XiLo_S9_o'
             }],
             icon: 'fas fa-running'
         }, {
@@ -778,6 +782,10 @@ new Vue({
                 date: '3/4',
                 opponents: 'AC-Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/21eYmpzkp81x8roc8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '4/16',
+                opponents: '三石訓練',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/mCDeszGtCNYCjkXx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230416-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {

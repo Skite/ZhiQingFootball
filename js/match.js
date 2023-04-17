@@ -4298,6 +4298,37 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20230416',
+                pitch: '新莊田徑場',
+                opponent: '三石訓練',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-善捷', 'CB-亮谷', 'LB-宇正', 'RM-宥融', 'CM-維恩', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '1 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宇正',
+                    assist: '善捷'
+                }],
+                goalkeepers: ['凱泰', '宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }, {
             id: 30,
