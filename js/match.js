@@ -4670,6 +4670,104 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20230423',
+                pitch: '明道國小',
+                opponent: 'BSC',
+                formation: '1-2-1',
+                starters: ['GK-定謙', 'CB-維恩*', 'RM-宥融', 'LM-亮谷', 'CF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '13 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: '黃衍'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '黃衍'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: 'Own Goal',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: '晉丞'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230423',
+                pitch: '明道國小',
+                opponent: '明道國小',
+                formation: '1-2-1',
+                starters: ['GK-定謙', 'CB-維恩*', 'RM-宇正', 'LM-宥融', 'CF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }],
+                subTeam: '勇士',
+                final_score: '2 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }]
     },

@@ -13,16 +13,16 @@ new Vue({
                 englishName: 'Brian',
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
-                achievement: [],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
-                    goals: '0',
-                    asts: '1',
+                    goals: '1',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: '2023',
@@ -238,10 +238,10 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '1',
-                    goals: '1',
-                    asts: '2',
+                    g: '4',
+                    gs: '2',
+                    goals: '4',
+                    asts: '4',
                     cs: '0'
                 }, {
                     year: '2023',
@@ -887,9 +887,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
+                    g: '4',
                     gs: '0',
-                    goals: '0',
+                    goals: '2',
                     asts: '1',
                     cs: '0'
                 }, {
@@ -1384,9 +1384,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '4',
+                    g: '4',
+                    gs: '4',
+                    goals: '5',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -1678,9 +1678,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '3',
+                    g: '4',
+                    gs: '3',
+                    goals: '4',
                     asts: '3',
                     cs: '0'
                 }, {
@@ -1929,7 +1929,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2084,9 +2084,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '1',
+                    g: '4',
+                    gs: '4',
+                    goals: '2',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -2319,9 +2319,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '1',
-                    goals: '2',
+                    g: '4',
+                    gs: '3',
+                    goals: '3',
                     asts: '2',
                     cs: '0'
                 }, {
@@ -2556,14 +2556,14 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '1 Time Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '2 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '0',
+                    g: '3',
+                    gs: '2',
                     goals: '1',
                     asts: '0',
                     cs: '0'
@@ -2765,9 +2765,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '4',
+                    g: '4',
+                    gs: '4',
+                    goals: '6',
                     asts: '3',
                     cs: '0'
                 }, {

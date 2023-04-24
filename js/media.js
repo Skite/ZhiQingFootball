@@ -373,6 +373,14 @@ new Vue({
                 date: '4/9',
                 opponents: '立農戰將',
                 url: 'c2ozDDaR#jzQnHD-7O_cRidUX9iWYD7O5heL4PdIHhtoDIa8k13c'
+            }, {
+                date: '4/23',
+                opponents: 'BSC',
+                url: 'oqIFhaba#qyR0LXE3ivRq9oSdmpp1843d78BCu4RPwHs0PYozsEo'
+            }, {
+                date: '4/23',
+                opponents: '明道國小',
+                url: 'MuQjBJ6B#VgILPNBTj9Y1F6TqYVaHVT3WSrUOKUCUmCvY_VcBpaE'
             }],
             icon: 'fa fa-users'
         }],
@@ -826,6 +834,10 @@ new Vue({
                 date: '4/9',
                 opponents: 'SLFC、立農戰將',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Hz8z4FZ6xx9hbbtF9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230409-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '4/23',
+                opponents: 'BSC、明道國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/aP2BbW3DKgJCKV4w5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230423-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-users'
         }]
