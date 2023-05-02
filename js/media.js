@@ -824,6 +824,10 @@ new Vue({
                 date: '4/8',
                 opponents: 'Lion',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/JiDqmjLvEVyszhKL9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230408-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '4/29',
+                opponents: '磐石U10',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/s6MBjTWr2wh92isY7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230429-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-futbol'
         }, {

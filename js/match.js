@@ -4547,6 +4547,37 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: '* 學弟'
+            }, {
+                date: '20230429',
+                pitch: '華中足球場',
+                opponent: '磐石U10',
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-邁可', 'RF-昀宸*', 'LF-宸瑜*'],
+                subs: [{
+                    number: 14,
+                    name: '浚恩*'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 25,
+                    name: '宸宇*'
+                }, {
+                    number: 28,
+                    name: '羿翔*'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '昀宸*',
+                    assist: '宸瑜*'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
             }]
         }, {
             id: 33,
