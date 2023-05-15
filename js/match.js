@@ -4329,6 +4329,86 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: ''
+            }, {
+                date: '20230513',
+                pitch: '新莊田徑場',
+                opponent: '樂活鯊',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-紘豪', 'CB-宇正', 'LB-晉丞', 'RM-維恩', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '定謙'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '定謙'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20230514',
+                pitch: '新莊田徑場',
+                opponent: 'SLFC',
+                formation: '3-3-1',
+                starters: ['GK-定謙', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-黃衍', 'CM-亮谷', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '大勇士',
+                final_score: '0 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['定謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: ''
             }]
         }, {
             id: 30,

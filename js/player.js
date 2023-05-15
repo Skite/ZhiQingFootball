@@ -43,8 +43,8 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '1',
+                    g: '4',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -270,10 +270,10 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '2',
+                    g: '4',
+                    gs: '4',
                     goals: '3',
-                    asts: '0',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: '2023',
@@ -496,6 +496,14 @@ new Vue({
                     cs: '0'
                 }, {
                     year: '2023',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: 'Kappa 盃',
                     g: '1',
                     gs: '0',
@@ -670,7 +678,7 @@ new Vue({
                 englishName: 'Otto',
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。',
-                achievement: ['1 Time Best Substitutions'],
+                achievement: ['2 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
@@ -692,7 +700,7 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
+                    g: '4',
                     gs: '2',
                     goals: '0',
                     asts: '1',
@@ -919,8 +927,8 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '2',
+                    g: '3',
+                    gs: '3',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1126,7 +1134,7 @@ new Vue({
                 info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
                 achievement: [],
                 active: true,
-                position: [],
+                position: ['LB'],
                 appearance: [{
                     year: '2023',
                     cup: '春季大安盃',
@@ -1138,7 +1146,7 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '1',
+                    g: '3',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -1205,11 +1213,11 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '1',
+                    g: '3',
                     gs: '1',
                     goals: '0',
                     asts: '0',
-                    cs: '0'
+                    cs: '1'
                 }, {
                     year: '2023',
                     cup: 'Kappa 盃',
@@ -1432,9 +1440,9 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
+                    g: '4',
+                    gs: '4',
+                    goals: '5',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -1718,8 +1726,8 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '3',
+                    gs: '3',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1961,7 +1969,7 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
+                    g: '4',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2116,10 +2124,10 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '1',
+                    g: '4',
+                    gs: '3',
                     goals: '0',
-                    asts: '1',
+                    asts: '3',
                     cs: '0'
                 }, {
                     year: '2023',
@@ -2359,11 +2367,11 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '2',
+                    g: '4',
+                    gs: '4',
                     goals: '1',
                     asts: '0',
-                    cs: '0'
+                    cs: '1'
                 }, {
                     year: '2023',
                     cup: 'Kappa 盃',
@@ -2602,7 +2610,7 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
+                    g: '4',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2813,8 +2821,8 @@ new Vue({
                 }, {
                     year: '2023',
                     cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '2',
+                    g: '4',
+                    gs: '4',
                     goals: '2',
                     asts: '1',
                     cs: '0'

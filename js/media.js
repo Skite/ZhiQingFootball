@@ -339,6 +339,10 @@ new Vue({
                 date: '4/16',
                 opponents: '三石訓練',
                 url: 'R2oSFRbC#nasO1XBF-9k55-XpS8Bvs0UrkwWfzr3TY-XiLo_S9_o'
+            }, {
+                date: '5/13',
+                opponents: '樂活鯊',
+                url: 't6BVHCrS#bvHus4PfPusZC4YhjjyLLi3YRy8Y81F7UnLijlH4R7w'
             }],
             icon: 'fas fa-running'
         }, {
@@ -794,6 +798,14 @@ new Vue({
                 date: '4/16',
                 opponents: '三石訓練',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/mCDeszGtCNYCjkXx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230416-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '5/13',
+                opponents: '樂活鯊',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/b32JgGsBoTX2MneH8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230513-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '5/14',
+                opponents: 'SLFC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/gx96DruhcT9KCFwd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230514-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {
