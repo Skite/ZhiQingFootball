@@ -4117,7 +4117,7 @@ new Vue({
             matches: [{
                 date: '20230226',
                 pitch: '台北田徑場',
-                opponent: '新竹足球學校-紅',
+                opponent: '新竹足校-紅',
                 formation: '2-3-1',
                 starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
                 subs: [],
@@ -4254,7 +4254,7 @@ new Vue({
                 name: '大勇士',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
-            note: `<!-- <a class="text-success" target="_blank" href=""><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a> -->`,
+            note: `<a class="text-success" target="_blank" href="./img/table/2023eightmanspring.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20230304',
                 pitch: '新莊田徑場',
@@ -4408,6 +4408,46 @@ new Vue({
                 goalkeepers: ['定謙', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
+                note: ''
+            }, {
+                date: '20230527',
+                pitch: '新莊田徑場',
+                opponent: 'PLCFA',
+                formation: '3-3-1',
+                starters: ['GK-昕叡', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-定謙', 'CM-亮谷', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '大勇士',
+                final_score: '2 : 2',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '定謙',
+                    assist: '晉丞'
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['昕叡'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
                 note: ''
             }]
         }, {
@@ -4653,6 +4693,40 @@ new Vue({
                 scorers: [{
                     name: '昀宸*',
                     assist: '宸瑜*'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
+            }, {
+                date: '20230527',
+                pitch: '華中足球場',
+                opponent: 'MJKids',
+                formation: '3-0-1',
+                starters: ['GK-凱泰', 'RB-昀宸*', 'CB-紘豪', 'LB-邁可', 'CF-宸瑜*'],
+                subs: [{
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 28,
+                    name: '羿翔*'
+                }],
+                subTeam: '勇士',
+                final_score: '4 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '邁可',
+                    assist: ''
+                }, {
+                    name: '宸瑜*',
+                    assist: '邁可'
+                }, {
+                    name: '宸瑜*',
+                    assist: ''
+                }, {
+                    name: '昀宸*',
+                    assist: ''
                 }],
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,

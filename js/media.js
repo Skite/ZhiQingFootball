@@ -806,6 +806,10 @@ new Vue({
                 date: '5/14',
                 opponents: 'SLFC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gx96DruhcT9KCFwd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230514-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '5/27',
+                opponents: 'PLCFA',
+                url: '<a target="_blank" href="https://photos.app.goo.gl/nbZXQd3npH52zpK49"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230527-1-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }],
             icon: 'fas fa-running'
         }, {
@@ -840,6 +844,10 @@ new Vue({
                 date: '4/29',
                 opponents: '磐石U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/s6MBjTWr2wh92isY7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230429-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '5/27',
+                opponents: 'MJKids',
+                url: '<a target="_blank" href="https://photos.app.goo.gl/jbdunRKwmRN9qE4Y9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230527-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }],
             icon: 'far fa-futbol'
         }, {
