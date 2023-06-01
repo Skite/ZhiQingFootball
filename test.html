@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="msapplication-TileColor" content="#160a13">
+    <meta name="theme-color" content="#ffffff">
+    <title>志清足球隊</title>
+    <meta name="description" content="臺北市立志清國民小學 108 學年級足球隊" />
+    <meta property="og:site_name" content="ZhiQinFootball" />
+    <meta property="og:url" content="https://skite.github.io/ZhiQinFootball/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ZhiQinFootball" />
+    <meta property="og:image" content="https://skite.github.io/ZhiQinFootball/img/bg-masthead.jpg" />
+    <meta property="og:description" content="臺北市立志清國民小學 108 學年級足球隊" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/chart.css" rel="stylesheet">
+    <link href="css/text-effect.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand nav-logo" href="index.html"><img src="img/logo.png" class="img-fluid nav-logo"><span>志清足球隊</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="btn btn-default" href="squad.html">Squad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-default" href="matches.html">Matches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-default" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-default" href="media.html">Media</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 mx-auto">
+                    <h1 class="mb-5">臺北市立志清國民小學 <br> 108學年級足球隊</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Icons Grid -->
+    <!-- <section id="menu" class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="squad.html">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex">
+                                <i class="icon-people m-auto text-primary"></i>
+                            </div>
+                            <h3>球員名冊</h3>
+                            <p class="lead mb-0">不畏苦，不怕難的志清小將們</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="matches.html">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex">
+                                <i class="icon-calendar m-auto text-primary"></i>
+                            </div>
+                            <h3>賽程</h3>
+                            <p class="lead mb-0">相關賽事日程與比賽結果</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="media.html">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex">
+                                <i class="icon-picture m-auto text-primary"></i>
+                            </div>
+                            <h3>球隊影像</h3>
+                            <p class="lead mb-0">小將英姿與日常的記錄點滴</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="stats" class="py-5 header" :class="!!loaded ? '' : 'hidden'">
+        <div class="container-fluid py-4">
+            <header class="text-center my-4 text-white">
+                <h1 class="font-weight-bold display-4">數據統計</h1>
+            </header>
+            <div class="d-flex justify-content-center">
+                <div class="row col-6">
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-arrow-up-circle icons"></i>
+                            <div>
+                                <b>{{stats.wins? stats.wins : ''}}</b>
+                                <span>勝</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-arrow-right-circle icons"></i>
+                            <div>
+                                <b>7</b>
+                                <span>和</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-arrow-down-circle icons"></i>
+                            <div>
+                                <b>53</b>
+                                <span>負</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-6">
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-trophy icons"></i>
+                            <div>
+                                <b>7</b>
+                                <span>冠</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-badge icons"></i>
+                            <div>
+                                <b>5</b>
+                                <span>亞</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stati wet_asphalt ">
+                            <i class="icon-heart icons"></i>
+                            <div>
+                                <b>2</b>
+                                <span>季</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Tabs nav -->
+                    <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link mb-3 p-3 shadow active" id="v-pills-winlose-tab" data-toggle="pill" href="#v-pills-summary" role="tab" aria-controls="v-pills-winlose" aria-selected="true">
+                            <i class="fas fa-yin-yang mr-2"></i>
+                            <span class="font-weight-bold text-uppercase text-white">概覽</span>
+                        </a>
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-winlose-tab" data-toggle="pill" href="#v-pills-winlose" role="tab" aria-controls="v-pills-winlose" aria-selected="true">
+                            <i class="fas fa-yin-yang mr-2"></i>
+                            <span class="font-weight-bold text-uppercase text-white">勝負統計</span>
+                        </a>
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-stats-tab" data-toggle="pill" href="#v-pills-stats" role="tab" aria-controls="v-pills-stats" aria-selected="false">
+                            <i class="far fa-chart-bar mr-2"></i>
+                            <span class="font-weight-bold text-uppercase text-white">內容統計</span>
+                        </a>
+                        <!-- <a class="nav-link mb-3 p-3 shadow" id="v-pills-trophy-tab" data-toggle="pill" href="#v-pills-trophy" role="tab" aria-controls="v-pills-trophy" aria-selected="false">
+                            <i class="fas fa-trophy mr-2"></i>
+                            <span class="font-weight-bold text-uppercase text-white">榮譽統計</span>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-summary" role="tabpanel" aria-labelledby="v-pills-summary-tab">
+                            <h4 class="font-italic mb-4 text-center text-primary">概覽</h4>
+                            <p class="font-italic text-muted mb-2">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosepitch"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosefive"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseeight"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseseven"></div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade shadow rounded bg-white show p-5" id="v-pills-winlose" role="tabpanel" aria-labelledby="v-pills-winlose-tab">
+                            <h4 class="font-italic mb-4 text-center text-primary">勝負統計</h4>
+                            <p class="font-italic text-muted mb-2">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosepitch"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosefive"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseeight"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseseven"></div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-stats" role="tabpanel" aria-labelledby="v-pills-stats-tab">
+                            <h4 class="font-italic mb-4 text-center text-primary">比賽數據</h4>
+                            <p class="font-italic text-muted mb-2">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="goalsByGrade"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="goalsByType"></div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <!-- <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-trophy" role="tabpanel" aria-labelledby="v-pills-trophy-tab">
+                            <h4 class="font-italic mb-4 text-center text-primary">榮譽統計</h4>
+                            <p class="font-italic text-muted mb-2">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <h5 class="text-center">5人制</h5>
+                                            <canvas id="trophyfive"></canvas>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <h5 class="text-center">8人制</h5>
+                                            <canvas id="trophyeight"></canvas>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <h5 class="text-center">7人制</h5>
+                                            <canvas id="trophyseven"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image Showcases -->
+    <!-- <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>守紀律</h2>
+                    <div class="animated-title">
+                        <div class="text-top">
+                            <div>
+                                <span>志清國小樣樣好處處有歡笑</span>
+                            </div>
+                        </div>
+                        <div class="text-bottom">
+                            <div>讀書用功有禮貌個個似英豪</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>重榮譽</h2>
+                    <div class="animated-title">
+                        <div class="text-top">
+                            <div>
+                                <span>永懷領袖志氣高立志把國報</span>
+                            </div>
+                        </div>
+                        <div class="text-bottom">
+                            <div>自強不息的努力為校爭榮耀</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>健康快樂<br>在志清</h2>
+                    <div class="animated-title">
+                        <div class="text-top">
+                            <div>
+                                <span>鍊身體修品德敬師長孝父母</span>
+                            </div>
+                        </div>
+                        <div class="text-bottom">
+                            <div>相親相愛在一起大家樂陶陶</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-secondary">
+        <div class="container">
+            <h2 class="mb-5">指導教練</h2>
+            <div class="row">
+                <div class="col-lg">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/coach-4.jpg" alt="">
+                        <h5>總教練 陳柏豪</h5>
+                        <p class="font-weight-light mb-0">
+                            <ul class="text-left">
+                                <li>中華男子足球國家代表隊前鋒</li>
+                                <li>UFA 大專院校足球聯賽金靴獎（2屆）</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/coach-2.jpg" alt="">
+                        <h5>教練 陳怡萍</h5>
+                        <p class="font-weight-light mb-0">
+                            <ul class="text-left">
+                                <li>U19青年盃國家代表隊前鋒</li>
+                                <li>中華女子足球國家代表隊前鋒</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/coach-1.jpg" alt="">
+                        <h5>朱芳儀</h5>
+                        <p class="font-weight-light mb-0">
+                            <ul class="text-left">
+                                <li>中華女子足球代表隊主力門將</li>
+                                <li>2017台北世大運主力門將</li>
+                                <li>師大女子足球隊門將</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/coach-3.jpg" alt="">
+                        <h5>梁凱柔</h5>
+                        <p class="font-weight-light mb-0">
+                            <ul class="text-left">
+                                <li>中華女子足球國家代表隊中場</li>
+                                <li>臺北熊讚女子足球隊</li>
+                                <li>志清國小足球隊低年級教練</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h2 class="mb-4"></h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Skite/ZhiQinFootball/issues">意見回饋</a>
+                        </li>
+                        <!-- <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li> -->
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; ZhiQin Football 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-2 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline m-0">
+                        <li class="list-inline-item">
+                            <img src="img/qrcode.png" class="img-fluid">
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="data/charts.js"></script>
+    <script type="text/javascript">
+    var app = new Vue({
+        el: '#stats',
+        data: {
+            loaded: false,
+            json: {}
+        },
+        computed: {
+            stats: function() {
+                let sourceData = JSON.parse(JSON.stringify(this.json))
+                let wins = (+sourceData.hard.wins) + (+sourceData.grass.wins)
+                return {
+                    wins: wins
+                }
+            }
+        },
+        methods: {
+            toInt(val) {
+                console.log(val)
+                if (!!val) {
+                    return parseInt(val)
+                }
+            }
+        }
+    });
+    $.getJSON('https://skite.github.io/ZhiQinFootball/data/stats.json', function(json) {
+        app.json = json;
+        if (!!json) {
+            app.loaded = true
+        }
+    });
+    </script>
+</body>
+
+</html>
