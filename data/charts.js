@@ -326,7 +326,8 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             text: `${Number(stats.hard.wins)+Number(stats.grass.wins)} 勝 - ${Number(stats.hard.draws)+Number(stats.grass.draws)} 和 - ${Number(stats.hard.loses)+Number(stats.grass.loses)} 敗`,
             align: 'center',
             style: {
-                color: '#4287f5'
+                color: '#4287f5',
+                fontSize: '1rem'
             }
         },
         plotOptions: {
@@ -354,7 +355,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 distance: -50
             }
         }, {
-            name: '分齡',
+            name: '',
             data: pitchWinLoseGradeData,
             size: '80%',
             innerSize: '60%',
@@ -380,7 +381,8 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             text: `${Number(stats.five.U10.wins)+Number(stats.five.U9.wins)+Number(stats.five.U8.wins)} 勝 - ${Number(stats.five.U10.draws)+Number(stats.five.U9.draws)+Number(stats.five.U8.draws)} 和 - ${Number(stats.five.U10.loses)+Number(stats.five.U9.loses)+Number(stats.five.U8.loses)} 敗`,
             align: 'center',
             style: {
-                color: '#4287f5'
+                color: '#4287f5',
+                fontSize: '1rem'
             }
         },
         plotOptions: {
@@ -408,7 +410,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 distance: -50
             }
         }, {
-            name: '分齡',
+            name: '',
             data: fiveWinLoseGradeData,
             size: '80%',
             innerSize: '60%',
@@ -434,7 +436,8 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             text: `${Number(stats.eight.U10.wins)+Number(stats.eight.U9.wins)+Number(stats.eight.U8.wins)} 勝 - ${Number(stats.eight.U10.draws)+Number(stats.eight.U9.draws)+Number(stats.eight.U8.draws)} 和 - ${Number(stats.eight.U10.loses)+Number(stats.eight.U9.loses)+Number(stats.eight.U8.loses)} 敗`,
             align: 'center',
             style: {
-                color: '#4287f5'
+                color: '#4287f5',
+                fontSize: '1rem'
             }
         },
         plotOptions: {
@@ -464,7 +467,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 distance: -50
             }
         }, {
-            name: '分齡',
+            name: '',
             data: eightWinLoseGradeData,
             size: '80%',
             innerSize: '60%',
@@ -490,7 +493,8 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             text: `${Number(stats.seven.U10.wins)+Number(stats.seven.U9.wins)+Number(stats.seven.U8.wins)} 勝 - ${Number(stats.seven.U10.draws)+Number(stats.seven.U9.draws)+Number(stats.seven.U8.draws)} 和 - ${Number(stats.seven.U10.loses)+Number(stats.seven.U9.loses)+Number(stats.seven.U8.loses)} 敗`,
             align: 'center',
             style: {
-                color: '#4287f5'
+                color: '#4287f5',
+                fontSize: '1rem'
             }
         },
         plotOptions: {
@@ -520,7 +524,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 distance: -50
             }
         }, {
-            name: '分齡',
+            name: '',
             data: sevenWinLoseGradeData,
             size: '80%',
             innerSize: '60%',
@@ -640,4 +644,169 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         }]
     });
 
+    Highcharts.chart('throphies', {
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: '獎盃'
+        },
+        xAxis: {
+            categories: ['冠軍', '亞軍', '季軍']
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '次'
+            }
+        },
+        colors: [colors[2], colors[2], colors[2], colors[3], colors[3], colors[3], colors[5], colors[5], colors[5]],
+        plotOptions: {
+            series: {
+                stacking: 'normal',
+                dataLabels: {
+                    enabled: true
+                }
+            }
+        },
+        tooltip: {
+            formatter: function() {
+                return this.series.name + '  ' + this.series.userOptions.stack;
+            }
+        },
+        series: [{
+            id: 1,
+            name: 'U10',
+            data: [Number(stats.five.U10.gold), Number(stats.five.U10.silver), Number(stats.five.U10.bronze)],
+            stack: '五人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U10',
+            data: [Number(stats.eight.U10.gold), Number(stats.eight.U10.silver), Number(stats.eight.U10.bronze)],
+            stack: '八人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U10',
+            data: [Number(stats.seven.U10.gold), Number(stats.seven.U10.silver), Number(stats.seven.U10.bronze)],
+            stack: '七人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            id: 2,
+            name: 'U9',
+            data: [Number(stats.five.U9.gold), Number(stats.five.U9.silver), Number(stats.five.U9.bronze)],
+            stack: '五人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U9',
+            data: [Number(stats.eight.U9.gold), Number(stats.eight.U9.silver), Number(stats.eight.U9.bronze)],
+            stack: '八人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U9',
+            data: [Number(stats.seven.U9.gold), Number(stats.seven.U9.silver), Number(stats.seven.U9.bronze)],
+            stack: '七人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            id: 3,
+            name: 'U8',
+            data: [Number(stats.five.U8.gold), Number(stats.five.U8.silver), Number(stats.five.U8.bronze)],
+            stack: '五人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U8',
+            data: [Number(stats.eight.U8.gold), Number(stats.eight.U8.silver), Number(stats.eight.U8.bronze)],
+            stack: '八人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U8',
+            data: [Number(stats.seven.U8.gold), Number(stats.seven.U8.silver), Number(stats.seven.U8.bronze)],
+            stack: '七人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }]
+    });
+
+    Highcharts.chart('matches', {
+        title: {
+            text: '賽事統計',
+            align: 'center'
+        },
+        subtitle: {
+            text: '',
+            align: 'center'
+        },
+        yAxis: {
+            title: {
+                text: '場次'
+            }
+        },
+        xAxis: {
+            categories: ['U8', 'U9', 'U10']
+        },
+        colors: [colors[2], colors[3], colors[5]],
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: '五人制',
+            data: [Number(stats.five.U8.matches), Number(stats.five.U9.matches), Number(stats.five.U10.matches)]
+        }, {
+            name: '八人制',
+            data: [Number(stats.eight.U8.matches), Number(stats.eight.U9.matches), Number(stats.eight.U10.matches)]
+        }, {
+            name: '七人制',
+            data: [Number(stats.seven.U8.matches), Number(stats.seven.U9.matches), Number(stats.seven.U10.matches)]
+        }]
+    });
 })

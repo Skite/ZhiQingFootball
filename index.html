@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/chart.css" rel="stylesheet">
     <link href="css/text-effect.css" rel="stylesheet">
 </head>
 
@@ -130,7 +131,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-arrow-down-circle icons"></i>
                             <div>
-                                <b>52</b>
+                                <b>53</b>
                                 <span>負</span>
                             </div>
                         </div>
@@ -170,66 +171,70 @@
                 <div class="col-md-3">
                     <!-- Tabs nav -->
                     <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link mb-3 p-3 shadow active" id="v-pills-summary-tab" data-toggle="pill" href="#v-pills-summary" role="tab" aria-controls="v-pills-summary" aria-selected="true">
-                            <i class="fas fa-stream mr-2"></i>
-                            <span class="font-weight-bold text-uppercase text-white">總覽</span>
+                        <a class="nav-link mb-3 p-3 shadow active" id="v-pills-winlose-tab" data-toggle="pill" href="#v-pills-summary" role="tab" aria-controls="v-pills-winlose" aria-selected="true">
+                            <i class="fas fa-yin-yang mr-2"></i>
+                            <span class="font-weight-bold text-uppercase text-white">概覽</span>
                         </a>
-                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-winlose-tab" data-toggle="pill" href="#v-pills-winlose" role="tab" aria-controls="v-pills-winlose" aria-selected="false">
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-winlose-tab" data-toggle="pill" href="#v-pills-winlose" role="tab" aria-controls="v-pills-winlose" aria-selected="true">
                             <i class="fas fa-yin-yang mr-2"></i>
                             <span class="font-weight-bold text-uppercase text-white">勝負統計</span>
                         </a>
                         <a class="nav-link mb-3 p-3 shadow" id="v-pills-stats-tab" data-toggle="pill" href="#v-pills-stats" role="tab" aria-controls="v-pills-stats" aria-selected="false">
                             <i class="far fa-chart-bar mr-2"></i>
-                            <span class="font-weight-bold text-uppercase text-white">數據統計</span>
+                            <span class="font-weight-bold text-uppercase text-white">內容統計</span>
                         </a>
-                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-trophy-tab" data-toggle="pill" href="#v-pills-trophy" role="tab" aria-controls="v-pills-trophy" aria-selected="false">
+                        <!-- <a class="nav-link mb-3 p-3 shadow" id="v-pills-trophy-tab" data-toggle="pill" href="#v-pills-trophy" role="tab" aria-controls="v-pills-trophy" aria-selected="false">
                             <i class="fas fa-trophy mr-2"></i>
                             <span class="font-weight-bold text-uppercase text-white">榮譽統計</span>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-md-9">
                     <!-- Tabs content -->
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-summary" role="tabpanel" aria-labelledby="v-pills-summary-tab">
-                            <h4 class="font-italic mb-4 text-center text-primary">總覽</h4>
+                            <h4 class="font-italic mb-4 text-center text-primary">概覽</h4>
                             <p class="font-italic text-muted mb-2">
                                 <div class="container">
                                     <div class="row my-4">
                                         <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">場次</h5>
-                                            <canvas id="matches"></canvas>
+                                            <figure class="highcharts-figure">
+                                                <div id="matches"></div>
+                                            </figure>
                                         </div>
                                         <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">分齡勝率</h5>
-                                            <canvas id="winpct"></canvas>
-                                        </div>
-                                        <div class="col-sm-12 col-md-4 chart">
-                                            <h5 class="text-center">場地勝率</h5>
-                                            <div class="small text-center">外圈：硬地 | 內圈：草地</div>
-                                            <canvas id="pitchwinpct"></canvas>
+                                            <figure class="highcharts-figure">
+                                                <div id="throphies"></div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
                             </p>
                         </div>
-                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-winlose" role="tabpanel" aria-labelledby="v-pills-winlose-tab">
+                        <div class="tab-pane fade shadow rounded bg-white show p-5" id="v-pills-winlose" role="tabpanel" aria-labelledby="v-pills-winlose-tab">
                             <h4 class="font-italic mb-4 text-center text-primary">勝負統計</h4>
-                            <div class="small text-center">外圈：U10 | 中圈：U9 | 內圈：U8</div>
                             <p class="font-italic text-muted mb-2">
                                 <div class="container">
                                     <div class="row my-4">
-                                        <div class="col-sm-12 col-md-4 chart">
-                                            <h5 class="text-center">5人制</h5>
-                                            <canvas id="winlosefive"></canvas>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosepitch"></div>
+                                            </figure>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 chart">
-                                            <h5 class="text-center">8人制</h5>
-                                            <canvas id="winloseeight"></canvas>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winlosefive"></div>
+                                            </figure>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 chart">
-                                            <h5 class="text-center">7人制</h5>
-                                            <canvas id="winloseseven"></canvas>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseeight"></div>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 chart">
+                                            <figure class="highcharts-figure">
+                                                <div id="winloseseven"></div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -241,28 +246,20 @@
                                 <div class="container">
                                     <div class="row my-4">
                                         <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">進球</h5>
-                                            <canvas id="goals"></canvas>
+                                            <figure class="highcharts-figure">
+                                                <div id="goalsByGrade"></div>
+                                            </figure>
                                         </div>
                                         <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">失球</h5>
-                                            <canvas id="conceded"></canvas>
-                                        </div>
-                                    </div>
-                                    <div class="row my-4">
-                                        <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">得失球差</h5>
-                                            <canvas id="gd"></canvas>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 chart">
-                                            <h5 class="text-center">完封</h5>
-                                            <canvas id="cs"></canvas>
+                                            <figure class="highcharts-figure">
+                                                <div id="goalsByType"></div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
                             </p>
                         </div>
-                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-trophy" role="tabpanel" aria-labelledby="v-pills-trophy-tab">
+                        <!-- <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-trophy" role="tabpanel" aria-labelledby="v-pills-trophy-tab">
                             <h4 class="font-italic mb-4 text-center text-primary">榮譽統計</h4>
                             <p class="font-italic text-muted mb-2">
                                 <div class="container">
@@ -282,7 +279,7 @@
                                     </div>
                                 </div>
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -467,455 +464,47 @@
     </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="data/charts.js"></script>
     <script type="text/javascript">
-    $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(stats) {
+    var app = new Vue({
+        el: '#stats',
+        data: {
+            loaded: false,
+            json: {}
+        },
+        computed: {
+            stats: function() {
+                if (!!this.json) {
+                    let sourceData = JSON.parse(JSON.stringify(this.json))
 
-        // 比賽場數
-        var ctx = document.getElementById('matches').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [stats.five.U8.matches, stats.five.U9.matches, stats.five.U10.matches]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [stats.eight.U8.matches, stats.eight.U9.matches, stats.eight.U10.matches]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [stats.seven.U8.matches, stats.seven.U9.matches, stats.seven.U10.matches]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 30,
+                    return {
+                        wins: (+sourceData.hard.wins) + (+sourceData.grass.wins),
+                        draws: (+sourceData.hard.draws) + (+sourceData.grass.draws),
+                        loses: (+sourceData.hard.loses) + (+sourceData.grass.loses)
                     }
+
                 }
             }
-        });
+        },
+        methods: {
+            async getData() {
 
-        //分齡勝率
-        var ctx = document.getElementById('winpct').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [stats.five.U8.wins / stats.five.U8.matches, stats.five.U9.wins / stats.five.U9.matches, stats.five.U10.wins / stats.five.U10.matches]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [stats.eight.U8.wins / stats.eight.U8.matches, stats.eight.U9.wins / stats.eight.U9.matches, stats.eight.U10.wins / stats.eight.U10.matches]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [stats.seven.U8.wins / stats.seven.U8.matches, stats.seven.U9.wins / stats.seven.U9.matches, stats.seven.U10.wins / stats.seven.U10.matches]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 1,
-                    }
-                }
-            }
-        });
-
-        //場地勝率
-        var ctx = document.getElementById('pitchwinpct').getContext('2d');
-
-
-        var chart = new Chart(ctx, {
-            type: 'doughnut',
-            data: {
-                labels: ["勝", "和", "敗"],
-                datasets: [{
-                    label: '硬地',
-                    backgroundColor: ['rgba(3, 44, 252, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(109, 110, 110, 0.8)'],
-                    data: [stats.hard.wins, stats.hard.draws, stats.hard.loses]
-                }, {
-                    label: '草地',
-                    backgroundColor: ['rgba(3, 44, 252, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(109, 110, 110, 0.8)'],
-                    data: [stats.grass.wins, stats.grass.draws, stats.grass.loses]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        });
-
-        //進球數
-        var ctx = document.getElementById('goals').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [stats.five.U8.scores, stats.five.U9.scores, stats.five.U10.scores]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [stats.eight.U8.scores, stats.eight.U9.scores, stats.eight.U10.scores]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [stats.seven.U8.scores, stats.seven.U9.scores, stats.seven.U10.scores]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 100,
-                    }
-                }
-            }
-        });
-
-        //失球數
-        var ctx = document.getElementById('conceded').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [-stats.five.U8.conc, -stats.five.U9.conc, -stats.five.U10.conc]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [-stats.eight.U8.conc, -stats.eight.U9.conc, -stats.eight.U10.conc]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [-stats.seven.U8.conc, -stats.seven.U9.conc, -stats.seven.U10.conc]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: -100,
-                        max: 0,
-                    }
-                }
-            }
-        });
-
-        //得失球差
-        var ctx = document.getElementById('gd').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [stats.five.U8.scores - stats.five.U8.conc, stats.five.U9.scores - stats.five.U9.conc, stats.five.U10.scores - stats.five.U10.conc]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [stats.eight.U8.scores - stats.eight.U8.conc, stats.eight.U9.scores - stats.eight.U9.conc, stats.eight.U10.scores - stats.eight.U10.conc]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [stats.seven.U8.scores - stats.seven.U8.conc, stats.seven.U9.scores - stats.seven.U9.conc, stats.seven.U10.scores - stats.seven.U10.conc]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: -50,
-                        max: 50,
-                    }
-                }
-            }
-        });
-
-        var ctx = document.getElementById('cs').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["U8", "U9", "U10"],
-                datasets: [{
-                    label: '5人制',
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [stats.five.U8.cs, stats.five.U9.cs, stats.five.U10.cs]
-                }, {
-                    label: '8人制',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    data: [stats.eight.U8.cs, stats.eight.U9.cs, stats.eight.U10.cs]
-                }, {
-                    label: '7人制',
-                    backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                    borderColor: 'rgb(255, 205, 86)',
-                    data: [stats.seven.U8.cs, stats.seven.U9.cs, stats.seven.U10.cs]
-                }]
-            },
-            options: {
-                responsive: 'true',
-                borderWidth: 2,
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 14,
-                    }
-                }
-            }
-        });
-
-        //勝-和-敗
-        let color = ['rgba(3, 44, 252, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(109, 110, 110, 0.8)']
-
-        let wdl5 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [stats.five.U10.wins, stats.five.U10.draws, stats.five.U10.loses]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [stats.five.U9.wins, stats.five.U9.draws, stats.five.U9.loses]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [stats.five.U8.wins, stats.five.U8.draws, stats.five.U8.loses]
-            }]
-        };
-
-        let wdl8 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [stats.eight.U10.wins, stats.eight.U10.draws, stats.eight.U10.loses]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [stats.eight.U9.wins, stats.eight.U9.draws, stats.eight.U9.loses]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [stats.eight.U8.wins, stats.eight.U8.draws, stats.eight.U8.loses]
-            }]
-        };
-
-        let wdl7 = {
-            labels: ["勝", "和", "敗"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: color,
-                data: [stats.seven.U10.wins, stats.seven.U10.draws, stats.seven.U10.loses]
-            }, {
-                label: 'U9',
-                backgroundColor: color,
-                data: [stats.seven.U9.wins, stats.seven.U9.draws, stats.seven.U9.loses]
-            }, {
-                label: 'U8',
-                backgroundColor: color,
-                data: [stats.seven.U8.wins, stats.seven.U8.draws, stats.seven.U8.loses]
-            }]
-        };
-
-        var ctx1 = document.getElementById('winlosefive').getContext('2d');
-        var chart1 = new Chart(ctx1, {
-            type: 'doughnut',
-            data: wdl5,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
-
-        var ctx2 = document.getElementById('winloseeight').getContext('2d');
-        var chart2 = new Chart(ctx2, {
-            type: 'doughnut',
-            data: wdl8,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
-
-        var ctx3 = document.getElementById('winloseseven').getContext('2d');
-        var chart3 = new Chart(ctx3, {
-            type: 'doughnut',
-            data: wdl7,
-            options: {
-                responsive: 'true',
-                cutout: '30%',
-                plugins: {
-                    datalabels: {
-                        textAlign: 'center'
-                    },
-                    legend: {
-                        display: true
-                    }
-                }
-            }
-        })
-
-        let trophy5 = {
-            labels: ["冠軍", "亞軍", "季軍"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                data: [stats.five.U10.gold, stats.five.U10.silver, stats.five.U10.bronze]
-            }, {
-                label: 'U9',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgb(75, 192, 192)',
-                data: [stats.five.U9.gold, stats.five.U9.silver, stats.five.U9.bronze]
-            }, {
-                label: 'U8',
-                backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                borderColor: 'rgb(255, 205, 86)',
-                data: [stats.five.U8.gold, stats.five.U8.silver, stats.five.U8.bronze]
-            }]
-        };
-
-        let trophy8 = {
-            labels: ["冠軍", "亞軍", "季軍"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                data: [stats.eight.U10.gold, stats.eight.U10.silver, stats.eight.U10.bronze]
-            }, {
-                label: 'U9',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgb(75, 192, 192)',
-                data: [stats.eight.U9.gold, stats.eight.U9.silver, stats.eight.U9.bronze]
-            }, {
-                label: 'U8',
-                backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                borderColor: 'rgb(255, 205, 86)',
-                data: [stats.eight.U8.gold, stats.eight.U8.silver, stats.eight.U8.bronze]
-            }]
-        };
-
-        let trophy7 = {
-            labels: ["冠軍", "亞軍", "季軍"],
-            datasets: [{
-                label: 'U10',
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                data: [stats.seven.U10.gold, stats.seven.U10.silver, stats.seven.U10.bronze]
-            }, {
-                label: 'U9',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgb(75, 192, 192)',
-                data: [stats.seven.U9.gold, stats.seven.U9.silver, stats.seven.U9.bronze]
-            }, {
-                label: 'U8',
-                backgroundColor: 'rgba(255, 205, 86, 0.2)',
-                borderColor: 'rgb(255, 205, 86)',
-                data: [stats.seven.U8.gold, stats.seven.U8.silver, stats.seven.U8.bronze]
-            }]
-        };
-
-        const trophyOptions = {
-            responsive: 'true',
-            borderWidth: 2,
-            scales: {
-                y: {
-                    min: 0,
-                    max: 5,
-                    ticks: {
-                        maxTicksLimit: 10
-                    }
-                }
             }
         }
-
-        var ctx1 = document.getElementById('trophyfive').getContext('2d');
-        var chart1 = new Chart(ctx1, {
-            type: 'bar',
-            data: trophy5,
-            options: trophyOptions
-        })
-
-        var ctx2 = document.getElementById('trophyeight').getContext('2d');
-        var chart2 = new Chart(ctx2, {
-            type: 'bar',
-            data: trophy8,
-            options: trophyOptions
-        })
-
-        var ctx3 = document.getElementById('trophyseven').getContext('2d');
-        var chart3 = new Chart(ctx3, {
-            type: 'bar',
-            data: trophy7,
-            options: trophyOptions
-        })
-
+    });
+    $.getJSON('https://skite.github.io/ZhiQinFootball/data/stats.json', function(json) {
+        if (!!json) {
+            app.json = json;
+            app.loaded = true
+        }
     });
     </script>
 </body>
