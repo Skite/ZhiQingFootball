@@ -235,20 +235,20 @@
                                                         <div class="tab-content p-3">
                                                             <div class="tab-pane active show" :id="`gamelog${player.number}`">
                                                                 <div class="accordion" :id="`accordion${player.number}`">
-                                                                    <div class="card text-primary">
+                                                                    <div class="card text-primary" v-for="(match, index) in player.matchGroup">
                                                                         <div class="card-header" :id="`heading2023-${player.number}`">
                                                                             <h2 class="mb-0">
-                                                                                <button class="btn text-info btn-outline-light btn-block text-left" data-toggle="collapse" :data-target="`#year2023-${player.number}`" aria-expanded="true" aria-controls="year2023">
-                                                                                    2023 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                <button class="btn text-info btn-outline-light btn-block text-left" data-toggle="collapse" :data-target="`#year${index}-${player.number}`" aria-expanded="true" :aria-controls="`year${index}`">
+                                                                                    {{index}} <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                                                 </button>
                                                                             </h2>
                                                                         </div>
-                                                                        <div :id="`year2023-${player.number}`" class="collapse text-info show" aria-labelledby="year2023" :data-parent="`#accordion${player.number}`">
+                                                                        <div :id="`year${index}-${player.number}`" class="collapse text-info show" :aria-labelledby="`year${index}`" :data-parent="`#accordion${player.number}`">
                                                                             <div class="card-body table-responsive">
                                                                                 <table class="table">
                                                                                     <thead>
                                                                                         <tr>
-                                                                                            <th scope="col">Year</th>
+                                                                                            <!-- <th scope="col">Year</th> -->
                                                                                             <th scope="col">Tournament</th>
                                                                                             <th scope="col">GPs</th>
                                                                                             <th scope="col" class="d-none d-md-table-cell">Starts</th>
@@ -258,119 +258,8 @@
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2023'">
-                                                                                            <td>{{ app.year }}</td>
-                                                                                            <td>{{ app.cup }}</td>
-                                                                                            <td>{{ app.g }}</td>
-                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
-                                                                                            <td>{{ app.goals }}</td>
-                                                                                            <td>{{ app.asts }}</td>
-                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="card text-secondary">
-                                                                        <div class="card-header" :id="`heading2022-${player.number}`">
-                                                                            <h2 class="mb-0">
-                                                                                <button class="btn text-info btn-outline-light btn-block text-left collapsed" data-toggle="collapse" :data-target="`#year2022-${player.number}`" aria-expanded="false" aria-controls="year2022">
-                                                                                    2022 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                                                </button>
-                                                                            </h2>
-                                                                        </div>
-                                                                        <div :id="`year2022-${player.number}`" class="collapse text-info" aria-labelledby="year2022" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body table-responsive">
-                                                                                <table class="table">
-                                                                                    <thead>
-                                                                                        <tr>
-                                                                                            <th scope="col">Year</th>
-                                                                                            <th scope="col">Tournament</th>
-                                                                                            <th scope="col">GPs</th>
-                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
-                                                                                            <th scope="col">Goals</th>
-                                                                                            <th scope="col">Asts</th>
-                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2022'">
-                                                                                            <td>{{ app.year }}</td>
-                                                                                            <td>{{ app.cup }}</td>
-                                                                                            <td>{{ app.g }}</td>
-                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
-                                                                                            <td>{{ app.goals }}</td>
-                                                                                            <td>{{ app.asts }}</td>
-                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="card text-success">
-                                                                        <div class="card-header" :id="`heading2021-${player.number}`">
-                                                                            <h2 class="mb-0">
-                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" :data-target="`#year2021-${player.number}`" aria-expanded="false" aria-controls="year2021">
-                                                                                    2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                                                </button>
-                                                                            </h2>
-                                                                        </div>
-                                                                        <div :id="`year2021-${player.number}`" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body table-responsive">
-                                                                                <table class="table">
-                                                                                    <thead>
-                                                                                        <tr>
-                                                                                            <th scope="col">Year</th>
-                                                                                            <th scope="col">Tournament</th>
-                                                                                            <th scope="col">GPs</th>
-                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
-                                                                                            <th scope="col">Goals</th>
-                                                                                            <th scope="col">Asts</th>
-                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                                                            <td>{{ app.year }}</td>
-                                                                                            <td>{{ app.cup }}</td>
-                                                                                            <td>{{ app.g }}</td>
-                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
-                                                                                            <td>{{ app.goals }}</td>
-                                                                                            <td>{{ app.asts }}</td>
-                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
-                                                                                        </tr>
-                                                                                    </tbody>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="card text-info">
-                                                                        <div class="card-header" :id="`heading2020-${player.number}`">
-                                                                            <h2 class="mb-0">
-                                                                                <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" :data-target="`#year2020-${player.number}`" aria-expanded="false" aria-controls="year2020">
-                                                                                    2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                                                                </button>
-                                                                            </h2>
-                                                                        </div>
-                                                                        <div :id="`year2020-${player.number}`" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
-                                                                            <div class="card-body table-responsive">
-                                                                                <table class="table">
-                                                                                    <thead>
-                                                                                        <tr>
-                                                                                            <th scope="col">Year</th>
-                                                                                            <th scope="col">Tournament</th>
-                                                                                            <th scope="col">GPs</th>
-                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
-                                                                                            <th scope="col">Goals</th>
-                                                                                            <th scope="col">Asts</th>
-                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                                                            <td>{{ app.year }}</td>
+                                                                                        <tr v-for="app in match">
+                                                                                            <!-- <td>{{ app.year }}</td> -->
                                                                                             <td>{{ app.cup }}</td>
                                                                                             <td>{{ app.g }}</td>
                                                                                             <td class="d-none d-md-table-cell">{{ app.gs }}</td>

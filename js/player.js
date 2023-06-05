@@ -13,10 +13,18 @@ new Vue({
                 englishName: 'Brian',
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
-                achievement: ['1 Time Best Substitutions'],
+                achievement: ['2 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '2',
@@ -236,6 +244,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -473,8 +489,8 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '春季大安盃',
-                    g: '2',
-                    gs: '2',
+                    g: '4',
+                    gs: '4',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -682,6 +698,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '1',
@@ -901,6 +925,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -1138,9 +1170,9 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '春季大安盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '1',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
                     asts: '3',
                     cs: '0'
                 }, {
@@ -1189,8 +1221,8 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '春季大安盃',
-                    g: '2',
-                    gs: '2',
+                    g: '4',
+                    gs: '4',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1406,6 +1438,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -1675,7 +1715,7 @@ new Vue({
                 appearance: [{
                     year: '2023',
                     cup: '春季大安盃',
-                    g: '3',
+                    g: '5',
                     gs: '1',
                     goals: '0',
                     asts: '0',
@@ -1700,6 +1740,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -1952,6 +2000,14 @@ new Vue({
                 position: ['GK', 'RM', 'CF'],
                 appearance: [{
                     year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '2',
                     gs: '0',
@@ -2106,6 +2162,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -2341,6 +2405,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -2580,10 +2652,18 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '2 Times Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '3 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '3',
@@ -2783,10 +2863,18 @@ new Vue({
                 englishName: 'Eugene',
                 title: 'VC',
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長。',
-                achievement: ['Vice Captian (2023-present)'],
+                achievement: ['Vice Captian (2023-present)', '1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: '2023',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '5',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: '2023',
                     cup: '臺北市五人制足球聯賽',
                     g: '4',
@@ -3331,12 +3419,15 @@ new Vue({
                 return sum
             }
 
+
+
             filteredResult = filteredResult.map(v => ({ ...v,
                 totalMatches: sumStat(v, 'g'),
                 totalGS: sumStat(v, 'gs'),
                 totalGoals: sumStat(v, 'goals'),
                 totalAsts: sumStat(v, 'asts'),
-                totalCS: sumStat(v, 'cs')
+                totalCS: sumStat(v, 'cs'),
+                matchGroup: _.groupBy(v.appearance, o => o.year)
             }))
 
             type = this.sortType
@@ -3351,7 +3442,7 @@ new Vue({
                 }, 'desc')
             }
 
-            // console.log(filteredResult)
+            console.log(filteredResult)
 
             return {
                 active: _.filter(filteredResult, ['active', true]),

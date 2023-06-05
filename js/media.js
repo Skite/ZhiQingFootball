@@ -387,6 +387,16 @@ new Vue({
                 url: 'MuQjBJ6B#VgILPNBTj9Y1F6TqYVaHVT3WSrUOKUCUmCvY_VcBpaE'
             }],
             icon: 'fa fa-users'
+        }, {
+            id: 24,
+            cupName: '2023安聯小小世界盃',
+            cover: '2023allianzcup',
+            videos: [{
+                date: '6/3',
+                opponents: '小炫風U10、TFA皇馬、雙峰樂活',
+                url: 'AypDQaTa#md38lwKunlIhx8Sf5e-gGEbH9ADCAXE3kaxObm9XImI'
+            }],
+            icon: 'fab fa-angular'
         }],
         photos: [{
             id: 1,
@@ -848,6 +858,10 @@ new Vue({
                 date: '5/27',
                 opponents: 'MJKids',
                 url: '<a target="_blank" href="https://photos.app.goo.gl/jbdunRKwmRN9qE4Y9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230527-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
+            }, {
+                date: '6/3',
+                opponents: '熱血足球Fighting、磐石U10',
+                url: '<a target="_blank" href="https://photos.app.goo.gl/aWfgZpcygdqbJZaC9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }],
             icon: 'far fa-futbol'
         }, {
@@ -864,6 +878,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/aP2BbW3DKgJCKV4w5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230423-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fa fa-users'
+        }, {
+            id: 33,
+            cupName: '2023安聯小小世界盃',
+            cover: '20230603-1-cover',
+            photos: [{
+                date: '6/3',
+                opponents: '小炫風U10、TFA皇馬、雙峰樂活',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-angular'
         }]
     },
     methods: {},
