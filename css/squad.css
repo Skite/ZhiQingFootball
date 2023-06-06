@@ -130,19 +130,24 @@
     text-align: left;
 }
 
-.modal-body2020 {
+.modal-body-y2020 {
     text-align: left;
-    background-color: #32fdac;
+    color: #58b590;
 }
 
-.modal-body2021 {
+.modal-body-y2021 {
     text-align: left;
-    background-color: #ddfd13;
+    color: #6659d1;
 }
 
-.modal-body2022 {
+.modal-body-y2022 {
     text-align: left;
-    background-color: #a5dfa2;
+    color: #688f66;
+}
+
+.modal-body-y2023 {
+    text-align: left;
+    color: #af42d2;
 }
 
 /*style checkbox*/
