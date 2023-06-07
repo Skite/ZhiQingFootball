@@ -113,7 +113,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-arrow-up-circle icons"></i>
                             <div>
-                                <b>71</b>
+                                <b><span ref="wins">888</span></b>
                                 <span>勝</span>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-arrow-right-circle icons"></i>
                             <div>
-                                <b>7</b>
+                                <b><span ref="draws">888</span></b>
                                 <span>和</span>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-arrow-down-circle icons"></i>
                             <div>
-                                <b>55</b>
+                                <b><span ref="loses">888</span></b>
                                 <span>負</span>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-trophy icons"></i>
                             <div>
-                                <b>7</b>
+                                <b><span ref="golds">888</span></b>
                                 <span>冠</span>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-badge icons"></i>
                             <div>
-                                <b>5</b>
+                                <b><span ref="silvers">888</span></b>
                                 <span>亞</span>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="stati wet_asphalt ">
                             <i class="icon-heart icons"></i>
                             <div>
-                                <b>3</b>
+                                <b><span ref="bronzes">888</span></b>
                                 <span>季</span>
                             </div>
                         </div>
@@ -480,20 +480,7 @@
             loaded: false,
             json: {}
         },
-        computed: {
-            stats: function() {
-                if (!!this.json) {
-                    let sourceData = JSON.parse(JSON.stringify(this.json))
-
-                    return {
-                        wins: (+sourceData.hard.wins) + (+sourceData.grass.wins),
-                        draws: (+sourceData.hard.draws) + (+sourceData.grass.draws),
-                        loses: (+sourceData.hard.loses) + (+sourceData.grass.loses)
-                    }
-
-                }
-            }
-        },
+        computed: {},
         methods: {
             async getData() {
 
@@ -504,6 +491,21 @@
         if (!!json) {
             app.json = json;
             app.loaded = true
+
+            let sourceData = JSON.parse(JSON.stringify(json))
+            let totalWins = (+sourceData.hard.wins) + (+sourceData.grass.wins)
+            let totalDraws = (+sourceData.hard.draws) + (+sourceData.grass.draws)
+            let totalLoses = (+sourceData.hard.loses) + (+sourceData.grass.loses)
+            let totalGolds = (+sourceData.five.U10.gold) + (+sourceData.five.U9.gold) + (+sourceData.five.U8.gold) + (+sourceData.eight.U10.gold) + (+sourceData.eight.U9.gold) + (+sourceData.eight.U8.gold) + (+sourceData.seven.U10.gold) + (+sourceData.seven.U9.gold) + (+sourceData.seven.U8.gold)
+            let totalSilvers = (+sourceData.five.U10.silver) + (+sourceData.five.U9.silver) + (+sourceData.five.U8.silver) + (+sourceData.eight.U10.silver) + (+sourceData.eight.U9.silver) + (+sourceData.eight.U8.silver) + (+sourceData.seven.U10.silver) + (+sourceData.seven.U9.silver) + (+sourceData.seven.U8.silver)
+            let totalBronzes = (+sourceData.five.U10.bronze) + (+sourceData.five.U9.bronze) + (+sourceData.five.U8.bronze) + (+sourceData.eight.U10.bronze) + (+sourceData.eight.U9.bronze) + (+sourceData.eight.U8.bronze) + (+sourceData.seven.U10.bronze) + (+sourceData.seven.U9.bronze) + (+sourceData.seven.U8.bronze)
+
+            app.$refs.wins.textContent = totalWins
+            app.$refs.draws.textContent = totalDraws
+            app.$refs.loses.textContent = totalLoses
+            app.$refs.golds.textContent = totalGolds
+            app.$refs.silvers.textContent = totalSilvers
+            app.$refs.bronzes.textContent = totalBronzes
         }
     });
     </script>
