@@ -627,7 +627,7 @@
     <section id="minigame" class="features-icons bg-light text-center">
         <div class="container">
             <h2>趣味競賽</h2>
-            <div class="text-secondary"><span class="border border-secondary px-2">點擊按鈕以查看詳細說明</span></div>
+            <!-- <div class="text-secondary"><span class="border border-secondary px-2">點擊按鈕以查看詳細說明</span></div> -->
             <div class="row justify-content-center my-4">
                 <div class="col-md-4 my-2 border-right border-left">
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#minigame1">
@@ -970,14 +970,14 @@
                                         <div>
                                             <p>於球場放置角盤，球員需依照指定路線通過角盤並於規定地點後射門，射門完成後位於起點的下一位隊員方可出發。所有隊員皆完成的最優先隊伍獲勝。</p>
                                         </div>
-                                        <div class="text-center">
+                                        <!-- <div class="text-center">
                                             <div class="cow-xs-12">
                                                 <iframe src="https://tactical-board.com/animation/181dc418ee1928_bfzh" title="全能技術王" width="100%" height="500px"></iframe>
                                             </div>
                                             <div class="cow-xs-12 text-info">
                                                 <a href="https://tactical-board.com/animation/181dc418ee1928_bfzh" target="_blank">動畫連結</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -1041,7 +1041,21 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        console.log('11')
+        $(function() {
+            console.log('22')
+            let anchor = window.location.hash
+            if (!!anchor) {
+                $('html, body').animate({
+                    scrollTop: $(anchor).offset().top
+                }, 500);
+                console.log('33')
+            }
+        })
+    })
+    </script>
 </body>
 
 </html>
