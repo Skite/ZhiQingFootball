@@ -13,7 +13,7 @@ new Vue({
                 englishName: 'Brian',
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
-                achievement: ['2 Times Best Substitutions'],
+                achievement: ['3 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
@@ -35,9 +35,9 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
+                    g: '8',
+                    gs: '3',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -240,7 +240,7 @@ new Vue({
                 englishName: 'Yan',
                 title: '',
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。是球隊首任副隊長。',
-                achievement: ['2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)'],
+                achievement: ['2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
@@ -270,10 +270,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '1',
+                    g: '8',
+                    gs: '6',
                     goals: '1',
-                    asts: '1',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -483,7 +483,7 @@ new Vue({
                 englishName: 'Thor',
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
-                achievement: ['1 Time Best Substitutions'],
+                achievement: ['2 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
@@ -497,7 +497,7 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '1',
+                    g: '3',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -921,7 +921,7 @@ new Vue({
                 englishName: 'Roy',
                 title: '',
                 info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中路樞紐等多種角色的多面手。',
-                achievement: [],
+                achievement: ['2 Times Best Substitutions'],
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
@@ -943,10 +943,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '2',
-                    asts: '1',
+                    g: '8',
+                    gs: '5',
+                    goals: '4',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -1229,11 +1229,11 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '2',
+                    g: '8',
+                    gs: '8',
                     goals: '0',
                     asts: '0',
-                    cs: '1'
+                    cs: '4'
                 }, {
                     year: 'y2023',
                     cup: '臺北市教育盃',
@@ -1464,10 +1464,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '1',
-                    asts: '1',
+                    g: '8',
+                    gs: '8',
+                    goals: '5',
+                    asts: '3',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -2401,7 +2401,7 @@ new Vue({
                 englishName: 'Ivan',
                 title: '',
                 info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。',
-                achievement: [],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -2423,9 +2423,9 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '1',
-                    goals: '0',
+                    g: '7',
+                    gs: '2',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -2674,7 +2674,7 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
+                    g: '4',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2893,10 +2893,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '黃蜂盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
+                    g: '8',
+                    gs: '8',
+                    goals: '6',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
