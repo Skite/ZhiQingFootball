@@ -367,6 +367,20 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 23,
+            cupName: '2023（上）黃蜂盃爭霸盃',
+            cover: '2023bumblebeecup',
+            videos: [{
+                date: '6/18',
+                opponents: '永士FC-U10藍、光復Fight、幸安閃電',
+                url: 'x3AAHSZa#_F1NBlVqgJTBBHzqu2TCwJDyoBUQvbf4mbPDrZkwjE0'
+            }, {
+                date: '6/18',
+                opponents: '熱血足球獵豹、永士FC-U10橘、新埔國小',
+                url: '93gXVKzC#8wdkBZEOdKoyg1tZ9Ue3xcXhZCzoyYfYblLSnwkemxs'
+            }],
+            icon: 'fab fa-forumbee'
+        }, {
+            id: 24,
             cupName: '2023臺北市五人制足球聯賽',
             cover: '2023tpefivemanleague',
             videos: [{
@@ -388,7 +402,7 @@ new Vue({
             }],
             icon: 'fa fa-users'
         }, {
-            id: 24,
+            id: 25,
             cupName: '2023安聯小小世界盃',
             cover: '2023allianzcup',
             videos: [{
@@ -834,12 +848,16 @@ new Vue({
             icon: 'fas fa-book'
         }, {
             id: 30,
-            cupName: '2023黃蜂盃',
+            cupName: '2023（上）黃蜂爭霸盃',
             cover: '20230319-cover',
             photos: [{
                 date: '3/19',
                 opponents: 'Teroro、光復Fight',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gahoxqw5hRARZ3P86"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230319-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/18',
+                opponents: '永士FC-U10藍、光復Fight、幸安閃電、熱血足球獵豹、永士FC-U10橘、新埔國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/usm6ZXM7eZ56nVXc6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230618-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-forumbee'
         }, {

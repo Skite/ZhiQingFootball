@@ -4750,7 +4750,7 @@ new Vue({
                     assist: ''
                 }, {
                     name: '維恩',
-                    assist: ''
+                    assist: 'p'
                 }],
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
