@@ -411,6 +411,20 @@ new Vue({
                 url: 'AypDQaTa#md38lwKunlIhx8Sf5e-gGEbH9ADCAXE3kaxObm9XImI'
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 26,
+            cupName: '2023豐米全國少年盃',
+            cover: '2023youthcup',
+            videos: [{
+                date: '6/22',
+                opponents: '小不老FC',
+                url: 'd6RynL4C#GTEbdsrxa-kMQqcaFtZ6awSI2Yt8msi3I9g3Cu9qDs8'
+            }, {
+                date: '6/23',
+                opponents: '銀河射手',
+                url: 'guYy1ZwK#ImAz_ZcqCTuo8x0GLq4Py2Q0XrP0okfxT0rIlDTQ0rs'
+            }],
+            icon: 'fas fa-child'
         }],
         photos: [{
             id: 1,
@@ -906,6 +920,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 34,
+            cupName: '2023豐米全國少年盃',
+            cover: '20230622-cover',
+            photos: [{
+                date: '6/22',
+                opponents: '小不老FC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/8GacPFj7NjgT7t1YA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230622-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/23',
+                opponents: '銀河射手',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230623-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-child'
         }]
     },
     methods: {},

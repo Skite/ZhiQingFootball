@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
                     gs: '0',
@@ -244,6 +252,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
@@ -483,10 +499,18 @@ new Vue({
                 englishName: 'Thor',
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
-                achievement: ['2 Times Best Substitutions'],
+                achievement: ['3 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '春季大安盃',
                     g: '4',
@@ -926,6 +950,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
                     gs: '1',
@@ -1169,6 +1201,14 @@ new Vue({
                 position: ['LB'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '春季大安盃',
                     g: '5',
                     gs: '5',
@@ -1219,6 +1259,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '春季大安盃',
                     g: '4',
@@ -1438,6 +1486,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
@@ -1741,6 +1797,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
                     gs: '2',
@@ -1995,10 +2059,18 @@ new Vue({
                 englishName: 'Brad',
                 title: '',
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
-                achievement: [],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '2',
@@ -2162,6 +2234,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
@@ -2405,6 +2485,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
@@ -2657,6 +2745,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
                     gs: '1',
@@ -2867,6 +2963,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',

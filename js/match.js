@@ -4328,7 +4328,8 @@ new Vue({
                 goalkeepers: ['凱泰', '宥融'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: ''
+                note: '',
+                bestSubs: ''
             }, {
                 date: '20230513',
                 pitch: '新莊田徑場',
@@ -4374,7 +4375,8 @@ new Vue({
                 goalkeepers: ['宥融', '凱泰'],
                 isCleanSheet: true,
                 instructors: ['柏豪'],
-                note: ''
+                note: '',
+                bestSubs: '善捷'
             }, {
                 date: '20230514',
                 pitch: '新莊田徑場',
@@ -4448,7 +4450,8 @@ new Vue({
                 goalkeepers: ['昕叡'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '紘豪'
             }]
         }, {
             id: 30,
@@ -4591,7 +4594,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: ''
             }, {
                 date: '20230319',
                 pitch: '蘆堤足球場',
@@ -4622,7 +4626,8 @@ new Vue({
                 goalkeepers: ['凱泰', '宥融'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: ''
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4662,7 +4667,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '紘豪'
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4684,7 +4690,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '黃衍'
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4727,7 +4734,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '宥融'
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4755,7 +4763,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '晉丞'
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4777,7 +4786,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: 'PSO：維恩○、宇正○、黃衍○、晉丞○、宥融○'
+                note: 'PSO：維恩○、宇正○、黃衍○、晉丞○、宥融○',
+                bestSubs: '皓宇'
             }, {
                 date: '20230618',
                 pitch: '汐止運動公園',
@@ -4805,7 +4815,8 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
-                note: ''
+                note: '',
+                bestSubs: '皓宇'
             }]
         }, {
             id: 32,
@@ -5023,7 +5034,8 @@ new Vue({
                 goalkeepers: ['定謙'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '',
+                bestSubs: '昕叡'
             }, {
                 date: '20230409',
                 pitch: '明道國小',
@@ -5090,7 +5102,8 @@ new Vue({
                 goalkeepers: ['定謙', '昕叡'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '',
+                bestSubs: '善捷'
             }, {
                 date: '20230423',
                 pitch: '明道國小',
@@ -5160,7 +5173,8 @@ new Vue({
                 goalkeepers: ['定謙', '宥融'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '',
+                bestSubs: '晉丞'
             }, {
                 date: '20230423',
                 pitch: '明道國小',
@@ -5188,7 +5202,8 @@ new Vue({
                 goalkeepers: ['定謙', '宥融'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: '',
+                bestSubs: '昕叡'
             }]
         }, {
             id: 34,
@@ -5247,7 +5262,8 @@ new Vue({
                 goalkeepers: ['善捷', '宇正'],
                 isCleanSheet: true,
                 instructors: ['怡萍'],
-                note: ''
+                note: '',
+                bestSubs: '晉丞'
             }, {
                 date: '20230603',
                 pitch: '華僑高中',
@@ -5284,7 +5300,8 @@ new Vue({
                 goalkeepers: ['定謙'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: ''
+                note: '',
+                bestSubs: '昕叡'
             }, {
                 date: '20230603',
                 pitch: '華僑高中',
@@ -5327,7 +5344,88 @@ new Vue({
                 goalkeepers: ['昕叡'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: ''
+                note: '',
+                bestSubs: '宇正'
+            }]
+        }, {
+            id: 35,
+            year: '2023',
+            cupName: '豐米全國少年盃',
+            system: '8人制',
+            cover: '2023youthcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230622',
+                pitch: '臺灣大學竹北校區足球場',
+                opponent: '小不老FC',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '宥融'
+                }, {
+                    name: '黃衍',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融', '定謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '柏燁'
+            }, {
+                date: '20230623',
+                pitch: '新竹縣第二運動場',
+                opponent: '銀河射手',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宥融',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融', '定謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '紘豪'
             }]
         }]
     },
