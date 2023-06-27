@@ -4824,9 +4824,9 @@ new Vue({
             cupName: '春季大安盃',
             system: '5人制',
             cover: '2023daanspringcup',
-            trophy: '',
+            trophy: '季軍',
             team: [{
-                name: '勇士',
+                name: '小勇士',
                 members: '紘豪、邁可、凱泰、瑀東、凱碩*、宸瑜*、安璞*、浚恩*、宸宇*、昀宸*、羿翔*'
             }],
             note: '',
@@ -4843,7 +4843,7 @@ new Vue({
                     number: 14,
                     name: '浚恩*'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '3 : 1',
                 pso: '',
                 wdl: 'W',
@@ -4880,7 +4880,7 @@ new Vue({
                     number: 28,
                     name: '羿翔*'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '1 : 4',
                 pso: '',
                 wdl: 'L',
@@ -4905,7 +4905,7 @@ new Vue({
                     number: 28,
                     name: '羿翔*'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '4 : 2',
                 pso: '',
                 wdl: 'W',
@@ -4942,7 +4942,7 @@ new Vue({
                     number: 28,
                     name: '羿翔*'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '0 : 2',
                 pso: '',
                 wdl: 'L',
@@ -4964,7 +4964,7 @@ new Vue({
                     number: 26,
                     name: '昀宸*'
                 }],
-                subTeam: '勇士',
+                subTeam: '小勇士',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
