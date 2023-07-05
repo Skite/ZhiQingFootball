@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '10',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
                     gs: '2',
@@ -252,6 +260,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '9',
+                    gs: '8',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -499,10 +515,18 @@ new Vue({
                 englishName: 'Thor',
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
-                achievement: ['3 Times Best Substitutions'],
+                achievement: ['4 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '10',
+                    gs: '7',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -718,10 +742,18 @@ new Vue({
                 englishName: 'Otto',
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。',
-                achievement: ['2 Times Best Substitutions'],
+                achievement: ['3 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '安聯小小世界盃',
                     g: '3',
@@ -949,6 +981,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '10',
+                    gs: '8',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -1196,10 +1236,18 @@ new Vue({
                 englishName: 'Michael',
                 title: '',
                 info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
-                achievement: [],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['LB'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '5',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '1',
@@ -1259,6 +1307,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '10',
+                    gs: '9',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -1486,6 +1542,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '11',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -1770,6 +1834,14 @@ new Vue({
                 position: [''],
                 appearance: [{
                     year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '春季大安盃',
                     g: '5',
                     gs: '1',
@@ -1796,6 +1868,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -2064,6 +2144,14 @@ new Vue({
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '7',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '1',
                     gs: '0',
@@ -2234,6 +2322,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -2485,6 +2581,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '11',
+                    goals: '5',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',
@@ -2740,10 +2844,18 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '3 Times Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '6 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '4',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '1',
@@ -2963,6 +3075,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '11',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '豐米全國少年盃',
                     g: '2',

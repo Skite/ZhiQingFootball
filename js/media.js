@@ -425,6 +425,16 @@ new Vue({
                 url: 'guYy1ZwK#ImAz_ZcqCTuo8x0GLq4Py2Q0XrP0okfxT0rIlDTQ0rs'
             }],
             icon: 'fas fa-child'
+        }, {
+            id: 27,
+            cupName: '2023臺中港盃國際邀請賽',
+            cover: '2023harborcup',
+            videos: [{
+                date: '7/2',
+                opponents: '忠孝迅猛龍、越南BlueSky、惠文橘子、新北銀河',
+                url: 'EuZy2SQT#9YWRh1aEMcq4Wu7MJ3wCqrORIC85wFC6JDRlz_ECywc'
+            }],
+            icon: 'fas fa-anchor'
         }],
         photos: [{
             id: 1,

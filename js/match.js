@@ -3678,7 +3678,7 @@ new Vue({
                 goalkeepers: ['宥融', '定謙'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: 'PSO：維恩○ | 依大會規定加踢 PSO 僅為若需要時決定晉級資格時之判斷依據，不影響比賽勝負'
+                note: 'PSO：維恩○ | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負'
             }]
         }, {
             id: 25,
@@ -5426,6 +5426,377 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: '紘豪'
+            }]
+        }, {
+            id: 36,
+            year: '2023',
+            cupName: '臺中港盃國際足球邀請賽',
+            system: '8人制',
+            cover: '2023harborcup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230701',
+                pitch: '梧棲中正田徑場',
+                opponent: '忠孝迅猛龍',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['凱迪'],
+                note: '',
+                bestSubs: '紘豪'
+            }, {
+                date: '20230701',
+                pitch: '梧棲中正田徑場',
+                opponent: '越南BlueSky',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-昕叡', 'CM-皓宇', 'LM-黃衍', 'CF-定謙'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20230701',
+                pitch: '梧棲中正田徑場',
+                opponent: '惠文橘子',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-黃衍', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '6 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰', '昕叡'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '邁可'
+            }, {
+                date: '20230701',
+                pitch: '梧棲中正田徑場',
+                opponent: '新北銀河',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-黃衍', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '皓宇'
+            }, {
+                date: '20230702',
+                pitch: '梧棲中正田徑場',
+                opponent: 'Hikari光之足球',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-宇正', 'RM-皓宇', 'CM-晉丞', 'LM-宥融', 'CF-黃衍'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230702',
+                pitch: '梧棲中正田徑場',
+                opponent: '台北Playone',
+                formation: '3-3-1',
+                starters: ['GK-善捷', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-皓宇', 'CM-晉丞', 'LM-定謙', 'CF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['善捷', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['凱迪'],
+                note: '',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230702',
+                pitch: '梧棲中正田徑場',
+                opponent: '埔里小獅王',
+                formation: '2-3-2',
+                starters: ['GK-凱泰', 'RCB-宥融', 'LCB-宇正', 'RM-黃衍', 'CM-維恩', 'LM-皓宇', 'RF-定謙', 'LF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 1',
+                pso: '1 : 0',
+                wdl: 'D*',
+                scorers: [{
+                    name: '定謙',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: 'PSO：維恩○ | 依大會規定加踢 PSO 僅為若需要時決定排名之判斷依據，不影響比賽勝負',
+                bestSubs: ''
+            }, {
+                date: '20230702',
+                pitch: '梧棲中正田徑場',
+                opponent: 'Faith-U10',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-黃衍', 'LM-宥融', 'CF-晉丞'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['阿祥'],
+                note: '',
+                bestSubs: '善捷'
+            }, {
+                date: '20230703',
+                pitch: '梧棲中正田徑場',
+                opponent: 'PLCFA',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-維恩', 'LB-紘豪', 'RM-柏燁', 'CM-宇正', 'LM-善捷', 'CF-昕叡'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20230703',
+                pitch: '梧棲中正田徑場',
+                opponent: '北新國小',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-宇正', 'LM-定謙', 'CF-晉丞'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 1',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['阿祥'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20230703',
+                pitch: '梧棲中正田徑場',
+                opponent: '銀河射手',
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-宇正', 'LM-定謙', 'CF-晉丞'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['阿祥'],
+                note: '',
+                bestSubs: '昕叡'
             }]
         }]
     },
