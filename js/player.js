@@ -15,7 +15,7 @@ new Vue({
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
                 achievement: ['3 Times Best Substitutions'],
                 active: true,
-                position: ['RB', 'CB', 'RM', 'CF'],
+                position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '臺中港盃國際邀請賽',
@@ -258,7 +258,7 @@ new Vue({
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。是球隊首任副隊長。',
                 achievement: ['2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions'],
                 active: true,
-                position: ['GK', 'LB', 'RM', 'LM', 'CF'],
+                position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '臺中港盃國際邀請賽',
@@ -1831,7 +1831,7 @@ new Vue({
                 info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，常有讓人驚艷的表現。',
                 achievement: [],
                 active: true,
-                position: [''],
+                position: ['CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '臺中港盃國際邀請賽',
@@ -2320,7 +2320,7 @@ new Vue({
                 info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
                 achievement: [],
                 active: true,
-                position: ['GK', 'RB', 'CB', 'RM', 'CF'],
+                position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '臺中港盃國際邀請賽',
