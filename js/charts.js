@@ -7,7 +7,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         ],
         pitchData = [{
                 y: Number(stats.hard.wins) + Number(stats.grass.wins),
-                color: colors[2],
+                color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
@@ -22,7 +22,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.hard.draws) + Number(stats.grass.draws),
-                color: colors[3],
+                color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
@@ -37,7 +37,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.hard.loses) + Number(stats.grass.loses),
-                color: colors[5],
+                color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
@@ -53,7 +53,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         ],
         fiveManData = [{
                 y: Number(stats.five.U10.wins) + Number(stats.five.U9.wins) + Number(stats.five.U8.wins),
-                color: colors[2],
+                color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
@@ -70,7 +70,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.five.U10.draws) + Number(stats.five.U9.draws) + Number(stats.five.U8.draws),
-                color: colors[3],
+                color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
@@ -87,7 +87,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.five.U10.loses) + Number(stats.five.U9.loses) + Number(stats.five.U8.loses),
-                color: colors[5],
+                color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
@@ -105,7 +105,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         ],
         eightManData = [{
                 y: Number(stats.eight.U10.wins) + Number(stats.eight.U9.wins) + Number(stats.eight.U8.wins),
-                color: colors[2],
+                color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
@@ -122,7 +122,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.eight.U10.draws) + Number(stats.eight.U9.draws) + Number(stats.eight.U8.draws),
-                color: colors[3],
+                color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
@@ -139,7 +139,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.eight.U10.loses) + Number(stats.eight.U9.loses) + Number(stats.eight.U8.loses),
-                color: colors[5],
+                color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
@@ -157,7 +157,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         ],
         sevenManData = [{
                 y: Number(stats.seven.U10.wins) + Number(stats.seven.U9.wins) + Number(stats.seven.U8.wins),
-                color: colors[2],
+                color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
@@ -174,7 +174,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.seven.U10.draws) + Number(stats.seven.U9.draws) + Number(stats.seven.U8.draws),
-                color: colors[3],
+                color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
@@ -191,7 +191,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             },
             {
                 y: Number(stats.seven.U10.loses) + Number(stats.seven.U9.loses) + Number(stats.seven.U8.loses),
-                color: colors[5],
+                color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
@@ -564,6 +564,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 borderRadius: '25%'
             }
         },
+        colors: [colors[5], colors[3], colors[2]],
         series: [{
             name: 'U10',
             data: [
@@ -617,6 +618,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 borderRadius: '25%'
             }
         },
+        colors: [colors[5], colors[2], colors[1]],
         series: [{
             name: '五人制',
             data: [
@@ -660,7 +662,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 text: '次'
             }
         },
-        colors: [colors[2], colors[2], colors[2], colors[3], colors[3], colors[3], colors[5], colors[5], colors[5]],
+        colors: [colors[5], colors[5], colors[5], colors[3], colors[3], colors[3], colors[2], colors[2], colors[2]],
         plotOptions: {
             series: {
                 stacking: 'normal',
@@ -784,7 +786,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         xAxis: {
             categories: ['U8', 'U9', 'U10']
         },
-        colors: [colors[2], colors[3], colors[5]],
+        colors: [colors[5], colors[2], colors[1]],
         legend: {
             layout: 'vertical',
             align: 'right',

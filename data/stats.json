@@ -1,5 +1,5 @@
 {
-    "updated": "2023/6/3 10:00",
+    "updated": "2023/7/5 10:00",
     "hard":
     {
         "matches": "41",
@@ -9,25 +9,25 @@
     },
     "grass":
     {
-        "matches": "92",
-        "wins": "48",
-        "draws": "7",
-        "loses": "37"
+        "matches": "111",
+        "wins": "56",
+        "draws": "9",
+        "loses": "46"
     },
     "five":
     {
         "U10":
         {
-            "matches": "28",
-            "wins": "18",
-            "draws": "1",
+            "matches": "34",
+            "wins": "23",
+            "draws": "2",
             "loses": "9",
-            "gold": "2",
+            "gold": "3",
             "silver": "0",
             "bronze": "1",
-            "scores": "88",
-            "conc": "58",
-            "cs": "7"
+            "scores": "102",
+            "conc": "61",
+            "cs": "10"
         },
         "U9":
         {
@@ -60,16 +60,16 @@
     {
         "U10":
         {
-            "matches": "26",
-            "wins": "16",
-            "draws": "4",
-            "loses": "6",
+            "matches": "39",
+            "wins": "19",
+            "draws": "5",
+            "loses": "15",
             "gold": "3",
             "silver": "0",
             "bronze": "0",
-            "scores": "86",
-            "conc": "43",
-            "cs": "11"
+            "scores": "104",
+            "conc": "70",
+            "cs": "12"
         },
         "U9":
         {

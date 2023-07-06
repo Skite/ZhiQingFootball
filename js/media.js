@@ -367,6 +367,20 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 23,
+            cupName: '2023（上）黃蜂盃爭霸盃',
+            cover: '2023bumblebeecup',
+            videos: [{
+                date: '6/18',
+                opponents: '永士FC-U10藍、光復Fight、幸安閃電',
+                url: 'x3AAHSZa#_F1NBlVqgJTBBHzqu2TCwJDyoBUQvbf4mbPDrZkwjE0'
+            }, {
+                date: '6/18',
+                opponents: '熱血足球獵豹、永士FC-U10橘、新埔國小',
+                url: '93gXVKzC#8wdkBZEOdKoyg1tZ9Ue3xcXhZCzoyYfYblLSnwkemxs'
+            }],
+            icon: 'fab fa-forumbee'
+        }, {
+            id: 24,
             cupName: '2023臺北市五人制足球聯賽',
             cover: '2023tpefivemanleague',
             videos: [{
@@ -388,7 +402,7 @@ new Vue({
             }],
             icon: 'fa fa-users'
         }, {
-            id: 24,
+            id: 25,
             cupName: '2023安聯小小世界盃',
             cover: '2023allianzcup',
             videos: [{
@@ -397,6 +411,30 @@ new Vue({
                 url: 'AypDQaTa#md38lwKunlIhx8Sf5e-gGEbH9ADCAXE3kaxObm9XImI'
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 26,
+            cupName: '2023豐米全國少年盃',
+            cover: '2023youthcup',
+            videos: [{
+                date: '6/22',
+                opponents: '小不老FC',
+                url: 'd6RynL4C#GTEbdsrxa-kMQqcaFtZ6awSI2Yt8msi3I9g3Cu9qDs8'
+            }, {
+                date: '6/23',
+                opponents: '銀河射手',
+                url: 'guYy1ZwK#ImAz_ZcqCTuo8x0GLq4Py2Q0XrP0okfxT0rIlDTQ0rs'
+            }],
+            icon: 'fas fa-child'
+        }, {
+            id: 27,
+            cupName: '2023臺中港盃國際邀請賽',
+            cover: '2023harborcup',
+            videos: [{
+                date: '7/2',
+                opponents: '忠孝迅猛龍、越南BlueSky、惠文橘子、新北銀河',
+                url: 'EuZy2SQT#9YWRh1aEMcq4Wu7MJ3wCqrORIC85wFC6JDRlz_ECywc'
+            }],
+            icon: 'fas fa-anchor'
         }],
         photos: [{
             id: 1,
@@ -834,12 +872,16 @@ new Vue({
             icon: 'fas fa-book'
         }, {
             id: 30,
-            cupName: '2023黃蜂盃',
+            cupName: '2023（上）黃蜂爭霸盃',
             cover: '20230319-cover',
             photos: [{
                 date: '3/19',
                 opponents: 'Teroro、光復Fight',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gahoxqw5hRARZ3P86"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230319-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/18',
+                opponents: '永士FC-U10藍、光復Fight、幸安閃電、熱血足球獵豹、永士FC-U10橘、新埔國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/usm6ZXM7eZ56nVXc6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230618-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-forumbee'
         }, {
@@ -888,6 +930,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
+        }, {
+            id: 34,
+            cupName: '2023豐米全國少年盃',
+            cover: '20230622-cover',
+            photos: [{
+                date: '6/22',
+                opponents: '小不老FC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/8GacPFj7NjgT7t1YA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230622-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '6/23',
+                opponents: '銀河射手',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230623-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-child'
         }]
     },
     methods: {},
