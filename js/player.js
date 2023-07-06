@@ -3119,7 +3119,7 @@ new Vue({
                     cup: '新北迷你盃',
                     g: '2',
                     gs: '2',
-                    goals: '0',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
