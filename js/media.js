@@ -944,6 +944,24 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230623-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-child'
+        }, {
+            id: 35,
+            cupName: '2023台中港國際足球邀請賽',
+            cover: '20230701-cover',
+            photos: [{
+                date: '7/1',
+                opponents: '忠孝迅猛龍、越南BlueSky、惠文橘子、新北銀河',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/vqyC8gK1QG1YcrGY6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230701-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '7/2',
+                opponents: '香港Hikari、Playone、埔里小獅王、Faith',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230702-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '7/3',
+                opponents: 'PLCFA、北新國小、銀河射手',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230703-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-anchor'
         }]
     },
     methods: {},
