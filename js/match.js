@@ -5620,7 +5620,7 @@ new Vue({
             }, {
                 date: '20230702',
                 pitch: '梧棲中正田徑場',
-                opponent: '台北Playone',
+                opponent: 'Playone-U9',
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宥融', 'CB-維恩', 'LB-宇正', 'RM-皓宇', 'CM-晉丞', 'LM-定謙', 'CF-黃衍'],
                 subs: [{
