@@ -344,7 +344,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             valueSuffix: '場'
         },
         series: [{
-            name: '場地類型',
+            name: '合計',
             data: pitchWinLoseData,
             size: '60%',
             dataLabels: {
@@ -456,7 +456,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
             valueSuffix: '場'
         },
         series: [{
-            name: '五人制',
+            name: '八人制',
             data: eightWinLoseData,
             size: '60%',
             dataLabels: {
