@@ -4774,6 +4774,9 @@ new Vue({
                 subs: [{
                     number: 12,
                     name: '皓宇'
+                }, {
+                    number: 55,
+                    name: '宥融'
                 }],
                 subTeam: '勇士',
                 final_score: '1 : 1',
