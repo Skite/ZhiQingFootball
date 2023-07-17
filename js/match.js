@@ -5923,7 +5923,7 @@ new Vue({
                 }],
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
-                instructors: ['柏豪'],
+                instructors: ['怡萍'],
                 note: '',
                 bestSubs: '紘豪'
             }, {
