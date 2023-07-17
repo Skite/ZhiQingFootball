@@ -5801,6 +5801,367 @@ new Vue({
                 note: '',
                 bestSubs: '昕叡'
             }]
+        }, {
+            id: 37,
+            year: '2023',
+            cupName: '新北市議長盃',
+            system: '5人制',
+            cover: '2023speakercup',
+            trophy: '分組亞軍',
+            team: [{
+                name: 'ZQ無敵勇士',
+                members: '晉丞、黃衍、皓宇、邁可、維恩、柏燁、定謙'
+            }, {
+                name: 'ZQ超能勇士',
+                members: '紘豪、善捷、凱泰、瑀東、亮谷、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230714',
+                pitch: '輔仁大學足球場',
+                opponent: '虎鯊',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-晉丞', 'LB-維恩', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '3 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '邁可'
+            }, {
+                date: '20230714',
+                pitch: '輔仁大學足球場',
+                opponent: '桃園文山',
+                formation: '3-0-1',
+                starters: ['GK-凱泰', 'RB-宥融', 'CB-宇正', 'LB-紘豪', 'CF-亮谷'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '1 : 1',
+                pso: '0 : 1',
+                wdl: 'D',
+                scorers: [{
+                    name: '宥融',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: 'PSO：宇正× | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230714',
+                pitch: '輔仁大學足球場',
+                opponent: 'Faith',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-晉丞', 'LB-維恩', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '柏燁'
+            }, {
+                date: '20230714',
+                pitch: '輔仁大學足球場',
+                opponent: '銀河射手',
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-宇正', 'LB-宥融', 'RF-昕叡', 'RF-亮谷'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宥融',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '紘豪'
+            }, {
+                date: '20230715',
+                pitch: '輔仁大學足球場',
+                opponent: '永士FC',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-晉丞', 'LB-維恩', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '1 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: '柏燁'
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20230715',
+                pitch: '輔仁大學足球場',
+                opponent: '麒麟足球俱樂部',
+                formation: '2-1-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-善捷', 'CM-宇正', 'CF-宥融'],
+                subs: [{
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230715',
+                pitch: '輔仁大學足球場',
+                opponent: 'ZQ超能勇士',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-維恩', 'LB-晉丞', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '2 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙', '黃衍'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '柏燁'
+            }, {
+                date: '20230715',
+                pitch: '輔仁大學足球場',
+                opponent: 'ZQ無敵勇士',
+                formation: '2-1-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-宥融', 'CM-宇正', 'CF-昕叡'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '0 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰', '善捷'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: '善捷、瑀東'
+            }, {
+                date: '20230716',
+                pitch: '輔仁大學足球場',
+                opponent: '忠義勇士',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-黃衍', 'LB-維恩', 'RF-晉丞', 'LF-皓宇'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '2 : 2',
+                pso: '1 : 0',
+                wdl: 'D',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }],
+                goalkeepers: ['定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: 'PSO：維恩○ | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負',
+                bestSubs: '柏燁'
+            }, {
+                date: '20230716',
+                pitch: '輔仁大學足球場',
+                opponent: '忠義勇士',
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-宇正', 'RF-宥融', 'LF-瑀東'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '2 : 2',
+                pso: '3 : 2',
+                wdl: 'D',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: 'PSO：宥融○、昕叡○、善捷○ | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230716',
+                pitch: '輔仁大學足球場',
+                opponent: '桃園文山',
+                formation: '2-0-2',
+                starters: ['GK-定謙', 'RB-晉丞', 'LB-維恩', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: 'ZQ無敵勇士',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '邁可'
+            }, {
+                date: '20230716',
+                pitch: '輔仁大學足球場',
+                opponent: '麒麟足球俱樂部',
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-善捷', 'RF-宥融', 'LF-宇正'],
+                subs: [{
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: 'ZQ超能勇士',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: 'Own Goal',
+                    assist: '昕叡'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '昕叡'
+            }]
         }]
     },
     methods: {},
