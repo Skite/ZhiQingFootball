@@ -6074,7 +6074,7 @@ new Vue({
             }, {
                 date: '20230716',
                 pitch: '輔仁大學足球場',
-                opponent: '忠義勇士',
+                opponent: '_忠義勇士_',
                 formation: '2-0-2',
                 starters: ['GK-凱泰', 'RB-紘豪', 'LB-宇正', 'RF-宥融', 'LF-瑀東'],
                 subs: [{
