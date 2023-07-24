@@ -435,6 +435,20 @@ new Vue({
                 url: 'EuZy2SQT#9YWRh1aEMcq4Wu7MJ3wCqrORIC85wFC6JDRlz_ECywc'
             }],
             icon: 'fas fa-anchor'
+        }, {
+            id: 28,
+            cupName: '2023新北市議長盃',
+            cover: '2023speakercup',
+            videos: [{
+                date: '7/14',
+                opponents: '桃園文山、銀河射手',
+                url: 'YnIwiR5C#ATuKQmcJ_QvRUG665nmEPdhagNEo_Cq4-KCNJhb2b-A'
+            }, {
+                date: '7/15',
+                opponents: '志清勇士內戰',
+                url: 'E3QiRToD#bsIw7ktw5m_d0MygiDqocwIstVVBxGIvfhQ8oyB4nXY'
+            }],
+            icon: 'far fa-microphone-stand'
         }],
         photos: [{
             id: 1,
@@ -950,18 +964,36 @@ new Vue({
             cover: '20230701-cover',
             photos: [{
                 date: '7/1',
-                opponents: '忠孝迅猛龍、越南BlueSky、惠文橘子、新北銀河',
+                opponents: 'Day1',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/vqyC8gK1QG1YcrGY6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230701-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '7/2',
-                opponents: '香港Hikari、Playone、埔里小獅王、Faith',
+                opponents: 'Day2',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230702-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '7/3',
-                opponents: 'PLCFA、北新國小、銀河射手',
+                opponents: 'Day3',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230703-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-anchor'
+        }, {
+            id: 36,
+            cupName: '2023新北市議長盃',
+            cover: '20230714-cover',
+            photos: [{
+                date: '7/14',
+                opponents: 'Day1',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/14Qmh8VzivReJksK7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230714-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '7/15',
+                opponents: 'Day2',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230715-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '7/16',
+                opponents: 'Day3',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230716-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-microphone-stand'
         }]
     },
     methods: {},
