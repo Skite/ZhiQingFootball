@@ -13,10 +13,18 @@ new Vue({
                 englishName: 'Brian',
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
-                achievement: ['3 Times Best Substitutions'],
+                achievement: ['4 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -531,10 +539,18 @@ new Vue({
                 englishName: 'Thor',
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
-                achievement: ['5 Times Best Substitutions'],
+                achievement: ['6 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '4',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -770,6 +786,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -1013,6 +1037,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -1281,6 +1313,14 @@ new Vue({
                 position: ['LB'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
                     gs: '0',
@@ -1355,6 +1395,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '0',
+                    cs: '2'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -1598,6 +1646,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -1898,6 +1954,14 @@ new Vue({
                 position: ['CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '新北市議長盃',
                     g: '5',
                     gs: '1',
@@ -1936,10 +2000,18 @@ new Vue({
                 englishName: 'Lionel',
                 title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
-                achievement: ['former Vice Captian (2020-23)'],
+                achievement: ['former Vice Captian (2020-23)', '1 Time Best Substitutions'],
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '2',
@@ -2223,6 +2295,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -2948,10 +3028,18 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '10 Times Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '11 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -3183,10 +3271,18 @@ new Vue({
                 englishName: 'Eugene',
                 title: 'VC',
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長。',
-                achievement: ['Vice Captian (2023-present)', '1 Time Best Substitutions'],
+                achievement: ['Vice Captian (2023-present)', '2 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '3',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',

@@ -447,6 +447,10 @@ new Vue({
                 date: '7/15',
                 opponents: '志清勇士內戰',
                 url: 'E3QiRToD#bsIw7ktw5m_d0MygiDqocwIstVVBxGIvfhQ8oyB4nXY'
+            }, {
+                date: '7/16',
+                opponents: '志義勇士',
+                url: 'Er4QFAxT#23Jfm5TdCl67TY5t931XLKiEsHT16E9a6wm1iSLlK6M'
             }],
             icon: 'far fa-microphone-stand'
         }],
@@ -994,6 +998,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230716-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-microphone-stand'
+        }, {
+            id: 37,
+            cupName: '2023格溫拜克盃',
+            cover: '20230806-cover',
+            photos: [{
+                date: '8/6',
+                opponents: '北新國小、磐石、星足twfc、TopFive、幸安',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/kiiR2Kd5Phd6nh9A9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230806-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-tint'
         }]
     },
     methods: {},
