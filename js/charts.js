@@ -570,7 +570,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 borderRadius: '25%'
             }
         },
-        colors: [colors[5], colors[3], colors[2], colors[7]],
+        colors: [colors[5], colors[3], colors[2], colors[6]],
         series: [{
             name: 'U11',
             data: [
@@ -676,7 +676,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                 text: '次'
             }
         },
-        colors: [colors[5], colors[5], colors[5], colors[3], colors[3], colors[3], colors[2], colors[2], colors[2]],
+        colors: [colors[5], colors[5], colors[5], colors[3], colors[3], colors[3], colors[2], colors[2], colors[2], colors[6], colors[6], colors[6]],
         plotOptions: {
             series: {
                 stacking: 'normal',
@@ -830,7 +830,7 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
         xAxis: {
             categories: ['U8', 'U9', 'U10', 'U11']
         },
-        colors: [colors[5], colors[2], colors[1], colors[7]],
+        colors: [colors[5], colors[2], colors[1], colors[6]],
         legend: {
             layout: 'vertical',
             align: 'right',
