@@ -17,10 +17,6 @@ new Vue({
                 date: '12/06',
                 opponents: '銘傳之星 （準決賽）',
                 url: 'cjxlTIoS#5pqbu-BDRpwikT4NCNwfAbgee-yZxSgF3FNeFBaDKw4'
-            }, {
-                date: '12/06',
-                opponents: '公館小雷霆 （季軍戰）',
-                url: 'Y2wHVLKL#PlSQIyrpj79qsgsU1FPNE70_fnrngHGcleP77rwmebE'
             }],
             icon: 'far fa-futbol'
         }, {
