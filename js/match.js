@@ -5910,8 +5910,8 @@ new Vue({
                     number: 10,
                     name: '善捷'
                 }, {
-                    number: 77,
-                    name: '昕叡'
+                    number: 20,
+                    name: '瑀東'
                 }],
                 subTeam: 'ZQ超能勇士',
                 final_score: '1 : 4',
