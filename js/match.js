@@ -6308,7 +6308,7 @@ new Vue({
                 wdl: 'W',
                 scorers: [{
                     name: '皓宇',
-                    assist: '宇正'
+                    assist: ''
                 }, {
                     name: 'Own Goal',
                     assist: '宇正'
