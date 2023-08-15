@@ -987,11 +987,11 @@ new Vue({
             }, {
                 date: '7/2',
                 opponents: 'Day2',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230702-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/WGcHfUQVz7Ygemb98"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230702-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '7/3',
                 opponents: 'Day3',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230703-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/e9ESwardJkCSDEnf8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230703-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-anchor'
         }, {
