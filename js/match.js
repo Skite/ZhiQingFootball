@@ -159,7 +159,7 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['芳儀'],
-                note: 'PSO：維恩○、亮谷○、宇正○、黃衍○'
+                note: 'PSO：維恩○、亮谷○、黃衍○、紘豪○'
             }, {
                 date: '20201206',
                 pitch: '華中五人制足球場',
@@ -196,7 +196,7 @@ new Vue({
                 goalkeepers: ['定謙', '宥融'],
                 isCleanSheet: false,
                 instructors: ['怡萍'],
-                note: 'PSO：維恩×、亮谷×、宇正○、黃衍×'
+                note: 'PSO：亮谷×、維恩×、宇正○、黃衍×'
             }, {
                 date: '20201206',
                 pitch: '華中五人制足球場',
@@ -2478,7 +2478,7 @@ new Vue({
                 goalkeepers: ['子珩*'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: '* 學長'
+                note: 'PSO：稟巖*○、振綸*○、宇正○、維恩× | * 學長'
             }, {
                 date: '20220717',
                 pitch: '南港高中',
@@ -3190,7 +3190,7 @@ new Vue({
                 goalkeepers: ['善捷', '黃衍'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
-                note: ''
+                note: 'PSO：維恩×、亮谷○、宇正○、黃衍○、昕叡○'
             }, {
                 date: '20220921',
                 pitch: '青埔足球場',
@@ -3215,7 +3215,7 @@ new Vue({
                 goalkeepers: ['善捷', '宇正'],
                 isCleanSheet: false,
                 instructors: ['怡萍', '柏豪'],
-                note: ''
+                note: 'PSO：亮谷○、維恩×、宥融×、晉丞○、宇正○'
             }]
         }, {
             id: 23,
