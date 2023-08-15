@@ -449,6 +449,24 @@ new Vue({
                 url: 'Er4QFAxT#23Jfm5TdCl67TY5t931XLKiEsHT16E9a6wm1iSLlK6M'
             }],
             icon: 'far fa-microphone-stand'
+        }, {
+            id: 29,
+            cupName: '2023淡水盃',
+            cover: '2023tamsuicup',
+            videos: [{
+                date: '8/11',
+                opponents: '熱血希望、豐里國小',
+                url: 'J7JGnZiS#L0RX1N28erZepQRHIZ_4HlDb9wCt-L0t2wqNoPcrFmQ'
+            }, {
+                date: '8/12',
+                opponents: 'Yamaha、廣福國小',
+                url: 'I3IQ0aKZ#aUChbxiIqcSngHEc8FrtF7NH48S31P8B0pO7eKbOCZU'
+            }, {
+                date: '8/13',
+                opponents: 'Yamaha',
+                url: 'guAD3bIB#TsTnY0fAkSQiLT7yuEr5cLBXx2RWVvIT0L07RIruOlE'
+            }],
+            icon: 'fas fa-ship'
         }],
         photos: [{
             id: 1,

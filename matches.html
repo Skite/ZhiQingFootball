@@ -18,6 +18,7 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
+    <link rel="icon" href="img/favicon.png">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -84,12 +85,12 @@
                                 </div>
                                 <template v-for="game in match.matches">
                                     <div class="row justify-content-start align-items-center my-2">
-                                        <div class="col">{{ game.opponent }}</div>
+                                        <div class="col">{{ game.opponent.name }}</div>
                                         <div class="col">{{ game.final_score }} <span v-if="!!game.pso">(PSO {{ game.pso }})</span> {{ game.wdl }}</div>
-                                        <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent + game.date" v-if="game.starters.length > 0">Recap</a></div>
+                                        <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent.name + game.date" v-if="game.starters.length > 0">Recap</a></div>
                                     </div>
                                     <!-- Modal -->
-                                    <div class="modal fade text-dark" :id="game.opponent + game.date" tabindex="-1" role="dialog" :aria-labelledby="game.opponent + game.date" aria-hidden="true">
+                                    <div class="modal fade text-dark" :id="game.opponent.name + game.date" tabindex="-1" role="dialog" :aria-labelledby="game.opponent.name + game.date" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content container-fluid">
                                                 <div class="modal-header">
@@ -117,8 +118,8 @@
                                                             <div v-if="!!game.pso">(PSO {{ game.pso }})</div>
                                                         </div>
                                                         <div class="col-lg-5 col-md-4 text-md-left">
-                                                            <img :src="`img/logo/${game.opponent}.jpg`" class="club-logo img-fluid mr-2 mb-2 d-inline">
-                                                            <div class="my-1 d-inline">{{ game.opponent }}</div>
+                                                            <img :src="`img/logo/${game.opponent.logo}.jpg`" class="club-logo img-fluid mr-2 mb-2 d-inline">
+                                                            <div class="my-1 d-inline">{{ game.opponent.name }}</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -129,20 +130,20 @@
                                                     </div>
                                                     <ul class="nav nav-tabs mt-3" role="tablist">
                                                         <li class="nav-item">
-                                                            <a class="nav-link active" id="formation-tab" data-toggle="tab" :href="'#form' + game.date + game.opponent" role="tab" aria-controls="formation" aria-selected="true">Formation / Starters</a>
+                                                            <a class="nav-link active" id="formation-tab" data-toggle="tab" :href="'#form' + game.date + game.opponent.name" role="tab" aria-controls="formation" aria-selected="true">Formation / Starters</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" id="score-tab" data-toggle="tab" :href="'#score' + game.date + game.opponent" role="tab" aria-controls="score" aria-selected="false">Scorers（Assistors / OG Enforcers）</a>
+                                                            <a class="nav-link" id="score-tab" data-toggle="tab" :href="'#score' + game.date + game.opponent.name" role="tab" aria-controls="score" aria-selected="false">Scorers（Assistors / OG Enforcers）</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" id="goalkeeper-tab" data-toggle="tab" :href="'#goalkeeper' + game.date + game.opponent" role="tab" aria-controls="goalkeeper" aria-selected="false">Goal Keepers / Coaches</a>
+                                                            <a class="nav-link" id="goalkeeper-tab" data-toggle="tab" :href="'#goalkeeper' + game.date + game.opponent.name" role="tab" aria-controls="goalkeeper" aria-selected="false">Goal Keepers / Coaches</a>
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content">
-                                                        <div class="tab-pane fade show active" :id="'form' + game.date + game.opponent" role="tabpanel" aria-labelledby="formation-tab">
+                                                        <div class="tab-pane fade show active" :id="'form' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="formation-tab">
                                                             <div class="row">
                                                                 <div class="col my-2">
-                                                                    <img :src="'img/formations/' + game.date +  game.opponent + '.jpg'" class="img-fluid">
+                                                                    <img :src="`img/formations/${game.date}${game.opponent.name}.jpg`" class="img-fluid">
                                                                 </div>
                                                                 <div class="col my-2" v-if="!!game.subs">
                                                                     <div class="text-info my-4">Subs:</div>
@@ -150,12 +151,12 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane fade" :id="'score' + game.date + game.opponent" role="tabpanel" aria-labelledby="score-tab">
+                                                        <div class="tab-pane fade" :id="'score' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="score-tab">
                                                             <h5 class="my-4" v-for="scorer in game.scorers">
                                                                 {{ scorer.name }}<span v-if="!!scorer.assist">（{{ scorer.assist }}）</span>
                                                             </h5>
                                                         </div>
-                                                        <div class="tab-pane fade" :id="'goalkeeper' + game.date + game.opponent" role="tabpanel" aria-labelledby="goalkeeper-tab">
+                                                        <div class="tab-pane fade" :id="'goalkeeper' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="goalkeeper-tab">
                                                             <div class="row border-bottom my-4">
                                                                 <div class="col-6 text-right">GK:</div>
                                                                 <div class="col-6 text-left">
