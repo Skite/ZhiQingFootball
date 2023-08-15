@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
                     gs: '2',
@@ -276,6 +284,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -543,6 +559,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -1038,6 +1062,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '4',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
                     gs: '1',
@@ -1391,10 +1423,18 @@ new Vue({
                 englishName: 'Allen',
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
-                achievement: ['2022 Yamaha Cup Match MVP'],
+                achievement: ['2022 Yamaha Cup Match MVP', '1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '4',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '2'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -1646,6 +1686,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -2005,6 +2053,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
                     gs: '0',
@@ -2291,10 +2347,18 @@ new Vue({
                 englishName: 'Brad',
                 title: '',
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
-                achievement: ['4 Times Best Substitutions'],
+                achievement: ['6 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -2758,6 +2822,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '2',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
                     gs: '6',
@@ -3028,10 +3100,18 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '11 Times Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '12 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -3275,6 +3355,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '淡水盃',
+                    g: '5',
+                    gs: '4',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',

@@ -6404,6 +6404,167 @@ new Vue({
                 note: '',
                 bestSubs: '昕叡'
             }]
+        }, {
+            id: 39,
+            year: '2023',
+            cupName: '淡水盃',
+            system: '8人制',
+            cover: '2023tamsuicup',
+            trophy: '',
+            team: [{
+                name: '勇士',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20230811',
+                pitch: '淡水工商',
+                opponent: '熱血希望',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-黃衍', 'LM-昕叡', 'CF-晉丞'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 1',
+                pso: '4 : 5',
+                wdl: 'D',
+                scorers: [{
+                    name: '維恩',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['豪偉'],
+                note: 'PSO：維恩○、宇正○、宥融○、皓宇○、黃衍× | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負',
+                bestSubs: '柏燁'
+            }, {
+                date: '20230811',
+                pitch: '淡水工商',
+                opponent: '豐里國小',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['豪偉'],
+                note: '',
+                bestSubs: '凱泰'
+            }, {
+                date: '20230812',
+                pitch: '淡水工商',
+                opponent: 'Yamaha',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '1 : 1',
+                pso: '1 : 2',
+                wdl: 'D',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['豪偉'],
+                note: 'PSO：維恩○、宇正× | 依大會規定加踢 PSO 僅為若需要時決定晉級資格之判斷依據，不影響比賽勝負',
+                bestSubs: '昕叡'
+            }, {
+                date: '20230812',
+                pitch: '淡水工商',
+                opponent: '廣福國小',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-柏燁', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '勇士',
+                final_score: '6 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '晉丞',
+                    assist: '宥融'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '宥融'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['豪偉'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20230813',
+                pitch: '淡水工商',
+                opponent: 'Yamaha',
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '勇士',
+                final_score: '0 : 0',
+                pso: '4 : 3',
+                wdl: 'W',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰', '黃衍'],
+                isCleanSheet: false,
+                instructors: ['豪偉'],
+                note: '',
+                bestSubs: '柏燁'
+            }]
         }]
     },
     methods: {},

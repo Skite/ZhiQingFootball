@@ -1008,6 +1008,24 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/kiiR2Kd5Phd6nh9A9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230806-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-tint'
+        }, {
+            id: 38,
+            cupName: '2023淡水盃',
+            cover: '20230813-cover',
+            photos: [{
+                date: '8/11',
+                opponents: '熱血希望、豐里國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/8tMp2LYZT5asDEEC8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230811-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '8/12',
+                opponents: 'Yamaha、廣福國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/DFbvzeDB71S4fEo7A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230812-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '8/13',
+                opponents: 'Yamaha',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/i16hmrEXPKuM32ZL7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230813-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-ship'
         }]
     },
     methods: {},
