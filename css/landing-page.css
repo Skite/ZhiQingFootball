@@ -96,7 +96,7 @@ header.masthead h1 {
 
 @media (min-width: 1440px) {
     header.masthead {
-        background: url("../img/bg-masthead.jpg") no-repeat center 75px;
+        background: url("../img/bg-masthead.jpg") no-repeat center 60px;
         background-size: auto;
         padding-top: 6rem;
         padding-bottom: 18rem;
