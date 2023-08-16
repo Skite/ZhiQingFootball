@@ -81,9 +81,9 @@ $.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(sta
                         'U9',
                         'U8'
                     ],
-                    data: [
-                        Number(stats.five.U10.draws),
+                    data: [                        
                         Number(stats.five.U11.draws),
+                        Number(stats.five.U10.draws),
                         Number(stats.five.U9.draws),
                         Number(stats.five.U8.draws)
                     ]

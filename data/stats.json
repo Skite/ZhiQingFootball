@@ -1,5 +1,5 @@
 {
-    "updated": "2023/8/14 10:00",
+    "updated": "2023/8/16 10:00",
     "hard":
     {
         "matches": "41",
@@ -31,16 +31,16 @@
         },
         "U10":
         {
-            "matches": "44",
-            "wins": "28",
-            "draws": "4",
-            "loses": "12",
-            "gold": "1",
+            "matches": "39",
+            "wins": "26",
+            "draws": "2",
+            "loses": "11",
+            "gold": "3",
             "silver": "0",
             "bronze": "1",
-            "scores": "123",
-            "conc": "75",
-            "cs": "14"
+            "scores": "115",
+            "conc": "70",
+            "cs": "12"
         },
         "U9":
         {
@@ -86,16 +86,16 @@
         },
         "U10":
         {
-            "matches": "39",
-            "wins": "19",
-            "draws": "5",
-            "loses": "15",
-            "gold": "3",
+            "matches": "44",
+            "wins": "21",
+            "draws": "7",
+            "loses": "16",
+            "gold": "4",
             "silver": "0",
             "bronze": "0",
-            "scores": "104",
-            "conc": "70",
-            "cs": "12"
+            "scores": "112",
+            "conc": "75",
+            "cs": "14"
         },
         "U9":
         {
