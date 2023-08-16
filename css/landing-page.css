@@ -59,8 +59,8 @@ nav .btn {
 header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url("../img/bg-masthead.jpg") no-repeat center top;
-    background-size: cover;
+    background: url("../img/bg-masthead.jpg") no-repeat center 60px;
+    background-size: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -85,8 +85,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
     header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
     }
 
     header.masthead h1 {
@@ -94,10 +94,12 @@ header.masthead h1 {
     }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     header.masthead {
-        background: url("../img/bg-masthead.jpg") no-repeat center 100px;
-        background-size: cover;
+        background: url("../img/bg-masthead.jpg") no-repeat center 75px;
+        background-size: auto;
+        padding-top: 6rem;
+        padding-bottom: 18rem;
     }
 }
 
