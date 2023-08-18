@@ -60,9 +60,10 @@ header.masthead {
     position: relative;
     background-color: #343a40;
     background: url("../img/bg-masthead.jpg") no-repeat center 60px;
-    background-size: auto;
+    background-size: contain;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    text-shadow: 0 0 3px #a7ffb2;
 }
 
 header.masthead .overlay {
@@ -96,8 +97,8 @@ header.masthead h1 {
 
 @media (min-width: 1440px) {
     header.masthead {
-        background: url("../img/bg-masthead.jpg") no-repeat center 60px;
-        background-size: auto;
+        background: url("../img/bg-masthead.jpg") no-repeat center 60px;        
+        background-size: contain;
         padding-top: 6rem;
         padding-bottom: 18rem;
     }
@@ -119,8 +120,11 @@ header.masthead h1 {
 
 @media (max-width: 768px) {
     header.masthead {
-        background: url("../img/bg-masthead.jpg") no-repeat center 100px;
+        background: url("../img/bg-masthead0.jpg") no-repeat center 60px;
         background-size: cover;
+        padding-top: 3rem;
+        padding-bottom: 7rem;
+        margin-top: 1rem;
     }
 
     .showcase .showcase-img {
