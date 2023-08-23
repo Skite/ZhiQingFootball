@@ -1005,11 +1005,11 @@ new Vue({
             }, {
                 date: '7/15',
                 opponents: 'Day2',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230715-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/nvWaXwiV4bhhihUd8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230715-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '7/16',
                 opponents: 'Day3',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230716-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/Zt6DeSWWGKD2yg1h7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230716-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-microphone-stand'
         }, {
