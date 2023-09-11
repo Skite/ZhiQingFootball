@@ -4549,7 +4549,7 @@ new Vue({
         }, {
             id: 31,
             year: '2023',
-            cupName: '黃蜂盃',
+            cupName: '黃蜂爭霸盃（上）',
             system: '5人制',
             cover: '2023bumblebeecup',
             trophy: '2023（上）總冠軍',
@@ -6564,6 +6564,138 @@ new Vue({
                 instructors: ['豪偉'],
                 note: '',
                 bestSubs: '柏燁'
+            }]
+        }, {
+            id: 40,
+            year: '2023',
+            cupName: '黃蜂爭霸盃（下）',
+            system: '5人制',
+            cover: '2023bumblebeecup2',
+            trophy: '分組冠軍／分組季軍',
+            team: [{
+                name: 'ZQ無敵悍將',
+                members: '晉丞、黃衍、皓宇、維恩、宥融、宇正'
+            }, {
+                name: 'ZQ超能悍將',
+                members: '紘豪、邁可、凱泰、瑀東、柏燁、昕叡'
+            }],
+            note: '',
+            matches: [{
+                date: '20230910',
+                pitch: '浮洲足球場',
+                opponent: { name: 'SCSFC', logo: 'SCSFC' },
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-晉丞', 'LF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: 'ZQ無敵悍將',
+                final_score: '3 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '晉丞',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: '皓宇'
+            }, {
+                date: '20230910',
+                pitch: '浮洲足球場',
+                opponent: { name: '新店FC', logo: '新店國小' },
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-黃衍', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }],
+                subTeam: 'ZQ無敵悍將',
+                final_score: '11 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: '晉丞'
+                }, {
+                    name: '晉丞',
+                    assist: '黃衍'
+                }, {
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: '宥融'
+                }, {
+                    name: '晉丞',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融', '維恩', '宇正'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: '丞晉'
+            }, {
+                date: '20230910',
+                pitch: '浮洲足球場',
+                opponent: { name: '新北銀河', logo: '新北銀河' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-瑀東', 'LF-昕叡'],
+                subs: [],
+                subTeam: 'ZQ超能悍將',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: 'N/A'
+            }, {
+                date: '20230910',
+                pitch: '浮洲足球場',
+                opponent: { name: 'BSC', logo: 'default' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-瑀東', 'LF-昕叡'],
+                subs: [],
+                subTeam: 'ZQ超能悍將',
+                final_score: '0 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: 'N/A'
             }]
         }]
     },

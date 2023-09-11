@@ -13,10 +13,18 @@ new Vue({
                 englishName: 'Brian',
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
-                achievement: ['4 Times Best Substitutions'],
+                achievement: ['5 Times Best Substitutions'],
                 active: true,
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '1',
+                    goals: '5',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
@@ -74,7 +82,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '3',
                     goals: '1',
@@ -285,6 +293,14 @@ new Vue({
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '3',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '5',
@@ -341,7 +357,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '6',
                     goals: '1',
@@ -608,7 +624,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '3',
                     gs: '0',
                     goals: '0',
@@ -1062,6 +1078,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '1',
+                    goals: '2',
+                    asts: '3',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '4',
@@ -1118,7 +1142,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '5',
                     goals: '4',
@@ -1345,6 +1369,14 @@ new Vue({
                 position: ['LB'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
                     gs: '1',
@@ -1409,7 +1441,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2022',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '2',
                     gs: '2',
                     goals: '0',
@@ -1427,6 +1459,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '淡水盃',
                     g: '4',
@@ -1476,7 +1516,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '8',
                     goals: '0',
@@ -1524,7 +1564,7 @@ new Vue({
                     cs: '1'
                 }, {
                     year: 'y2022',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '2',
                     gs: '1',
                     goals: '0',
@@ -1687,6 +1727,14 @@ new Vue({
                 position: ['GK', 'CB', 'CM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '2',
+                    asts: '3',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '5',
@@ -1751,7 +1799,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '8',
                     goals: '5',
@@ -2001,6 +2049,14 @@ new Vue({
                 active: true,
                 position: ['CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '格溫拜克盃',
                     g: '5',
@@ -2351,6 +2407,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
@@ -2822,6 +2886,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '2',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '5',
@@ -2870,7 +2942,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '2',
                     goals: '1',
@@ -3105,6 +3177,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '1',
@@ -3161,7 +3241,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '4',
                     gs: '0',
                     goals: '0',
@@ -3356,6 +3436,14 @@ new Vue({
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '3',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '4',
@@ -3420,7 +3508,7 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
-                    cup: '黃蜂盃',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '8',
                     gs: '8',
                     goals: '6',
