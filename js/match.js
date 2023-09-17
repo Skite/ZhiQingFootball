@@ -6697,6 +6697,60 @@ new Vue({
                 note: '',
                 bestSubs: 'N/A'
             }]
+        }, {
+            id: 41,
+            year: '2023',
+            cupName: '新北市少年八人制秋季聯賽',
+            system: '8人制',
+            cover: '2023eightmanfall',
+            trophy: '',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            // note: `<a class="text-success" target="_blank" href="./img/table/2023eightmanfall.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
+            matches: [{
+                date: '20230916',
+                pitch: '新莊田徑場',
+                opponent: { name: '莒光國小', logo: '莒光國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-柏燁', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '定謙'
+            }]
         }]
     },
     methods: {},

@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
                     gs: '1',
@@ -286,12 +294,20 @@ new Vue({
                 number: '7',
                 name: '黃 衍',
                 englishName: 'Yan',
-                title: '',
-                info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得。是球隊首任副隊長。',
-                achievement: ['2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions'],
+                title: 'C',
+                info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
+                achievement: ['Captian (2023)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
@@ -575,6 +591,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
@@ -1078,6 +1102,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
                     gs: '1',
@@ -1368,6 +1400,14 @@ new Vue({
                 active: true,
                 position: ['LB'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
@@ -1720,12 +1760,20 @@ new Vue({
                 number: '18',
                 name: '維 恩',
                 englishName: 'Lucas',
-                title: 'C',
-                info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長至今，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。',
-                achievement: ['Captian (2019-present)', '2022 Yamaha Cup Match MVP'],
+                title: '',
+                info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。',
+                achievement: ['former Captian (2019-2023)', '2022 Yamaha Cup Match MVP'],
                 active: true,
-                position: ['GK', 'CB', 'CM'],
+                position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
@@ -2109,6 +2157,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '淡水盃',
                     g: '5',
                     gs: '5',
@@ -2408,6 +2464,14 @@ new Vue({
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
                     gs: '2',
@@ -2614,10 +2678,18 @@ new Vue({
                 englishName: 'Dalton',
                 title: '',
                 info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
-                achievement: [],
+                achievement: ['1 Time Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '新北市議長盃',
                     g: '6',
@@ -2880,11 +2952,19 @@ new Vue({
                 name: '宥 融',
                 englishName: 'Ivan',
                 title: '',
-                info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。',
-                achievement: ['1 Time Best Substitutions'],
+                info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。於五年級上學期時被教練選為球隊副隊長。',
+                achievement: ['1 Time Best Substitutions', 'Vice Captian (2023)'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
@@ -3177,6 +3257,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
                     gs: '2',
@@ -3430,11 +3518,19 @@ new Vue({
                 name: '宇 正',
                 englishName: 'Eugene',
                 title: 'VC',
-                info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長。',
-                achievement: ['Vice Captian (2023-present)', '2 Times Best Substitutions'],
+                info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長，並於五年級上學期時卸下職務。',
+                achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',

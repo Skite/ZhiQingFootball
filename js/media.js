@@ -243,7 +243,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 15,
-            cupName: '2022新北少年八人制秋季聯賽',
+            cupName: '2022新北市少年八人制秋季聯賽',
             cover: '2022eightmanfall',
             videos: [{
                 date: '12/10',
@@ -325,7 +325,7 @@ new Vue({
             icon: 'fab fa-kickstarter'
         }, {
             id: 20,
-            cupName: '2023新北少年八人制春季聯賽',
+            cupName: '2023新北市少年八人制春季聯賽',
             cover: '2023eightmanspring',
             videos: [{
                 date: '3/4',
@@ -467,6 +467,30 @@ new Vue({
                 url: 'guAD3bIB#TsTnY0fAkSQiLT7yuEr5cLBXx2RWVvIT0L07RIruOlE'
             }],
             icon: 'fas fa-ship'
+        }, {
+            id: 30,
+            cupName: '2023（下）黃蜂盃',
+            cover: '2023bumblebeecup2',
+            videos: [{
+                date: '9/10',
+                opponents: 'SCSFC、新店FC',
+                url: 'Ey4lXbjY#dj2VwiqcqQzY6Zs2kBuVZu6ze6kUWNbiMrWa7gaGI9E'
+            }, {
+                date: '9/10',
+                opponents: '新北銀河、BSC',
+                url: 'li513RrY#ZUzk-poToAGHEVmSj040BG93q3tQ7CQudSbYWtHTytc'
+            }],
+            icon: 'fab fa-forumbee'
+        }, {
+            id: 31,
+            cupName: '2023新北市少年八人制秋季聯賽',
+            cover: '2023eightmanfall',
+            videos: [{
+                date: '9/16',
+                opponents: '莒光國小',
+                url: 'NqQ3xLyK#YuqFDbxVroq5xOHKpjaE8DwUXfo1oEwMPJA48vyZNOs'
+            }],
+            icon: 'fas fa-running'
         }],
         photos: [{
             id: 1,
@@ -1040,6 +1064,30 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/i16hmrEXPKuM32ZL7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230813-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-ship'
+        }, {
+            id: 39,
+            cupName: '2023（下）黃蜂盃',
+            cover: '20230910-cover',
+            photos: [{
+                date: '9/10',
+                opponents: 'SCSFC、新店FC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/mDSy7naZgAgtP9Z77"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230910-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/10',
+                opponents: '新北銀河、BSC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/2m8NKchRwwr6FAbm9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230910-cover2.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-forumbee'
+        }, {
+            id: 40,
+            cupName: '2023新北市少年八人制秋季聯賽',
+            cover: '20230916-cover',
+            photos: [{
+                date: '9/16',
+                opponents: '莒光國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/WoZQTzuYR4Yyz8CS6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230916-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-running'
         }]
     },
     methods: {},

@@ -57,3 +57,7 @@ section {
     max-width: 50px;
     max-height: 2.5rem;
 }
+
+.card-title small {
+    text-shadow: 0 0 0.5em #bbb;
+}

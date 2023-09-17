@@ -71,7 +71,7 @@
                     <div class="card bg-dark text-white mt-4">
                         <img class="card-img img-fluid" :src="'img/matches/' + match.cover + '.jpg'" alt="Card image">
                         <div class="card-img-overlay">
-                            <h2 class="card-title">{{ match.year }} {{ match.cupName }} <small><small><u>{{ match.system }}</u></small></small></h2>
+                            <h2 class="card-title">{{ match.year }} {{ match.cupName }} <small><small><span class="text-success">{{ match.system }}</span></small></small></h2>
                             <h3 v-if="!!match.trophy">
                                 <img class="trophy-icon img-fluid" :src="!!match.trophy.includes('冠軍') ? 'img/trophy-1st.svg' : 'img/trophy.svg'">
                                 <span class="text-warning">{{ match.trophy }}</span>
