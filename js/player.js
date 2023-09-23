@@ -1759,7 +1759,7 @@ new Vue({
             {
                 number: '18',
                 name: '維 恩',
-                englishName: 'Lucas',
+                englishName: 'Wayne',
                 title: '',
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。',
                 achievement: ['former Captian (2019-2023)', '2022 Yamaha Cup Match MVP'],
