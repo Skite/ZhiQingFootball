@@ -19,8 +19,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -302,8 +302,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '2',
                     asts: '0',
                     cs: '0'
@@ -593,8 +593,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '0',
+                    g: '2',
+                    gs: '1',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1103,8 +1103,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1402,7 +1402,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -1768,9 +1768,9 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -2158,10 +2158,10 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '1',
-                    asts: '0',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -2459,13 +2459,13 @@ new Vue({
                 englishName: 'Brad',
                 title: '',
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
-                achievement: ['6 Times Best Substitutions'],
+                achievement: ['7 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2684,7 +2684,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2959,9 +2959,9 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '1',
+                    g: '2',
+                    gs: '2',
+                    goals: '2',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -3258,7 +3258,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -3525,10 +3525,10 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
-                    asts: '2',
+                    asts: '3',
                     cs: '0'
                 }, {
                     year: 'y2023',

@@ -6750,6 +6750,41 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: '定謙'
+            }, {
+                date: '20230924',
+                pitch: '新莊田徑場',
+                opponent: { name: '北新國小', logo: '北新國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融', '定謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '柏燁'
             }]
         }]
     },

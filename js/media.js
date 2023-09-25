@@ -1086,6 +1086,10 @@ new Vue({
                 date: '9/16',
                 opponents: '莒光國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/WoZQTzuYR4Yyz8CS6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230916-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '9/24',
+                opponents: '北新國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/7f9EEMhxXHbAw4xP6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230924-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }]
