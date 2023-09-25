@@ -1,4 +1,4 @@
-$.getJSON("https://skite.github.io/ZhiQinFootball/data/stats.json", function(stats) {
+$.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(stats) {
     var colors = Highcharts.getOptions().colors,
         categories = [
             '勝',

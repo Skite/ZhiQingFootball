@@ -1,5 +1,5 @@
 new Vue({
-    el: '#zhiqinfootball',
+    el: '#ZhiQingFootball',
     data: {
         sortType: 'number',
         searchText: '',

@@ -1,5 +1,5 @@
 new Vue({
-    el: '#zhiqinfootball',
+    el: '#ZhiQingFootball',
     data: {
         cups: [{
             id: 1,
