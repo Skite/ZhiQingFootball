@@ -6,6 +6,7 @@ new Vue({
             year: '2020',
             cupName: '秋季大安盃',
             system: '5人制',
+            grade: 'U8',
             cover: '2020daancup',
             trophy: '季軍',
             team: [{
@@ -246,6 +247,7 @@ new Vue({
             year: '2020',
             cupName: '新北聯合盃',
             system: '8人制',
+            grade: 'U8',
             cover: '2020unitedcup',
             trophy: '分組亞軍',
             team: [{
@@ -425,6 +427,7 @@ new Vue({
             year: '2021',
             cupName: '扶輪社暨航源足球賽',
             system: '5人制',
+            grade: 'U8',
             cover: '2021hunyuancup',
             trophy: '季軍',
             team: [{
@@ -605,6 +608,7 @@ new Vue({
             year: '2021',
             cupName: '金牛賀歲盃',
             system: '8人制',
+            grade: 'U8',
             cover: '2021oxcup',
             trophy: '分組冠軍',
             team: [{
@@ -723,6 +727,7 @@ new Vue({
             year: '2021',
             cupName: '萬歲盃',
             system: '5人制',
+            grade: 'U8',
             cover: '2021vivacup',
             trophy: '',
             team: [{
@@ -833,6 +838,7 @@ new Vue({
             year: '2021',
             cupName: '春季大安盃',
             system: '5人制',
+            grade: 'U8',
             cover: '2021daanspringcup',
             trophy: '冠軍',
             team: [{
@@ -1196,6 +1202,7 @@ new Vue({
             year: '2021',
             cupName: '安聯小小世界盃',
             system: '5人制',
+            grade: 'U8',
             cover: '2021allianzcup',
             trophy: '',
             team: [{
@@ -1311,6 +1318,7 @@ new Vue({
             year: '2021',
             cupName: '學童盃',
             system: '8人制',
+            grade: 'U9',
             cover: '2021studentcup',
             trophy: '',
             team: [{
@@ -1392,6 +1400,7 @@ new Vue({
             year: '2021',
             cupName: '中正主委盃',
             system: '8人制',
+            grade: 'U9',
             cover: '2021chairmancup',
             trophy: '亞軍',
             team: [{
@@ -1531,6 +1540,7 @@ new Vue({
             year: '2021',
             cupName: '新北聯合盃',
             system: '8人制',
+            grade: 'U9',
             cover: '2021unitedcup',
             trophy: '',
             team: [{
@@ -1662,6 +1672,7 @@ new Vue({
             year: '2021',
             cupName: 'A-Star聖誕盃',
             system: '7人制',
+            grade: 'U9',
             cover: '2021astarcup',
             trophy: '',
             team: [{
@@ -1771,6 +1782,7 @@ new Vue({
             year: '2022',
             cupName: '迎虎盃',
             system: '5人制',
+            grade: 'U9',
             cover: '2022tigercup',
             trophy: '分組亞軍',
             team: [{
@@ -1964,6 +1976,7 @@ new Vue({
             year: '2022',
             cupName: '新北市少年八人制春季聯賽',
             system: '8人制',
+            grade: 'U9',
             cover: '2022eightmanspring',
             trophy: '',
             team: [{
@@ -2130,6 +2143,7 @@ new Vue({
             year: '2022',
             cupName: '臺北市教育盃',
             system: '5人制',
+            grade: 'U9',
             cover: '2022educationcup',
             trophy: '',
             team: [{
@@ -2293,6 +2307,7 @@ new Vue({
             year: '2022',
             cupName: '中華五人制足球錦標賽',
             system: '5人制',
+            grade: 'U9',
             cover: '2022chtfivemanchamp',
             trophy: '',
             team: [{
@@ -2353,6 +2368,7 @@ new Vue({
             year: '2022',
             cupName: '包中盃',
             system: '8人制',
+            grade: 'U9',
             cover: '2022ricedumplingcup',
             trophy: '',
             team: [{
@@ -2438,6 +2454,7 @@ new Vue({
             year: '2022',
             cupName: '臺北市五人制足球聯賽',
             system: '5人制',
+            grade: 'U9',
             cover: '2022tpefivemanleague',
             trophy: '',
             team: [{
@@ -2516,6 +2533,7 @@ new Vue({
             year: '2022',
             cupName: '春季大安盃',
             system: '5人制',
+            grade: 'U9',
             cover: '2022daanspringcup',
             trophy: '',
             team: [{
@@ -2650,6 +2668,7 @@ new Vue({
             year: '2022',
             cupName: '新北市夏季主委盃草地五人制',
             system: '5人制',
+            grade: 'U9',
             cover: '2022grassfiveman',
             trophy: '分組亞軍',
             team: [{
@@ -2759,6 +2778,7 @@ new Vue({
             year: '2022',
             cupName: '新北市少年八人制秋季聯賽',
             system: '8人制',
+            grade: 'U9',
             cover: '2022eightmanfall',
             trophy: '',
             team: [{
@@ -3031,6 +3051,7 @@ new Vue({
             year: '2022',
             cupName: '臺北市足球Ｕ聯賽',
             system: '8人制',
+            grade: 'U10',
             cover: '2022uleague',
             trophy: '',
             team: [{
@@ -3082,6 +3103,7 @@ new Vue({
             year: '2022',
             cupName: '全國學童盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2022studentcup',
             trophy: '',
             team: [{
@@ -3222,6 +3244,7 @@ new Vue({
             year: '2022',
             cupName: '新北聯合盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2022unitedcup',
             trophy: '分組冠軍',
             team: [{
@@ -3395,6 +3418,7 @@ new Vue({
             year: '2022',
             cupName: '安聯小小世界盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2022allianzcup',
             trophy: '臺北區冠軍',
             team: [{
@@ -3451,7 +3475,7 @@ new Vue({
             }, {
                 date: '20221009',
                 pitch: '北市大天母校區田徑場',
-                opponent: { name: '百齡國小', logo: '百齡國小' },
+                opponent: { name: '百齡國小', logo: 'BLES' },
                 formation: '2-0-2',
                 starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-亮谷', 'LF-黃衍'],
                 subs: [{
@@ -3685,6 +3709,7 @@ new Vue({
             year: '2022',
             cupName: 'Yamana 盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2022yamahacup',
             trophy: '',
             team: [{
@@ -3739,6 +3764,7 @@ new Vue({
             year: '2023',
             cupName: '金兔賀歲盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2023rabbitcup',
             trophy: '分組冠軍',
             team: [{
@@ -3906,6 +3932,7 @@ new Vue({
             year: '2023',
             cupName: '明道盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2023mingdaocup',
             trophy: '',
             team: [{
@@ -4107,6 +4134,7 @@ new Vue({
             year: '2023',
             cupName: 'Kappa 盃',
             system: '7人制',
+            grade: 'U10',
             cover: '2023kappacup',
             trophy: '亞軍',
             team: [{
@@ -4248,6 +4276,7 @@ new Vue({
             year: '2023',
             cupName: '新北市少年八人制春季聯賽',
             system: '8人制',
+            grade: 'U10',
             cover: '2023eightmanspring',
             trophy: '',
             team: [{
@@ -4458,6 +4487,7 @@ new Vue({
             year: '2023',
             cupName: '臺北市教育盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2023educationcup',
             trophy: '',
             team: [{
@@ -4551,6 +4581,7 @@ new Vue({
             year: '2023',
             cupName: '黃蜂爭霸盃（上）',
             system: '5人制',
+            grade: 'U10',
             cover: '2023bumblebeecup',
             trophy: '2023（上）總冠軍',
             team: [{
@@ -4826,6 +4857,7 @@ new Vue({
             year: '2023',
             cupName: '春季大安盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2023daanspringcup',
             trophy: '季軍',
             team: [{
@@ -4988,6 +5020,7 @@ new Vue({
             year: '2023',
             cupName: '臺北市五人制足球聯賽',
             system: '5人制',
+            grade: 'U10',
             cover: '2023tpefivemanleague',
             trophy: '',
             team: [{
@@ -5213,6 +5246,7 @@ new Vue({
             year: '2023',
             cupName: '安聯小小世界盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2023allianzcup',
             trophy: '',
             team: [{
@@ -5355,6 +5389,7 @@ new Vue({
             year: '2023',
             cupName: '豐米全國少年盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2023youthcup',
             trophy: '',
             team: [{
@@ -5435,6 +5470,7 @@ new Vue({
             year: '2023',
             cupName: '臺中港盃國際足球邀請賽',
             system: '8人制',
+            grade: 'U10',
             cover: '2023harborcup',
             trophy: '',
             team: [{
@@ -5806,6 +5842,7 @@ new Vue({
             year: '2023',
             cupName: '新北市議長盃',
             system: '5人制',
+            grade: 'U11',
             cover: '2023speakercup',
             trophy: '分組亞軍',
             team: [{
@@ -6167,6 +6204,7 @@ new Vue({
             year: '2023',
             cupName: '格溫拜克盃',
             system: '5人制',
+            grade: 'U10',
             cover: '2023grunbeckcup',
             trophy: '',
             team: [{
@@ -6409,6 +6447,7 @@ new Vue({
             year: '2023',
             cupName: '淡水盃',
             system: '8人制',
+            grade: 'U10',
             cover: '2023tamsuicup',
             trophy: '分組冠軍',
             team: [{
@@ -6570,6 +6609,7 @@ new Vue({
             year: '2023',
             cupName: '黃蜂爭霸盃（下）',
             system: '5人制',
+            grade: 'U10',
             cover: '2023bumblebeecup2',
             trophy: '分組冠軍／分組季軍',
             team: [{
@@ -6702,6 +6742,7 @@ new Vue({
             year: '2023',
             cupName: '新北市少年八人制秋季聯賽',
             system: '8人制',
+            grade: 'U11',
             cover: '2023eightmanfall',
             trophy: '',
             team: [{
