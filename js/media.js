@@ -489,8 +489,22 @@ new Vue({
                 date: '9/16',
                 opponents: '莒光國小',
                 url: 'NqQ3xLyK#YuqFDbxVroq5xOHKpjaE8DwUXfo1oEwMPJA48vyZNOs'
+            }, {
+                date: '9/24',
+                opponents: '北新國小',
+                url: 'ojIhGAIZ#TOY5M2N6ToTC5YUPOHCUVLNmlWQ-tgg_7XhVvXheIIQ'
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 32,
+            cupName: '2023臺北市中正盃',
+            cover: '2023ckscup',
+            videos: [{
+                date: '9/28',
+                opponents: '永樂國小',
+                url: 'kyJkEIQK#wu8IlcVH7Kv95Z-kilIPwEtMAyR-8YFjspYVm7D7S6Q'
+            }],
+            icon: 'fas fa-landmark'
         }],
         photos: [{
             id: 1,
@@ -1092,6 +1106,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7f9EEMhxXHbAw4xP6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230924-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
+        }, {
+            id: 41,
+            cupName: '2023臺北市中正盃',
+            cover: '20230928-cover',
+            photos: [{
+                date: '9/28',
+                opponents: '永樂國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/JXeLGtARx62zTeT58"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230928-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-landmark'
         }]
     },
     methods: {},

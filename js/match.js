@@ -6718,7 +6718,7 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: '',
-                bestSubs: 'N/A'
+                bestSubs: ''
             }, {
                 date: '20230910',
                 pitch: '浮洲足球場',
@@ -6735,7 +6735,7 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: '',
-                bestSubs: 'N/A'
+                bestSubs: ''
             }]
         }, {
             id: 41,
@@ -6826,6 +6826,94 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: '柏燁'
+            }]
+        }, {
+            id: 42,
+            year: '2023',
+            cupName: '臺北市中正盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2023ckscup',
+            trophy: '',
+            team: [{
+                name: '悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、駿毅*、宇晨*、昀陞*、振綸*、稟巖*'
+            }],
+            note: ``,
+            matches: [{
+                date: '20230928',
+                pitch: '迎風足球場A',
+                opponent: { name: '永樂國小', logo: '永樂國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-駿毅*', 'CB-振綸*', 'LB-子珩*', 'RM-昕叡', 'CM-亮谷', 'LM-宇晨*', 'CF-稟巖*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 25,
+                    name: '昀陞*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '悍將',
+                final_score: '10 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇晨*',
+                    assist: '稟巖*'
+                }, {
+                    name: '亮谷',
+                    assist: '子珩*'
+                }, {
+                    name: '稟巖*',
+                    assist: '昕叡'
+                }, {
+                    name: '稟巖*',
+                    assist: '亮谷'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: '柏燁'
+                }, {
+                    name: '皓宇',
+                    assist: '宥融'
+                }, {
+                    name: '晉丞',
+                    assist: '柏燁'
+                }],
+                goalkeepers: ['宥融', '子珩*'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '* 學長／姐',
+                bestSubs: ''
             }]
         }]
     },
