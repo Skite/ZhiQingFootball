@@ -6914,6 +6914,38 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學長／姐',
                 bestSubs: ''
+            }, {
+                date: '20231003',
+                pitch: '迎風足球場A',
+                opponent: { name: '光復國小', logo: '光復國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-稟巖*', 'CB-維恩', 'LB-宇正', 'RM-亮谷', 'CM-振綸*', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐',
+                bestSubs: ''
             }]
         }]
     },

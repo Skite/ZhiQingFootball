@@ -19,7 +19,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '1',
                     asts: '0',
@@ -310,10 +310,10 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '1',
-                    asts: '0',
+                    g: '2',
+                    gs: '1',
+                    goals: '2',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -1127,8 +1127,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '0',
+                    g: '2',
+                    gs: '1',
                     goals: '2',
                     asts: '1',
                     cs: '0'
@@ -1800,8 +1800,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '0',
+                    g: '2',
+                    gs: '1',
                     goals: '1',
                     asts: '0',
                     cs: '0'
@@ -2198,8 +2198,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '1',
                     asts: '1',
                     cs: '0'
@@ -2740,7 +2740,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -3023,8 +3023,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '1',
                     asts: '2',
                     cs: '1'
@@ -3330,7 +3330,7 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '1',
@@ -3605,8 +3605,8 @@ new Vue({
                 appearance: [{
                     year: 'y2023',
                     cup: '臺北市中正盃',
-                    g: '1',
-                    gs: '0',
+                    g: '2',
+                    gs: '1',
                     goals: '0',
                     asts: '0',
                     cs: '0'
