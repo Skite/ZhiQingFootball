@@ -2179,7 +2179,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '國小',
+                subTeam: '勇士',
                 final_score: '7 : 2',
                 pso: '',
                 wdl: 'W',
@@ -2237,7 +2237,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '國小',
+                subTeam: '勇士',
                 final_score: '6 : 0',
                 pso: '',
                 wdl: 'W',
@@ -2283,7 +2283,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '國小',
+                subTeam: '勇士',
                 final_score: '3 : 4',
                 pso: '',
                 wdl: 'L',
