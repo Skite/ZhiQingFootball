@@ -503,6 +503,10 @@ new Vue({
                 date: '9/28',
                 opponents: '永樂國小',
                 url: 'kyJkEIQK#wu8IlcVH7Kv95Z-kilIPwEtMAyR-8YFjspYVm7D7S6Q'
+            }, {
+                date: '10/3',
+                opponents: '光復國小',
+                url: 's2BW3ZzD#pADNrRnaUKc11XRhtrCbIGBU57vItiVsR4wIwb8PmJA'
             }],
             icon: 'fas fa-landmark'
         }],
