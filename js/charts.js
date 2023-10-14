@@ -115,6 +115,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '勝',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
@@ -133,6 +134,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '和',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
@@ -151,6 +153,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '敗',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
@@ -170,6 +173,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '勝',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
@@ -188,6 +192,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '和',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
@@ -206,6 +211,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 drilldown: {
                     name: '敗',
                     categories: [
+                        'U11',
                         'U10',
                         'U9',
                         'U8'
