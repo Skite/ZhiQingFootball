@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
                     gs: '0',
@@ -308,6 +316,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '3',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -1126,6 +1142,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
                     gs: '1',
@@ -1527,10 +1551,18 @@ new Vue({
                 englishName: 'Allen',
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
-                achievement: ['2022 Yamaha Cup Match MVP', '1 Time Best Substitutions'],
+                achievement: ['2022 Yamaha Cup Match MVP', '2 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     year: 'y2023',
                     cup: '黃蜂爭霸盃（下）',
                     g: '2',
@@ -1798,6 +1830,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -2196,6 +2236,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -3022,6 +3070,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
                     gs: '2',
@@ -3603,6 +3659,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',

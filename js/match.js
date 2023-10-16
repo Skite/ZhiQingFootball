@@ -6947,6 +6947,58 @@ new Vue({
                 note: '* 學長／姐',
                 bestSubs: ''
             }]
+        }, {
+            id: 43,
+            year: '2023',
+            cupName: '勝利聯賽',
+            system: '7人制',
+            grade: 'U11',
+            cover: '2023victoryleague',
+            trophy: '',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、宥融、昕叡、宇正'
+            }],
+            note: ``,
+            matches: [{
+                date: '20231015',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'EC_DESAFIO', logo: 'desafio' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '小悍將',
+                final_score: '6 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: '凱泰'
+            }]
         }]
     },
     methods: {},
