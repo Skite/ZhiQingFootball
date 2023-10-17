@@ -6836,7 +6836,7 @@ new Vue({
             cover: '2023ckscup',
             trophy: '',
             team: [{
-                name: '悍將',
+                name: '國小',
                 members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、駿毅*、宇晨*、昀陞*、振綸*、稟巖*'
             }],
             note: ``,
@@ -6874,7 +6874,7 @@ new Vue({
                     number: 97,
                     name: '宇正'
                 }],
-                subTeam: '悍將',
+                subTeam: '國小',
                 final_score: '10 : 0',
                 pso: '',
                 wdl: 'W',
@@ -6930,7 +6930,7 @@ new Vue({
                     number: 77,
                     name: '昕叡'
                 }],
-                subTeam: '悍將',
+                subTeam: '國小',
                 final_score: '2 : 1',
                 pso: '',
                 wdl: 'W',
@@ -6938,6 +6938,29 @@ new Vue({
                     name: '黃衍',
                     assist: ''
                 }, {
+                    name: '振綸*',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐',
+                bestSubs: ''
+            }, {
+                date: '20231017',
+                pitch: '迎風足球場A',
+                opponent: { name: '中正國小', logo: '中正國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-稟巖*', 'CB-維恩', 'LB-宇正', 'RM-振綸*', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
                     name: '振綸*',
                     assist: '黃衍'
                 }],
