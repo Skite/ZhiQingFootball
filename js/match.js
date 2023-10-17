@@ -6947,7 +6947,7 @@ new Vue({
                 note: '* 學長／姐',
                 bestSubs: ''
             }, {
-                date: '20231017',
+                date: '20231016',
                 pitch: '迎風足球場A',
                 opponent: { name: '中正國小', logo: '中正國小' },
                 formation: '3-3-1',
