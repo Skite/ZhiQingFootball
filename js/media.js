@@ -507,8 +507,22 @@ new Vue({
                 date: '10/3',
                 opponents: '光復國小',
                 url: 's2BW3ZzD#pADNrRnaUKc11XRhtrCbIGBU57vItiVsR4wIwb8PmJA'
+            }, {
+                date: '10/16',
+                opponents: '中正國小',
+                url: 'hzp10RhK#AxHRmw6vdFYv2kxQPUpA9f7wqXLEIb5fkjZDW5kTJBA'
             }],
             icon: 'fas fa-landmark'
+        }, {
+            id: 33,
+            cupName: '2023勝利聯賽',
+            cover: '2023victoryleague',
+            videos: [{
+                date: '10/15',
+                opponents: 'EC DESAFIO',
+                url: 'g3IAkTza#R_27ng7JHZkNin7qz0Glz7nSAnpNvi5x3kDdPtubMWY'
+            }],
+            icon: 'fab fa-vimeo-v'
         }],
         photos: [{
             id: 1,
@@ -1120,6 +1134,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/JXeLGtARx62zTeT58"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230928-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-landmark'
+        }, {
+            id: 42,
+            cupName: '2023勝利聯賽',
+            cover: '20231015-cover',
+            photos: [{
+                date: '10/15',
+                opponents: 'EC DESAFIO',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-vimeo-v'
         }]
     },
     methods: {},

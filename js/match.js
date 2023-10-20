@@ -6969,6 +6969,41 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學長／姐',
                 bestSubs: ''
+            }, {
+                date: '20231019',
+                pitch: '迎風足球場A',
+                opponent: { name: '士東國小', logo: '士東國小' },
+                formation: '3-3-1',
+                starters: ['GK-仲謙*', 'RB-宇正', 'CB-稟巖*', 'LB-黃衍', 'CDM-維恩', 'RAM-定謙', 'LAM-亮谷', 'CF-振綸*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '國小',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['仲謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐',
+                bestSubs: ''
             }]
         }, {
             id: 43,
