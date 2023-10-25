@@ -3999,7 +3999,7 @@ new Vue({
             {
                 number: '2',
                 name: '定 宸',
-                englishName: '',
+                englishName: 'Andy',
                 title: '',
                 info: '球隊初始成員之一，以厚實的身體和對抗性成為穩定的後防大將，在經歷了 U8 的榮光時期後因課業壓力，於二年級下學期結束後退出球隊。',
                 achievement: [],
