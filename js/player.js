@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'CM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
                     gs: '1',
@@ -312,10 +320,18 @@ new Vue({
                 englishName: 'Yan',
                 title: 'C',
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
-                achievement: ['Captian (2023)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions'],
+                achievement: ['Captian (2023)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
@@ -1142,6 +1158,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
                     gs: '1',
@@ -1826,10 +1850,18 @@ new Vue({
                 englishName: 'Wayne',
                 title: '',
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。',
-                achievement: ['former Captian (2019-2023)', '2022 Yamaha Cup Match MVP'],
+                achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
@@ -2237,6 +2269,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
                     gs: '1',
@@ -2559,6 +2599,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -3070,6 +3118,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
                     gs: '1',
@@ -3380,10 +3436,18 @@ new Vue({
                 englishName: 'Ray',
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
-                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '12 Times Best Substitutions'],
+                achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '14 Times Best Substitutions'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -3659,6 +3723,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Yamaha盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',

@@ -7057,6 +7057,67 @@ new Vue({
                 note: '',
                 bestSubs: '凱泰'
             }]
+        }, {
+            id: 44,
+            year: '2023',
+            cupName: 'Yamana 盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2023yamahacup',
+            trophy: '',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20231028',
+                pitch: '迎風足球場C',
+                opponent: { name: '石牌國小', logo: '石牌國小' },
+                formation: '1-3-2-1',
+                starters: ['GK-宥融', 'SW-維恩', 'RB-晉丞', 'CB-柏燁', 'LB-黃衍', 'RCM-亮谷', 'LCM-宇正', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: 'MVP-黃衍'
+            }, {
+                date: '20231028',
+                pitch: '迎風足球場C',
+                opponent: { name: '國北實小', logo: '國北實小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-柏燁', 'CB-維恩', 'LB-黃衍', 'RM-晉丞', 'CM-亮谷', 'LM-宇正', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: 'MVP-維恩'
+            }]
         }]
     },
     methods: {},

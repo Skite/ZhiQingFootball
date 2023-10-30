@@ -511,6 +511,10 @@ new Vue({
                 date: '10/16',
                 opponents: '中正國小',
                 url: 'hzp10RhK#AxHRmw6vdFYv2kxQPUpA9f7wqXLEIb5fkjZDW5kTJBA'
+            }, {
+                date: '10/19',
+                opponents: '士東國小',
+                url: '4qgUmQjA#yNhG7UX8el9KrXpRUdHzrqdBgHb41O0YdOnSt1YLUso'
             }],
             icon: 'fas fa-landmark'
         }, {
@@ -523,6 +527,16 @@ new Vue({
                 url: 'g3IAkTza#R_27ng7JHZkNin7qz0Glz7nSAnpNvi5x3kDdPtubMWY'
             }],
             icon: 'fab fa-vimeo-v'
+        }, {
+            id: 34,
+            cupName: '2023Yamaha盃',
+            cover: '2023yamahacup',
+            videos: [{
+                date: '10/28',
+                opponents: '石牌國小、國北實小',
+                url: 'k7oRSb4a#NoWNnap3thczwPrE0dXc0WsQbF6nw11tErMrzcK7lnA'
+            }],
+            icon: 'fab fa-y-combinator'
         }],
         photos: [{
             id: 1,
@@ -1148,6 +1162,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
+        }, {
+            id: 43,
+            cupName: '2023Yamaha盃',
+            cover: '20231028-cover',
+            photos: [{
+                date: '10/28',
+                opponents: '石牌國小、國北實小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/KwbrMph3BayJ9PnJA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231028-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-y-combinator'
         }]
     },
     methods: {},
