@@ -5613,11 +5613,17 @@ new Vue({
                 pso: '',
                 wdl: 'W',
                 scorers: [{
-                    name: '昕叡',
-                    assist: '宥融'
+                    name: '宥融',
+                    assist: '宇正'
                 }, {
                     name: '宥融',
-                    assist: '維恩'
+                    assist: '黃衍'
+                }, {
+                    name: '宥融',
+                    assist: '晉丞'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
                 }],
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
@@ -6826,6 +6832,35 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: '柏燁'
+            }, {
+                date: '20231105',
+                pitch: '新莊田徑場',
+                opponent: { name: '銀河射手', logo: '銀河射手' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-晉丞', 'RM-皓宇', 'CM-亮谷', 'LM-宥融', 'CF-黃衍'],
+                subs: [{
+                    number: 13,
+                    name: '邁可'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '1 : 9',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['凱泰', '昕叡'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '',
+                bestSubs: ''
             }]
         }, {
             id: 42,
