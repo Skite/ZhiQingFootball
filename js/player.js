@@ -15,8 +15,16 @@ new Vue({
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
                 achievement: ['5 Times Best Substitutions'],
                 active: true,
-                position: ['RB', 'CB', 'RM', 'CM', 'CF'],
+                position: ['RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
@@ -324,6 +332,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
@@ -639,6 +655,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
@@ -1158,6 +1182,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '3',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
                     gs: '2',
@@ -1580,6 +1612,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '學童盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: '勝利聯賽',
                     g: '1',
                     gs: '0',
@@ -1862,6 +1902,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
@@ -2277,6 +2325,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
                     gs: '2',
@@ -2607,6 +2663,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
@@ -3126,6 +3190,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
                     gs: '2',
@@ -3449,6 +3521,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',
                     gs: '0',
@@ -3731,6 +3811,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: '學童盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Yamaha盃',
                     g: '2',

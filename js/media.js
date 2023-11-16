@@ -537,6 +537,20 @@ new Vue({
                 url: 'k7oRSb4a#NoWNnap3thczwPrE0dXc0WsQbF6nw11tErMrzcK7lnA'
             }],
             icon: 'fab fa-y-combinator'
+        }, {
+            id: 35,
+            cupName: '2023學童盃',
+            cover: '2023studentcup',
+            videos: [{
+                date: '11/13',
+                opponents: '大安國小',
+                url: 'p3IwXYLS#3TTedDQQJHM2t5bf_Uiz39zwPc_OotQRQ7-8Fd3SIt0'
+            }, {
+                date: '11/14',
+                opponents: '苗栗尖山國小',
+                url: 'ozZCwLza#SPRd04IhI7M7TdqYNtCs6qcJUPp5laybNIi_h6kV6ik'
+            }],
+            icon: 'fas fa-user-graduate'
         }],
         photos: [{
             id: 1,

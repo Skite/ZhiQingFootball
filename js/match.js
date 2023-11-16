@@ -7153,6 +7153,113 @@ new Vue({
                 instructors: ['怡萍'],
                 note: 'MVP-維恩'
             }]
+        }, {
+            id: 45,
+            year: '2023',
+            cupName: '學童盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2023studentcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20231113',
+                pitch: '屏東師範大學林森校區',
+                opponent: { name: '大安國小', logo: '大安國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-黃衍', 'RM-紘豪', 'CM-亮谷', 'LM-晉丞', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '3 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20231114',
+                pitch: '屏東師範大學林森校區',
+                opponent: { name: '苗栗尖山國小', logo: '尖山國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-紘豪', 'CB-維恩', 'LB-黃衍', 'RM-宇正', 'CM-亮谷', 'LM-晉丞', 'CF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: '紘豪'
+                }, {
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '皓宇'
+                }, {
+                    name: '亮谷',
+                    assist: 'P'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20231115',
+                pitch: '屏東師範大學林森校區',
+                opponent: { name: '宜蘭大同國小', logo: '宜蘭大同' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-黃衍', 'CB-維恩', 'LB-紘豪', 'RM-宇正', 'CM-亮谷', 'LM-晉丞', 'CF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '0 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
