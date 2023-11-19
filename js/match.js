@@ -6800,7 +6800,7 @@ new Vue({
             }, {
                 date: '20230924',
                 pitch: '新莊田徑場',
-                opponent: { name: '北新國小', logo: '北新國小' },
+                opponent: { name: '北新國小-藍', logo: '北新國小' },
                 formation: '3-3-1',
                 starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-皓宇', 'CM-亮谷', 'LM-黃衍', 'CF-晉丞'],
                 subs: [{
@@ -6860,6 +6860,38 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['冠岳'],
                 note: '',
+                bestSubs: ''
+            }, {
+                date: '20231118',
+                pitch: '新莊田徑場',
+                opponent: { name: '北新國小-黑', logo: '北新國小' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-皓宇', 'CB-晉丞', 'LB-柏燁', 'RM-定謙', 'CM-亮谷', 'LM-黃衍', 'CF-宇正'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '亮谷'
+                }, {
+                    name: '柏燁',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['無*'],
+                note: '* 本場比賽無指導教練，由宇正爸代班調度',
                 bestSubs: ''
             }]
         }, {
