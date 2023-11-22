@@ -1190,6 +1190,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/KwbrMph3BayJ9PnJA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231028-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-y-combinator'
+        }, {
+            id: 44,
+            cupName: '2023阿猴全國學童盃',
+            cover: '20231113-cover',
+            photos: [{
+                date: '11/13-15',
+                opponents: '大安國小、尖山國小、大同國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/6bRvwjo2pQ8za5VK8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231113-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-user-graduate'
         }]
     },
     methods: {},
