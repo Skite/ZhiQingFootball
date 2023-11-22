@@ -549,6 +549,10 @@ new Vue({
                 date: '11/14',
                 opponents: '苗栗尖山國小',
                 url: 'ozZCwLza#SPRd04IhI7M7TdqYNtCs6qcJUPp5laybNIi_h6kV6ik'
+            }, {
+                date: '精彩',
+                opponents: '花絮',
+                url: 'UyZ21JIJ#54nsgfPtB_yJQJYa6NzVw2K_vazhS3FEQP5MrRrps6c'
             }],
             icon: 'fas fa-user-graduate'
         }],
