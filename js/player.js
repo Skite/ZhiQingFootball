@@ -35,10 +35,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
+                    g: '3',
+                    gs: '2',
+                    goals: '2',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -350,9 +350,9 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '3',
+                    g: '3',
+                    gs: '2',
+                    goals: '5',
                     asts: '1',
                     cs: '0'
                 }, {
@@ -659,6 +659,14 @@ new Vue({
                     cup: '學童盃',
                     g: '3',
                     gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '2',
+                    gs: '1',
                     goals: '0',
                     asts: '1',
                     cs: '0'
@@ -1199,10 +1207,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '3',
+                    gs: '3',
                     goals: '0',
-                    asts: '1',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -1621,11 +1629,11 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '0',
+                    g: '3',
+                    gs: '1',
                     goals: '0',
                     asts: '0',
-                    cs: '1'
+                    cs: '2'
                 }, {
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
@@ -1920,10 +1928,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '2',
-                    asts: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '6',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -2342,10 +2350,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '1',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '5',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -3207,10 +3215,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
+                    asts: '1',
                     cs: '1'
                 }, {
                     year: 'y2023',
@@ -3537,6 +3545,14 @@ new Vue({
                     cs: '0'
                 }, {
                     year: 'y2023',
+                    cup: '勝利聯賽',
+                    g: '2',
+                    gs: '1',
+                    goals: '5',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '2',
                     gs: '1',
@@ -3809,7 +3825,7 @@ new Vue({
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長，並於五年級上學期時卸下職務。',
                 achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
                 active: true,
-                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'CF'],
+                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
                     cup: '學童盃',
@@ -3829,10 +3845,10 @@ new Vue({
                 }, {
                     year: 'y2023',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',

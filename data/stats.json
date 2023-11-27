@@ -9,10 +9,10 @@
     },
     "grass":
     {
-        "matches": "151",
-        "wins": "75",
+        "matches": "153",
+        "wins": "76",
         "draws": "14",
-        "loses": "62"
+        "loses": "63"
     },
     "five":
     {
@@ -128,16 +128,16 @@
     {
         "U11":
         {
-            "matches": "1",
-            "wins": "1",
+            "matches": "3",
+            "wins": "2",
             "draws": "0",
-            "loses": "0",
+            "loses": "1",
             "gold": "0",
             "silver": "0",
             "bronze": "0",
-            "scores": "6",
-            "conc": "0",
-            "cs": "1"
+            "scores": "24",
+            "conc": "5",
+            "cs": "2"
         },
         "U10":
         {

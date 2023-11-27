@@ -7123,6 +7123,112 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: '凱泰'
+            }, {
+                date: '20231126',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'MFA-U11', logo: 'MFA' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '0 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20231126',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'Taipei_Breakers', logo: 'MFA' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RCB-紘豪', 'LCB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-維恩'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '18 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '宥融'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: 'Own Goal',
+                    assist: '黃衍'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '晉丞'
+                }, {
+                    name: '昕叡',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '昕叡',
+                    assist: '維恩'
+                }, {
+                    name: '宇正',
+                    assist: '紘豪'
+                }, {
+                    name: '晉丞',
+                    assist: '宇正'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: true,
+                instructors: ['怡萍'],
+                note: '',
+                bestSubs: ''
             }]
         }, {
             id: 44,
