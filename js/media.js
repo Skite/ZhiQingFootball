@@ -525,6 +525,10 @@ new Vue({
                 date: '10/15',
                 opponents: 'EC DESAFIO',
                 url: 'g3IAkTza#R_27ng7JHZkNin7qz0Glz7nSAnpNvi5x3kDdPtubMWY'
+            }, {
+                date: '11/26',
+                opponents: 'MFA-U11、Taipei Breakers',
+                url: 'wyAzyAzL#jascB_hf4lx80ufJKqYgo52ewoA2l99uEQT8MRdO4rM'
             }],
             icon: 'fab fa-vimeo-v'
         }, {
@@ -1178,6 +1182,10 @@ new Vue({
                 date: '10/15',
                 opponents: 'EC DESAFIO',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '11/26',
+                opponents: 'MFA-U11、Taipei Breakers',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/2WtoBFcFxpZkTwfP7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231126-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {
