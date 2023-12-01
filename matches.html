@@ -83,14 +83,14 @@
                                     <div class="col">Final Scores</div>
                                     <div class="col"></div>
                                 </div>
-                                <template v-for="game in match.matches">
+                                <template v-for="(game, index) in match.matches" :key="`match${index}`">
                                     <div class="row justify-content-start align-items-center my-2">
                                         <div class="col">{{ game.opponent.name }}</div>
                                         <div class="col">{{ game.final_score }} <span v-if="!!game.pso">(PSO {{ game.pso }})</span> {{ game.wdl }}</div>
-                                        <div class="col history-detail"><a data-toggle="modal" :data-target="'#' + game.opponent.name + game.date" v-if="game.starters.length > 0">Recap</a></div>
+                                        <div class="col history-detail"><a data-toggle="modal" :data-target="!!game.opponent.formation ? `#${game.opponent.formation}${game.date}` : `#${game.opponent.name}${game.date}`" v-if="game.starters.length > 0">Recap</a></div>
                                     </div>
                                     <!-- Modal -->
-                                    <div class="modal fade text-dark" :id="game.opponent.name + game.date" tabindex="-1" role="dialog" :aria-labelledby="game.opponent.name + game.date" aria-hidden="true">
+                                    <div class="modal fade text-dark" :id="!!game.opponent.formation ? `${game.opponent.formation}${game.date}` : `${game.opponent.name}${game.date}`" tabindex="-1" role="dialog" :aria-labelledby="!!game.opponent.formation ? `${game.opponent.formation}${game.date}` : `${game.opponent.name}${game.date}`" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content container-fluid">
                                                 <div class="modal-header">
@@ -130,20 +130,20 @@
                                                     </div>
                                                     <ul class="nav nav-tabs mt-3" role="tablist">
                                                         <li class="nav-item">
-                                                            <a class="nav-link active" id="formation-tab" data-toggle="tab" :href="'#form' + game.date + game.opponent.name" role="tab" aria-controls="formation" aria-selected="true">Formation / Starters</a>
+                                                            <a class="nav-link active" id="formation-tab" data-toggle="tab" :href="!!game.opponent.formation ? `#form${game.date}${game.opponent.formation}` : `#form${game.date}${game.opponent.name}`" role="tab" aria-controls="formation" aria-selected="true">Formation / Starters</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" id="score-tab" data-toggle="tab" :href="'#score' + game.date + game.opponent.name" role="tab" aria-controls="score" aria-selected="false">Scorers（Assistors / OG Enforcers）</a>
+                                                            <a class="nav-link" id="score-tab" data-toggle="tab" :href="!!game.opponent.formation ? `#score${game.date}${game.opponent.formation}` : `#score${game.date}${game.opponent.name}`" role="tab" aria-controls="score" aria-selected="false">Scorers（Assistors / OG Enforcers）</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" id="goalkeeper-tab" data-toggle="tab" :href="'#goalkeeper' + game.date + game.opponent.name" role="tab" aria-controls="goalkeeper" aria-selected="false">Goal Keepers / Coaches</a>
+                                                            <a class="nav-link" id="goalkeeper-tab" data-toggle="tab" :href="!!game.opponent.formation ? `#goalkeeper${game.date}${game.opponent.formation}` : `#goalkeeper${game.date}${game.opponent.name}`" role="tab" aria-controls="goalkeeper" aria-selected="false">Goal Keepers / Coaches</a>
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content">
-                                                        <div class="tab-pane fade show active" :id="'form' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="formation-tab">
+                                                        <div class="tab-pane fade show active" :id="!!game.opponent.formation ? `form${game.date}${game.opponent.formation}` : `form${game.date}${game.opponent.name}`" role="tabpanel" aria-labelledby="formation-tab">
                                                             <div class="row">
                                                                 <div class="col my-2">
-                                                                    <img :src="`img/formations/${game.date}${game.opponent.name}.jpg`" class="img-fluid">
+                                                                    <img :src="!!game.opponent.formation ? `img/formations/${game.date}${game.opponent.formation}.jpg` : `img/formations/${game.date}${game.opponent.name}.jpg`" class="img-fluid">
                                                                 </div>
                                                                 <div class="col my-2" v-if="!!game.subs">
                                                                     <div class="text-info my-4">Subs:</div>
@@ -151,12 +151,12 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane fade" :id="'score' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="score-tab">
+                                                        <div class="tab-pane fade" :id="!!game.opponent.formation ? `score${game.date}${game.opponent.formation}` : `score${game.date}${game.opponent.name}`" role="tabpanel" aria-labelledby="score-tab">
                                                             <h5 class="my-4" v-for="scorer in game.scorers">
                                                                 {{ scorer.name }}<span v-if="!!scorer.assist">（{{ scorer.assist }}）</span>
                                                             </h5>
                                                         </div>
-                                                        <div class="tab-pane fade" :id="'goalkeeper' + game.date + game.opponent.name" role="tabpanel" aria-labelledby="goalkeeper-tab">
+                                                        <div class="tab-pane fade" :id="!!game.opponent.formation ? `goalkeeper${game.date}${game.opponent.formation}` : `goalkeeper${game.date}${game.opponent.name}`" role="tabpanel" aria-labelledby="goalkeeper-tab">
                                                             <div class="row border-bottom my-4">
                                                                 <div class="col-6 text-right">GK:</div>
                                                                 <div class="col-6 text-left">

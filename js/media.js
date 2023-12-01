@@ -559,6 +559,16 @@ new Vue({
                 url: 'UyZ21JIJ#54nsgfPtB_yJQJYa6NzVw2K_vazhS3FEQP5MrRrps6c'
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 36,
+            cupName: '2023Kappa週三夜交流賽',
+            cover: '2023kappanightcup',
+            videos: [{
+                date: '11/29',
+                opponents: '建安國小',
+                url: '17x2VLpA#2Ujk1o9COQgw446hPhYAv-LrOtwMNf6t37e4w0P5t-c'
+            }],
+            icon: 'fab fa-kickstarter'
         }],
         photos: [{
             id: 1,
@@ -1208,6 +1218,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/6bRvwjo2pQ8za5VK8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231113-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 45,
+            cupName: '2023Kappa週三夜交流賽',
+            cover: '20231129-cover',
+            photos: [{
+                date: '11/29',
+                opponents: '建安國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/kkHcvn3GzQeVG5Ea7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231129-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-kickstarter'
         }]
     },
     methods: {},

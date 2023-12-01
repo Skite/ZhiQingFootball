@@ -1,9 +1,9 @@
 {
-    "updated": "2023/11/19 10:00",
+    "updated": "2023/12/1 10:00",
     "hard":
     {
-        "matches": "41",
-        "wins": "23",
+        "matches": "44",
+        "wins": "26",
         "draws": "0",
         "loses": "18"
     },
@@ -18,16 +18,16 @@
     {
         "U11":
         {
-            "matches": "16",
-            "wins": "6",
+            "matches": "19",
+            "wins": "9",
             "draws": "3",
             "loses": "7",
-            "gold": "1",
+            "gold": "2",
             "silver": "1",
             "bronze": "1",
-            "scores": "36",
+            "scores": "45",
             "conc": "33",
-            "cs": "5"
+            "cs": "8"
         },
         "U10":
         {

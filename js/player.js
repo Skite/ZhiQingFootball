@@ -1190,6 +1190,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Kappa週三夜交流賽',
+                    g: '3',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '學童盃',
                     g: '3',
                     gs: '3',
@@ -1620,6 +1628,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Kappa週三夜交流賽',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '3'
+                }, {
+                    year: 'y2023',
                     cup: '學童盃',
                     g: '2',
                     gs: '0',
@@ -1910,6 +1926,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Kappa週三夜交流賽',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '學童盃',
                     g: '3',
@@ -3198,6 +3222,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'Kappa週三夜交流賽',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '學童盃',
                     g: '3',
                     gs: '3',
@@ -3827,6 +3859,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'Kappa週三夜交流賽',
+                    g: '3',
+                    gs: '2',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '學童盃',
                     g: '3',
