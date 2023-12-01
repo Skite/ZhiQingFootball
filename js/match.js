@@ -7405,7 +7405,7 @@ new Vue({
             system: '5人制',
             grade: 'U11',
             cover: '2023kappanightcup',
-            trophy: '',
+            trophy: '冠軍',
             team: [{
                 name: '國小',
                 members: '皓宇、凱泰、維恩、宥融、宇正、宇晨*'
