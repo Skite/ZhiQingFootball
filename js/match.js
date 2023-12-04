@@ -6893,6 +6893,47 @@ new Vue({
                 instructors: ['無*'],
                 note: '* 本場比賽無指導教練，由宇正爸代班調度',
                 bestSubs: ''
+            }, {
+                date: '20231203',
+                pitch: '新莊田徑場',
+                opponent: { name: '北新國小-黑', logo: '北新國小' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 20,
+                    name: '瑀東'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小悍將',
+                final_score: '5 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: ''
             }]
         }, {
             id: 42,

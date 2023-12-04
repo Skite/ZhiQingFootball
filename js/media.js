@@ -491,8 +491,12 @@ new Vue({
                 url: 'NqQ3xLyK#YuqFDbxVroq5xOHKpjaE8DwUXfo1oEwMPJA48vyZNOs'
             }, {
                 date: '9/24',
-                opponents: '北新國小',
+                opponents: '北新國小-藍',
                 url: 'ojIhGAIZ#TOY5M2N6ToTC5YUPOHCUVLNmlWQ-tgg_7XhVvXheIIQ'
+            }, {
+                date: '11/18',
+                opponents: '北新國小-黑',
+                url: 'N3RRlbwS#ZucnIL5bmgrHMXiUWEhaMCG8b9mR2YXn0nVrKZ3mj9I'
             }],
             icon: 'fas fa-running'
         }, {
@@ -1166,8 +1170,12 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/WoZQTzuYR4Yyz8CS6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230916-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '9/24',
-                opponents: '北新國小',
+                opponents: '北新國小-藍',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7f9EEMhxXHbAw4xP6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230924-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/3',
+                opponents: '北新國小-黑',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/3J9es1EJxkRpDeg97"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231203-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-running'
         }, {
