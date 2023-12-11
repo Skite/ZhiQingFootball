@@ -5075,7 +5075,7 @@ new Vue({
             }, {
                 date: '20230409',
                 pitch: '明道國小',
-                opponent: { name: '立農戰將', logo: '立農戰將' },
+                opponent: { name: '立農戰將', logo: '立農國小' },
                 formation: '1-2-1',
                 starters: ['GK-定謙', 'CB-維恩*', 'RM-宥融', 'LM-亮谷', 'CF-宇正'],
                 subs: [{
@@ -7551,6 +7551,184 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['怡萍'],
                 note: '* 學姐／** 學弟'
+            }]
+        }, {
+            id: 47,
+            year: '2023',
+            cupName: 'TES 盃',
+            system: '5人制',
+            grade: 'U11',
+            cover: '2023tescup',
+            trophy: '季軍',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20231209',
+                pitch: '台北歐洲學校',
+                opponent: { name: '立農國小', logo: '立農國小' },
+                formation: '1-2-1',
+                starters: ['GK-凱泰', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: '定謙'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20231209',
+                pitch: '台北歐洲學校',
+                opponent: { name: '建安國小', logo: '建安國小' },
+                formation: '1-2-1',
+                starters: ['GK-凱泰', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '凱泰'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20231209',
+                pitch: '台北歐洲學校',
+                opponent: { name: '忠義國小', logo: '忠義國小' },
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20231209',
+                pitch: '台北歐洲學校',
+                opponent: { name: '石牌國小', logo: '石牌國小' },
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['冠岳', '柏豪'],
+                note: ''
+            }, {
+                date: '20231209',
+                pitch: '台北歐洲學校',
+                opponent: { name: '台北歐洲學校', logo: 'TES' },
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-黃衍', 'RF-亮谷', 'LF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '0 : 10',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }]
     },

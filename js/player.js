@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '4',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '學童盃',
                     g: '3',
                     gs: '3',
@@ -332,6 +340,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '4',
+                    goals: '3',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '學童盃',
                     g: '3',
@@ -1190,6 +1206,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: 'Kappa週三夜交流賽',
                     g: '3',
                     gs: '2',
@@ -1628,6 +1652,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: 'Kappa週三夜交流賽',
                     g: '3',
                     gs: '3',
@@ -1926,6 +1958,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '5',
+                    goals: '3',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Kappa週三夜交流賽',
                     g: '3',
@@ -2364,6 +2404,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: '學童盃',
                     g: '3',
@@ -2947,6 +2995,14 @@ new Vue({
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '4',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '臺北市中正盃',
                     g: '4',
                     gs: '1',
@@ -3229,6 +3285,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Kappa週三夜交流賽',
                     g: '3',
@@ -3569,6 +3633,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
                     cup: '學童盃',
                     g: '3',
                     gs: '0',
@@ -3867,6 +3939,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2023',
+                    cup: 'TES Cup',
+                    g: '5',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'Kappa週三夜交流賽',
                     g: '3',
