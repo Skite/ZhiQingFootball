@@ -81,7 +81,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                         'U9',
                         'U8'
                     ],
-                    data: [                        
+                    data: [
                         Number(stats.five.U11.draws),
                         Number(stats.five.U10.draws),
                         Number(stats.five.U9.draws),
@@ -649,7 +649,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             name: '五人制',
             data: [
                 Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores),
-                -(Number(stats.five.U10.conc) + Number(stats.five.U9.conc) + Number(stats.five.U8.conc)),
+                -(Number(stats.five.U11.conc) + Number(stats.five.U10.conc) + Number(stats.five.U9.conc) + Number(stats.five.U8.conc)),
                 Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores) - Number(stats.five.U11.conc) - Number(stats.five.U10.conc) - Number(stats.five.U9.conc) - Number(stats.five.U8.conc),
                 Number(stats.five.U11.cs) + Number(stats.five.U10.cs) + Number(stats.five.U9.cs) + Number(stats.five.U8.cs)
             ]
@@ -658,7 +658,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             data: [
                 Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores),
                 -(Number(stats.eight.U11.conc) + Number(stats.eight.U10.conc) + Number(stats.eight.U9.conc) + Number(stats.eight.U8.conc)),
-                Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores) - Number(stats.eight.U10.conc) - Number(stats.eight.U9.conc) - Number(stats.eight.U8.conc),
+                Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores) - Number(stats.eight.U11.conc) - Number(stats.eight.U10.conc) - Number(stats.eight.U9.conc) - Number(stats.eight.U8.conc),
                 Number(stats.eight.U11.cs) + Number(stats.eight.U10.cs) + Number(stats.eight.U9.cs) + Number(stats.eight.U8.cs)
             ]
         }, {
@@ -666,7 +666,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             data: [
                 Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores),
                 -(Number(stats.seven.U11.conc) + Number(stats.seven.U10.conc) + Number(stats.seven.U9.conc) + Number(stats.seven.U8.conc)),
-                Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores) - Number(stats.seven.U10.conc) - Number(stats.seven.U9.conc) - Number(stats.seven.U8.conc),
+                Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores) - Number(stats.seven.U11.conc) - Number(stats.seven.U10.conc) - Number(stats.seven.U9.conc) - Number(stats.seven.U8.conc),
                 Number(stats.seven.U11.cs) + Number(stats.seven.U10.cs) + Number(stats.seven.U9.cs) + Number(stats.seven.U8.cs)
             ]
         }]
