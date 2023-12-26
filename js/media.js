@@ -581,6 +581,10 @@ new Vue({
                 date: '12/9',
                 opponents: '立農國小、建安國小',
                 url: '435gFCyD#-34U3pcyySacrhgUBq4yt-nMfrnudFfwcKuS0UGU3BA'
+            }, {
+                date: '12/9',
+                opponents: '忠義國小、石牌國小、TES',
+                url: 'V6QRlLpB#goVem9G3pD1ocxfq21GvWIEd16nWIW3vB1F3jl26LfM'
             }],
             icon: 'far fa-euro-sign'
         }],
