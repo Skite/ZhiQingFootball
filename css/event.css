@@ -109,6 +109,10 @@ header.masthead h1 {
     vertical-align: middle !important;
 }
 
+table td {
+    vertical-align: middle;
+}
+
 .td-dark {
     background-color: #c6c8ca;
     color: #fff;
