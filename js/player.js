@@ -17,6 +17,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '4',
@@ -340,6 +348,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -1205,6 +1221,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -1543,105 +1567,6 @@ new Vue({
                 }]
             },
             {
-                number: '13',
-                name: '邁 可',
-                englishName: 'Michael',
-                title: '',
-                info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
-                achievement: ['3 Times Best Substitutions'],
-                active: true,
-                position: ['LB'],
-                appearance: [{
-                    year: 'y2023',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '3',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '黃蜂爭霸盃（下）',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '新北市議長盃',
-                    g: '6',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '5',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '豐米全國少年盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '春季大安盃',
-                    g: '5',
-                    gs: '5',
-                    goals: '2',
-                    asts: '3',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '4',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '明道盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    year: 'y2023',
-                    cup: '金兔賀歲盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '1',
-                    asts: '2',
-                    cs: '0'
-                }, {
-                    year: 'y2022',
-                    cup: '黃蜂爭霸盃（上）',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '15',
                 name: '凱 泰',
                 englishName: 'Allen',
@@ -1958,6 +1883,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -2404,6 +2337,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -3285,6 +3226,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -3632,6 +3581,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '3',
@@ -3939,6 +3896,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '5',
@@ -4430,6 +4395,105 @@ new Vue({
                 }, {
                     year: 'y2020',
                     cup: '新北迷你盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
+                number: '13',
+                name: '邁 可',
+                englishName: 'Michael',
+                title: '',
+                info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。',
+                achievement: ['3 Times Best Substitutions'],
+                active: false,
+                position: ['LB'],
+                appearance: [{
+                    year: 'y2023',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '新北市議長盃',
+                    g: '6',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '5',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '豐米全國少年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '春季大安盃',
+                    g: '5',
+                    gs: '5',
+                    goals: '2',
+                    asts: '3',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '4',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2023',
+                    cup: '金兔賀歲盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
+                    year: 'y2022',
+                    cup: '黃蜂爭霸盃（上）',
                     g: '2',
                     gs: '2',
                     goals: '0',

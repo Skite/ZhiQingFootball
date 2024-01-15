@@ -7169,7 +7169,7 @@ new Vue({
                 pitch: '國立體育大學足球場',
                 opponent: { name: 'MFA-U11', logo: 'MFA' },
                 formation: '3-3-1',
-                starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-亮谷', 'CF-皓宇'],
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
                 subs: [{
                     number: 9,
                     name: '紘豪'
@@ -7268,6 +7268,29 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: true,
                 instructors: ['怡萍'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240114',
+                pitch: '國立體育大學足球場',
+                opponent: { name: '樂活象', logo: '樂活' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RCB-宇正', 'LCB-維恩', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '1 : 1',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
                 note: '',
                 bestSubs: ''
             }]
