@@ -7753,6 +7753,70 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 48,
+            year: '2024',
+            cupName: '金龍賀歲盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2024dragoncup',
+            trophy: '',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240120',
+                pitch: '新莊田徑場',
+                opponent: { name: '麒麟聯隊', logo: '麒麟足球' },
+                formation: '3-3-1',
+                starters: ['GK-昕叡', 'RB-宥融', 'CB-維恩', 'LB-紘豪', 'RM-宇正', 'CM-亮谷', 'LM-晉丞', 'CF-皓宇'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 3',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['昕叡'],
+                isCleanSheet: false,
+                instructors: ['瑞杰'],
+                note: ''
+            }, {
+                date: '20240121',
+                pitch: '新莊田徑場',
+                opponent: { name: '幸安國小', logo: '幸安國小' },
+                formation: '3-3-1',
+                starters: ['GK-昕叡', 'RB-宇正', 'CB-維恩', 'LB-紘豪', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-柏燁'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '小悍將',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }],
+                goalkeepers: ['昕叡', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},

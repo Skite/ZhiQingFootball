@@ -533,6 +533,10 @@ new Vue({
                 date: '11/26',
                 opponents: 'MFA-U11、Taipei Breakers',
                 url: 'wyAzyAzL#jascB_hf4lx80ufJKqYgo52ewoA2l99uEQT8MRdO4rM'
+            }, {
+                date: '1/14',
+                opponents: '樂活象',
+                url: 'tqoiyAKQ#L6NswIUKx5KlC5gm63ph4LuRYuigU9csMEd4rEyb7gs'
             }],
             icon: 'fab fa-vimeo-v'
         }, {
@@ -587,6 +591,16 @@ new Vue({
                 url: 'V6QRlLpB#goVem9G3pD1ocxfq21GvWIEd16nWIW3vB1F3jl26LfM'
             }],
             icon: 'far fa-euro-sign'
+        }, {
+            id: 38,
+            cupName: '2024 金龍賀歲盃',
+            cover: '2024dragoncup',
+            videos: [{
+                date: '1/20',
+                opponents: '麒麟聯隊',
+                url: '07xWSQjC#Q3jD1gK-NV9kOStCrg0kRApj6H2OU7p0_4hArao-6Wk'
+            }],
+            icon: 'fas fa-dragon'
         }],
         photos: [{
             id: 1,
@@ -1260,6 +1274,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231209-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-euro-sign'
+        }, {
+            id: 47,
+            cupName: '2024 金龍賀歲盃',
+            cover: '20240120-cover',
+            photos: [{
+                date: '1/20',
+                opponents: '麒麟聯隊',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '1/21',
+                opponents: '幸安國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240121-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-dragon'
         }]
     },
     methods: {},
