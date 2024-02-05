@@ -82,7 +82,7 @@
                             <div class="col-xs-12">
                                 <div class="wrapper row">
                                     <div class="media col-md-4 my-3" v-for="item in sortVideos">
-                                        <div class="layer" data-toggle="modal" :data-target="'#video' + item.cupName">
+                                        <div class="layer" data-toggle="modal" :data-target="`#video${item.cupName}`">
                                             <i :class="item.icon"></i>
                                             <p class="mx-2 w-75">{{ item.cupName }}</p>
                                         </div>

@@ -3,7 +3,7 @@ new Vue({
     data: {
         videos: [{
             id: 1,
-            cupName: '2020 秋季大安盃',
+            cupName: '2020秋季大安盃',
             cover: '2020daancup',
             videos: [{
                 date: '10/25',
@@ -21,7 +21,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 2,
-            cupName: '2020 新北聯合盃',
+            cupName: '2020新北聯合盃',
             cover: '2020unitedcup',
             videos: [{
                 date: '11/21',
@@ -35,7 +35,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 3,
-            cupName: '2021 金牛賀歲盃',
+            cupName: '2021金牛賀歲盃',
             cover: '2021oxcup',
             videos: [{
                 date: '1/30',
@@ -53,7 +53,7 @@ new Vue({
             icon: 'fal fa-skull-cow'
         }, {
             id: 4,
-            cupName: '2021 春季大安盃',
+            cupName: '2021春季大安盃',
             cover: '2021daanspringcup',
             videos: [{
                 date: '4/10',
@@ -83,7 +83,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 5,
-            cupName: '2021 安聯小小世界盃',
+            cupName: '2021安聯小小世界盃',
             cover: '2021allianzcup',
             videos: [{
                 date: '5/02',
@@ -93,7 +93,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 6,
-            cupName: '2021 全國學童盃',
+            cupName: '2021全國學童盃',
             cover: '2021studentcup',
             videos: [{
                 date: '9/04',
@@ -107,7 +107,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }, {
             id: 7,
-            cupName: '2021 中正主委盃',
+            cupName: '2021中正主委盃',
             cover: '2021chairmancup',
             videos: [{
                 date: '10/31',
@@ -117,7 +117,7 @@ new Vue({
             icon: 'far fa-gavel'
         }, {
             id: 8,
-            cupName: '2021 新北聯合盃',
+            cupName: '2021新北聯合盃',
             cover: '2021unitedcup',
             videos: [{
                 date: '11/20',
@@ -139,7 +139,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 9,
-            cupName: '2022 迎虎盃',
+            cupName: '2022迎虎盃',
             cover: '2022tigercup',
             videos: [{
                 date: '2/19',
@@ -153,7 +153,7 @@ new Vue({
             icon: 'far fa-paw-claws'
         }, {
             id: 10,
-            cupName: '2022 新北市少年八人制春季聯賽',
+            cupName: '2022新北市少年八人制春季聯賽',
             cover: '2022eightmanspring',
             videos: [{
                 date: '3/5',
@@ -175,7 +175,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 11,
-            cupName: '2022 中華五人制錦標賽',
+            cupName: '2022中華五人制錦標賽',
             cover: '2022chtfivemanchamp',
             videos: [{
                 date: '4/3',
@@ -185,7 +185,7 @@ new Vue({
             icon: 'far fa-dice-five'
         }, {
             id: 12,
-            cupName: '2022 臺北市五人制足球聯賽',
+            cupName: '2022臺北市五人制足球聯賽',
             cover: '2022tpefivemanleague',
             videos: [{
                 date: '7/17',
@@ -199,7 +199,7 @@ new Vue({
             icon: 'fa fa-users'
         }, {
             id: 13,
-            cupName: '2022 春季大安盃',
+            cupName: '2022春季大安盃',
             cover: '2022daanspringcup',
             videos: [{
                 date: '7/23',
@@ -209,7 +209,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 14,
-            cupName: '2022 安聯小小世界盃',
+            cupName: '2022安聯小小世界盃',
             cover: '2022allianzcup',
             videos: [{
                 date: '10/09',
@@ -243,7 +243,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 15,
-            cupName: '2022 新北市少年八人制秋季聯賽',
+            cupName: '2022新北市少年八人制秋季聯賽',
             cover: '2022eightmanfall',
             videos: [{
                 date: '12/10',
@@ -269,7 +269,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 16,
-            cupName: '2022 Yamaha Cup',
+            cupName: '2022Yamaha_Cup',
             cover: '2022yamahacup',
             videos: [{
                 date: '11/19',
@@ -283,7 +283,7 @@ new Vue({
             icon: 'fab fa-y-combinator'
         }, {
             id: 17,
-            cupName: '2023 金兔賀歲盃',
+            cupName: '2023金兔賀歲盃',
             cover: '2023rabbitcup',
             videos: [{
                 date: '1/14',
@@ -301,7 +301,7 @@ new Vue({
             icon: 'fas fa-rabbit-fast'
         }, {
             id: 18,
-            cupName: '2023 明道盃',
+            cupName: '2023明道盃',
             cover: '2023mingdaocup',
             videos: [{
                 date: '2/11',
@@ -311,7 +311,7 @@ new Vue({
             icon: 'fab fa-medium'
         }, {
             id: 19,
-            cupName: '2023 Kappa Cup',
+            cupName: '2023Kappa_Cup',
             cover: '2023kappacup',
             videos: [{
                 date: '2/26',
@@ -325,7 +325,7 @@ new Vue({
             icon: 'fab fa-kickstarter'
         }, {
             id: 20,
-            cupName: '2023 新北市少年八人制春季聯賽',
+            cupName: '2023新北市少年八人制春季聯賽',
             cover: '2023eightmanspring',
             videos: [{
                 date: '3/4',
@@ -343,7 +343,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 21,
-            cupName: '2023 臺北市教育盃',
+            cupName: '2023臺北市教育盃',
             cover: '2023educationcup',
             videos: [{
                 date: '3/9',
@@ -353,7 +353,7 @@ new Vue({
             icon: 'fas fa-book'
         }, {
             id: 22,
-            cupName: '2023 春季大安盃',
+            cupName: '2023春季大安盃',
             cover: '2023daanspringcup',
             videos: [{
                 date: '4/8',
@@ -377,7 +377,7 @@ new Vue({
             icon: 'fab fa-forumbee'
         }, {
             id: 24,
-            cupName: '2023 臺北市五人制足球聯賽',
+            cupName: '2023臺北市五人制足球聯賽',
             cover: '2023tpefivemanleague',
             videos: [{
                 date: '4/9',
@@ -399,7 +399,7 @@ new Vue({
             icon: 'fa fa-users'
         }, {
             id: 25,
-            cupName: '2023 安聯小小世界盃',
+            cupName: '2023安聯小小世界盃',
             cover: '2023allianzcup',
             videos: [{
                 date: '6/3',
@@ -409,7 +409,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 26,
-            cupName: '2023 豐米全國少年盃',
+            cupName: '2023豐米全國少年盃',
             cover: '2023youthcup',
             videos: [{
                 date: '6/22',
@@ -423,7 +423,7 @@ new Vue({
             icon: 'fas fa-child'
         }, {
             id: 27,
-            cupName: '2023 臺中港盃國際邀請賽',
+            cupName: '2023臺中港盃國際邀請賽',
             cover: '2023harborcup',
             videos: [{
                 date: '7/1',
@@ -433,7 +433,7 @@ new Vue({
             icon: 'fas fa-anchor'
         }, {
             id: 28,
-            cupName: '2023 新北市議長盃',
+            cupName: '2023新北市議長盃',
             cover: '2023speakercup',
             videos: [{
                 date: '7/14',
@@ -451,7 +451,7 @@ new Vue({
             icon: 'far fa-microphone-stand'
         }, {
             id: 29,
-            cupName: '2023 淡水盃',
+            cupName: '2023淡水盃',
             cover: '2023tamsuicup',
             videos: [{
                 date: '8/11',
@@ -483,7 +483,7 @@ new Vue({
             icon: 'fab fa-forumbee'
         }, {
             id: 31,
-            cupName: '2023 新北市少年八人制秋季聯賽',
+            cupName: '2023新北市少年八人制秋季聯賽',
             cover: '2023eightmanfall',
             videos: [{
                 date: '9/16',
@@ -501,7 +501,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 32,
-            cupName: '2023 臺北市中正盃',
+            cupName: '2023臺北市中正盃',
             cover: '2023ckscup',
             videos: [{
                 date: '9/28',
@@ -523,7 +523,7 @@ new Vue({
             icon: 'fas fa-landmark'
         }, {
             id: 33,
-            cupName: '2023 勝利聯賽',
+            cupName: '2023勝利聯賽',
             cover: '2023victoryleague',
             videos: [{
                 date: '10/15',
@@ -541,7 +541,7 @@ new Vue({
             icon: 'fab fa-vimeo-v'
         }, {
             id: 34,
-            cupName: '2023 Yamaha Cup',
+            cupName: '2023Yamaha_Cup',
             cover: '2023yamahacup',
             videos: [{
                 date: '10/28',
@@ -551,7 +551,7 @@ new Vue({
             icon: 'fab fa-y-combinator'
         }, {
             id: 35,
-            cupName: '2023 阿猴全國學童盃',
+            cupName: '2023阿猴全國學童盃',
             cover: '2023studentcup',
             videos: [{
                 date: '11/13',
@@ -569,7 +569,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }, {
             id: 36,
-            cupName: '2023 Kappa 週三夜交流賽',
+            cupName: '2023Kappa週三夜交流賽',
             cover: '2023kappanightcup',
             videos: [{
                 date: '11/29',
@@ -579,7 +579,7 @@ new Vue({
             icon: 'fab fa-kickstarter'
         }, {
             id: 37,
-            cupName: '2023 TES Cup',
+            cupName: '2023TES_Cup',
             cover: '2023tescup',
             videos: [{
                 date: '12/9',
@@ -593,18 +593,26 @@ new Vue({
             icon: 'far fa-euro-sign'
         }, {
             id: 38,
-            cupName: '2024 金龍賀歲盃',
+            cupName: '2024金龍賀歲盃',
             cover: '2024dragoncup',
             videos: [{
                 date: '1/20',
                 opponents: '麒麟聯隊',
                 url: '07xWSQjC#Q3jD1gK-NV9kOStCrg0kRApj6H2OU7p0_4hArao-6Wk'
+            }, {
+                date: '1/21',
+                opponents: '幸安國小',
+                url: 'ZqJDUSBB#LAntrtH-fb5mlO9_WxceEsy9k7ojeGfRdvoDwCiXC2o'
+            }, {
+                date: '2/3',
+                opponents: '熱血獵豹',
+                url: 'wyRn2C4R#yQnj38lE7vE9fd7RDirErax6xSWRF4G5Ew4yPgta7co'
             }],
             icon: 'fas fa-dragon'
         }],
         photos: [{
             id: 1,
-            cupName: '2020 秋季大安盃',
+            cupName: '2020秋季大安盃',
             cover: '20200920-cover',
             photos: [{
                 date: '09/20',
@@ -630,7 +638,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 2,
-            cupName: '2020 新北聯合盃',
+            cupName: '2020新北聯合盃',
             cover: '20201122-cover',
             photos: [{
                 date: '11/21',
@@ -652,7 +660,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 3,
-            cupName: '2021 扶輪社暨航源足球賽',
+            cupName: '2021扶輪社暨航源足球賽',
             cover: '20210124-cover',
             photos: [{
                 date: '11/21',
@@ -662,7 +670,7 @@ new Vue({
             icon: 'fal fa-dharmachakra'
         }, {
             id: 4,
-            cupName: '2021 金牛賀歲盃',
+            cupName: '2021金牛賀歲盃',
             cover: '20210206-cover',
             photos: [{
                 date: '2/6',
@@ -672,7 +680,7 @@ new Vue({
             icon: 'fal fa-skull-cow'
         }, {
             id: 5,
-            cupName: '2021 萬歲盃',
+            cupName: '2021萬歲盃',
             cover: '20210328-cover',
             photos: [{
                 date: '3/27',
@@ -682,7 +690,7 @@ new Vue({
             icon: 'fab fa-vuejs'
         }, {
             id: 6,
-            cupName: '2021 春季大安盃',
+            cupName: '2021春季大安盃',
             cover: '20210410-cover',
             photos: [{
                 date: '4/10',
@@ -708,7 +716,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 7,
-            cupName: '2021 安聯小小世界盃',
+            cupName: '2021安聯小小世界盃',
             cover: '20210502-cover',
             photos: [{
                 date: '5/2',
@@ -718,7 +726,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 8,
-            cupName: '2021 學童盃',
+            cupName: '2021學童盃',
             cover: '20210904-cover',
             photos: [{
                 date: '9/4',
@@ -732,7 +740,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }, {
             id: 9,
-            cupName: '2021 中正主委盃',
+            cupName: '2021中正主委盃',
             cover: '20211030-cover',
             photos: [{
                 date: '9/4',
@@ -742,7 +750,7 @@ new Vue({
             icon: 'far fa-gavel'
         }, {
             id: 10,
-            cupName: '2021 新北聯合盃',
+            cupName: '2021新北聯合盃',
             cover: '20211120-cover',
             photos: [{
                 date: '11/20',
@@ -764,7 +772,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 11,
-            cupName: '2021 A-Star 聖誕盃',
+            cupName: '2021A-Star 聖誕盃',
             cover: '20211219-cover',
             photos: [{
                 date: '12/19',
@@ -774,7 +782,7 @@ new Vue({
             icon: 'far fa-star'
         }, {
             id: 12,
-            cupName: '2022 迎虎盃',
+            cupName: '2022迎虎盃',
             cover: '20220219-cover',
             photos: [{
                 date: '2/19',
@@ -784,7 +792,7 @@ new Vue({
             icon: 'far fa-paw-claws'
         }, {
             id: 13,
-            cupName: '2022 新北市少年八人制春季聯賽',
+            cupName: '2022新北市少年八人制春季聯賽',
             cover: '20220306-cover',
             photos: [{
                 date: '3/6',
@@ -802,7 +810,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 14,
-            cupName: '2022 台北市教育盃',
+            cupName: '2022台北市教育盃',
             cover: '20220315-cover',
             photos: [{
                 date: '3/14-15',
@@ -816,7 +824,7 @@ new Vue({
             icon: 'fas fa-book'
         }, {
             id: 15,
-            cupName: '2022 中華五人制錦標賽',
+            cupName: '2022中華五人制錦標賽',
             cover: '20220402-cover',
             photos: [{
                 date: '4/2-3',
@@ -826,7 +834,7 @@ new Vue({
             icon: 'far fa-dice-five'
         }, {
             id: 16,
-            cupName: '2022 包中盃',
+            cupName: '2022包中盃',
             cover: '20220611-cover',
             photos: [{
                 date: '6/11',
@@ -840,7 +848,7 @@ new Vue({
             icon: 'fas fa-bullseye-arrow'
         }, {
             id: 17,
-            cupName: '2022 臺北市五人制足球聯賽',
+            cupName: '2022臺北市五人制足球聯賽',
             cover: '20220717-cover',
             photos: [{
                 date: '7/17',
@@ -850,7 +858,7 @@ new Vue({
             icon: 'fa fa-users'
         }, {
             id: 18,
-            cupName: '2022 春季大安盃',
+            cupName: '2022春季大安盃',
             cover: '20220723-cover',
             photos: [{
                 date: '7/23',
@@ -864,7 +872,7 @@ new Vue({
             icon: 'fa fa-users'
         }, {
             id: 19,
-            cupName: '2022 新北市少年八人制秋季聯賽',
+            cupName: '2022新北市少年八人制秋季聯賽',
             cover: '20220903-cover',
             photos: [{
                 date: '9/3',
@@ -894,7 +902,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 20,
-            cupName: '2022 臺北市足球Ｕ聯賽',
+            cupName: '2022臺北市足球Ｕ聯賽',
             cover: '20220910-cover',
             photos: [{
                 date: '9/10',
@@ -904,7 +912,7 @@ new Vue({
             icon: 'fas fa-underline'
         }, {
             id: 21,
-            cupName: '2022 全國學童盃',
+            cupName: '2022全國學童盃',
             cover: '20220919-cover',
             photos: [{
                 date: '9/19',
@@ -918,7 +926,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }, {
             id: 22,
-            cupName: '2022 新北聯合盃',
+            cupName: '2022新北聯合盃',
             cover: '20221002-cover',
             photos: [{
                 date: '10/2',
@@ -940,7 +948,7 @@ new Vue({
             icon: 'fas fa-link'
         }, {
             id: 23,
-            cupName: '2022 安聯小小世界盃',
+            cupName: '2022安聯小小世界盃',
             cover: '20221224-cover',
             photos: [{
                 date: '10/9',
@@ -954,7 +962,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 24,
-            cupName: '2022 Yamaha Cup',
+            cupName: '2022Yamaha_Cup',
             cover: '20221119-cover',
             photos: [{
                 date: '11/19',
@@ -964,7 +972,7 @@ new Vue({
             icon: 'fab fa-y-combinator'
         }, {
             id: 25,
-            cupName: '2023 金兔賀歲盃',
+            cupName: '2023金兔賀歲盃',
             cover: '20230205-cover',
             photos: [{
                 date: '1/14',
@@ -982,7 +990,7 @@ new Vue({
             icon: 'fas fa-rabbit-fast'
         }, {
             id: 26,
-            cupName: '2023 明道盃',
+            cupName: '2023明道盃',
             cover: '20230211-cover',
             photos: [{
                 date: '2/11',
@@ -992,7 +1000,7 @@ new Vue({
             icon: 'fab fa-medium'
         }, {
             id: 27,
-            cupName: '2023 Kappa Cup',
+            cupName: '2023Kappa_Cup',
             cover: '20230226-cover',
             photos: [{
                 date: '2/26',
@@ -1002,7 +1010,7 @@ new Vue({
             icon: 'fab fa-kickstarter'
         }, {
             id: 28,
-            cupName: '2023 新北市少年八人制春季聯賽',
+            cupName: '2023新北市少年八人制春季聯賽',
             cover: '20230304-cover',
             photos: [{
                 date: '3/4',
@@ -1028,7 +1036,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 29,
-            cupName: '2023 臺北市教育盃',
+            cupName: '2023臺北市教育盃',
             cover: '20230314-cover',
             photos: [{
                 date: '3/13',
@@ -1052,7 +1060,7 @@ new Vue({
             icon: 'fab fa-forumbee'
         }, {
             id: 31,
-            cupName: '2023 春季大安盃',
+            cupName: '2023春季大安盃',
             cover: '20230408-cover',
             photos: [{
                 date: '4/8',
@@ -1074,7 +1082,7 @@ new Vue({
             icon: 'far fa-futbol'
         }, {
             id: 32,
-            cupName: '2023 臺北市五人制足球聯賽',
+            cupName: '2023臺北市五人制足球聯賽',
             cover: '20230409-cover',
             photos: [{
                 date: '4/9',
@@ -1088,7 +1096,7 @@ new Vue({
             icon: 'fa fa-users'
         }, {
             id: 33,
-            cupName: '2023 安聯小小世界盃',
+            cupName: '2023安聯小小世界盃',
             cover: '20230603-1-cover',
             photos: [{
                 date: '6/3',
@@ -1098,7 +1106,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 34,
-            cupName: '2023 豐米全國少年盃',
+            cupName: '2023豐米全國少年盃',
             cover: '20230622-cover',
             photos: [{
                 date: '6/22',
@@ -1112,7 +1120,7 @@ new Vue({
             icon: 'fas fa-child'
         }, {
             id: 35,
-            cupName: '2023 台中港國際足球邀請賽',
+            cupName: '2023台中港國際足球邀請賽',
             cover: '20230701-cover',
             photos: [{
                 date: '7/1',
@@ -1130,7 +1138,7 @@ new Vue({
             icon: 'fas fa-anchor'
         }, {
             id: 36,
-            cupName: '2023 新北市議長盃',
+            cupName: '2023新北市議長盃',
             cover: '20230714-cover',
             photos: [{
                 date: '7/14',
@@ -1148,7 +1156,7 @@ new Vue({
             icon: 'far fa-microphone-stand'
         }, {
             id: 37,
-            cupName: '2023 格溫拜克盃',
+            cupName: '2023格溫拜克盃',
             cover: '20230806-cover',
             photos: [{
                 date: '8/6',
@@ -1158,7 +1166,7 @@ new Vue({
             icon: 'fas fa-tint'
         }, {
             id: 38,
-            cupName: '2023 淡水盃',
+            cupName: '2023淡水盃',
             cover: '20230813-cover',
             photos: [{
                 date: '8/11',
@@ -1190,7 +1198,7 @@ new Vue({
             icon: 'fab fa-forumbee'
         }, {
             id: 40,
-            cupName: '2023 新北市少年八人制秋季聯賽',
+            cupName: '2023新北市少年八人制秋季聯賽',
             cover: '20230916-cover',
             photos: [{
                 date: '9/16',
@@ -1208,7 +1216,7 @@ new Vue({
             icon: 'fas fa-running'
         }, {
             id: 41,
-            cupName: '2023 臺北市中正盃',
+            cupName: '2023臺北市中正盃',
             cover: '20230928-cover',
             photos: [{
                 date: '9/28',
@@ -1222,7 +1230,7 @@ new Vue({
             icon: 'fas fa-landmark'
         }, {
             id: 42,
-            cupName: '2023 勝利聯賽',
+            cupName: '2023勝利聯賽',
             cover: '20231015-cover',
             photos: [{
                 date: '10/15',
@@ -1236,7 +1244,7 @@ new Vue({
             icon: 'fab fa-vimeo-v'
         }, {
             id: 43,
-            cupName: '2023 Yamaha Cup',
+            cupName: '2023Yamaha_Cup',
             cover: '20231028-cover',
             photos: [{
                 date: '10/28',
@@ -1246,7 +1254,7 @@ new Vue({
             icon: 'fab fa-y-combinator'
         }, {
             id: 44,
-            cupName: '2023 阿猴全國學童盃',
+            cupName: '2023阿猴全國學童盃',
             cover: '20231113-cover',
             photos: [{
                 date: '11/13-15',
@@ -1256,7 +1264,7 @@ new Vue({
             icon: 'fas fa-user-graduate'
         }, {
             id: 45,
-            cupName: '2023 Kappa 週三夜交流賽',
+            cupName: '2023Kappa週三夜交流賽',
             cover: '20231129-cover',
             photos: [{
                 date: '11/29',
@@ -1266,7 +1274,7 @@ new Vue({
             icon: 'fab fa-kickstarter'
         }, {
             id: 46,
-            cupName: '2023 TES Cup',
+            cupName: '2023TES_Cup',
             cover: '20231209-cover',
             photos: [{
                 date: '12/09',
@@ -1276,8 +1284,8 @@ new Vue({
             icon: 'far fa-euro-sign'
         }, {
             id: 47,
-            cupName: '2024 金龍賀歲盃',
-            cover: '20240120-cover',
+            cupName: '2024金龍賀歲盃',
+            cover: '20240203-cover',
             photos: [{
                 date: '1/20',
                 opponents: '麒麟聯隊',
@@ -1286,6 +1294,10 @@ new Vue({
                 date: '1/21',
                 opponents: '幸安國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240121-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/3',
+                opponents: '熱血獵豹',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/fqPyRgSXDd74szfV7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240203-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-dragon'
         }]

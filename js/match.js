@@ -7760,7 +7760,7 @@ new Vue({
             system: '8人制',
             grade: 'U11',
             cover: '2024dragoncup',
-            trophy: '',
+            trophy: '分組亞軍',
             team: [{
                 name: '小悍將',
                 members: '晉丞、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
@@ -7815,6 +7815,37 @@ new Vue({
                 goalkeepers: ['昕叡', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240203',
+                pitch: '新莊田徑場',
+                opponent: { name: '熱血獵豹', logo: '熱血足球' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-紘豪', 'CB-柏燁', 'LB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-皓宇', 'CF-昕叡'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
                 note: ''
             }]
         }]

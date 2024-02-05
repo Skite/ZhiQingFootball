@@ -19,9 +19,9 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '2',
+                    g: '2',
+                    gs: '2',
+                    goals: '3',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -697,8 +697,8 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
+                    g: '3',
+                    gs: '3',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1239,10 +1239,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '1',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -1602,7 +1602,7 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -1917,9 +1917,9 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -2742,8 +2742,8 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '1',
+                    g: '3',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -3284,8 +3284,8 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
+                    g: '3',
+                    gs: '3',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -3647,9 +3647,9 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -3970,8 +3970,8 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '金龍賀歲盃',
-                    g: '2',
-                    gs: '2',
+                    g: '3',
+                    gs: '3',
                     goals: '2',
                     asts: '0',
                     cs: '0'
