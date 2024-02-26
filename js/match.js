@@ -7130,7 +7130,7 @@ new Vue({
                 date: '20231015',
                 pitch: '國立體育大學足球場',
                 opponent: { name: 'EC_DESAFIO', logo: 'desafio' },
-                formation: '3-3-1',
+                formation: '2-3-1',
                 starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-亮谷', 'CF-皓宇'],
                 subs: [{
                     number: 15,
@@ -7167,8 +7167,8 @@ new Vue({
             }, {
                 date: '20231126',
                 pitch: '國立體育大學足球場',
-                opponent: { name: 'MFA-U11', logo: 'MFA' },
-                formation: '3-3-1',
+                opponent: { name: 'MFA_White', logo: 'MFA' },
+                formation: '2-3-1',
                 starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
                 subs: [{
                     number: 9,
@@ -7194,7 +7194,7 @@ new Vue({
                 date: '20231126',
                 pitch: '國立體育大學足球場',
                 opponent: { name: 'Taipei_Breakers', logo: 'MFA' },
-                formation: '3-3-1',
+                formation: '2-3-1',
                 starters: ['GK-凱泰', 'RCB-紘豪', 'LCB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-維恩'],
                 subs: [{
                     number: 3,
@@ -7274,7 +7274,7 @@ new Vue({
                 date: '20240114',
                 pitch: '國立體育大學足球場',
                 opponent: { name: '樂活象', logo: '樂活' },
-                formation: '3-3-1',
+                formation: '2-3-1',
                 starters: ['GK-宥融', 'RCB-宇正', 'LCB-維恩', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
                 subs: [{
                     number: 77,
@@ -7291,6 +7291,44 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240225',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'MFA_Red', logo: 'MFA' },
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-紘豪', 'CM-晉丞', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '6 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: '昕叡'
+                }, {
+                    name: '宇正',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
                 note: '',
                 bestSubs: ''
             }]

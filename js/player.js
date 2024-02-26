@@ -27,8 +27,8 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -352,14 +352,14 @@ new Vue({
                 englishName: 'Yan',
                 title: 'C',
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
-                achievement: ['Captian (2023)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
+                achievement: ['Captian (2023-present)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
                 active: true,
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '1',
                     cs: '0'
@@ -699,6 +699,14 @@ new Vue({
                     cup: '金龍賀歲盃',
                     g: '3',
                     gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1247,10 +1255,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '1',
-                    asts: '0',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -1608,6 +1616,14 @@ new Vue({
                     asts: '0',
                     cs: '0'
                 }, {
+                    year: 'y2024',
+                    cup: '勝利聯賽',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '3',
@@ -1909,9 +1925,9 @@ new Vue({
                 number: '18',
                 name: '維 恩',
                 englishName: 'Wayne',
-                title: '',
-                info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。',
-                achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP'],
+                title: 'VC',
+                info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。並在五年級下學期時再度被教練選為球隊副隊長',
+                achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP', 'Vice Captian (2024-present)'],
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
@@ -1925,10 +1941,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '3',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -3276,9 +3292,9 @@ new Vue({
                 number: '55',
                 name: '宥 融',
                 englishName: 'Ivan',
-                title: 'VC',
+                title: '',
                 info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。於五年級上學期時被教練選為球隊副隊長。',
-                achievement: ['1 Time Best Substitutions', 'Vice Captian (2023)'],
+                achievement: ['1 Time Best Substitutions', 'former Vice Captian (2023-24)'],
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
@@ -3655,10 +3671,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '0',
-                    goals: '0',
-                    asts: '0',
+                    goals: '1',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -3978,9 +3994,9 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {

@@ -1238,8 +1238,12 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/26',
-                opponents: 'MFA-U11、Taipei Breakers',
+                opponents: 'MFA-White、Taipei Breakers',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/2WtoBFcFxpZkTwfP7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231126-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/25',
+                opponents: 'MFA-Red',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/DvnFkXj676Sdwuhv5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240225-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {
