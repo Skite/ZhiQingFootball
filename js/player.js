@@ -357,6 +357,14 @@ new Vue({
                 position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '勝利聯賽',
                     g: '2',
                     gs: '2',
@@ -1246,6 +1254,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
                     gs: '3',
@@ -1609,6 +1625,14 @@ new Vue({
                 position: ['GK', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '2',
                     gs: '0',
@@ -1931,6 +1955,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
@@ -2393,6 +2425,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '2',
@@ -3299,6 +3339,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
                     gs: '3',
@@ -3984,6 +4032,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '國小世界盃',
+                    g: '',
+                    gs: '',
+                    goals: '0',
+                    asts: '',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',

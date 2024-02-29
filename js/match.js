@@ -7886,6 +7886,285 @@ new Vue({
                 instructors: ['冠岳'],
                 note: ''
             }]
+        }, {
+            id: 49,
+            year: '2024',
+            cupName: '國小世界盃',
+            system: '5人制',
+            grade: 'U11',
+            cover: '2025elementaryworldcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '黃衍、皓宇、凱泰、維恩、亮谷、宥融、宇正、子珩*、駿毅*、宇晨*、振綸*、稟巖*、仲謙*'
+            }],
+            note: '',
+            matches: [{
+                date: '20240226',
+                pitch: '迎風足球場D',
+                opponent: { name: '光仁國小', logo: '光仁國小' },
+                formation: '1-2-1',
+                starters: ['GK-仲謙*', 'CB-維恩', 'RM-稟巖*', 'LM-亮谷', 'CF-振綸*'],
+                subs: [{
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '4 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '振綸*',
+                    assist: '維恩'
+                }, {
+                    name: '稟巖*',
+                    assist: '宇正'
+                }, {
+                    name: '亮谷',
+                    assist: '振綸*'
+                }, {
+                    name: '黃衍',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['仲謙'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240227',
+                pitch: '迎風足球場D',
+                opponent: { name: '永樂國小', logo: '永樂國小' },
+                formation: '1-2-1',
+                starters: ['GK-仲謙*', 'CB-振綸*', 'RM-維恩', 'LM-亮谷', 'CF-稟巖*'],
+                subs: [{
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 16,
+                    name: '駿毅*'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '7 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '稟巖*',
+                    assist: '維恩'
+                }, {
+                    name: '振綸*',
+                    assist: '稟巖'
+                }, {
+                    name: '亮谷',
+                    assist: '振綸*'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '駿毅*',
+                    assist: '振綸*'
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: 'Own Goal',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['仲謙', '凱泰', '宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240227',
+                pitch: '迎風足球場D',
+                opponent: { name: '北市大同', logo: '北市大同' },
+                formation: '1-2-1',
+                starters: ['GK-仲謙*', 'CB-振綸*', 'RM-子珩*', 'LM-宇晨*', 'CF-稟巖*'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 16,
+                    name: '駿毅*'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 21,
+                    name: '亮谷'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '19: 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '子珩*',
+                    assist: '宇晨*'
+                }, {
+                    name: '宇晨*',
+                    assist: '駿毅*'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: 'Own Goal',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: '皓宇'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '宇晨*',
+                    assist: ''
+                }, {
+                    name: '宇晨*',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '子珩*'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: '黃衍'
+                }, {
+                    name: '亮谷',
+                    assist: '宇正'
+                }, {
+                    name: '宇晨*',
+                    assist: ''
+                }, {
+                    name: '駿毅*',
+                    assist: '宇晨*'
+                }, {
+                    name: '皓宇',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['仲謙', '維恩'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240228',
+                pitch: '迎風足球場D',
+                opponent: { name: '日新國小', logo: '日新國小' },
+                formation: '1-2-1',
+                starters: ['GK-仲謙*', 'CB-維恩', 'RM-黃衍', 'LM-亮谷', 'CF-稟巖*'],
+                subs: [{
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 16,
+                    name: '駿毅*'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '9 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '稟巖*'
+                }, {
+                    name: '稟巖*',
+                    assist: '維恩'
+                }, {
+                    name: '稟巖*',
+                    assist: '宥融'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '宇正'
+                }, {
+                    name: '駿毅*',
+                    assist: ''
+                }, {
+                    name: '駿毅*',
+                    assist: '子珩*'
+                }],
+                goalkeepers: ['仲謙', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }]
         }]
     },
     methods: {},

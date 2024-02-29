@@ -531,12 +531,16 @@ new Vue({
                 url: 'g3IAkTza#R_27ng7JHZkNin7qz0Glz7nSAnpNvi5x3kDdPtubMWY'
             }, {
                 date: '11/26',
-                opponents: 'MFA-U11、Taipei Breakers',
+                opponents: 'MFA White、Taipei Breakers',
                 url: 'wyAzyAzL#jascB_hf4lx80ufJKqYgo52ewoA2l99uEQT8MRdO4rM'
             }, {
                 date: '1/14',
                 opponents: '樂活象',
                 url: 'tqoiyAKQ#L6NswIUKx5KlC5gm63ph4LuRYuigU9csMEd4rEyb7gs'
+            }, {
+                date: '2/25',
+                opponents: 'MFA Red',
+                url: 'w6YnEKpS#UitPrYV1epWJtio82qxRKWfsEUE-UvHWKEubQiyu5F8'
             }],
             icon: 'fab fa-vimeo-v'
         }, {
@@ -609,6 +613,16 @@ new Vue({
                 url: 'wyRn2C4R#yQnj38lE7vE9fd7RDirErax6xSWRF4G5Ew4yPgta7co'
             }],
             icon: 'fas fa-dragon'
+        }, {
+            id: 39,
+            cupName: '2024國小世界盃',
+            cover: '2024elementaryworldcup',
+            videos: [{
+                date: '2/28',
+                opponents: '日新國小',
+                url: 'ArpTDajI#a69bjt6Y9KcoEZKQpMlpHKWmwUgqLhMxAf5kIblk1oI'
+            }],
+            icon: 'fas fa-trophy'
         }],
         photos: [{
             id: 1,
@@ -1304,6 +1318,24 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/fqPyRgSXDd74szfV7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240203-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-dragon'
+        }, {
+            id: 48,
+            cupName: '2024國小世界盃',
+            cover: '20240227-cover',
+            photos: [{
+                date: '2/26',
+                opponents: '光仁國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/QYuoCiXmPYzG1nzx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/27',
+                opponents: '永樂國小、北市大同國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/K521ifacmqLRFBdFA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240227-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '2/28',
+                opponents: '日新國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/MPBT3mqz7DPGRAmX6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240228-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-trophy'
         }]
     },
     methods: {},
