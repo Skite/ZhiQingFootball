@@ -358,10 +358,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
-                    goals: '0',
-                    asts: '',
+                    g: '6',
+                    gs: '2',
+                    goals: '7',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -1255,10 +1255,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
+                    g: '5',
                     gs: '',
-                    goals: '0',
-                    asts: '',
+                    goals: '4',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -1626,10 +1626,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
+                    g: '3',
+                    gs: '0',
                     goals: '0',
-                    asts: '',
+                    asts: '0',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -1957,11 +1957,11 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
-                    goals: '0',
-                    asts: '',
-                    cs: '0'
+                    g: '6',
+                    gs: '5',
+                    goals: '2',
+                    asts: '6',
+                    cs: '1'
                 }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
@@ -2427,10 +2427,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
-                    goals: '0',
-                    asts: '',
+                    g: '6',
+                    gs: '4',
+                    goals: '5',
+                    asts: '3',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -3340,10 +3340,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
-                    goals: '0',
-                    asts: '',
+                    g: '5',
+                    gs: '0',
+                    goals: '4',
+                    asts: '5',
                     cs: '0'
                 }, {
                     year: 'y2024',
@@ -4034,10 +4034,10 @@ new Vue({
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
-                    g: '',
-                    gs: '',
-                    goals: '0',
-                    asts: '',
+                    g: '4',
+                    gs: '0',
+                    goals: '1',
+                    asts: '4',
                     cs: '0'
                 }, {
                     year: 'y2024',
