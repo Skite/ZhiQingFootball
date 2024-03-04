@@ -7331,6 +7331,35 @@ new Vue({
                 instructors: ['冠岳'],
                 note: '',
                 bestSubs: ''
+            }, {
+                date: '20240303',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'PLC_Black', logo: 'PLCFA' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: ''
             }]
         }, {
             id: 44,
