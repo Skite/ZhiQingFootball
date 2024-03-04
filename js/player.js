@@ -1256,8 +1256,8 @@ new Vue({
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '5',
-                    gs: '',
-                    goals: '4',
+                    gs: '0',
+                    goals: '5',
                     asts: '2',
                     cs: '0'
                 }, {
