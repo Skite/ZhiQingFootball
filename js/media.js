@@ -7,7 +7,7 @@ new Vue({
             cover: '2020daancup',
             videos: [{
                 date: '10/25',
-                opponents: '炫風新尖兵、熱血足球 U8',
+                opponents: '炫風新尖兵、熱血足球U8',
                 url: 'Q2B33TAQ#15xClbnpLLSZydKeKy4nGj6mKLKc-vM-eXtCINLwig0'
             }, {
                 date: '11/08',
@@ -15,7 +15,7 @@ new Vue({
                 url: '0mxEVBzK#Euv5443UIbmjBBD5uFCgK9TeqThwGnzVpAk_7IMGYY4'
             }, {
                 date: '12/06',
-                opponents: '銘傳之星 （準決賽）',
+                opponents: '銘傳之星',
                 url: 'cjxlTIoS#5pqbu-BDRpwikT4NCNwfAbgee-yZxSgF3FNeFBaDKw4'
             }],
             icon: 'far fa-futbol'
@@ -38,15 +38,15 @@ new Vue({
             cupName: '2021金牛賀歲盃',
             cover: '2021oxcup',
             videos: [{
-                date: '1/30',
+                date: '01/30',
                 opponents: '森巴小獵豹',
                 url: 'QnARCJ7T#fwurQfONLYHQ77xEHdzJ4_uMixQmOFj-9ZlZCltZZwU'
             }, {
-                date: '1/31',
+                date: '01/31',
                 opponents: '新北銀河',
                 url: '0nAmkBgY#olbSMsP3Rn4uOkJKwuVduCOwFdOIg7Fg3VsPzzO5Iyc'
             }, {
-                date: '2/6',
+                date: '02/06',
                 opponents: '虎鯊HSFC',
                 url: 'hyYC1Z5a#wLzGBK1Ze90wC9BobZ1yWDiSlJLQYkkb098vRSrZCy8'
             }],
@@ -56,19 +56,19 @@ new Vue({
             cupName: '2021春季大安盃',
             cover: '2021daanspringcup',
             videos: [{
-                date: '4/10',
-                opponents: '熱血足球 U8',
+                date: '04/10',
+                opponents: '熱血足球U8',
                 url: '96pn3LJC#aj9cByclKl1n-RUNI5CxEc91bmurkKsBDMC9COjoQ_E'
             }, {
-                date: '5/8',
+                date: '05/08',
                 opponents: '公館紅雷霆',
                 url: 'Yv5FUZhY#SUOkCpuTdM9oRU0jNXIO-ytjBmgfcRKQYK9akPikBTU'
             }, {
-                date: '5/8',
+                date: '05/08',
                 opponents: '磐石U8',
                 url: 'UnQ0xDaD#178MiVAB9pDsSUiCqdw9uy3_CPjQOWg1VfjKilYdlX8'
             }, {
-                date: '10/2',
+                date: '10/02',
                 opponents: '國北實小U8',
                 url: 'xiQAiSJQ#rfK4ug60y4NeeD0zJdjECCrJgL4YoNcl_JH6hhOb_RA'
             }, {
@@ -86,8 +86,8 @@ new Vue({
             cupName: '2021安聯小小世界盃',
             cover: '2021allianzcup',
             videos: [{
-                date: '5/02',
-                opponents: 'Dreamers FC、鬥牛犬、LSFC',
+                date: '05/02',
+                opponents: 'Dreamers_FC、鬥牛犬、LSFC',
                 url: 'sy4CHBiD#uCFRbwTPbVC0Kq3gO-_-g7UtvQhuCo__V3hd1ero1A4'
             }],
             icon: 'fab fa-angular'
@@ -96,11 +96,11 @@ new Vue({
             cupName: '2021全國學童盃',
             cover: '2021studentcup',
             videos: [{
-                date: '9/04',
+                date: '09/04',
                 opponents: '航源FC-U9',
                 url: 'IrR2kZoQ#_x1Ha6YxMYiQHahXo5ws316x9_CmW9pY-JmaibVgdpA'
             }, {
-                date: '9/05',
+                date: '09/05',
                 opponents: '台北Playone',
                 url: 'NjZ1yRRL#ePlhmlJiVdXElkk1Fbb3Rv5tygkWFBBpzCVKtj5x6zw'
             }],
@@ -142,11 +142,11 @@ new Vue({
             cupName: '2022迎虎盃',
             cover: '2022tigercup',
             videos: [{
-                date: '2/19',
+                date: '02/19',
                 opponents: 'BT-Spirits、桃園自強衝鋒少年、Vikings',
                 url: 'h2Y0AA6K#Q0SmmJbKcdWgWqe9W7x_eXUw6kwxfJE54Ub4U0Zr1iQ'
             }, {
-                date: '2/19',
+                date: '02/19',
                 opponents: '長庚國小',
                 url: 'R3IHmLAZ#hkzr-CONL0CtZuvQ2UERp7OXQL6wVvnmtvbBZDBkPJo'
             }],
@@ -156,19 +156,19 @@ new Vue({
             cupName: '2022新北市少年八人制春季聯賽',
             cover: '2022eightmanspring',
             videos: [{
-                date: '3/5',
+                date: '03/05',
                 opponents: '台北曄拓',
                 url: 'tjpkiThS#qNDdm5q8w4fvRwU0jDXj1HkG51baD7KcA-brXQTyziA'
             }, {
-                date: '3/6',
+                date: '03/06',
                 opponents: '樂活鯊',
                 url: 'cjZT3BQB#aW5oP0RO0G0zrbN66_3ELdTuei1MxsMY3DyBkSg7JwU'
             }, {
-                date: '5/21',
+                date: '05/21',
                 opponents: 'MFA-U10',
                 url: 'BjwgjDIA#h-FEgcq9Y797IpX43lkHYRyOOTKQdQqNznCW6zl4NFI'
             }, {
-                date: '6/26',
+                date: '06/26',
                 opponents: 'Monster',
                 url: '4jhk0ZyK#UKLk1DO8zPG623wTv25onDQ-Hj4yndhDgPHLny8odC8'
             }],
@@ -178,7 +178,7 @@ new Vue({
             cupName: '2022中華五人制錦標賽',
             cover: '2022chtfivemanchamp',
             videos: [{
-                date: '4/3',
+                date: '04/03',
                 opponents: '光復皇馬',
                 url: '5zwwERiI#6LVygHd8gWUWtGdHGOfrYQb-pfmPP8AbqqU3vA5Gxis'
             }],
@@ -188,11 +188,11 @@ new Vue({
             cupName: '2022臺北市五人制足球聯賽',
             cover: '2022tpefivemanleague',
             videos: [{
-                date: '7/17',
+                date: '07/17',
                 opponents: 'BLES-U10',
                 url: 'UrASRZDC#lMCH3b99CVxDyi0v8qvMc-ozblH5he_9aua3PVl95g4'
             }, {
-                date: '7/17',
+                date: '07/17',
                 opponents: '石牌國小',
                 url: 'hrRjBBIT#mzaTzMUHZw5SuWMroGYJUqaEVuGAqwyiZspysAse9Y0'
             }],
@@ -202,7 +202,7 @@ new Vue({
             cupName: '2022春季大安盃',
             cover: '2022daanspringcup',
             videos: [{
-                date: '7/23',
+                date: '07/23',
                 opponents: '國北實小',
                 url: 'cixShBpR#5R5wb_J-jpuoKAi_ACeb0nsDQ6wXIQ0gyW87L-roGhY'
             }],
@@ -286,15 +286,15 @@ new Vue({
             cupName: '2023金兔賀歲盃',
             cover: '2023rabbitcup',
             videos: [{
-                date: '1/14',
+                date: '01/14',
                 opponents: 'AC-Taipei-U10',
                 url: 'oyJ0mBRL#wBpZo74JnZz-OkoijWhcraRiMAgqqonTbZkOtICkgbA'
             }, {
-                date: '1/28',
+                date: '01/28',
                 opponents: '皇家野馬',
                 url: '5rhiRZLZ#CG8ixx0rZGFhDK0c8xJZgBhuX4tWFeTHU0jkJMeg2rI'
             }, {
-                date: '2/5',
+                date: '02/05',
                 opponents: 'AC-Taipei-U10',
                 url: 'lyowGBKb#Rg0iHJ2VYrEgeJJ8InbYJpRW2wMGvc0JOGoBpwASP28'
             }],
@@ -304,7 +304,7 @@ new Vue({
             cupName: '2023明道盃',
             cover: '2023mingdaocup',
             videos: [{
-                date: '2/11',
+                date: '02/11',
                 opponents: '銘傳國小、明道國小、建安國小',
                 url: 'lvRAQb6D#5oioaCW_fUh_tS9KlsXDmyb7RrPzZaM_gYaRjxS9ZsY'
             }],
@@ -314,11 +314,11 @@ new Vue({
             cupName: '2023Kappa_Cup',
             cover: '2023kappacup',
             videos: [{
-                date: '2/26',
+                date: '02/26',
                 opponents: '新竹足校-紅、Yoder、A-Star',
                 url: 'RmpEXQKC#hhIFR7xbJccVl4FIC4Rqj3KqODb06q-4Y-NhURYU4Ss'
             }, {
-                date: '2/26',
+                date: '02/26',
                 opponents: '北新國小、MFA-U10',
                 url: 'IuQSiA6J#deXnNMlYsc0ZBLgVwWfQmUuTIlckmcbl2b2UCyo3LJw'
             }],
@@ -328,15 +328,15 @@ new Vue({
             cupName: '2023新北市少年八人制春季聯賽',
             cover: '2023eightmanspring',
             videos: [{
-                date: '3/4',
+                date: '03/04',
                 opponents: 'AC-Taipei-U10',
                 url: 'YyJ1UJJD#EcIMZWtsopQCe4Qhs92fScqpirtaRpPSzDdAz-2ZmAs'
             }, {
-                date: '4/16',
+                date: '04/16',
                 opponents: '三石訓練',
                 url: 'R2oSFRbC#nasO1XBF-9k55-XpS8Bvs0UrkwWfzr3TY-XiLo_S9_o'
             }, {
-                date: '5/13',
+                date: '05/13',
                 opponents: '樂活鯊',
                 url: 't6BVHCrS#bvHus4PfPusZC4YhjjyLLi3YRy8Y81F7UnLijlH4R7w'
             }],
@@ -346,7 +346,7 @@ new Vue({
             cupName: '2023臺北市教育盃',
             cover: '2023educationcup',
             videos: [{
-                date: '3/9',
+                date: '03/09',
                 opponents: '幸安國小',
                 url: '5iYxTIzC#-Ui0zAYd6gAkFb3rovdCAyZ8RGsFfG_m1iBvLAEBEGk'
             }],
@@ -356,7 +356,7 @@ new Vue({
             cupName: '2023春季大安盃',
             cover: '2023daanspringcup',
             videos: [{
-                date: '4/8',
+                date: '04/08',
                 opponents: 'Lion',
                 url: 'BvIRGDTZ#kqkw4_Yp8NzIx4EVKmi36bK2omqwR4lrppXZNtBz5kw'
             }],
@@ -366,11 +366,11 @@ new Vue({
             cupName: '2023（上）黃蜂盃爭霸盃',
             cover: '2023bumblebeecup',
             videos: [{
-                date: '6/18',
+                date: '06/18',
                 opponents: '永士FC-U10藍、光復Fight、幸安閃電',
                 url: 'x3AAHSZa#_F1NBlVqgJTBBHzqu2TCwJDyoBUQvbf4mbPDrZkwjE0'
             }, {
-                date: '6/18',
+                date: '06/18',
                 opponents: '熱血足球獵豹、永士FC-U10橘、新埔國小',
                 url: '93gXVKzC#8wdkBZEOdKoyg1tZ9Ue3xcXhZCzoyYfYblLSnwkemxs'
             }],
@@ -380,19 +380,19 @@ new Vue({
             cupName: '2023臺北市五人制足球聯賽',
             cover: '2023tpefivemanleague',
             videos: [{
-                date: '4/9',
+                date: '04/09',
                 opponents: 'SLFC',
                 url: 'N7ATnSrR#74ZmuSfT09Kfic-7O3glY-O42n3xeyi14bu4Zzgu6gw'
             }, {
-                date: '4/9',
+                date: '04/09',
                 opponents: '立農戰將',
                 url: 'c2ozDDaR#jzQnHD-7O_cRidUX9iWYD7O5heL4PdIHhtoDIa8k13c'
             }, {
-                date: '4/23',
+                date: '04/23',
                 opponents: 'BSC',
                 url: 'oqIFhaba#qyR0LXE3ivRq9oSdmpp1843d78BCu4RPwHs0PYozsEo'
             }, {
-                date: '4/23',
+                date: '04/23',
                 opponents: '明道國小',
                 url: 'MuQjBJ6B#VgILPNBTj9Y1F6TqYVaHVT3WSrUOKUCUmCvY_VcBpaE'
             }],
@@ -402,7 +402,7 @@ new Vue({
             cupName: '2023安聯小小世界盃',
             cover: '2023allianzcup',
             videos: [{
-                date: '6/3',
+                date: '06/03',
                 opponents: '小炫風U10、TFA皇馬、雙峰樂活',
                 url: 'AypDQaTa#md38lwKunlIhx8Sf5e-gGEbH9ADCAXE3kaxObm9XImI'
             }],
@@ -412,11 +412,11 @@ new Vue({
             cupName: '2023豐米全國少年盃',
             cover: '2023youthcup',
             videos: [{
-                date: '6/22',
+                date: '06/22',
                 opponents: '小不老FC',
                 url: 'd6RynL4C#GTEbdsrxa-kMQqcaFtZ6awSI2Yt8msi3I9g3Cu9qDs8'
             }, {
-                date: '6/23',
+                date: '06/23',
                 opponents: '銀河射手',
                 url: 'guYy1ZwK#ImAz_ZcqCTuo8x0GLq4Py2Q0XrP0okfxT0rIlDTQ0rs'
             }],
@@ -426,7 +426,7 @@ new Vue({
             cupName: '2023臺中港盃國際邀請賽',
             cover: '2023harborcup',
             videos: [{
-                date: '7/1',
+                date: '07/01',
                 opponents: '忠孝迅猛龍、越南BlueSky、惠文橘子、新北銀河',
                 url: '56YhhQQK#9YWRh1aEMcq4Wu7MJ3wCqrORIC85wFC6JDRlz_ECywc'
             }],
@@ -436,15 +436,15 @@ new Vue({
             cupName: '2023新北市議長盃',
             cover: '2023speakercup',
             videos: [{
-                date: '7/14',
+                date: '07/14',
                 opponents: '桃園文山、銀河射手',
                 url: 'YnIwiR5C#ATuKQmcJ_QvRUG665nmEPdhagNEo_Cq4-KCNJhb2b-A'
             }, {
-                date: '7/15',
+                date: '07/15',
                 opponents: '志清勇士內戰',
                 url: 'E3QiRToD#bsIw7ktw5m_d0MygiDqocwIstVVBxGIvfhQ8oyB4nXY'
             }, {
-                date: '7/16',
+                date: '07/16',
                 opponents: '志義勇士',
                 url: 'Er4QFAxT#23Jfm5TdCl67TY5t931XLKiEsHT16E9a6wm1iSLlK6M'
             }],
@@ -454,15 +454,15 @@ new Vue({
             cupName: '2023淡水盃',
             cover: '2023tamsuicup',
             videos: [{
-                date: '8/11',
+                date: '08/11',
                 opponents: '熱血希望、豐里國小',
                 url: 'J7JGnZiS#L0RX1N28erZepQRHIZ_4HlDb9wCt-L0t2wqNoPcrFmQ'
             }, {
-                date: '8/12',
+                date: '08/12',
                 opponents: 'Yamaha、廣福國小',
                 url: 'I3IQ0aKZ#aUChbxiIqcSngHEc8FrtF7NH48S31P8B0pO7eKbOCZU'
             }, {
-                date: '8/13',
+                date: '08/13',
                 opponents: 'Yamaha',
                 url: 'guAD3bIB#TsTnY0fAkSQiLT7yuEr5cLBXx2RWVvIT0L07RIruOlE'
             }],
@@ -472,11 +472,11 @@ new Vue({
             cupName: '2023（下）黃蜂盃',
             cover: '2023bumblebeecup2',
             videos: [{
-                date: '9/10',
+                date: '09/10',
                 opponents: 'SCSFC、新店FC',
                 url: 'Ey4lXbjY#dj2VwiqcqQzY6Zs2kBuVZu6ze6kUWNbiMrWa7gaGI9E'
             }, {
-                date: '9/10',
+                date: '09/10',
                 opponents: '新北銀河、BSC',
                 url: 'li513RrY#ZUzk-poToAGHEVmSj040BG93q3tQ7CQudSbYWtHTytc'
             }],
@@ -486,11 +486,11 @@ new Vue({
             cupName: '2023新北市少年八人制秋季聯賽',
             cover: '2023eightmanfall',
             videos: [{
-                date: '9/16',
+                date: '09/16',
                 opponents: '莒光國小',
                 url: 'NqQ3xLyK#YuqFDbxVroq5xOHKpjaE8DwUXfo1oEwMPJA48vyZNOs'
             }, {
-                date: '9/24',
+                date: '09/24',
                 opponents: '北新國小-藍',
                 url: 'ojIhGAIZ#TOY5M2N6ToTC5YUPOHCUVLNmlWQ-tgg_7XhVvXheIIQ'
             }, {
@@ -504,11 +504,11 @@ new Vue({
             cupName: '2023臺北市中正盃',
             cover: '2023ckscup',
             videos: [{
-                date: '9/28',
+                date: '09/28',
                 opponents: '永樂國小',
                 url: 'kyJkEIQK#wu8IlcVH7Kv95Z-kilIPwEtMAyR-8YFjspYVm7D7S6Q'
             }, {
-                date: '10/3',
+                date: '10/03',
                 opponents: '光復國小',
                 url: 's2BW3ZzD#pADNrRnaUKc11XRhtrCbIGBU57vItiVsR4wIwb8PmJA'
             }, {
@@ -527,24 +527,30 @@ new Vue({
             cover: '2023victoryleague',
             videos: [{
                 date: '10/15',
-                opponents: 'EC DESAFIO',
+                opponents: 'EC_DESAFIO',
                 url: 'g3IAkTza#R_27ng7JHZkNin7qz0Glz7nSAnpNvi5x3kDdPtubMWY'
             }, {
                 date: '11/26',
-                opponents: 'MFA White、Taipei Breakers',
+                opponents: 'MFA_White、Taipei_Breakers',
                 url: 'wyAzyAzL#jascB_hf4lx80ufJKqYgo52ewoA2l99uEQT8MRdO4rM'
-            }, {
-                date: '1/14',
-                opponents: '樂活象',
-                url: 'tqoiyAKQ#L6NswIUKx5KlC5gm63ph4LuRYuigU9csMEd4rEyb7gs'
-            }, {
-                date: '2/25',
-                opponents: 'MFA Red',
-                url: 'w6YnEKpS#UitPrYV1epWJtio82qxRKWfsEUE-UvHWKEubQiyu5F8'
             }],
             icon: 'fab fa-vimeo-v'
         }, {
             id: 34,
+            cupName: '2024勝利聯賽',
+            cover: '2024victoryleague',
+            videos: [{
+                date: '01/14',
+                opponents: '樂活象',
+                url: 'tqoiyAKQ#L6NswIUKx5KlC5gm63ph4LuRYuigU9csMEd4rEyb7gs'
+            }, {
+                date: '02/25',
+                opponents: 'MFA_Red',
+                url: 'w6YnEKpS#UitPrYV1epWJtio82qxRKWfsEUE-UvHWKEubQiyu5F8'
+            }],
+            icon: 'fab fa-vimeo-v'
+        }, {
+            id: 35,
             cupName: '2023Yamaha_Cup',
             cover: '2023yamahacup',
             videos: [{
@@ -554,7 +560,7 @@ new Vue({
             }],
             icon: 'fab fa-y-combinator'
         }, {
-            id: 35,
+            id: 36,
             cupName: '2023阿猴全國學童盃',
             cover: '2023studentcup',
             videos: [{
@@ -566,13 +572,13 @@ new Vue({
                 opponents: '苗栗尖山國小',
                 url: 'ozZCwLza#SPRd04IhI7M7TdqYNtCs6qcJUPp5laybNIi_h6kV6ik'
             }, {
-                date: '精彩',
-                opponents: '花絮',
+                date: '11/13-15',
+                opponents: '精彩花絮',
                 url: 'UyZ21JIJ#54nsgfPtB_yJQJYa6NzVw2K_vazhS3FEQP5MrRrps6c'
             }],
             icon: 'fas fa-user-graduate'
         }, {
-            id: 36,
+            id: 37,
             cupName: '2023Kappa週三夜交流賽',
             cover: '2023kappanightcup',
             videos: [{
@@ -582,43 +588,43 @@ new Vue({
             }],
             icon: 'fab fa-kickstarter'
         }, {
-            id: 37,
+            id: 38,
             cupName: '2023TES_Cup',
             cover: '2023tescup',
             videos: [{
-                date: '12/9',
+                date: '12/09',
                 opponents: '立農國小、建安國小',
                 url: '435gFCyD#-34U3pcyySacrhgUBq4yt-nMfrnudFfwcKuS0UGU3BA'
             }, {
-                date: '12/9',
+                date: '12/09',
                 opponents: '忠義國小、石牌國小、TES',
                 url: 'V6QRlLpB#goVem9G3pD1ocxfq21GvWIEd16nWIW3vB1F3jl26LfM'
             }],
             icon: 'far fa-euro-sign'
         }, {
-            id: 38,
+            id: 39,
             cupName: '2024金龍賀歲盃',
             cover: '2024dragoncup',
             videos: [{
-                date: '1/20',
+                date: '01/20',
                 opponents: '麒麟聯隊',
                 url: '07xWSQjC#Q3jD1gK-NV9kOStCrg0kRApj6H2OU7p0_4hArao-6Wk'
             }, {
-                date: '1/21',
+                date: '01/21',
                 opponents: '幸安國小',
                 url: 'ZqJDUSBB#LAntrtH-fb5mlO9_WxceEsy9k7ojeGfRdvoDwCiXC2o'
             }, {
-                date: '2/3',
+                date: '02/03',
                 opponents: '熱血獵豹',
                 url: 'wyRn2C4R#yQnj38lE7vE9fd7RDirErax6xSWRF4G5Ew4yPgta7co'
             }],
             icon: 'fas fa-dragon'
         }, {
-            id: 39,
+            id: 40,
             cupName: '2024國小世界盃',
             cover: '2024elementaryworldcup',
             videos: [{
-                date: '2/28',
+                date: '02/28',
                 opponents: '日新國小',
                 url: 'ArpTDajI#a69bjt6Y9KcoEZKQpMlpHKWmwUgqLhMxAf5kIblk1oI'
             }],
@@ -634,7 +640,7 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/orpEqaYAWVcjQG2t6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20200920-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '10/25',
-                opponents: '炫風新尖兵、熱血足球 U8',
+                opponents: '炫風新尖兵、熱血足球U8',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/DtZb1piKzPZCBzDF6" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201025-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/08',
@@ -642,11 +648,11 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/yRPBJbRBmE73rBAPA" target="_blank"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201108-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '12/06',
-                opponents: '銘傳之星 （準決賽）',
+                opponents: '銘傳之星',
                 url: ``
             }, {
                 date: '12/06',
-                opponents: '公館小雷霆 （季軍戰）',
+                opponents: '公館小雷霆',
                 url: ``
             }],
             icon: 'far fa-futbol'
@@ -687,7 +693,7 @@ new Vue({
             cupName: '2021金牛賀歲盃',
             cover: '20210206-cover',
             photos: [{
-                date: '2/6',
+                date: '02/06',
                 opponents: '虎鯊HSFC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/hmCsAS3rqi3K4UKb8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210206-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -697,7 +703,7 @@ new Vue({
             cupName: '2021萬歲盃',
             cover: '20210328-cover',
             photos: [{
-                date: '3/27',
+                date: '03/27',
                 opponents: '足球心想事成、吉利港宜大、大暴風足球、淡水小獵豹',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/GgvQnTeG8cNKMxEn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210328-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -707,19 +713,19 @@ new Vue({
             cupName: '2021春季大安盃',
             cover: '20210410-cover',
             photos: [{
-                date: '4/10',
+                date: '04/10',
                 opponents: '國北實小U8、熱血足球U8',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/SBGbfrbstgtJPvJS9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210410-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '4/24',
+                date: '04/24',
                 opponents: '炫風小尖兵',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/f6maDyxXj44Gg1DM9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210424-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/8',
+                date: '05/08',
                 opponents: '公館紅雷霆、磐石U8',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/tdDpWkEveKAiagJ76"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210508-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '10/2',
+                date: '10/02',
                 opponents: '國北實小U8',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3LgaqU2iWLru7PKG7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
@@ -733,8 +739,8 @@ new Vue({
             cupName: '2021安聯小小世界盃',
             cover: '20210502-cover',
             photos: [{
-                date: '5/2',
-                opponents: 'Dreamers FC、鬥牛犬、LSFC',
+                date: '05/02',
+                opponents: 'Dreamers_FC、鬥牛犬、LSFC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3FyWZwPyt7oitWEK8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210502-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
@@ -743,11 +749,11 @@ new Vue({
             cupName: '2021學童盃',
             cover: '20210904-cover',
             photos: [{
-                date: '9/4',
+                date: '09/04',
                 opponents: '航源FC-U9',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/teDJgEmf4dV9KtD4A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210904-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/5',
+                date: '09/05',
                 opponents: '台北Playone',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/QfcGdmS169MiyHHB7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20210905-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -757,7 +763,7 @@ new Vue({
             cupName: '2021中正主委盃',
             cover: '20211030-cover',
             photos: [{
-                date: '9/4',
+                date: '09/04',
                 opponents: '台北Playone、銘傳之星、光復國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/h8rtmVqjEbALRrcm6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20211030-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -799,7 +805,7 @@ new Vue({
             cupName: '2022迎虎盃',
             cover: '20220219-cover',
             photos: [{
-                date: '2/19',
+                date: '02/19',
                 opponents: 'BT-Spirits、桃園自強衝鋒少年、森巴獵豹U10、twfc-豹、Vikings、長庚國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/AwBDskj5a7yoU2Fc7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220219-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -809,15 +815,15 @@ new Vue({
             cupName: '2022新北市少年八人制春季聯賽',
             cover: '20220306-cover',
             photos: [{
-                date: '3/6',
+                date: '03/06',
                 opponents: '樂活鯊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/CuuvTG5cbXuiA9uk8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220306-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/21',
+                date: '05/21',
                 opponents: 'MFA-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FozTCY8FwgLUJ2rU6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220521-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '6/25-26',
+                date: '06/25-26',
                 opponents: 'BLES-U10、Monster',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ZNEosocK7Nay1z3QA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220625-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -827,11 +833,11 @@ new Vue({
             cupName: '2022台北市教育盃',
             cover: '20220315-cover',
             photos: [{
-                date: '3/14-15',
+                date: '03/14-15',
                 opponents: '日新國小、永樂國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7KnPZQw1txMyjC2aA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220315-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '3/18',
+                date: '03/18',
                 opponents: '成德國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/StJL89DsVcvbj5N7A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220318-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -841,7 +847,7 @@ new Vue({
             cupName: '2022中華五人制錦標賽',
             cover: '20220402-cover',
             photos: [{
-                date: '4/2-3',
+                date: '04/02-03',
                 opponents: 'twfc-豹、光復皇馬',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/KC1ycezmXgK3gxJt9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220402-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -851,11 +857,11 @@ new Vue({
             cupName: '2022包中盃',
             cover: '20220611-cover',
             photos: [{
-                date: '6/11',
+                date: '06/11',
                 opponents: '海山U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/RyrS2V4UGUaUS5Jx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220611-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '6/12',
+                date: '06/12',
                 opponents: '樂活鯊、GSC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/sd3cKTTa2ikfvSsk9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220612-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -865,7 +871,7 @@ new Vue({
             cupName: '2022臺北市五人制足球聯賽',
             cover: '20220717-cover',
             photos: [{
-                date: '7/17',
+                date: '07/17',
                 opponents: 'BLES-U10、石牌國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/szpZ3eAATgHQ8NtBA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220717-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -875,11 +881,11 @@ new Vue({
             cupName: '2022春季大安盃',
             cover: '20220723-cover',
             photos: [{
-                date: '7/23',
+                date: '07/23',
                 opponents: '中正炫風、國北實小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3y8VYksUKzDaaYXn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220723-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/17',
+                date: '09/17',
                 opponents: '大安雲豹',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Ekxycxu755mpgdrL6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220917-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -889,11 +895,11 @@ new Vue({
             cupName: '2022新北市少年八人制秋季聯賽',
             cover: '20220903-cover',
             photos: [{
-                date: '9/3',
+                date: '09/03',
                 opponents: 'Monster',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/FLVzvAj2cjUCDBoK9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220903-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/18',
+                date: '09/18',
                 opponents: '樂活鯊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/fFuvUGGZHgBs9trV8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220918-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
@@ -919,7 +925,7 @@ new Vue({
             cupName: '2022臺北市足球Ｕ聯賽',
             cover: '20220910-cover',
             photos: [{
-                date: '9/10',
+                date: '09/10',
                 opponents: '熱血希望',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7ZRkZoBnxAAXxnFT7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220910-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -929,11 +935,11 @@ new Vue({
             cupName: '2022全國學童盃',
             cover: '20220919-cover',
             photos: [{
-                date: '9/19',
+                date: '09/19',
                 opponents: '天母國小、石牌國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3nz3GurLngSoRsqSA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220919-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/21',
+                date: '09/21',
                 opponents: '自強國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3kwF5dVhcHVzerNq9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20220921-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -943,7 +949,7 @@ new Vue({
             cupName: '2022新北聯合盃',
             cover: '20221002-cover',
             photos: [{
-                date: '10/2',
+                date: '10/02',
                 opponents: '新北銀河',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/iTq2fjXp1qH6W3qS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221002-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
@@ -965,7 +971,7 @@ new Vue({
             cupName: '2022安聯小小世界盃',
             cover: '20221224-cover',
             photos: [{
-                date: '10/9',
+                date: '10/09',
                 opponents: '天母白、百齡國小、長庚綠、基隆雷鷹',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/37BhyTrDHdAMD43b8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20221009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
@@ -989,16 +995,16 @@ new Vue({
             cupName: '2023金兔賀歲盃',
             cover: '20230205-cover',
             photos: [{
-                date: '1/14',
-                opponents: 'AC Taipei-U10',
+                date: '01/14',
+                opponents: 'AC-Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/G7aAxSJzCrv9ynDK7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230114-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '1/28',
+                date: '01/28',
                 opponents: '皇家野馬',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/vHzPmsAoLPTmc5uo9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230128-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/5',
-                opponents: 'AC Taipei-U10',
+                date: '02/05',
+                opponents: 'AC-Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/e1ny2UZiHxbyNmVUA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230205-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-rabbit-fast'
@@ -1007,7 +1013,7 @@ new Vue({
             cupName: '2023明道盃',
             cover: '20230211-cover',
             photos: [{
-                date: '2/11',
+                date: '02/11',
                 opponents: '銘傳國小、明道國小、建安國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3qRhJwP9qeqhdUKU7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230211-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1017,7 +1023,7 @@ new Vue({
             cupName: '2023Kappa_Cup',
             cover: '20230226-cover',
             photos: [{
-                date: '2/26',
+                date: '02/26',
                 opponents: '新竹足球學校-紅、Yoder、A-Star、北新國小、MFA-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/uJU3em7ZRxh7wDkS7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1027,23 +1033,23 @@ new Vue({
             cupName: '2023新北市少年八人制春季聯賽',
             cover: '20230304-cover',
             photos: [{
-                date: '3/4',
+                date: '03/04',
                 opponents: 'AC-Taipei-U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/21eYmpzkp81x8roc8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230304-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '4/16',
+                date: '04/16',
                 opponents: '三石訓練',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/mCDeszGtCNYCjkXx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230416-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/13',
+                date: '05/13',
                 opponents: '樂活鯊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/b32JgGsBoTX2MneH8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230513-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/14',
+                date: '05/14',
                 opponents: 'SLFC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gx96DruhcT9KCFwd7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230514-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/27',
+                date: '05/27',
                 opponents: 'PLCFA',
                 url: '<a target="_blank" href="https://photos.app.goo.gl/nbZXQd3npH52zpK49"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230527-1-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }],
@@ -1053,7 +1059,7 @@ new Vue({
             cupName: '2023臺北市教育盃',
             cover: '20230314-cover',
             photos: [{
-                date: '3/13',
+                date: '03/13',
                 opponents: '五常國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/jkzpCHrKyKWwPBrb7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230314-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1063,11 +1069,11 @@ new Vue({
             cupName: '2023（上）黃蜂爭霸盃',
             cover: '20230319-cover',
             photos: [{
-                date: '3/19',
+                date: '03/19',
                 opponents: 'Teroro、光復Fight',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/gahoxqw5hRARZ3P86"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230319-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '6/18',
+                date: '06/18',
                 opponents: '永士FC-U10藍、光復Fight、幸安閃電、熱血足球獵豹、永士FC-U10橘、新埔國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/usm6ZXM7eZ56nVXc6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230618-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1077,19 +1083,19 @@ new Vue({
             cupName: '2023春季大安盃',
             cover: '20230408-cover',
             photos: [{
-                date: '4/8',
+                date: '04/08',
                 opponents: 'Lion',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/JiDqmjLvEVyszhKL9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230408-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '4/29',
+                date: '04/29',
                 opponents: '磐石U10',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/s6MBjTWr2wh92isY7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230429-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '5/27',
+                date: '05/27',
                 opponents: 'MJKids',
                 url: '<a target="_blank" href="https://photos.app.goo.gl/jbdunRKwmRN9qE4Y9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230527-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }, {
-                date: '6/3',
+                date: '06/03',
                 opponents: '熱血足球Fighting、磐石U10',
                 url: '<a target="_blank" href="https://photos.app.goo.gl/aWfgZpcygdqbJZaC9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>'
             }],
@@ -1099,11 +1105,11 @@ new Vue({
             cupName: '2023臺北市五人制足球聯賽',
             cover: '20230409-cover',
             photos: [{
-                date: '4/9',
+                date: '04/09',
                 opponents: 'SLFC、立農戰將',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Hz8z4FZ6xx9hbbtF9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230409-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '4/23',
+                date: '04/23',
                 opponents: 'BSC、明道國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/aP2BbW3DKgJCKV4w5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230423-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1113,7 +1119,7 @@ new Vue({
             cupName: '2023安聯小小世界盃',
             cover: '20230603-1-cover',
             photos: [{
-                date: '6/3',
+                date: '06/03',
                 opponents: '小炫風U10、TFA皇馬、雙峰樂活',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1123,11 +1129,11 @@ new Vue({
             cupName: '2023豐米全國少年盃',
             cover: '20230622-cover',
             photos: [{
-                date: '6/22',
+                date: '06/22',
                 opponents: '小不老FC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/8GacPFj7NjgT7t1YA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230622-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '6/23',
+                date: '06/23',
                 opponents: '銀河射手',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/rTFKfMLnFDDv7T6M7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230623-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1137,15 +1143,15 @@ new Vue({
             cupName: '2023台中港國際足球邀請賽',
             cover: '20230701-cover',
             photos: [{
-                date: '7/1',
+                date: '07/01',
                 opponents: 'Day1',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/vqyC8gK1QG1YcrGY6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230701-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '7/2',
+                date: '07/02',
                 opponents: 'Day2',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/WGcHfUQVz7Ygemb98"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230702-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '7/3',
+                date: '07/03',
                 opponents: 'Day3',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/e9ESwardJkCSDEnf8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230703-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1155,15 +1161,15 @@ new Vue({
             cupName: '2023新北市議長盃',
             cover: '20230714-cover',
             photos: [{
-                date: '7/14',
+                date: '07/14',
                 opponents: 'Day1',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/14Qmh8VzivReJksK7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230714-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '7/15',
+                date: '07/15',
                 opponents: 'Day2',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/nvWaXwiV4bhhihUd8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230715-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '7/16',
+                date: '07/16',
                 opponents: 'Day3',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Zt6DeSWWGKD2yg1h7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230716-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1173,7 +1179,7 @@ new Vue({
             cupName: '2023格溫拜克盃',
             cover: '20230806-cover',
             photos: [{
-                date: '8/6',
+                date: '08/06',
                 opponents: '北新國小、磐石、星足twfc、TopFive、幸安',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/kiiR2Kd5Phd6nh9A9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230806-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1183,15 +1189,15 @@ new Vue({
             cupName: '2023淡水盃',
             cover: '20230813-cover',
             photos: [{
-                date: '8/11',
+                date: '08/11',
                 opponents: '熱血希望、豐里國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/8tMp2LYZT5asDEEC8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230811-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '8/12',
+                date: '08/12',
                 opponents: 'Yamaha、廣福國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/DFbvzeDB71S4fEo7A"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230812-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '8/13',
+                date: '08/13',
                 opponents: 'Yamaha',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/i16hmrEXPKuM32ZL7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230813-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1201,11 +1207,11 @@ new Vue({
             cupName: '2023（下）黃蜂盃',
             cover: '20230910-cover',
             photos: [{
-                date: '9/10',
+                date: '09/10',
                 opponents: 'SCSFC、新店FC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/mDSy7naZgAgtP9Z77"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230910-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/10',
+                date: '09/10',
                 opponents: '新北銀河、BSC',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/2m8NKchRwwr6FAbm9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230910-cover2.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1215,15 +1221,15 @@ new Vue({
             cupName: '2023新北市少年八人制秋季聯賽',
             cover: '20230916-cover',
             photos: [{
-                date: '9/16',
+                date: '09/16',
                 opponents: '莒光國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/WoZQTzuYR4Yyz8CS6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230916-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '9/24',
+                date: '09/24',
                 opponents: '北新國小-藍',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/7f9EEMhxXHbAw4xP6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230924-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '12/3',
+                date: '12/03',
                 opponents: '北新國小-黑',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/3J9es1EJxkRpDeg97"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231203-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1233,7 +1239,7 @@ new Vue({
             cupName: '2023臺北市中正盃',
             cover: '20230928-cover',
             photos: [{
-                date: '9/28',
+                date: '09/28',
                 opponents: '永樂國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/JXeLGtARx62zTeT58"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230928-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
@@ -1244,18 +1250,18 @@ new Vue({
             icon: 'fas fa-landmark'
         }, {
             id: 42,
-            cupName: '2023勝利聯賽',
+            cupName: '2023-24勝利聯賽',
             cover: '20231015-cover',
             photos: [{
                 date: '10/15',
-                opponents: 'EC DESAFIO',
+                opponents: 'EC_DESAFIO',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/26',
                 opponents: 'MFA-White、Taipei Breakers',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/2WtoBFcFxpZkTwfP7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231126-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/25',
+                date: '02/25',
                 opponents: 'MFA-Red',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/DvnFkXj676Sdwuhv5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240225-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1305,15 +1311,15 @@ new Vue({
             cupName: '2024金龍賀歲盃',
             cover: '20240203-cover',
             photos: [{
-                date: '1/20',
+                date: '01/20',
                 opponents: '麒麟聯隊',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '1/21',
+                date: '01/21',
                 opponents: '幸安國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240121-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/3',
+                date: '02/03',
                 opponents: '熱血獵豹',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/fqPyRgSXDd74szfV7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240203-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
@@ -1323,19 +1329,19 @@ new Vue({
             cupName: '2024國小世界盃',
             cover: '20240227-cover',
             photos: [{
-                date: '2/26',
+                date: '02/26',
                 opponents: '光仁國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/QYuoCiXmPYzG1nzx8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/27',
+                date: '02/27',
                 opponents: '永樂國小、北市大同國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/K521ifacmqLRFBdFA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240227-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/28',
+                date: '02/28',
                 opponents: '日新國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/MPBT3mqz7DPGRAmX6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240228-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
-                date: '2/29',
+                date: '02/29',
                 opponents: '明湖國小、士東國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Hfmvc5W7CsDgZm1u5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240229-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],

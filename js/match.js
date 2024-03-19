@@ -2147,7 +2147,7 @@ new Vue({
             cover: '2022educationcup',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '國小',
                 members: '晉丞、黃衍、善捷、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、振綸*、秉俊*'
             }],
             note: '',
@@ -2179,7 +2179,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '勇士',
+                subTeam: '國小',
                 final_score: '7 : 2',
                 pso: '',
                 wdl: 'W',
@@ -2237,7 +2237,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '勇士',
+                subTeam: '國小',
                 final_score: '6 : 0',
                 pso: '',
                 wdl: 'W',
@@ -2283,7 +2283,7 @@ new Vue({
                     number: 99,
                     name: '秉俊*'
                 }],
-                subTeam: '勇士',
+                subTeam: '國小',
                 final_score: '3 : 4',
                 pso: '',
                 wdl: 'L',
@@ -4491,7 +4491,7 @@ new Vue({
             cover: '2023educationcup',
             trophy: '',
             team: [{
-                name: '勇士',
+                name: '國小',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、宸瑜*'
             }],
             note: '',
@@ -8271,6 +8271,218 @@ new Vue({
                 }],
                 goalkeepers: ['仲謙*'],
                 isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }]
+        }, {
+            id: 50,
+            year: '2024',
+            cupName: '臺北市教育盃',
+            system: '5人制',
+            grade: 'U11',
+            cover: '2024educationcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、振綸*、稟巖*、仲謙*'
+            }],
+            note: '',
+            matches: [{
+                date: '20240313',
+                pitch: '清江國小',
+                opponent: { name: '雙園國小', logo: '雙園國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-仲謙*', 'CB-振綸*', 'RM-維恩', 'LM-亮谷', 'CF-稟巖*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '12 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '稟巖*',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: '稟巖*'
+                }, {
+                    name: '亮谷',
+                    assist: '稟巖*'
+                }, {
+                    name: '定謙',
+                    assist: '皓宇'
+                }, {
+                    name: '定謙',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '宇晨*',
+                    assist: '稟巖*'
+                }, {
+                    name: '稟巖*',
+                    assist: '振綸*'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }, {
+                    name: '皓宇',
+                    assist: '宥融'
+                }, {
+                    name: '皓宇',
+                    assist: '定謙'
+                }],
+                goalkeepers: ['仲謙*', '昕叡'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240318',
+                pitch: '清江國小',
+                opponent: { name: '蓬萊國小', logo: '蓬萊國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-宥融', 'CB-振綸*', 'RM-稟巖*', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '國小',
+                final_score: '4 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '振綸*',
+                    assist: '稟巖*'
+                }, {
+                    name: '皓宇',
+                    assist: '振綸*'
+                }, {
+                    name: '皓宇',
+                    assist: '宇晨*'
+                }, {
+                    name: 'Own Goal',
+                    assist: '振綸*'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240319',
+                pitch: '清江國小',
+                opponent: { name: '桃源國小', logo: '桃源國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-仲謙*', 'CB-維恩', 'RM-稟巖*', 'LM-亮谷', 'CF-振綸*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '15 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '振綸*'
+                }, {
+                    name: '亮谷',
+                    assist: '振綸*'
+                }, {
+                    name: '亮谷',
+                    assist: '稟巖*'
+                }, {
+                    name: 'Own Goal',
+                    assist: '稟巖*'
+                }, {
+                    name: '稟巖*',
+                    assist: '亮谷'
+                }, {
+                    name: '皓宇',
+                    assist: '宥融'
+                }, {
+                    name: '稟巖*',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: '振綸*'
+                }, {
+                    name: '稟巖*',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '宇正',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '晉丞',
+                    assist: '宇正'
+                }, {
+                    name: '子珩*',
+                    assist: '紘豪'
+                }],
+                goalkeepers: ['仲謙*', '子珩*'],
+                isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
             }]
