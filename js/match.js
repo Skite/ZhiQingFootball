@@ -8485,6 +8485,64 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['柏豪'],
                 note: '* 學長／姐'
+            }, {
+                date: '20240320',
+                pitch: '清江國小',
+                opponent: { name: '仁愛國小', logo: '仁愛國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-稟巖*', 'LM-亮谷', 'CF-振綸*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞*'
+                }, {
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '5 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '振綸*',
+                    assist: 'P'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '稟巖*',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學長／姐'
             }]
         }]
     },
