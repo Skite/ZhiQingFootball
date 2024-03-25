@@ -7360,6 +7360,38 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '',
                 bestSubs: ''
+            }, {
+                date: '20240324',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'Monster', logo: 'Monster' },
+                formation: '2-3-1',
+                starters: ['GK-昕叡', 'RCB-紘豪', 'LCB-維恩', 'RM-宇正', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '昕叡'
+                }, {
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }],
+                goalkeepers: ['昕叡', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: '',
+                bestSubs: ''
             }]
         }, {
             id: 44,
@@ -8542,6 +8574,147 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240321',
+                pitch: '清江國小',
+                opponent: { name: '石牌國小', logo: '石牌國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-宥融', 'CB-振綸*', 'RM-維恩', 'LM-亮谷', 'CF-稟巖*'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 38,
+                    name: '仲謙*'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '2 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '稟巖*',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融', '仲謙*'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240321',
+                pitch: '清江國小',
+                opponent: { name: '百齡國小', logo: '百齡國小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-仲謙', 'CB-振綸*', 'RM-稟巖*', 'LM-亮谷', 'CF-皓宇'],
+                subs: [{
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 17,
+                    name: '宇晨*'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 23,
+                    name: '柏燁*'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '9 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '稟巖*',
+                    assist: '亮谷'
+                }, {
+                    name: '稟巖*',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '稟巖*'
+                }, {
+                    name: '振綸*',
+                    assist: ''
+                }, {
+                    name: '振綸*',
+                    assist: '維恩'
+                }, {
+                    name: '振綸*',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '振綸*'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['仲謙*'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: '* 學長／姐'
+            }, {
+                date: '20240322',
+                pitch: '清江國小',
+                opponent: { name: '和平實小', logo: '和平實小' },
+                formation: '1-2-1（Diamond）',
+                starters: ['GK-仲謙*', 'CB-稟巖*', 'RM-維恩', 'LM-亮谷', 'CF-振綸*'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '國小',
+                final_score: '3 : 9',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '稟巖*'
+                }],
+                goalkeepers: ['仲謙*'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
                 note: '* 學長／姐'
             }]
         }]

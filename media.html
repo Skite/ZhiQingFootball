@@ -108,7 +108,7 @@
                                     <div class="modal-body col-md-6" v-for="video in item.videos">
                                         <h3>{{ video.date }} vs {{ video.opponents }}</h3>
                                         <div class="videos">
-                                            <a :href="`https://mega.nz/embed/${video.url}`" class="video">
+                                            <a :href="`https://mega.nz/embed/${video.url}`" class="video" target="_blank">
                                                 <span></span>
                                                 <img :src="`img/media/${item.cover.slice(0, 4)+video.date.split('/')[0]+video.date.split('/')[1].slice(-2)}-cover.jpg`" :alt="video.opponents" />
                                             </a>

@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '教育盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '2',
                     gs: '2',
@@ -354,8 +362,16 @@ new Vue({
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
                 achievement: ['Captian (2023-present)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
                 active: true,
-                position: ['GK', 'LB', 'RM', 'CM', 'LM', 'CF'],
+                position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '6',
+                    gs: '0',
+                    goals: '6',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '6',
@@ -366,10 +382,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '2',
+                    g: '4',
+                    gs: '4',
+                    goals: '2',
+                    asts: '3',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -704,6 +720,14 @@ new Vue({
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '教育盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
                     gs: '3',
@@ -713,8 +737,8 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '2',
-                    gs: '1',
+                    g: '3',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1254,6 +1278,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '教育盃',
+                    g: '6',
+                    gs: '2',
+                    goals: '8',
+                    asts: '2',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '國小世界盃',
                     g: '5',
                     gs: '0',
@@ -1271,9 +1303,9 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '3',
-                    goals: '2',
+                    g: '4',
+                    gs: '4',
+                    goals: '3',
                     asts: '2',
                     cs: '0'
                 }, {
@@ -1622,7 +1654,7 @@ new Vue({
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
                 achievement: ['2022 Yamaha Cup Match MVP', '2 Times Best Substitutions'],
                 active: true,
-                position: ['GK', 'CF'],
+                position: ['GK'],
                 appearance: [{
                     year: 'y2024',
                     cup: '國小世界盃',
@@ -1642,7 +1674,7 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '0',
@@ -1953,8 +1985,16 @@ new Vue({
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。並在五年級下學期時再度被教練選為球隊副隊長',
                 achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP', 'Vice Captian (2024-present)'],
                 active: true,
-                position: ['GK', 'CB', 'CM', 'CF'],
+                position: ['CB', 'CM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '6',
+                    gs: '5',
+                    goals: '5',
+                    asts: '6',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '6',
@@ -1973,8 +2013,8 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '3',
+                    g: '4',
+                    gs: '4',
                     goals: '3',
                     asts: '2',
                     cs: '0'
@@ -2356,7 +2396,7 @@ new Vue({
                 info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，常有讓人驚艷的表現。',
                 achievement: ['1 Time Best Substitutions'],
                 active: true,
-                position: ['CF'],
+                position: [],
                 appearance: [{
                     year: 'y2023',
                     cup: '新北市少年八人制秋季聯賽',
@@ -2426,6 +2466,14 @@ new Vue({
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '教育盃',
+                    g: '6',
+                    gs: '6',
+                    goals: '7',
+                    asts: '4',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '國小世界盃',
                     g: '6',
                     gs: '4',
@@ -2443,10 +2491,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '2',
-                    gs: '2',
-                    goals: '1',
-                    asts: '0',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '1',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -2794,8 +2842,16 @@ new Vue({
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
                 achievement: ['7 Times Best Substitutions'],
                 active: true,
-                position: ['GK', 'RB', 'RM', 'CF'],
+                position: ['RB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
@@ -3047,6 +3103,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2023',
                     cup: 'TES Cup',
                     g: '4',
@@ -3338,6 +3402,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '6',
+                    gs: '3',
+                    goals: '0',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '5',
@@ -3707,8 +3779,16 @@ new Vue({
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
                 achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '14 Times Best Substitutions'],
                 active: true,
-                position: ['GK', 'RB', 'LB', 'RM', 'LM', 'CF'],
+                position: ['GK', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '金龍賀歲盃',
                     g: '3',
@@ -3719,10 +3799,10 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '0',
+                    g: '4',
+                    gs: '1',
                     goals: '1',
-                    asts: '1',
+                    asts: '2',
                     cs: '0'
                 }, {
                     year: 'y2023',
@@ -4030,8 +4110,16 @@ new Vue({
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。四年級下學期被指派為球隊副隊長，並於五年級上學期時卸下職務。',
                 achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
                 active: true,
-                position: ['GK', 'RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
+                position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '教育盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '1',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '4',
@@ -4050,8 +4138,8 @@ new Vue({
                 }, {
                     year: 'y2024',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '3',
+                    g: '4',
+                    gs: '4',
                     goals: '1',
                     asts: '0',
                     cs: '0'

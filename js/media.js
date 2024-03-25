@@ -629,6 +629,20 @@ new Vue({
                 url: 'ArpTDajI#a69bjt6Y9KcoEZKQpMlpHKWmwUgqLhMxAf5kIblk1oI'
             }],
             icon: 'fas fa-trophy'
+        }, {
+            id: 41,
+            cupName: '2024臺北市教育盃',
+            cover: '2024educationcup',
+            videos: [{
+                date: '03/21',
+                opponents: '石牌國小、百齡國小',
+                url: 'NrhFlLzZ#Bn5_1_FQnAhbawutNU1cv1Xy42ppKrqDH8u6Q2u587g'
+            }, {
+                date: '03/22',
+                opponents: '和平國小',
+                url: 'w7Z2BLyQ#w0XTdiDU_jgAVPh8Xeqsg9_-IfDRxb5fljC6-mAbORU'
+            }],
+            icon: 'fas fa-book'
         }],
         photos: [{
             id: 1,
@@ -1346,6 +1360,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Hfmvc5W7CsDgZm1u5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240229-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-trophy'
+        }, {
+            id: 49,
+            cupName: '2024臺北市教育盃',
+            cover: '20240313-cover',
+            photos: [{
+                date: '03/13-22',
+                opponents: '',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/B3XaRSrMSjMaitZ79"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240313-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-book'
         }]
     },
     methods: {},
