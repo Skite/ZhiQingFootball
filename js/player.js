@@ -18,6 +18,14 @@ new Vue({
                 position: ['RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '教育盃',
                     g: '5',
                     gs: '1',
@@ -364,6 +372,14 @@ new Vue({
                 active: true,
                 position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '教育盃',
                     g: '6',
@@ -719,6 +735,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '青年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '教育盃',
                     g: '3',
@@ -1278,6 +1302,14 @@ new Vue({
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '教育盃',
                     g: '6',
                     gs: '2',
@@ -1656,6 +1688,14 @@ new Vue({
                 active: true,
                 position: ['GK'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '青年盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '國小世界盃',
                     g: '3',
@@ -2465,6 +2505,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '教育盃',
                     g: '6',
@@ -3403,6 +3451,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    year: 'y2024',
                     cup: '教育盃',
                     g: '6',
                     gs: '3',
@@ -4112,6 +4168,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    year: 'y2024',
+                    cup: '青年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     year: 'y2024',
                     cup: '教育盃',
                     g: '5',

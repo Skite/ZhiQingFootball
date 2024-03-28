@@ -8717,6 +8717,73 @@ new Vue({
                 instructors: ['柏豪', '冠岳'],
                 note: '* 學長／姐'
             }]
+        }, {
+            id: 51,
+            year: '2024',
+            cupName: '青年盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2024youthcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、宇正、子珩*、駿毅*、昀陞*、稟巖*、仲謙*'
+            }],
+            note: '',
+            matches: [{
+                date: '20240326',
+                pitch: '迎風足球場A',
+                opponent: { name: '士東國小', logo: '士東國小' },
+                formation: '3-3-1',
+                starters: ['GK-仲謙*', 'RB-昀陞*', 'CB-稟巖*', 'LB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 6,
+                    name: '子珩*'
+                }, {
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 16,
+                    name: '駿毅*'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['仲謙*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240327',
+                pitch: '迎風足球場A',
+                opponent: { name: '公館國小', logo: '公館國小' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-昀陞*', 'CB-宇正', 'LB-晉丞', 'RM-宥融', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 16,
+                    name: '駿毅*'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 8',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {},
