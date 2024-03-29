@@ -1131,11 +1131,11 @@ new Vue({
         }, {
             id: 33,
             cupName: '2023安聯小小世界盃',
-            cover: '20230603-1-cover',
+            cover: '20230603-cover',
             photos: [{
                 date: '06/03',
                 opponents: '小炫風U10、TFA皇馬、雙峰樂活',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-2-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/yfchxTbzut1J3Ajn7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20230603-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-angular'
         }, {
