@@ -605,7 +605,7 @@ new Vue({
             icon: 'fas fa-landmark'
         }, {
             id: 33,
-            cupName: '2023勝利聯賽',
+            cupName: '2023-24勝利聯賽',
             cover: '2023victoryleague',
             videos: [{
                 date: '10/15',
@@ -617,13 +617,7 @@ new Vue({
                 opponents: 'MFA_White、Taipei_Breakers',
                 cover: '20231126',
                 url: 'wyAzyAzL#jascB_hf4lx80ufJKqYgo52ewoA2l99uEQT8MRdO4rM'
-            }],
-            icon: 'fab fa-vimeo-v'
-        }, {
-            id: 34,
-            cupName: '2024勝利聯賽',
-            cover: '2024victoryleague',
-            videos: [{
+            }, {
                 date: '01/14',
                 opponents: '樂活象',
                 cover: '20240114',
@@ -636,7 +630,7 @@ new Vue({
             }],
             icon: 'fab fa-vimeo-v'
         }, {
-            id: 35,
+            id: 34,
             cupName: '2023Yamaha_Cup',
             cover: '2023yamahacup',
             videos: [{
@@ -647,7 +641,7 @@ new Vue({
             }],
             icon: 'fab fa-y-combinator'
         }, {
-            id: 36,
+            id: 35,
             cupName: '2023阿猴全國學童盃',
             cover: '2023studentcup',
             videos: [{
@@ -668,7 +662,7 @@ new Vue({
             }],
             icon: 'fas fa-user-graduate'
         }, {
-            id: 37,
+            id: 36,
             cupName: '2023Kappa週三夜交流賽',
             cover: '2023kappanightcup',
             videos: [{
@@ -679,7 +673,7 @@ new Vue({
             }],
             icon: 'fab fa-kickstarter'
         }, {
-            id: 38,
+            id: 37,
             cupName: '2023TES_Cup',
             cover: '2023tescup',
             videos: [{
@@ -695,7 +689,7 @@ new Vue({
             }],
             icon: 'far fa-euro-sign'
         }, {
-            id: 39,
+            id: 38,
             cupName: '2024金龍賀歲盃',
             cover: '2024dragoncup',
             videos: [{
@@ -716,7 +710,7 @@ new Vue({
             }],
             icon: 'fas fa-dragon'
         }, {
-            id: 40,
+            id: 39,
             cupName: '2024國小世界盃',
             cover: '2024elementaryworldcup',
             videos: [{
@@ -727,7 +721,7 @@ new Vue({
             }],
             icon: 'fas fa-trophy'
         }, {
-            id: 41,
+            id: 40,
             cupName: '2024臺北市教育盃',
             cover: '2024educationcup',
             videos: [{
@@ -1377,6 +1371,10 @@ new Vue({
                 date: '02/25',
                 opponents: 'MFA-Red',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/DvnFkXj676Sdwuhv5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240225-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '04/14',
+                opponents: '樂活鷹藍、新市國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/fVVFa1Lky3xN3RWX8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240414-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {

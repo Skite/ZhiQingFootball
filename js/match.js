@@ -7115,7 +7115,7 @@ new Vue({
             }]
         }, {
             id: 43,
-            year: '2023',
+            year: '2023-24',
             cupName: '勝利聯賽',
             system: '7人制',
             grade: 'U11',
@@ -7390,6 +7390,70 @@ new Vue({
                 goalkeepers: ['昕叡', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['柏豪', '冠岳'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240414',
+                pitch: '國立體育大學足球場',
+                opponent: { name: '樂活鷹藍', logo: '樂活' },
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-維恩', 'RM-黃衍', 'CM-亮谷', 'LM-皓宇', 'CF-晉丞'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '1 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240414',
+                pitch: '國立體育大學足球場',
+                opponent: { name: '新市國小', logo: '新市國小' },
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-宇正', 'LCB-亮谷', 'RM-皓宇', 'CM-維恩', 'LM-紘豪', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '5 : 4',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: '宇正'
+                }, {
+                    name: 'Own Goal',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
                 note: '',
                 bestSubs: ''
             }]
