@@ -6707,7 +6707,7 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['怡萍'],
                 note: '',
-                bestSubs: '丞晉'
+                bestSubs: '晉丞'
             }, {
                 date: '20230910',
                 pitch: '浮洲足球場',
