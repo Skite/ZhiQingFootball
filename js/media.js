@@ -627,6 +627,11 @@ new Vue({
                 opponents: 'MFA_Red',
                 cover: '20240225',
                 url: 'w6YnEKpS#UitPrYV1epWJtio82qxRKWfsEUE-UvHWKEubQiyu5F8'
+            }, {
+                date: '04/14',
+                opponents: '樂活鷹藍、新市國小',
+                cover: '20240414',
+                url: 'ZnI1mD4Y#rhMNIgbvQOU94uPqR5S_-IXMAJoo2BtfX5cwHYi9tQ0'
             }],
             icon: 'fab fa-vimeo-v'
         }, {
