@@ -7125,7 +7125,7 @@ new Vue({
                 name: '小悍將',
                 members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、宥融、昕叡、宇正'
             }],
-            note: ``,
+            note: `<a class="text-success" target="_blank" href="./img/table/2324victoryleague.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
                 date: '20231015',
                 pitch: '國立體育大學足球場',
@@ -7454,6 +7454,44 @@ new Vue({
                 goalkeepers: ['凱泰'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240421',
+                pitch: '國立體育大學足球場',
+                opponent: { name: 'BLES', logo: 'BLES' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-宇正', 'LCB-亮谷', 'RM-皓宇', 'CM-維恩', 'LM-紘豪', 'CF-黃衍'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '5 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '亮谷'
+                }, {
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '昕叡',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
                 note: '',
                 bestSubs: ''
             }]
@@ -8673,7 +8711,7 @@ new Vue({
             }, {
                 date: '20240321',
                 pitch: '清江國小',
-                opponent: { name: '百齡國小', logo: '百齡國小' },
+                opponent: { name: '百齡國小', logo: 'BLES' },
                 formation: '1-2-1（Diamond）',
                 starters: ['GK-仲謙', 'CB-振綸*', 'RM-稟巖*', 'LM-亮谷', 'CF-皓宇'],
                 subs: [{
