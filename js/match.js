@@ -8886,6 +8886,110 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 52,
+            year: '2024',
+            cupName: '明道盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2024mingdaocup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、昀陞*、仲謙*'
+            }],
+            note: '',
+            matches: [{
+                date: '20240505',
+                pitch: '明道國小',
+                opponent: { name: '明道國小U11', logo: '明道國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-皓宇', 'CM-亮谷', 'LM-昕叡', 'CF-黃衍'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 25,
+                    name: '昀陞*'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '國小',
+                final_score: '0 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '* 學長'
+            }, {
+                date: '20240505',
+                pitch: '明道國小',
+                opponent: { name: '天母國小', logo: '天母國小' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-晉丞', 'CB-維恩', 'LB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-黃衍'],
+                subs: [{
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }, {
+                    number: 38,
+                    name: '仲謙*'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['凱泰', '仲謙'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '* 學長'
+            }, {
+                date: '20240505',
+                pitch: '西門國小',
+                opponent: { name: '西門國小', logo: '西門國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-晉丞', 'CB-維恩', 'LB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-昕叡', 'CF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 25,
+                    name: '昀陞*'
+                }, {
+                    number: 27,
+                    name: '定謙'
+                }],
+                subTeam: '國小',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '黃衍'
+                }, {
+                    name: '昕叡',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '* 學長'
+            }]
         }]
     },
     methods: {},

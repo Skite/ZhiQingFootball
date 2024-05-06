@@ -1472,6 +1472,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/B3XaRSrMSjMaitZ79"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240313-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 50,
+            cupName: '2024明道盃',
+            cover: '20240505-cover',
+            photos: [{
+                date: '05/05',
+                opponents: '',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/byiyWVicHSno2P4X6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240505-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-book'
         }]
     },
     methods: {},
