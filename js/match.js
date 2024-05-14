@@ -3191,7 +3191,7 @@ new Vue({
             }, {
                 date: '20220921',
                 pitch: '青埔足球場',
-                opponent: { name: '安和國小', logo: '安和國小' },
+                opponent: { name: '安和國小', logo: '新北安和' },
                 formation: '3-3-1',
                 starters: ['GK-善捷', 'RB-宇正', 'CB-亮谷', 'LB-宥融', 'RM-昕叡', 'CM-維恩', 'LM-黃衍', 'CF-晉丞'],
                 subs: [{
@@ -5390,7 +5390,7 @@ new Vue({
             cupName: '豐米全國少年盃',
             system: '8人制',
             grade: 'U10',
-            cover: '2023youthcup',
+            cover: '2023youngcup',
             trophy: '',
             team: [{
                 name: '勇士',
@@ -8989,6 +8989,72 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['冠岳'],
                 note: '* 學長'
+            }]
+        }, {
+            id: 53,
+            year: '2024',
+            cupName: '全國少年盃',
+            system: '8人制',
+            grade: 'U11',
+            cover: '2024youngcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240510',
+                pitch: '宜蘭高中',
+                opponent: { name: '安和國小', logo: '新北安和' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-定謙', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '2 : 2',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '',
+                bestSubs: ''
+            }, {
+                date: '20240512',
+                pitch: '宜蘭運動公園體育場',
+                opponent: { name: '石牌國小', logo: '石牌國小' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-定謙', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '黃衍'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '',
+                bestSubs: ''
             }]
         }]
     },
