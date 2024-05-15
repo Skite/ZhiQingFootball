@@ -192,7 +192,7 @@
                                                                         <i class="fas fa-running"></i>
                                                                     </div>
                                                                     <div class="list-details" v-if="player.totalGS > 0">
-                                                                        <h4>{{ player.totalGS }} <small>as Starter</small></h4>
+                                                                        <h4>{{ player.totalGS }} <small>as Starter ({{ ((player.totalGS/player.totalMatches)*100).toFixed(2) }} %)</small></h4>
                                                                     </div>
                                                                 </li>
                                                             </ul>
@@ -240,34 +240,42 @@
                                                                     <div class="card text-primary" v-for="(match, index) in player.matchGroup">
                                                                         <div class="card-header" :id="`heading2023-${player.number}`">
                                                                             <h2 class="mb-0" :class="`modal-body-${index}`">
-                                                                                <button class="btn btn-outline-light btn-block text-left" :class="`modal-body-${index}`" data-toggle="collapse" :data-target="`#year${index}-${player.number}`" aria-expanded="true" :aria-controls="`year${index}`">
+                                                                                <button class="btn btn-outline-light btn-block text-left" :class="`modal-body-${index}`" data-toggle="collapse" :data-target="`#grade${index}-${player.number}`" aria-expanded="true" :aria-controls="`grade${index}`">
                                                                                     {{index.slice(-4)}} <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                                                 </button>
                                                                             </h2>
                                                                         </div>
-                                                                        <div :id="`year${index}-${player.number}`" class="collapse text-info show" :aria-labelledby="`year${index}`" :data-parent="`#accordion${player.number}`">
+                                                                        <div :id="`grade${index}-${player.number}`" class="collapse text-info show" :aria-labelledby="`grade${index}`" :data-parent="`#accordion${player.number}`">
                                                                             <div class="card-body table-responsive">
                                                                                 <table class="table">
                                                                                     <thead>
                                                                                         <tr>
-                                                                                            <!-- <th scope="col">Year</th> -->
+                                                                                            <!-- <th scope="col">grade</th> -->
                                                                                             <th scope="col">Tournament</th>
                                                                                             <th scope="col">GPs</th>
                                                                                             <th scope="col" class="d-none d-md-table-cell">Starts</th>
                                                                                             <th scope="col">Goals</th>
                                                                                             <th scope="col">Asts</th>
-                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                            <th scope="col" v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">CS</th>
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
+                                                                                        <tr class="bg-secondary text-light">
+                                                                                            <td>{{index}} 合計</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.g) + total,0)}}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{match.reduce((total, obj) => parseInt(obj.gs) + total,0)}}</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.goals) + total,0)}}</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.asts) + total,0)}}</td>
+                                                                                            <td v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">{{match.reduce((total, obj) => parseInt(obj.cs) + total,0)}}</td>
+                                                                                        </tr>
                                                                                         <tr v-for="app in match">
-                                                                                            <!-- <td>{{ app.year }}</td> -->
+                                                                                            <!-- <td>{{ app.grade }}</td> -->
                                                                                             <td>{{ app.cup }}</td>
                                                                                             <td>{{ app.g }}</td>
                                                                                             <td class="d-none d-md-table-cell">{{ app.gs }}</td>
                                                                                             <td>{{ app.goals }}</td>
                                                                                             <td>{{ app.asts }}</td>
-                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                            <td v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">{{ app.cs }}</td>
                                                                                         </tr>
                                                                                     </tbody>
                                                                                 </table>
@@ -455,20 +463,20 @@
                                                             </div>
                                                             <div class="tab-pane" :id="`gamelog${player.number}`">
                                                                 <div class="accordion" :id="`accordion${player.number}`">
-                                                                    <div class="card text-success">
-                                                                        <div class="card-header" id="heading2021">
+                                                                    <div class="card text-success" v-if="player.number == 13">
+                                                                        <div class="card-header" id="headingU11">
                                                                             <h2 class="mb-0">
-                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
-                                                                                    2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#gradeU11" aria-expanded="false" aria-controls="gradeU11">
+                                                                                    U11 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                                                 </button>
                                                                             </h2>
                                                                         </div>
-                                                                        <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
+                                                                        <div id="gradeU11" class="collapse text-success" aria-labelledby="gradeU11" :data-parent="`#accordion${player.number}`">
                                                                             <div class="card-body table-responsive">
                                                                                 <table class="table">
                                                                                     <thead>
                                                                                         <tr>
-                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Grade</th>
                                                                                             <th scope="col">Tournament</th>
                                                                                             <th scope="col">GPs</th>
                                                                                             <th scope="col" class="d-none d-md-table-cell">Starts</th>
@@ -478,8 +486,8 @@
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                                                            <td>{{ app.year }}</td>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.grade === 'U11'">
+                                                                                            <td>{{ app.grade }}</td>
                                                                                             <td>{{ app.cup }}</td>
                                                                                             <td>{{ app.g }}</td>
                                                                                             <td class="d-none d-md-table-cell">{{ app.gs }}</td>
@@ -492,20 +500,20 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="card text-info">
-                                                                        <div class="card-header" id="heading2020">
+                                                                    <div class="card text-success" v-if="player.number == 13">
+                                                                        <div class="card-header" id="headingU10">
                                                                             <h2 class="mb-0">
-                                                                                <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
-                                                                                    2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#gradeU10" aria-expanded="false" aria-controls="gradeU10">
+                                                                                    U10 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                                                 </button>
                                                                             </h2>
                                                                         </div>
-                                                                        <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
+                                                                        <div id="gradeU10" class="collapse text-success" aria-labelledby="gradeU10" :data-parent="`#accordion${player.number}`">
                                                                             <div class="card-body table-responsive">
                                                                                 <table class="table">
                                                                                     <thead>
                                                                                         <tr>
-                                                                                            <th scope="col">Year</th>
+                                                                                            <th scope="col">Grade</th>
                                                                                             <th scope="col">Tournament</th>
                                                                                             <th scope="col">GPs</th>
                                                                                             <th scope="col" class="d-none d-md-table-cell">Starts</th>
@@ -515,8 +523,45 @@
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
-                                                                                        <tr v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                                                            <td>{{ app.year }}</td>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.grade === 'U10'">
+                                                                                            <td>{{ app.grade }}</td>
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="player.position.includes('GK')">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card text-info" v-if="player.number != 13">
+                                                                        <div class="card-header" id="headingU8">
+                                                                            <h2 class="mb-0">
+                                                                                <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#gradeU8" aria-expanded="false" aria-controls="gradeU8">
+                                                                                    U8 <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div id="gradeU8" class="collapse text-secondary" aria-labelledby="gradeU8" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th scope="col">grade</th>
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="player.position.includes('GK')">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr v-for="app in player.appearance" v-if="app.grade === 'U8'">
+                                                                                            <td>{{ app.grade }}</td>
                                                                                             <td>{{ app.cup }}</td>
                                                                                             <td>{{ app.g }}</td>
                                                                                             <td class="d-none d-md-table-cell">{{ app.gs }}</td>
@@ -541,15 +586,15 @@
                                         <div class="card text-success">
                                             <div class="card-header" id="heading2021">
                                                 <h2 class="mb-0">
-                                                    <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#year2021" aria-expanded="false" aria-controls="year2021">
+                                                    <button class="btn text-success btn-outline-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#grade2021" aria-expanded="false" aria-controls="grade2021">
                                                         2021 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2021" class="collapse text-success" aria-labelledby="year2021" :data-parent="`#accordion${player.number}`">
+                                            <div id="grade2021" class="collapse text-success" aria-labelledby="grade2021" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col">Year</div>
+                                                        <div class="col">grade</div>
                                                         <div class="col-3">Tournament</div>
                                                         <div class="col">GPs</div>
                                                         <div class="col">Starts</div>
@@ -557,8 +602,8 @@
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2021'">
-                                                        <div class="col">{{ app.year }}</div>
+                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.grade === '2021'">
+                                                        <div class="col">{{ app.grade }}</div>
                                                         <div class="col-3">{{ app.cup }}</div>
                                                         <div class="col">{{ app.g }}</div>
                                                         <div class="col">{{ app.gs }}</div>
@@ -572,15 +617,15 @@
                                         <div class="card text-info">
                                             <div class="card-header" id="heading2020">
                                                 <h2 class="mb-0">
-                                                    <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#year2020" aria-expanded="false" aria-controls="year2020">
+                                                    <button class="btn text-secondary btn-outline-light btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#grade2020" aria-expanded="false" aria-controls="grade2020">
                                                         2020 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                                     </button>
                                                 </h2>
                                             </div>
-                                            <div id="year2020" class="collapse text-secondary" aria-labelledby="year2020" :data-parent="`#accordion${player.number}`">
+                                            <div id="grade2020" class="collapse text-secondary" aria-labelledby="grade2020" :data-parent="`#accordion${player.number}`">
                                                 <div class="card-body">
                                                     <div class="row">
-                                                        <div class="col">Year</div>
+                                                        <div class="col">grade</div>
                                                         <div class="col-3">Tournament</div>
                                                         <div class="col">GPs</div>
                                                         <div class="col">Starts</div>
@@ -588,8 +633,8 @@
                                                         <div class="col">Asts</div>
                                                         <div class="col-1" v-if="player.position.includes('GK')">CS</div>
                                                     </div>
-                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.year === '2020'">
-                                                        <div class="col">{{ app.year }}</div>
+                                                    <div class="row border-top py-2" v-for="app in player.appearance" v-if="app.grade === '2020'">
+                                                        <div class="col">{{ app.grade }}</div>
                                                         <div class="col-3">{{ app.cup }}</div>
                                                         <div class="col">{{ app.g }}</div>
                                                         <div class="col">{{ app.gs }}</div>
