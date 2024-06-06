@@ -1482,6 +1482,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/byiyWVicHSno2P4X6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240505-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 51,
+            cupName: '2024全國少年盃',
+            cover: '20240512-cover',
+            photos: [{
+                date: '05/10-12',
+                opponents: '安和國小、石牌國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/XLzvvAXQPJcAkDnz7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240512-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-child'
         }]
     },
     methods: {},
