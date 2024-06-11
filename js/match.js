@@ -9056,6 +9056,125 @@ new Vue({
                 note: '',
                 bestSubs: ''
             }]
+        }, {
+            id: 54,
+            year: '2024',
+            cupName: '包中盃',
+            system: '5人制',
+            grade: 'U11',
+            cover: '2024ricedumplingcup',
+            trophy: '分組季軍',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、柏燁、宥融、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240608',
+                pitch: '新莊田徑場',
+                opponent: { name: '旅人FC', logo: '旅人' },
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-宇正', 'RF-晉丞', 'LF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240609',
+                pitch: '新莊田徑場',
+                opponent: { name: '新店國小', logo: '新店國小' },
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-晉丞', 'LM-皓宇', 'CF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '小悍將',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: '晉丞'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: '維恩'
+                }, {
+                    name: '柏燁',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20240610',
+                pitch: '新莊田徑場',
+                opponent: { name: 'MFA-Red', logo: 'MFA' },
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-晉丞', 'CF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: ''
+            }]
         }]
     },
     methods: {},
