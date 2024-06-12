@@ -7678,7 +7678,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20231129',
-                pitch: '台北體育館',
+                pitch: '台北體育館四樓',
                 opponent: { name: '建安國小', logo: '建安國小', formation: '' },
                 formation: '1-2-1',
                 starters: ['GK-凱泰', 'CB-維恩', 'RM-宥融', 'LM-宇正', 'CF-皓宇'],
@@ -7703,7 +7703,7 @@ new Vue({
                 note: '* 學姐'
             }, {
                 date: '20231129',
-                pitch: '台北體育館',
+                pitch: '台北體育館四樓',
                 opponent: { name: '建安國小', logo: '建安國小', formation: '建安國小1' },
                 formation: '1-2-1',
                 starters: ['GK-凱泰', 'CB-維恩', 'RM-宥融', 'LM-宇晨*', 'CF-皓宇'],
@@ -7722,7 +7722,7 @@ new Vue({
                 note: '* 學姐'
             }, {
                 date: '20231129',
-                pitch: '台北體育館',
+                pitch: '台北體育館四樓',
                 opponent: { name: '建安國小', logo: '建安國小', formation: '建安國小2' },
                 formation: '1-2-1',
                 starters: ['GK-凱泰', 'CB-宇晨*', 'RM-宇正', 'LM-宥融', 'CF-維恩'],
@@ -9173,6 +9173,183 @@ new Vue({
                 goalkeepers: ['宥融'],
                 isCleanSheet: false,
                 instructors: ['冠岳'],
+                note: ''
+            }]
+        }, {
+            id: 55,
+            year: '2024',
+            cupName: '中正主委盃',
+            system: '5人制',
+            grade: 'U11',
+            cover: '2024chairmancup',
+            trophy: '亞軍',
+            team: [{
+                name: '小悍將',
+                members: '晉丞、黃衍、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240611',
+                pitch: '台北體育館一樓',
+                opponent: { name: 'Soccer Star', logo: 'SCSFC', formation: 'SCSFC_1' },
+                formation: '1-2-1',
+                starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-亮谷', 'CF-黃衍'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '黃衍'
+                }, {
+                    name: '昕叡',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: '亮谷'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240611',
+                pitch: '台北體育館一樓',
+                opponent: { name: '光復國小', logo: '光復國小', formation: '光復國小_1' },
+                formation: '2-0-2',
+                starters: ['GK-宥融', 'RB-維恩', 'LB-黃衍', 'RF-昕叡', 'LF-亮谷'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 97,
+                    name: '宇正'
+                }],
+                subTeam: '小悍將',
+                final_score: '2 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240611',
+                pitch: '台北體育館一樓',
+                opponent: { name: 'Soccer Star', logo: 'SCSFC', formation: 'SCSFC_2' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-宇正', 'LB-晉丞', 'RF-亮谷', 'LF-宥融'],
+                subs: [{
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '4 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '宥融'
+                }, {
+                    name: '柏燁',
+                    assist: '昕叡'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240611',
+                pitch: '台北體育館一樓',
+                opponent: { name: '光復國小', logo: '光復國小', formation: '光復國小_2' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-黃衍', 'LB-維恩', 'RF-亮谷', 'LF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '小悍將',
+                final_score: '3 : 10',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宇正',
+                    assist: '黃衍'
+                }, {
+                    name: '亮谷',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
                 note: ''
             }]
         }]

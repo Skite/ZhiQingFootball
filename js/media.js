@@ -1492,6 +1492,24 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/XLzvvAXQPJcAkDnz7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240512-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-child'
+        }, {
+            id: 52,
+            cupName: '2024包中盃',
+            cover: '20240610-cover',
+            photos: [{
+                date: '06/08',
+                opponents: '旅人FC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/uFgQfK548pthPC9n9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240608-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '06/09',
+                opponents: '新店國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/Q7GBv3apa14qfify9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240609-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '06/10',
+                opponents: 'MFA-Red',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/pBrFiLZ5o1EX2Unh8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240610-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-bullseye-arrow'
         }]
     },
     methods: {},

@@ -1,11 +1,11 @@
 {
-    "updated": "2024/5/11 10:00",
+    "updated": "2024/6/12 10:00",
     "hard":
     {
-        "matches": "51",
-        "wins": "30",
+        "matches": "55",
+        "wins": "32",
         "draws": "0",
-        "loses": "21"
+        "loses": "23"
     },
     "grass":
     {
@@ -18,16 +18,16 @@
     {
         "U11":
         {
-            "matches": "40",
-            "wins": "22",
+            "matches": "44",
+            "wins": "24",
             "draws": "3",
-            "loses": "15",
+            "loses": "17",
             "gold": "2",
-            "silver": "1",
+            "silver": "2",
             "bronze": "3",
-            "scores": "162",
-            "conc": "80",
-            "cs": "11"
+            "scores": "175",
+            "conc": "98",
+            "cs": "12"
         },
         "U10":
         {
