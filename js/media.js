@@ -344,7 +344,7 @@ new Vue({
             }, {
                 date: '02/05',
                 opponents: 'AC-Taipei-U10',
-                cover: '20230225',
+                cover: '20230205',
                 url: 'lyowGBKb#Rg0iHJ2VYrEgeJJ8InbYJpRW2wMGvc0JOGoBpwASP28'
             }],
             icon: 'fas fa-rabbit-fast'
@@ -474,7 +474,7 @@ new Vue({
         }, {
             id: 26,
             cupName: '2023豐米全國少年盃',
-            cover: '2023youthcup',
+            cover: '2023youngcup',
             videos: [{
                 date: '06/22',
                 opponents: '小不老FC',
@@ -787,7 +787,7 @@ new Vue({
             }, {
                 date: '12/26',
                 opponents: '日新Yoyo',
-                url: `<a target="_blank" href="https://photos.app.goo.gl/hj7Apba1PAuXJd2E7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cov.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+                url: `<a target="_blank" href="https://photos.app.goo.gl/hj7Apba1PAuXJd2E7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20201226-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-link'
         }, {
