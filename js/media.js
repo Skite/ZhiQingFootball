@@ -521,6 +521,17 @@ new Vue({
             icon: 'far fa-microphone-stand'
         }, {
             id: 29,
+            cupName: '2023格溫拜克盃',
+            cover: '2023grunbeckcup',
+            videos: [{
+                date: '08/06',
+                opponents: '北新國小、磐石、星足twfc、TopFive、幸安',
+                cover: '20230806',
+                url: 'gvQjkDxQ#w5Uu09oksJef7vaIrJjDlxFa0mLlFsT6C1FOIeqpjvc'
+            }],
+            icon: 'far fa-tint'
+        }, {
+            id: 30,
             cupName: '2023淡水盃',
             cover: '2023tamsuicup',
             videos: [{
@@ -541,7 +552,7 @@ new Vue({
             }],
             icon: 'fas fa-ship'
         }, {
-            id: 30,
+            id: 31,
             cupName: '2023（下）黃蜂盃',
             cover: '2023bumblebeecup2',
             videos: [{
@@ -557,7 +568,7 @@ new Vue({
             }],
             icon: 'fab fa-forumbee'
         }, {
-            id: 31,
+            id: 32,
             cupName: '2023新北市少年八人制秋季聯賽',
             cover: '2023eightmanfall',
             videos: [{
@@ -578,7 +589,7 @@ new Vue({
             }],
             icon: 'fas fa-running'
         }, {
-            id: 32,
+            id: 33,
             cupName: '2023臺北市中正盃',
             cover: '2023ckscup',
             videos: [{
@@ -604,7 +615,7 @@ new Vue({
             }],
             icon: 'fas fa-landmark'
         }, {
-            id: 33,
+            id: 34,
             cupName: '2023-24勝利聯賽',
             cover: '2023victoryleague',
             videos: [{
@@ -635,7 +646,7 @@ new Vue({
             }],
             icon: 'fab fa-vimeo-v'
         }, {
-            id: 34,
+            id: 35,
             cupName: '2023Yamaha_Cup',
             cover: '2023yamahacup',
             videos: [{
@@ -646,7 +657,7 @@ new Vue({
             }],
             icon: 'fab fa-y-combinator'
         }, {
-            id: 35,
+            id: 36,
             cupName: '2023阿猴全國學童盃',
             cover: '2023studentcup',
             videos: [{
@@ -667,7 +678,7 @@ new Vue({
             }],
             icon: 'fas fa-user-graduate'
         }, {
-            id: 36,
+            id: 37,
             cupName: '2023Kappa週三夜交流賽',
             cover: '2023kappanightcup',
             videos: [{
@@ -678,7 +689,7 @@ new Vue({
             }],
             icon: 'fab fa-kickstarter'
         }, {
-            id: 37,
+            id: 38,
             cupName: '2023TES_Cup',
             cover: '2023tescup',
             videos: [{
@@ -694,7 +705,7 @@ new Vue({
             }],
             icon: 'far fa-euro-sign'
         }, {
-            id: 38,
+            id: 39,
             cupName: '2024金龍賀歲盃',
             cover: '2024dragoncup',
             videos: [{
@@ -715,7 +726,7 @@ new Vue({
             }],
             icon: 'fas fa-dragon'
         }, {
-            id: 39,
+            id: 40,
             cupName: '2024國小世界盃',
             cover: '2024elementaryworldcup',
             videos: [{
@@ -726,7 +737,7 @@ new Vue({
             }],
             icon: 'fas fa-trophy'
         }, {
-            id: 40,
+            id: 41,
             cupName: '2024臺北市教育盃',
             cover: '2024educationcup',
             videos: [{
