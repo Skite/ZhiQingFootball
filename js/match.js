@@ -9352,12 +9352,35 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
-        }]
+        }],
+        result: ''
     },
-    methods: {},
+    methods: {
+        sumMatches(arr) {
+            console.log(arr.reduce((a, b) => { a.push(a.length + b.length); return a; }, []))
+            // this.result = arr.reduce((acc, element) => acc + element.length, 0);
+        }
+    },
     computed: {
-        sortMatches: function() {
+        sortMatches() {
             return _.orderBy(this.cups, 'id', 'desc')
+        },
+        matchType() {
+            let urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('type');
+        },
+        filteredCups() {
+            let cups = _.orderBy(this.cups, 'id', 'desc')
+            cups = _.filter(cups, cup => cup.trophy.includes(this.matchType))
+            let matchResults = _.map(cups, cup => ({
+                ...cup,
+                matches: _.filter(cup.matches, match => match.wdl === this.matchType.slice(0, 1)),
+            }));
+
+            return {
+                cups: cups,
+                matches: matchResults
+            }
         }
     },
     filters: {}
