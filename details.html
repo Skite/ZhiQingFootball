@@ -24,18 +24,15 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
-    <link href="css/schedule.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <style type="text/css">
     #ZhiQingFootball {
-        font-size: 1.3em;
+        background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+        background: linear-gradient(to right, #25c481, #25b7c4);
     }
 
-    .cup:nth-child(odd) {
-        background: #dddddd;
-    }
-
-    .cup:nth-child(even) {
-        background: #bbbbdb;
+    .td-detail {
+        width: 60%;
     }
     </style>
 </head>
@@ -77,88 +74,80 @@
     </header>
     <!-- matches -->
     <section id="ZhiQingFootball" class="container bg-light text-center">
-        <h2>{{matchType}} Details</h2>
-        <div class="container-fluid" v-cloak>
-            <template v-if="matchType.slice(-1) === 's'">
-                <div class="py-2">
-                    <strong>Total {{matchType}} : {{ filteredCups.matches.reduce((a, c) => a + parseInt(c.matches.length), 0) }} games</strong>
-                </div>
-                <div class="row px-lg-4 py-2 cup">
-                    <div class="col-1 align-middle">
-                        年份
-                    </div>
-                    <div class="col-2 align-middle">
-                        賽事
-                    </div>
-                    <div class="col-1 align-middle">
-                        層級
-                    </div>
-                    <div class="col-8 border-left border-primary">
-                        比賽日期、對手、結果
-                    </div>
-                </div>
-                <div class="row px-lg-4 py-2 cup" v-for="cup in filteredCups.matches" v-if="cup.matches.length > 0">
-                    <div class="col-1 align-middle">
-                        {{cup.year}}
-                    </div>
-                    <div class="col-2 align-middle">
-                        {{cup.cupName}}
-                    </div>
-                    <div class="col-1 align-middle">
-                        {{cup.grade}}
-                    </div>
-                    <div class="col-8 border-left border-primary">
-                        <div class="row" v-for="match in cup.matches">
-                            <div class="col">
-                                {{match.date}}
-                            </div>
-                            <div class="col">
-                                {{match.opponent.name}}
-                            </div>
-                            <div class="col">
-                                {{match.final_score}}
-                            </div>
-                            <div class="col">
-                                {{match.wdl}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </template>
-            <template v-else>
-                <div class="py-2">
-                    <strong>Total : {{ filteredCups.cups.length }} {{matchType}}</strong>
-                </div>
-                <div class="row px-lg-4 py-2 cup">
-                    <div class="col-2 align-middle">
-                        年份
-                    </div>
-                    <div class="col-5 align-middle">
-                        賽事
-                    </div>
-                    <div class="col-3 align-middle">
-                        賽制
-                    </div>
-                    <div class="col-2 align-middle">
-                        層級
-                    </div>
-                </div>
-                <div class="row px-lg-4 py-2 cup" v-for="cup in filteredCups.cups">
-                    <div class="col-2 align-middle">
-                        {{cup.year}}
-                    </div>
-                    <div class="col-5 align-middle">
-                        {{cup.cupName}}
-                    </div>
-                    <div class="col-3 align-middle">
-                        {{cup.system}}
-                    </div>
-                    <div class="col-2 align-middle">
-                        {{cup.grade}}
-                    </div>
-                </div>
-            </template>
-        </div>
+        <h1>{{matchType}} Details</h1>
+        <template v-if="matchType.slice(-1) === 's'">
+            <h4 class="my-2">
+                <strong>Total {{matchType}} : {{ filteredCups.matches.reduce((a, c) => a + parseInt(c.matches.length), 0) }} Games</strong>
+            </h4>
+            <div class="tbl-header">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                        <tr>
+                            <th class="d-none d-sm-table-cell">年份</th>
+                            <th>賽事</th>
+                            <th>層級</th>
+                            <th class="td-detail"><span class="d-none d-sm-table-cell">比賽日期、</span>對手、結果</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr v-for="cup in filteredCups.matches" v-if="cup.matches.length > 0">
+                            <td class="d-none d-sm-table-cell">{{cup.year}}</td>
+                            <td>{{cup.cupName}}</td>
+                            <td>{{cup.grade}}</td>
+                            <td class="td-detail">
+                                <div class="row" v-for="match in cup.matches">
+                                    <div class="col d-none d-sm-table-cell">
+                                        {{match.date.slice(-4, -2)}}/{{match.date.slice(-2)}}
+                                    </div>
+                                    <div class="col-xs-6">
+                                        {{match.opponent.name}}
+                                    </div>
+                                    <div class="col">
+                                        {{match.final_score}}
+                                    </div>
+                                    <div class="col">
+                                        {{match.wdl}}
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </template>
+        <template v-else>
+            <h4 class="py-2">
+                <strong>Total : {{ filteredCups.trophies.length }} {{matchType}}</strong>
+            </h4>
+            <div class="tbl-header">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                        <tr>
+                            <th>年份</th>
+                            <th>賽事</th>
+                            <th>層級</th>
+                            <th>賽制</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr v-for="cup in filteredCups.trophies">
+                            <td>{{cup.year}}</td>
+                            <td>{{cup.cupName}}</td>
+                            <td>{{cup.grade}}</td>
+                            <td>{{cup.system}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </template>
     </section>
     <!-- Footer -->
     <footer class="footer bg-light">
@@ -219,6 +208,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/match.js"></script>
+    <script type="text/javascript">
+    $(window).on("load resize ", function() {
+        var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+        $('.tbl-header').css({ 'padding-right': scrollWidth });
+    }).resize();
+    </script>
 </body>
 
 </html>
