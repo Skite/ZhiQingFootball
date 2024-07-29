@@ -52,17 +52,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             }
         ],
         fiveManData = [{
-                y: Number(stats.five.U11.wins) + Number(stats.five.U10.wins) + Number(stats.five.U9.wins) + Number(stats.five.U8.wins),
+                y: Number(stats.five.U12.wins) + Number(stats.five.U11.wins) + Number(stats.five.U10.wins) + Number(stats.five.U9.wins) + Number(stats.five.U8.wins),
                 color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.five.U12.wins),
                         Number(stats.five.U11.wins),
                         Number(stats.five.U10.wins),
                         Number(stats.five.U9.wins),
@@ -71,17 +73,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.five.U11.draws) + Number(stats.five.U10.draws) + Number(stats.five.U9.draws) + Number(stats.five.U8.draws),
+                y: Number(stats.five.U12.draws) + Number(stats.five.U11.draws) + Number(stats.five.U10.draws) + Number(stats.five.U9.draws) + Number(stats.five.U8.draws),
                 color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.five.U12.draws),
                         Number(stats.five.U11.draws),
                         Number(stats.five.U10.draws),
                         Number(stats.five.U9.draws),
@@ -90,17 +94,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.five.U11.loses) + Number(stats.five.U10.loses) + Number(stats.five.U9.loses) + Number(stats.five.U8.loses),
+                y: Number(stats.five.U12.loses) + Number(stats.five.U11.loses) + Number(stats.five.U10.loses) + Number(stats.five.U9.loses) + Number(stats.five.U8.loses),
                 color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.five.U12.loses),
                         Number(stats.five.U11.loses),
                         Number(stats.five.U10.loses),
                         Number(stats.five.U9.loses),
@@ -110,17 +116,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             }
         ],
         eightManData = [{
-                y: Number(stats.eight.U11.wins) + Number(stats.eight.U10.wins) + Number(stats.eight.U9.wins) + Number(stats.eight.U8.wins),
+                y: Number(stats.eight.U12.wins) + Number(stats.eight.U11.wins) + Number(stats.eight.U10.wins) + Number(stats.eight.U9.wins) + Number(stats.eight.U8.wins),
                 color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.eight.U12.wins),
                         Number(stats.eight.U11.wins),
                         Number(stats.eight.U10.wins),
                         Number(stats.eight.U9.wins),
@@ -129,17 +137,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.eight.U11.draws) + Number(stats.eight.U10.draws) + Number(stats.eight.U9.draws) + Number(stats.eight.U8.draws),
+                y: Number(stats.eight.U12.draws) + Number(stats.eight.U11.draws) + Number(stats.eight.U10.draws) + Number(stats.eight.U9.draws) + Number(stats.eight.U8.draws),
                 color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.eight.U12.draws),
                         Number(stats.eight.U11.draws),
                         Number(stats.eight.U10.draws),
                         Number(stats.eight.U9.draws),
@@ -148,17 +158,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.eight.U11.loses) + Number(stats.eight.U10.loses) + Number(stats.eight.U9.loses) + Number(stats.eight.U8.loses),
+                y: Number(stats.eight.U12.loses) + Number(stats.eight.U11.loses) + Number(stats.eight.U10.loses) + Number(stats.eight.U9.loses) + Number(stats.eight.U8.loses),
                 color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.eight.U12.loses),
                         Number(stats.eight.U11.loses),
                         Number(stats.eight.U10.loses),
                         Number(stats.eight.U9.loses),
@@ -168,17 +180,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             }
         ],
         sevenManData = [{
-                y: Number(stats.seven.U11.wins) + Number(stats.seven.U10.wins) + Number(stats.seven.U9.wins) + Number(stats.seven.U8.wins),
+                y: Number(stats.seven.U12.wins) + Number(stats.seven.U11.wins) + Number(stats.seven.U10.wins) + Number(stats.seven.U9.wins) + Number(stats.seven.U8.wins),
                 color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.seven.U12.wins),
                         Number(stats.seven.U11.wins),
                         Number(stats.seven.U10.wins),
                         Number(stats.seven.U9.wins),
@@ -187,17 +201,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.seven.U11.draws) + Number(stats.seven.U10.draws) + Number(stats.seven.U9.draws) + Number(stats.seven.U8.draws),
+                y: Number(stats.seven.U12.draws) + Number(stats.seven.U11.draws) + Number(stats.seven.U10.draws) + Number(stats.seven.U9.draws) + Number(stats.seven.U8.draws),
                 color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.seven.U12.draws),
                         Number(stats.seven.U11.draws),
                         Number(stats.seven.U10.draws),
                         Number(stats.seven.U9.draws),
@@ -206,17 +222,19 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             },
             {
-                y: Number(stats.seven.U11.loses) + Number(stats.seven.U10.loses) + Number(stats.seven.U9.loses) + Number(stats.seven.U8.loses),
+                y: Number(stats.seven.U12.loses) + Number(stats.seven.U11.loses) + Number(stats.seven.U10.loses) + Number(stats.seven.U9.loses) + Number(stats.seven.U8.loses),
                 color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
+                        'U12',
                         'U11',
                         'U10',
                         'U9',
                         'U8'
                     ],
                     data: [
+                        Number(stats.seven.U12.loses),
                         Number(stats.seven.U11.loses),
                         Number(stats.seven.U10.loses),
                         Number(stats.seven.U9.loses),
@@ -396,7 +414,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             align: 'center'
         },
         subtitle: {
-            text: `${Number(stats.five.U11.wins)+Number(stats.five.U10.wins)+Number(stats.five.U9.wins)+Number(stats.five.U8.wins)} 勝 - ${Number(stats.five.U11.draws)+Number(stats.five.U10.draws)+Number(stats.five.U9.draws)+Number(stats.five.U8.draws)} 和 - ${Number(stats.five.U11.loses)+Number(stats.five.U10.loses)+Number(stats.five.U9.loses)+Number(stats.five.U8.loses)} 敗`,
+            text: `${Number(stats.five.U12.wins)+Number(stats.five.U11.wins)+Number(stats.five.U10.wins)+Number(stats.five.U9.wins)+Number(stats.five.U8.wins)} 勝 - ${Number(stats.five.U12.draws)+Number(stats.five.U11.draws)+Number(stats.five.U10.draws)+Number(stats.five.U9.draws)+Number(stats.five.U8.draws)} 和 - ${Number(stats.five.U12.loses)+Number(stats.five.U11.loses)+Number(stats.five.U10.loses)+Number(stats.five.U9.loses)+Number(stats.five.U8.loses)} 敗`,
             align: 'center',
             style: {
                 color: '#4287f5',
@@ -451,7 +469,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             align: 'center'
         },
         subtitle: {
-            text: `${Number(stats.eight.U11.wins)+Number(stats.eight.U10.wins)+Number(stats.eight.U9.wins)+Number(stats.eight.U8.wins)} 勝 - ${Number(stats.eight.U11.draws)+Number(stats.eight.U10.draws)+Number(stats.eight.U9.draws)+Number(stats.eight.U8.draws)} 和 - ${Number(stats.eight.U11.loses)+Number(stats.eight.U10.loses)+Number(stats.eight.U9.loses)+Number(stats.eight.U8.loses)} 敗`,
+            text: `${Number(stats.eight.U12.wins)+Number(stats.eight.U11.wins)+Number(stats.eight.U10.wins)+Number(stats.eight.U9.wins)+Number(stats.eight.U8.wins)} 勝 - ${Number(stats.eight.U12.draws)+Number(stats.eight.U11.draws)+Number(stats.eight.U10.draws)+Number(stats.eight.U9.draws)+Number(stats.eight.U8.draws)} 和 - ${Number(stats.eight.U12.loses)+Number(stats.eight.U11.loses)+Number(stats.eight.U10.loses)+Number(stats.eight.U9.loses)+Number(stats.eight.U8.loses)} 敗`,
             align: 'center',
             style: {
                 color: '#4287f5',
@@ -508,7 +526,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             align: 'center'
         },
         subtitle: {
-            text: `${Number(stats.seven.U11.wins)+Number(stats.seven.U10.wins)+Number(stats.seven.U9.wins)+Number(stats.seven.U8.wins)} 勝 - ${Number(stats.seven.U11.draws)+Number(stats.seven.U10.draws)+Number(stats.seven.U9.draws)+Number(stats.seven.U8.draws)} 和 - ${Number(stats.seven.U11.loses)+Number(stats.seven.U10.loses)+Number(stats.seven.U9.loses)+Number(stats.seven.U8.loses)} 敗`,
+            text: `${Number(stats.seven.U12.wins)+Number(stats.seven.U11.wins)+Number(stats.seven.U10.wins)+Number(stats.seven.U9.wins)+Number(stats.seven.U8.wins)} 勝 - ${Number(stats.seven.U12.draws)+Number(stats.seven.U11.draws)+Number(stats.seven.U10.draws)+Number(stats.seven.U9.draws)+Number(stats.seven.U8.draws)} 和 - ${Number(stats.seven.U12.loses)+Number(stats.seven.U11.loses)+Number(stats.seven.U10.loses)+Number(stats.seven.U9.loses)+Number(stats.seven.U8.loses)} 敗`,
             align: 'center',
             style: {
                 color: '#4287f5',
@@ -582,8 +600,16 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 borderRadius: '25%'
             }
         },
-        colors: [colors[5], colors[3], colors[2], colors[6]],
+        colors: [colors[1], colors[5], colors[3], colors[2], colors[6]],
         series: [{
+            name: 'U12',
+            data: [
+                Number(stats.five.U12.scores) + Number(stats.eight.U12.scores) + Number(stats.seven.U12.scores),
+                -(Number(stats.five.U12.conc) + Number(stats.eight.U12.conc) + Number(stats.seven.U12.conc)),
+                Number(stats.five.U12.scores) + Number(stats.eight.U12.scores) + Number(stats.seven.U12.scores) - Number(stats.five.U12.conc) - Number(stats.eight.U12.conc) - Number(stats.seven.U12.conc),
+                Number(stats.five.U12.cs) + Number(stats.eight.U12.cs) + Number(stats.seven.U12.cs)
+            ]
+        }, {
             name: 'U11',
             data: [
                 Number(stats.five.U11.scores) + Number(stats.eight.U11.scores) + Number(stats.seven.U11.scores),
@@ -648,26 +674,26 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         series: [{
             name: '五人制',
             data: [
-                Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores),
-                -(Number(stats.five.U11.conc) + Number(stats.five.U10.conc) + Number(stats.five.U9.conc) + Number(stats.five.U8.conc)),
-                Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores) - Number(stats.five.U11.conc) - Number(stats.five.U10.conc) - Number(stats.five.U9.conc) - Number(stats.five.U8.conc),
-                Number(stats.five.U11.cs) + Number(stats.five.U10.cs) + Number(stats.five.U9.cs) + Number(stats.five.U8.cs)
+                Number(stats.five.U12.scores) + Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores),
+                -(Number(stats.five.U12.conc) + Number(stats.five.U11.conc) + Number(stats.five.U10.conc) + Number(stats.five.U9.conc) + Number(stats.five.U8.conc)),
+                Number(stats.five.U12.scores) + Number(stats.five.U11.scores) + Number(stats.five.U10.scores) + Number(stats.five.U9.scores) + Number(stats.five.U8.scores) - Number(stats.five.U12.conc) - Number(stats.five.U11.conc) - Number(stats.five.U10.conc) - Number(stats.five.U9.conc) - Number(stats.five.U8.conc),
+                Number(stats.five.U12.cs) + Number(stats.five.U11.cs) + Number(stats.five.U10.cs) + Number(stats.five.U9.cs) + Number(stats.five.U8.cs)
             ]
         }, {
             name: '八人制',
             data: [
-                Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores),
-                -(Number(stats.eight.U11.conc) + Number(stats.eight.U10.conc) + Number(stats.eight.U9.conc) + Number(stats.eight.U8.conc)),
-                Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores) - Number(stats.eight.U11.conc) - Number(stats.eight.U10.conc) - Number(stats.eight.U9.conc) - Number(stats.eight.U8.conc),
-                Number(stats.eight.U11.cs) + Number(stats.eight.U10.cs) + Number(stats.eight.U9.cs) + Number(stats.eight.U8.cs)
+                Number(stats.eight.U12.scores) + Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores),
+                -(Number(stats.eight.U12.conc) + Number(stats.eight.U11.conc) + Number(stats.eight.U10.conc) + Number(stats.eight.U9.conc) + Number(stats.eight.U8.conc)),
+                Number(stats.eight.U12.scores) + Number(stats.eight.U11.scores) + Number(stats.eight.U10.scores) + Number(stats.eight.U9.scores) + Number(stats.eight.U8.scores) - Number(stats.eight.U12.conc) - Number(stats.eight.U11.conc) - Number(stats.eight.U10.conc) - Number(stats.eight.U9.conc) - Number(stats.eight.U8.conc),
+                Number(stats.eight.U12.cs) + Number(stats.eight.U11.cs) + Number(stats.eight.U10.cs) + Number(stats.eight.U9.cs) + Number(stats.eight.U8.cs)
             ]
         }, {
             name: '七人制',
             data: [
-                Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores),
-                -(Number(stats.seven.U11.conc) + Number(stats.seven.U10.conc) + Number(stats.seven.U9.conc) + Number(stats.seven.U8.conc)),
-                Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores) - Number(stats.seven.U11.conc) - Number(stats.seven.U10.conc) - Number(stats.seven.U9.conc) - Number(stats.seven.U8.conc),
-                Number(stats.seven.U11.cs) + Number(stats.seven.U10.cs) + Number(stats.seven.U9.cs) + Number(stats.seven.U8.cs)
+                Number(stats.seven.U12.scores) + Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores),
+                -(Number(stats.seven.U12.conc) + Number(stats.seven.U11.conc) + Number(stats.seven.U10.conc) + Number(stats.seven.U9.conc) + Number(stats.seven.U8.conc)),
+                Number(stats.seven.U12.scores) + Number(stats.seven.U11.scores) + Number(stats.seven.U10.scores) + Number(stats.seven.U9.scores) + Number(stats.seven.U8.scores) - Number(stats.seven.U12.scores) - Number(stats.seven.U11.conc) - Number(stats.seven.U10.conc) - Number(stats.seven.U9.conc) - Number(stats.seven.U8.conc),
+                Number(stats.seven.U12.cs) + Number(stats.seven.U11.cs) + Number(stats.seven.U10.cs) + Number(stats.seven.U9.cs) + Number(stats.seven.U8.cs)
             ]
         }]
     });
@@ -688,7 +714,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 text: '次'
             }
         },
-        colors: [colors[5], colors[5], colors[5], colors[3], colors[3], colors[3], colors[2], colors[2], colors[2], colors[6], colors[6], colors[6]],
+        colors: [colors[1], colors[1], colors[1], colors[5], colors[5], colors[5], colors[3], colors[3], colors[3], colors[2], colors[2], colors[2], colors[6], colors[6], colors[6]],
         plotOptions: {
             series: {
                 stacking: 'normal',
@@ -704,6 +730,36 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         },
         series: [{
             id: 1,
+            name: 'U12',
+            data: [Number(stats.five.U12.gold), Number(stats.five.U12.silver), Number(stats.five.U12.bronze)],
+            stack: '五人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U12',
+            data: [Number(stats.eight.U12.gold), Number(stats.eight.U12.silver), Number(stats.eight.U12.bronze)],
+            stack: '八人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            linkedTo: ':previous',
+            name: 'U12',
+            data: [Number(stats.seven.U12.gold), Number(stats.seven.U12.silver), Number(stats.seven.U12.bronze)],
+            stack: '七人制',
+            dataLabels: {
+                formatter: function() {
+                    return this.y > 0 ? this.y : null;
+                }
+            }
+        }, {
+            id: 2,
             name: 'U11',
             data: [Number(stats.five.U11.gold), Number(stats.five.U11.silver), Number(stats.five.U11.bronze)],
             stack: '五人制',
@@ -733,7 +789,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             }
         }, {
-            id: 2,
+            id: 3,
             name: 'U10',
             data: [Number(stats.five.U10.gold), Number(stats.five.U10.silver), Number(stats.five.U10.bronze)],
             stack: '五人制',
@@ -763,7 +819,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             }
         }, {
-            id: 3,
+            id: 4,
             name: 'U9',
             data: [Number(stats.five.U9.gold), Number(stats.five.U9.silver), Number(stats.five.U9.bronze)],
             stack: '五人制',
@@ -793,7 +849,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
                 }
             }
         }, {
-            id: 4,
+            id: 5,
             name: 'U8',
             data: [Number(stats.five.U8.gold), Number(stats.five.U8.silver), Number(stats.five.U8.bronze)],
             stack: '五人制',
@@ -840,9 +896,9 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             }
         },
         xAxis: {
-            categories: ['U8', 'U9', 'U10', 'U11']
+            categories: ['U8', 'U9', 'U10', 'U11', 'U12']
         },
-        colors: [colors[5], colors[2], colors[1], colors[6]],
+        colors: [colors[5], colors[2], colors[1], colors[6], colors[3]],
         legend: {
             layout: 'vertical',
             align: 'right',
@@ -858,13 +914,13 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         },
         series: [{
             name: '五人制',
-            data: [Number(stats.five.U8.matches), Number(stats.five.U9.matches), Number(stats.five.U10.matches), Number(stats.five.U11.matches)]
+            data: [Number(stats.five.U8.matches), Number(stats.five.U9.matches), Number(stats.five.U10.matches), Number(stats.five.U11.matches), Number(stats.five.U12.matches)]
         }, {
             name: '八人制',
-            data: [Number(stats.eight.U8.matches), Number(stats.eight.U9.matches), Number(stats.eight.U10.matches), Number(stats.eight.U11.matches)]
+            data: [Number(stats.eight.U8.matches), Number(stats.eight.U9.matches), Number(stats.eight.U10.matches), Number(stats.eight.U11.matches), Number(stats.eight.U12.matches)]
         }, {
             name: '七人制',
-            data: [Number(stats.seven.U8.matches), Number(stats.seven.U9.matches), Number(stats.seven.U10.matches), Number(stats.seven.U11.matches)]
+            data: [Number(stats.seven.U8.matches), Number(stats.seven.U9.matches), Number(stats.seven.U10.matches), Number(stats.seven.U11.matches), Number(stats.seven.U12.matches)]
         }]
     });
 })
