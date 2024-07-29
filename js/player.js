@@ -17,6 +17,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -396,6 +404,14 @@ new Vue({
                 active: true,
                 position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '5',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -1349,6 +1365,14 @@ new Vue({
                 active: true,
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '5',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -1768,6 +1792,14 @@ new Vue({
                 active: true,
                 position: ['GK'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '6',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -2131,6 +2163,14 @@ new Vue({
                 active: true,
                 position: ['CB', 'CM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '6',
+                    goals: '5',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -4069,6 +4109,14 @@ new Vue({
                 active: true,
                 position: ['GK', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '1',
+                    goals: '3',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -4416,6 +4464,14 @@ new Vue({
                 active: true,
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '新北議長盃',
+                    g: '6',
+                    gs: '6',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',

@@ -9352,6 +9352,200 @@ new Vue({
                 instructors: ['柏豪'],
                 note: ''
             }]
+        }, {
+            id: 56,
+            year: '2024',
+            cupName: '新北市議長盃',
+            system: '5人制',
+            grade: 'U12',
+            cover: '2024speakercup',
+            trophy: '',
+            team: [{
+                name: '悍將',
+                members: '晉丞、黃衍、皓宇、凱泰、維恩、柏燁、昕叡、宇正、凱碩*、羿翔*'
+            }],
+            note: '',
+            matches: [{
+                date: '20240727',
+                pitch: '輔仁大學足球場',
+                opponent: { name: '幸安小將', logo: '幸安國小', formation: '幸安國小' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-黃衍', 'RF-宇正', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '3 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '昕叡'
+                }, {
+                    name: '晉丞',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240727',
+                pitch: '輔仁大學足球場',
+                opponent: { name: 'Playone-藍', logo: '台北Playone', formation: '台北Playone' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-黃衍', 'RF-宇正', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240727',
+                pitch: '輔仁大學足球場',
+                opponent: { name: '長庚U12', logo: '長庚國小', formation: '長庚國小' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-晉丞', 'RF-宇正', 'LF-黃衍'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 28,
+                    name: '羿翔*'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '2 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
+            }, {
+                date: '20240728',
+                pitch: '輔仁大學足球場',
+                opponent: { name: '富譽U12', logo: '富譽', formation: '富譽' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-黃衍', 'RF-宇正', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 28,
+                    name: '羿翔*'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '8 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '昕叡',
+                    assist: '宇正'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '昕叡'
+                }, {
+                    name: '昕叡',
+                    assist: '皓宇'
+                }, {
+                    name: '昕叡',
+                    assist: '宇正'
+                }, {
+                    name: '維恩',
+                    assist: '黃衍'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['凱泰', '羿翔*'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
+            }, {
+                date: '20240728',
+                pitch: '輔仁大學足球場',
+                opponent: { name: '桃園獵鷹-紅', logo: '桃園獵鷹', formation: '桃園獵鷹' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-黃衍', 'RF-宇正', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '悍將',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }, {
+                date: '20240728',
+                pitch: '輔仁大學足球場',
+                opponent: { name: '先鋒足球俱樂部', logo: '先鋒足球', formation: '先鋒足球' },
+                formation: '2-0-2',
+                starters: ['GK-凱泰', 'RB-維恩', 'LB-宇正', 'RF-昕叡', 'LF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 7,
+                    name: '黃衍'
+                }, {
+                    number: 28,
+                    name: '羿翔*'
+                }],
+                subTeam: '悍將',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟'
+            }]
         }],
         result: ''
     },

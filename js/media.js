@@ -1521,6 +1521,20 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/pBrFiLZ5o1EX2Unh8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240610-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-bullseye-arrow'
+        }, {
+            id: 53,
+            cupName: '2024新北市議長盃',
+            cover: '20240727-cover',
+            photos: [{
+                date: '07/27',
+                opponents: '幸安小將、playone-藍、長庚U12',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/PHTxZKx1jJfdDv4n7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240727-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '07/28',
+                opponents: '富譽U12、桃園獵鷹-紅、先鋒足球',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/6v8Xuw5mM1BMp65v6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240728-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'far fa-microphone-stand'
         }]
     },
     methods: {},
