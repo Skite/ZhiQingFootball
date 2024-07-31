@@ -1114,18 +1114,18 @@ new Vue({
                 active: true,
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
-                    grade: 'U10',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
                     grade: 'U11',
                     cup: '新北市議長盃',
                     g: '6',
                     gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '0',
                     goals: '0',
                     asts: '0',
                     cs: '0'
