@@ -3,6 +3,8 @@ new Vue({
     data: {
         sortType: 'number',
         searchText: '',
+        playerType: ['active', 'inactive', 'former'],
+        selectedType: '',
         minNumber: '',
         maxNumber: '',
         selectedPosition: [],
@@ -14,7 +16,7 @@ new Vue({
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
                 achievement: ['5 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -401,7 +403,7 @@ new Vue({
                 title: 'C',
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
                 achievement: ['Captian (2023-present)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
-                active: 'roster',
+                active: 'active',
                 position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -796,7 +798,7 @@ new Vue({
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
                 achievement: ['6 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     grade: 'U11',
@@ -1111,7 +1113,7 @@ new Vue({
                 title: '',
                 info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中路樞紐等多種角色的多面手。',
                 achievement: ['2 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -1538,7 +1540,7 @@ new Vue({
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
                 achievement: ['2022 Yamaha Cup Match MVP', '2 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['GK'],
                 appearance: [{
                     grade: 'U12',
@@ -1909,7 +1911,7 @@ new Vue({
                 title: 'VC',
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。並在五年級下學期時再度被教練選為球隊副隊長',
                 achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP', 'Vice Captian (2024-present)'],
-                active: 'roster',
+                active: 'active',
                 position: ['CB', 'CM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -2360,7 +2362,7 @@ new Vue({
                 title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
                 achievement: ['former Vice Captian (2020-23)', '1 Time Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     grade: 'U11',
@@ -2763,7 +2765,7 @@ new Vue({
                 title: '',
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
                 achievement: ['7 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['RB', 'RM', 'CF'],
                 appearance: [{
                     grade: 'U11',
@@ -3054,7 +3056,7 @@ new Vue({
                 title: '',
                 info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。曾於五年級上學期時被教練選為球隊副隊長。',
                 achievement: ['1 Time Best Substitutions', 'former Vice Captian (2023-24)'],
-                active: 'roster',
+                active: 'active',
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     grade: 'U11',
@@ -3473,7 +3475,7 @@ new Vue({
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
                 achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '14 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['GK', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -3828,7 +3830,7 @@ new Vue({
                 title: '',
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。曾在四年級下學期被教練指派為球隊副隊長。',
                 achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
-                active: 'roster',
+                active: 'active',
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -4279,7 +4281,7 @@ new Vue({
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出輪替陣容，但仍隨隊訓練以維持球技和體能。',
                 achievement: ['4 Times Best Substitutions'],
-                active: 'backup',
+                active: 'inactive',
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
                     grade: 'U11',
@@ -4530,7 +4532,7 @@ new Vue({
                 title: '',
                 info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，即便出現在比賽場上的時間不多，卻也偶有讓人驚艷的表現。五年級下學期開始較少參加比賽，僅維持每週一次隨隊練習的習慣。',
                 achievement: ['1 Time Best Substitutions'],
-                active: 'backup',
+                active: 'inactive',
                 position: [],
                 appearance: [{
                     grade: 'U11',
@@ -4597,7 +4599,7 @@ new Vue({
                 title: '',
                 info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
                 achievement: ['1 Time Best Substitutions'],
-                active: 'backup',
+                active: 'inactive',
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U11',
@@ -5263,7 +5265,7 @@ new Vue({
         }
     },
     computed: {
-        playerFilter: function(type) {
+        playerFilter: function() {
             let nameFilteredArray = this.nameFilter(this.players)
             let positionFilteredArray = this.positionFilter(this.players)
             let numberFilteredArray = this.numberFilter(this.players)
@@ -5290,6 +5292,12 @@ new Vue({
 
             filteredResult = _.uniq(result, 'number')
 
+            if (!!this.selectedType) {
+                filteredResult = _.filter(filteredResult, { 'active': this.selectedType })
+            }
+
+            console.log(filteredResult)
+
             // function sumStat(o, type) {
             //     let sum = _.sumBy(o.appearance, app => {
             //         return parseInt(app[type])
@@ -5306,7 +5314,7 @@ new Vue({
                 matchGroup: _.groupBy(v.appearance, o => o.grade)
             }))
 
-            type = this.sortType
+            let type = this.sortType
 
             if (type === 'number') {
                 filteredResult = _.orderBy(filteredResult, function(obj) {
@@ -5321,8 +5329,8 @@ new Vue({
             // console.log(filteredResult)
 
             return {
-                active: _.filter(filteredResult, ['active', 'roster']),
-                inactive: _.filter(filteredResult, ['active', 'backup']),
+                active: _.filter(filteredResult, ['active', 'active']),
+                inactive: _.filter(filteredResult, ['active', 'inactive']),
                 retire: _.filter(filteredResult, ['active', 'former'])
             }
         },
