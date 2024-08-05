@@ -1085,9 +1085,9 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         }, {
             name: '七人制',
             data: [Number(stats.seven.U8.matches), Number(stats.seven.U9.matches), Number(stats.seven.U10.matches), Number(stats.seven.U11.matches), Number(stats.seven.U12.matches)]
-        } {
+        }, {
             name: '三人制',
             data: [Number(stats.three.U12.matches)]
-        }, ]
+        }]
     });
 })
