@@ -9553,7 +9553,7 @@ new Vue({
             system: '3人制',
             grade: 'U12',
             cover: '2024elitecup',
-            trophy: '',
+            trophy: '冠軍／亞軍',
             team: [{
                 name: 'ZQ綠',
                 members: '紘豪、維恩、亮谷'
