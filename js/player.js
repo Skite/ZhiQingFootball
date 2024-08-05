@@ -14,7 +14,7 @@ new Vue({
                 title: '',
                 info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
                 achievement: ['5 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -401,7 +401,7 @@ new Vue({
                 title: 'C',
                 info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長',
                 achievement: ['Captian (2023-present)', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP'],
-                active: true,
+                active: 'roster',
                 position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -796,7 +796,7 @@ new Vue({
                 title: '',
                 info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進。',
                 achievement: ['6 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
                     grade: 'U11',
@@ -1105,264 +1105,13 @@ new Vue({
                 }]
             },
             {
-                number: '10',
-                name: '善 捷',
-                englishName: 'Otto',
-                title: '',
-                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出輪替陣容，但仍隨隊訓練以維持球技和體能。',
-                achievement: ['4 Times Best Substitutions'],
-                active: true,
-                position: ['GK', 'RB', 'LB'],
-                appearance: [{
-                    grade: 'U11',
-                    cup: '新北市議長盃',
-                    g: '6',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '8',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '安聯小小世界盃',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市五人制足球聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市教育盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '5',
-                    gs: '2',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: 'Kappa 盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '明道盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北聯合盃',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '1',
-                    cs: '2'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '全國學童盃',
-                    g: '4',
-                    gs: '4',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市夏季主委盃草地五人制',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U9',
-                    cup: '春季大安盃',
-                    g: '4',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '包中盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '臺北市教育盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '迎虎盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: 'A-Star聖誕盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '新北聯合盃',
-                    g: '2',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '中正主委盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '學童盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '安聯小小世界盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '春季大安盃',
-                    g: '6',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '5'
-                }, {
-                    grade: 'U8',
-                    cup: '萬歲盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    gs: '3',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '新北聯合盃',
-                    g: '4',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '新北迷你盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '12',
                 name: '皓 宇',
                 englishName: 'Roy',
                 title: '',
                 info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中路樞紐等多種角色的多面手。',
                 achievement: ['2 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -1789,7 +1538,7 @@ new Vue({
                 title: '',
                 info: '早期就加入球隊的元老之一，天姿聰穎與積極正向是他的註冊商標，有著人高手長等成為頂級守門員的絕佳條件，曾多次在比賽中為球隊守住大門。亦數次帶領學弟妹出征，是學弟妹眼中可以依賴與信任的堅定力量。',
                 achievement: ['2022 Yamaha Cup Match MVP', '2 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['GK'],
                 appearance: [{
                     grade: 'U12',
@@ -2160,7 +1909,7 @@ new Vue({
                 title: 'VC',
                 info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。並在五年級下學期時再度被教練選為球隊副隊長',
                 achievement: ['former Captian (2019-2023)', '2022/2023 Yamaha Cup Match MVP', 'Vice Captian (2024-present)'],
-                active: true,
+                active: 'roster',
                 position: ['CB', 'CM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -2605,80 +2354,13 @@ new Vue({
                 }]
             },
             {
-                number: '20',
-                name: '瑀 東',
-                englishName: 'Adam',
-                title: '',
-                info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，即便出現在比賽場上的時間不多，卻也偶有讓人驚艷的表現。五年級下學期開始較少參加比賽，僅維持每週一次隨隊練習的習慣。',
-                achievement: ['1 Time Best Substitutions'],
-                active: true,
-                position: [],
-                appearance: [{
-                    grade: 'U11',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '黃蜂爭霸盃（下）',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '2',
-                    goals: '1',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '新北市議長盃',
-                    g: '5',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '8',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '春季大安盃',
-                    g: '5',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '21',
                 name: '亮 谷',
                 englishName: 'Lionel',
                 title: '',
                 info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長。',
                 achievement: ['former Vice Captian (2020-23)', '1 Time Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
                     grade: 'U11',
@@ -3081,7 +2763,7 @@ new Vue({
                 title: '',
                 info: '於二年級時加入球隊，無論力量或體能在隊上都名列前矛。同時是足球隊成員與交響樂團首席，為球隊提供能文能武的滿滿活力。',
                 achievement: ['7 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['RB', 'RM', 'CF'],
                 appearance: [{
                     grade: 'U11',
@@ -3366,328 +3048,13 @@ new Vue({
                 }]
             },
             {
-                number: '27',
-                name: '定 謙',
-                englishName: 'Dalton',
-                title: '',
-                info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
-                achievement: ['1 Time Best Substitutions'],
-                active: true,
-                position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
-                appearance: [{
-                    grade: 'U11',
-                    cup: '全國少年盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '明道盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '教育盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '2',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: 'TES Cup',
-                    g: '4',
-                    gs: '0',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '臺北市中正盃',
-                    g: '4',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '4',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '新北市議長盃',
-                    g: '6',
-                    gs: '6',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '11',
-                    gs: '5',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '豐米全國少年盃',
-                    g: '2',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '安聯小小世界盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市五人制足球聯賽',
-                    g: '4',
-                    gs: '4',
-                    goals: '2',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市教育盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '5',
-                    gs: '4',
-                    goals: '1',
-                    asts: '3',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: 'Kappa 盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '明道盃',
-                    g: '5',
-                    gs: '2',
-                    goals: '1',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '金兔賀歲盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '2',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: 'Yamaha 盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '安聯小小世界盃',
-                    g: '7',
-                    gs: '1',
-                    goals: '3',
-                    asts: '1',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '新北聯合盃',
-                    g: '2',
-                    gs: '1',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '全國學童盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: "臺北市足球Ｕ聯賽",
-                    g: "1",
-                    gs: '1',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "新北市少年八人制秋季聯賽",
-                    g: "5",
-                    gs: '2',
-                    goals: "0",
-                    asts: "1",
-                    cs: "1"
-                }, {
-                    grade: 'U9',
-                    cup: "新北市夏季主委盃草地五人制",
-                    g: "3",
-                    gs: '1',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "春季大安盃",
-                    g: "4",
-                    gs: '1',
-                    goals: "1",
-                    asts: "2",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "包中盃",
-                    g: "3",
-                    gs: '2',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "新北市少年八人制春季聯賽",
-                    g: "6",
-                    gs: '6',
-                    goals: "0",
-                    asts: "0",
-                    cs: "2"
-                }, {
-                    grade: 'U9',
-                    cup: "迎虎盃",
-                    g: "3",
-                    gs: '3',
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "A-Star聖誕盃",
-                    g: "3",
-                    gs: '1',
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "新北聯合盃",
-                    g: "4",
-                    gs: '2',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "中正主委盃",
-                    g: "3",
-                    gs: '0',
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U9',
-                    cup: "學童盃",
-                    g: "2",
-                    gs: '1',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "安聯小小世界盃",
-                    g: "3",
-                    gs: '3',
-                    goals: "2",
-                    asts: "2",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "春季大安盃",
-                    g: "2",
-                    gs: '2',
-                    goals: "2",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "萬歲盃",
-                    g: "2",
-                    gs: '2',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "金牛賀歲盃",
-                    g: "1",
-                    gs: '0',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "扶輪社暨航源足球賽",
-                    g: "3",
-                    gs: '1',
-                    goals: "0",
-                    asts: "0",
-                    cs: "0"
-                }, {
-                    grade: 'U8',
-                    cup: "新北聯合盃",
-                    g: "4",
-                    gs: '3',
-                    goals: "2",
-                    asts: "0",
-                    cs: "2"
-                }, {
-                    grade: 'U8',
-                    cup: "秋季大安盃",
-                    g: "5",
-                    gs: '1',
-                    goals: "1",
-                    asts: "0",
-                    cs: "0"
-                }]
-            },
-            {
                 number: '55',
                 name: '宥 融',
                 englishName: 'Ivan',
                 title: '',
                 info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。曾於五年級上學期時被教練選為球隊副隊長。',
                 achievement: ['1 Time Best Substitutions', 'former Vice Captian (2023-24)'],
-                active: true,
+                active: 'roster',
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     grade: 'U11',
@@ -4106,7 +3473,7 @@ new Vue({
                 title: '',
                 info: '雖然二年級時加入球隊時沒有足球經驗，但靠著苦練和運動天賦逐漸取得在球隊中的地位。有著用不完的能量和無比的拼勁，實用和花俏兼具的過人技巧亦經常讓人眼睛為之一亮。四年級開始加練守門技巧，成為球隊不可缺少的一枚活棋',
                 achievement: ['2022 United Cup Golden Boot Award 1st prize（9 goals）', '14 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['GK', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -4461,7 +3828,7 @@ new Vue({
                 title: '',
                 info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。曾在四年級下學期被教練指派為球隊副隊長。',
                 achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
-                active: true,
+                active: 'roster',
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
@@ -4906,13 +4273,646 @@ new Vue({
                 }]
             },
             {
+                number: '10',
+                name: '善 捷',
+                englishName: 'Otto',
+                title: '',
+                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出輪替陣容，但仍隨隊訓練以維持球技和體能。',
+                achievement: ['4 Times Best Substitutions'],
+                active: 'backup',
+                position: ['GK', 'RB', 'LB'],
+                appearance: [{
+                    grade: 'U11',
+                    cup: '新北市議長盃',
+                    g: '6',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '5',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: 'Kappa 盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北聯合盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '2'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '全國學童盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市夏季主委盃草地五人制',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U9',
+                    cup: '春季大安盃',
+                    g: '4',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '包中盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '臺北市教育盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '迎虎盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: 'A-Star聖誕盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '中正主委盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '學童盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '春季大安盃',
+                    g: '6',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '5'
+                }, {
+                    grade: 'U8',
+                    cup: '萬歲盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '金牛賀歲盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '新北聯合盃',
+                    g: '4',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
+                number: '20',
+                name: '瑀 東',
+                englishName: 'Adam',
+                title: '',
+                info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，即便出現在比賽場上的時間不多，卻也偶有讓人驚艷的表現。五年級下學期開始較少參加比賽，僅維持每週一次隨隊練習的習慣。',
+                achievement: ['1 Time Best Substitutions'],
+                active: 'backup',
+                position: [],
+                appearance: [{
+                    grade: 'U11',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '新北市議長盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '春季大安盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
+                number: '27',
+                name: '定 謙',
+                englishName: 'Dalton',
+                title: '',
+                info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
+                achievement: ['1 Time Best Substitutions'],
+                active: 'backup',
+                position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
+                appearance: [{
+                    grade: 'U11',
+                    cup: '全國少年盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '教育盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '2',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: 'TES Cup',
+                    g: '4',
+                    gs: '0',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '臺北市中正盃',
+                    g: '4',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '4',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '新北市議長盃',
+                    g: '6',
+                    gs: '6',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '11',
+                    gs: '5',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '豐米全國少年盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '4',
+                    gs: '4',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '5',
+                    gs: '4',
+                    goals: '1',
+                    asts: '3',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: 'Kappa 盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '明道盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '金兔賀歲盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '2',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: 'Yamaha 盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '安聯小小世界盃',
+                    g: '7',
+                    gs: '1',
+                    goals: '3',
+                    asts: '1',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '全國學童盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: "臺北市足球Ｕ聯賽",
+                    g: "1",
+                    gs: '1',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "新北市少年八人制秋季聯賽",
+                    g: "5",
+                    gs: '2',
+                    goals: "0",
+                    asts: "1",
+                    cs: "1"
+                }, {
+                    grade: 'U9',
+                    cup: "新北市夏季主委盃草地五人制",
+                    g: "3",
+                    gs: '1',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "春季大安盃",
+                    g: "4",
+                    gs: '1',
+                    goals: "1",
+                    asts: "2",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "包中盃",
+                    g: "3",
+                    gs: '2',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "新北市少年八人制春季聯賽",
+                    g: "6",
+                    gs: '6',
+                    goals: "0",
+                    asts: "0",
+                    cs: "2"
+                }, {
+                    grade: 'U9',
+                    cup: "迎虎盃",
+                    g: "3",
+                    gs: '3',
+                    goals: "1",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "A-Star聖誕盃",
+                    g: "3",
+                    gs: '1',
+                    goals: "1",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "新北聯合盃",
+                    g: "4",
+                    gs: '2',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "中正主委盃",
+                    g: "3",
+                    gs: '0',
+                    goals: "1",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U9',
+                    cup: "學童盃",
+                    g: "2",
+                    gs: '1',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "安聯小小世界盃",
+                    g: "3",
+                    gs: '3',
+                    goals: "2",
+                    asts: "2",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "春季大安盃",
+                    g: "2",
+                    gs: '2',
+                    goals: "2",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "萬歲盃",
+                    g: "2",
+                    gs: '2',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "金牛賀歲盃",
+                    g: "1",
+                    gs: '0',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "扶輪社暨航源足球賽",
+                    g: "3",
+                    gs: '1',
+                    goals: "0",
+                    asts: "0",
+                    cs: "0"
+                }, {
+                    grade: 'U8',
+                    cup: "新北聯合盃",
+                    g: "4",
+                    gs: '3',
+                    goals: "2",
+                    asts: "0",
+                    cs: "2"
+                }, {
+                    grade: 'U8',
+                    cup: "秋季大安盃",
+                    g: "5",
+                    gs: '1',
+                    goals: "1",
+                    asts: "0",
+                    cs: "0"
+                }]
+            },
+            {
                 number: '2',
                 name: '定 宸',
                 englishName: 'Andy',
                 title: '',
                 info: '球隊初始成員之一，以厚實的身體和對抗性成為穩定的後防大將，在經歷了 U8 的榮光時期後因課業壓力，於二年級下學期結束後退出球隊。',
                 achievement: [],
-                active: false,
+                active: 'former',
                 position: ['RB', 'CB'],
                 appearance: [{
                     grade: 'U8',
@@ -4963,7 +4963,7 @@ new Vue({
                 title: '',
                 info: '二年級加入球隊，出賽經驗較少，於二年級下學期結束後退出球隊。',
                 achievement: [],
-                active: false,
+                active: 'former',
                 position: [],
                 appearance: [{
                     grade: 'U8',
@@ -5014,7 +5014,7 @@ new Vue({
                 title: '',
                 info: '因喜歡和大家一起踢球的感覺而在二年級加入，練球非常認真卻鮮少參加比賽，三年級下學期因自覺跟不上隊友的腳步帶著遺憾退出。',
                 achievement: [],
-                active: false,
+                active: 'former',
                 position: [],
                 appearance: [{
                     grade: 'U8',
@@ -5041,7 +5041,7 @@ new Vue({
                 title: '',
                 info: '四年級才加入球隊的新兵，憑藉早年在俱樂部打下的基礎快速跟上球隊的腳步。有著極好的身材條件和無限的潛力，在增加比賽經驗的道路上持續前進。曾數次帶領學弟妹出征，扮演著提攜後進的重要角色。因課餘時間安排不易且志不在此，於五年級上學期結束後退出球隊',
                 achievement: ['3 Times Best Substitutions'],
-                active: false,
+                active: 'former',
                 position: ['LB'],
                 appearance: [{
                     grade: 'U11',
@@ -5140,7 +5140,7 @@ new Vue({
                 title: '',
                 info: '一年級下學期加入球隊，在 U8 時期為球隊重要的輪替球員，也是後防相當倚重的大將，在球隊立下不少戰功。因多方發展難以兼顧於二年級下學期結束後退出球隊。',
                 achievement: [],
-                active: false,
+                active: 'former',
                 position: ['RB', 'LB'],
                 appearance: [{
                     grade: 'U8',
@@ -5199,7 +5199,7 @@ new Vue({
                 title: '',
                 info: '有著絕佳的身體條件，可惜較缺乏練習與比賽經驗。於二年級下學期結束後退出球隊。',
                 achievement: [],
-                active: false,
+                active: 'former',
                 position: [],
                 appearance: [{
                     grade: 'U8',
@@ -5321,8 +5321,9 @@ new Vue({
             // console.log(filteredResult)
 
             return {
-                active: _.filter(filteredResult, ['active', true]),
-                retire: _.filter(filteredResult, ['active', false])
+                active: _.filter(filteredResult, ['active', 'roster']),
+                inactive: _.filter(filteredResult, ['active', 'backup']),
+                retire: _.filter(filteredResult, ['active', 'former'])
             }
         },
         yearFilter: function(app, val) {

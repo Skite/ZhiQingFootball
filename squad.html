@@ -115,33 +115,35 @@
                 <div class="row">
                     <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.active">
                         <a data-toggle="modal" :data-target="'#player' + player.number">
-                            <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
+                            <div class="flip profile-card">
+                                <div class="front" :style="`background-image: url(img/players/player-${player.number}.jpg)`">
+                                </div>
+                                <div class="back" :style="`background-image: url(img/players/player-${player.number}-away.jpg)`">
+                                </div>
                                 <div class="profile-name"> {{ player.name }} <small v-if="!!player.title">({{player.title}})</small></div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
                                 </div>
-                                <div class="profile-overview">
-                                    <div class="profile-overview">
-                                        <div class="row text-center" v-if="player.totalMatches > 0">
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
-                                                <p>Matches <small>(Starts)</small></p>
-                                            </div>
+                                <div class="profile-overview-active">
+                                    <div class="row text-center" v-if="player.totalMatches > 0">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
+                                            <p>Matches <small>(Starts)</small></p>
                                         </div>
-                                        <div class="row text-center">
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalGoals }}</h3>
-                                                <p>Goals</p>
-                                            </div>
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalAsts }}</h3>
-                                                <p>Ast</p>
-                                            </div>
-                                            <div class="col-sm" v-if="player.totalCS > 0">
-                                                <h3>{{ player.totalCS }}</h3>
-                                                <p>CS</p>
-                                            </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalGoals }}</h3>
+                                            <p>Goals</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalAsts }}</h3>
+                                            <p>Ast</p>
+                                        </div>
+                                        <div class="col-sm" v-if="player.totalCS > 0">
+                                            <h3>{{ player.totalCS }}</h3>
+                                            <p>CS</p>
                                         </div>
                                     </div>
                                 </div>
@@ -317,7 +319,211 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="text-left text-white mt-4 bg-secondary p-2">Non-active Players</h3>
+                <h3 class="text-left text-white bg-secondary p-2">Inactive Players</h3>
+                <div class="row">
+                    <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.inactive">
+                        <a data-toggle="modal" :data-target="'#player' + player.number">
+                            <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
+                                <div class="profile-name"> {{ player.name }} <small v-if="!!player.title">({{player.title}})</small></div>
+                                <div class="profile-number">{{ player.number }}</div>
+                                <div class="profile-position">
+                                    <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
+                                </div>
+                                <div class="profile-overview">
+                                    <div class="row text-center" v-if="player.totalMatches > 0">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
+                                            <p>Matches <small>(Starts)</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalGoals }}</h3>
+                                            <p>Goals</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalAsts }}</h3>
+                                            <p>Ast</p>
+                                        </div>
+                                        <div class="col-sm" v-if="player.totalCS > 0">
+                                            <h3>{{ player.totalCS }}</h3>
+                                            <p>CS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Modal -->
+                        <div class="modal fade" :id="'player'+ player.number" tabindex="-1" role="dialog" aria-labelledby="playerCareer" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="playerCareer">Statics</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <div class="profile-card-4 z-depth-3">
+                                                    <div class="card">
+                                                        <div class="card-body text-center bg-gradien rounded-top">
+                                                            <h1 class="text-right"><span class="badge badge-pill badge-dark mx-1">{{player.number}}</span></h1>
+                                                            <div class="user-box">
+                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
+                                                            </div>
+                                                            <h5 class="mb-1 text-white">{{player.name}} | {{player.englishName}}</h5>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <ul class="list-group shadow-none">
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-map-marked"></i>
+                                                                    </div>
+                                                                    <div class="list-details">
+                                                                        <span v-for="pos in player.position" class="badge badge-dark mx-1 my-1">{{ pos }}</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-user"></i>
+                                                                    </div>
+                                                                    <div class="list-details" v-if="player.totalMatches > 0">
+                                                                        <h4>{{ player.totalMatches }} <small>Appearances</small></h4>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="list-group-item">
+                                                                    <div class="list-icon">
+                                                                        <i class="fas fa-running"></i>
+                                                                    </div>
+                                                                    <div class="list-details" v-if="player.totalGS > 0">
+                                                                        <h4>{{ player.totalGS }} <small>as Starter ({{ ((player.totalGS/player.totalMatches)*100).toFixed(2) }} %)</small></h4>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="row text-center mt-4">
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalGoals }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Goals</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalAsts }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Assists</small>
+                                                                </div>
+                                                                <div class="col p-2">
+                                                                    <h4 class="mb-1 line-height-5">{{ player.totalCS }}</h4>
+                                                                    <small class="mb-0 font-weight-bold">Clean Sheets</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="card-footer text-center">
+                                                            <a class="btn-social btn-facebook waves-effect waves-light m-1"><i class="fa fa-facebook"></i></a>
+                                                            <a class="btn-social btn-google-plus waves-effect waves-light m-1"><i class="fa fa-google-plus"></i></a>
+                                                            <a class="list-inline-item btn-social btn-behance waves-effect waves-light"><i class="fa fa-behance"></i></a>
+                                                            <a class="list-inline-item btn-social btn-dribbble waves-effect waves-light"><i class="fa fa-dribbble"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8">
+                                                <div class="card z-depth-3">
+                                                    <div class="card-body">
+                                                        <ul class="nav nav-pills nav-pills-primary nav-justified">
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#gamelog${player.number}`" data-toggle="pill" class="nav-link active show"><i class="fad fa-clipboard-list"></i> <span class="hidden-xs">Game Log</span></a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a :data-target="`#profile${player.number}`" data-toggle="pill" class="nav-link"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
+                                                            </li>
+                                                            <!-- <li class="nav-item">
+                                                                <a data-target="#edit" data-toggle="pill" class="nav-link"><i class="icon-note"></i> <span class="hidden-xs">Edit</span></a>
+                                                            </li> -->
+                                                        </ul>
+                                                        <div class="tab-content p-3">
+                                                            <div class="tab-pane active show" :id="`gamelog${player.number}`">
+                                                                <div class="accordion" :id="`accordion${player.number}`">
+                                                                    <div class="card text-primary" v-for="(match, index) in player.matchGroup">
+                                                                        <div class="card-header" :id="`heading2023-${player.number}`">
+                                                                            <h2 class="mb-0" :class="`modal-body-${index}`">
+                                                                                <button class="btn btn-outline-light btn-block text-left" :class="`modal-body-${index}`" data-toggle="collapse" :data-target="`#grade${index}-${player.number}`" aria-expanded="true" :aria-controls="`grade${index}`">
+                                                                                    {{index.slice(-4)}} <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div :id="`grade${index}-${player.number}`" class="collapse text-info show" :aria-labelledby="`grade${index}`" :data-parent="`#accordion${player.number}`">
+                                                                            <div class="card-body table-responsive">
+                                                                                <table class="table">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <!-- <th scope="col">grade</th> -->
+                                                                                            <th scope="col">Tournament</th>
+                                                                                            <th scope="col">GPs</th>
+                                                                                            <th scope="col" class="d-none d-md-table-cell">Starts</th>
+                                                                                            <th scope="col">Goals</th>
+                                                                                            <th scope="col">Asts</th>
+                                                                                            <th scope="col" v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">CS</th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="bg-secondary text-light">
+                                                                                            <td>{{index}} 合計</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.g) + total,0)}}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{match.reduce((total, obj) => parseInt(obj.gs) + total,0)}}</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.goals) + total,0)}}</td>
+                                                                                            <td>{{match.reduce((total, obj) => parseInt(obj.asts) + total,0)}}</td>
+                                                                                            <td v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">{{match.reduce((total, obj) => parseInt(obj.cs) + total,0)}}</td>
+                                                                                        </tr>
+                                                                                        <tr v-for="app in match">
+                                                                                            <!-- <td>{{ app.grade }}</td> -->
+                                                                                            <td>{{ app.cup }}</td>
+                                                                                            <td>{{ app.g }}</td>
+                                                                                            <td class="d-none d-md-table-cell">{{ app.gs }}</td>
+                                                                                            <td>{{ app.goals }}</td>
+                                                                                            <td>{{ app.asts }}</td>
+                                                                                            <td v-if="match.reduce((total, obj) => parseInt(obj.cs) + total,0) > 0">{{ app.cs }}</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane" :id="`profile${player.number}`">
+                                                                <h5 class="mb-3">Introduction</h5>
+                                                                <div class="row">
+                                                                    <div class="col-md-12 text-left" v-html="player.info"></div>
+                                                                    <div class="col-md-12" v-show="player.achievement.length > 0">
+                                                                        <h5 class="mt-4 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Achievement</h5>
+                                                                        <table class="table table-hover table-striped">
+                                                                            <tbody>
+                                                                                <tr v-for="achieve in player.achievement">
+                                                                                    <td class="text-left">
+                                                                                        ★ {{achieve}}
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                                <!--/row-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-left text-white mt-4 bg-secondary p-2">Former Players</h3>
                 <div class="row">
                     <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.retire">
                         <a data-toggle="modal" :data-target="'#player' + player.number">
@@ -328,26 +534,24 @@
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
                                 </div>
                                 <div class="profile-overview" v-if="player.matches !== '0'">
-                                    <div class="profile-overview">
-                                        <div class="row text-center">
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
-                                                <p>Matches <small>(Starts)</small></p>
-                                            </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalMatches }} <small>({{player.totalGS}})</small></h3>
+                                            <p>Matches <small>(Starts)</small></p>
                                         </div>
-                                        <div class="row text-center">
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalGoals }}</h3>
-                                                <p>Goals</p>
-                                            </div>
-                                            <div class="col-sm">
-                                                <h3>{{ player.totalAsts }}</h3>
-                                                <p>Ast</p>
-                                            </div>
-                                            <div class="col-sm" v-if="player.totalCS > 0">
-                                                <h3>{{ player.totalCS }}</h3>
-                                                <p>CS</p>
-                                            </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalGoals }}</h3>
+                                            <p>Goals</p>
+                                        </div>
+                                        <div class="col-sm">
+                                            <h3>{{ player.totalAsts }}</h3>
+                                            <p>Ast</p>
+                                        </div>
+                                        <div class="col-sm" v-if="player.totalCS > 0">
+                                            <h3>{{ player.totalCS }}</h3>
+                                            <p>CS</p>
                                         </div>
                                     </div>
                                 </div>
