@@ -9546,6 +9546,286 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學弟'
             }]
+        }, {
+            id: 57,
+            year: '2024',
+            cupName: '誠品迷你足球一日盃',
+            system: '3人制',
+            grade: 'U12',
+            cover: '2024elitecup',
+            trophy: '',
+            team: [{
+                name: 'ZQ綠',
+                members: '紘豪、維恩、亮谷'
+            }, {
+                name: 'ZQ藍',
+                members: '定謙、宥融、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '磐石B', logo: '磐石', formation: '磐石B' },
+                formation: '2-0-1',
+                starters: ['CB-紘豪', 'RF-維恩', 'LF-亮谷'],
+                subs: [],
+                subTeam: 'ZQ綠',
+                final_score: '6 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: 'Own Goal',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }, {
+                    name: '紘豪',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '紘豪',
+                    assist: '維恩'
+                }, {
+                    name: 'Own Goal',
+                    assist: '維恩'
+                }],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '猛瑪', logo: '猛瑪', formation: '猛瑪2' },
+                formation: '2-0-1',
+                starters: ['CB-宇正', 'RF-定謙', 'LF-宥融'],
+                subs: [],
+                subTeam: 'ZQ藍',
+                final_score: '7 : 4',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: '宥融'
+                }],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '猛瑪', logo: '猛瑪', formation: '猛瑪' },
+                formation: '2-0-1',
+                starters: ['CB-紘豪', 'RF-維恩', 'LF-亮谷'],
+                subs: [],
+                subTeam: 'ZQ綠',
+                final_score: '5 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '紘豪',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }],
+                goalkeepers: [],
+                isCleanSheet: true,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '磐石B', logo: '磐石', formation: '磐石B2' },
+                formation: '2-0-1',
+                starters: ['CB-宇正', 'RF-定謙', 'LF-宥融'],
+                subs: [],
+                subTeam: 'ZQ藍',
+                final_score: '6 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '定謙'
+                }, {
+                    name: '宇正',
+                    assist: '定謙'
+                }, {
+                    name: '定謙',
+                    assist: 'P'
+                }, {
+                    name: '定謙',
+                    assist: '宇正'
+                }],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '磐石A', logo: '磐石', formation: '磐石A' },
+                formation: '2-0-1',
+                starters: ['CB-紘豪', 'RF-維恩', 'LF-亮谷'],
+                subs: [],
+                subTeam: 'ZQ綠',
+                final_score: '6 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '紘豪',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }],
+                goalkeepers: [],
+                isCleanSheet: true,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: '磐石A', logo: '磐石', formation: '磐石A2' },
+                formation: '2-0-1',
+                starters: ['CB-宇正', 'RF-定謙', 'LF-宥融'],
+                subs: [],
+                subTeam: 'ZQ藍',
+                final_score: '7 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: '宥融'
+                }, {
+                    name: '定謙',
+                    assist: '宥融'
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '定謙',
+                    assist: '宇正'
+                }],
+                goalkeepers: [],
+                isCleanSheet: true,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: 'ZQ藍', logo: '志清', formation: 'ZQ藍' },
+                formation: '2-0-1',
+                starters: ['CB-紘豪', 'RF-維恩', 'LF-亮谷'],
+                subs: [],
+                subTeam: 'ZQ綠',
+                final_score: '5 : 3',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '紘豪',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: '亮谷'
+                }, {
+                    name: '亮谷',
+                    assist: '維恩'
+                }],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: ''
+            }, {
+                date: '20240804',
+                pitch: '裕隆城3F實驗場',
+                opponent: { name: 'ZQ綠', logo: '志清', formation: 'ZQ綠' },
+                formation: '2-0-1',
+                starters: ['CB-宇正', 'RF-定謙', 'LF-宥融'],
+                subs: [],
+                subTeam: 'ZQ藍',
+                final_score: '3 : 5',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '宥融',
+                    assist: ''
+                }, {
+                    name: '定謙',
+                    assist: ''
+                }],
+                goalkeepers: [],
+                isCleanSheet: false,
+                instructors: [],
+                note: ''
+            }]
         }],
         result: ''
     },

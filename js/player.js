@@ -801,6 +801,14 @@ new Vue({
                 active: 'active',
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '5',
+                    asts: '1',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '包中盃',
                     g: '2',
@@ -1915,6 +1923,14 @@ new Vue({
                 position: ['CB', 'CM', 'CF'],
                 appearance: [{
                     grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '7',
+                    asts: '6',
+                    cs: '0'
+                }, {
+                    grade: 'U12',
                     cup: '新北議長盃',
                     g: '6',
                     gs: '6',
@@ -2365,6 +2381,14 @@ new Vue({
                 active: 'active',
                 position: ['CB', 'RM', 'CM', 'LM'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '8',
+                    asts: '4',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -3059,6 +3083,14 @@ new Vue({
                 active: 'active',
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '9',
+                    asts: '5',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '中正主委盃',
                     g: '4',
@@ -3834,6 +3866,14 @@ new Vue({
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '5',
+                    asts: '4',
+                    cs: '0'
+                }, {
+                    grade: 'U12',
                     cup: '新北議長盃',
                     g: '6',
                     gs: '6',
@@ -4602,6 +4642,14 @@ new Vue({
                 active: 'inactive',
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '誠品迷你足球一日盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '8',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U11',
                     cup: '全國少年盃',
                     g: '2',
@@ -5295,15 +5343,6 @@ new Vue({
             if (!!this.selectedType) {
                 filteredResult = _.filter(filteredResult, { 'active': this.selectedType })
             }
-
-            console.log(filteredResult)
-
-            // function sumStat(o, type) {
-            //     let sum = _.sumBy(o.appearance, app => {
-            //         return parseInt(app[type])
-            //     })
-            //     return sum
-            // }
 
             filteredResult = filteredResult.map(v => ({ ...v,
                 totalMatches: this.sumStat(v, 'g'),
