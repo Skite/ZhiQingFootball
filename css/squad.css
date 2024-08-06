@@ -238,6 +238,9 @@
 }
 
 /*style checkbox*/
+.type-selectors .btn {
+    text-transform: uppercase;
+}
 
 .position-selectors {
     margin: 4px 4px 4px 0;
@@ -287,6 +290,7 @@
     background-color: #c11;
     color: #fff;
 }
+
 
 /*style profile*/
 body {

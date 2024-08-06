@@ -86,11 +86,10 @@
                         Player Filter
                     </h2>
                     <div class="row my-2 justify-content-center">
-                        <div class="position-selectors" v-for="active in playerType">
-                            <label>
-                                {{ active }}
-                                <input type="radio" class="text-center" v-model="selectedType" :value="active">
-                            </label>
+                        <div class="type-selectors">
+                            <button class="btn btn-outline-info btn-sm" @click="setPlayerType(active)" v-for="active in playerType">
+                                <span>{{ active }}</span>
+                            </button>
                         </div>
                     </div>
                     <div class="row my-2 justify-content-between">
@@ -128,7 +127,7 @@
                                 </div>
                                 <div class="back" :style="`background-image: url(img/players/player-${player.number}-away.jpg)`">
                                 </div>
-                                <div class="profile-name"> {{ player.name }} <small v-if="!!player.title">({{player.title}})</small></div>
+                                <div class="profile-name"> {{ player.name.slice(-2).split("").join(" ") }} <small v-if="!!player.title">({{player.title}})</small></div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
@@ -177,7 +176,7 @@
                                                             <div class="user-box">
                                                                 <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
-                                                            <h5 class="mb-1 text-white">{{player.name}} | {{player.englishName}}</h5>
+                                                            <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}} | {{player.englishName}}</h5>
                                                         </div>
                                                         <div class="card-body">
                                                             <ul class="list-group shadow-none">
@@ -332,7 +331,7 @@
                     <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.inactive">
                         <a data-toggle="modal" :data-target="'#player' + player.number">
                             <div class="profile-card"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
-                                <div class="profile-name"> {{ player.name }} <small v-if="!!player.title">({{player.title}})</small></div>
+                                <div class="profile-name"> {{ player.name.slice(-2).split("").join(" ") }} <small v-if="!!player.title">({{player.title}})</small></div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
@@ -381,7 +380,7 @@
                                                             <div class="user-box">
                                                                 <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
-                                                            <h5 class="mb-1 text-white">{{player.name}} | {{player.englishName}}</h5>
+                                                            <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}} | {{player.englishName}}</h5>
                                                         </div>
                                                         <div class="card-body">
                                                             <ul class="list-group shadow-none">
@@ -536,7 +535,7 @@
                     <div class="player-card col-xl-4 col-md-6" v-for="player in playerFilter.retire">
                         <a data-toggle="modal" :data-target="'#player' + player.number">
                             <div class="profile-card profile-retire"><img :src="'img/players/player-' + player.number + '.jpg'" class="img img-responsive">
-                                <div class="profile-name"> {{ player.name }} </div>
+                                <div class="profile-name"> {{ player.name.slice(-2).split("").join(" ") }} </div>
                                 <div class="profile-number">{{ player.number }}</div>
                                 <div class="profile-position">
                                     <div class="position-item" v-for="pos in player.position"><span class="badge badge-dark">{{ pos }}</span></div>
@@ -584,7 +583,7 @@
                                                             <div class="user-box">
                                                                 <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
                                                             </div>
-                                                            <h5 class="mb-1 text-white">{{player.name}}</h5>
+                                                            <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}}</h5>
                                                             <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
                                                         </div>
                                                         <div class="card-body">
