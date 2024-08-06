@@ -5300,6 +5300,7 @@ new Vue({
             this.minNumber = null;
             this.maxNumber = null;
             this.selectedPosition = [];
+            this.selectedType = null;
             this.sortType = 'number'
         },
         setSortType: function(val) {
