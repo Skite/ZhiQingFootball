@@ -118,6 +118,8 @@
                     </tbody>
                 </table>
             </div>
+            <div class="row" v-show="matchType === 'Draws'">* 本場比賽依大會規定列為友誼賽，不採計積分與球員成績</div>
+            <div class="row" v-show="matchType === 'Loses'">* 本場比賽本隊因大會賽程安排失當不得已棄賽，遭裁定敗</div>
         </template>
         <template v-else>
             <h4 class="py-2">
