@@ -1,4 +1,5 @@
 $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(stats) {
+    console.log(stats)
     var colors = Highcharts.getOptions().colors,
         categories = [
             '勝',
@@ -244,65 +245,41 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             }
         ],
         threeManData = [{
-                y: Number(stats.three.U12.wins) + Number(stats.three.U11.wins) + Number(stats.three.U10.wins) + Number(stats.three.U9.wins) + Number(stats.three.U8.wins),
+                y: Number(stats.three.U12.wins),
                 color: colors[1],
                 drilldown: {
                     name: '勝',
                     categories: [
-                        'U12',
-                        'U11',
-                        'U10',
-                        'U9',
-                        'U8'
+                        'U12'
                     ],
                     data: [
-                        Number(stats.three.U12.wins),
-                        Number(stats.three.U11.wins),
-                        Number(stats.three.U10.wins),
-                        Number(stats.three.U9.wins),
-                        Number(stats.three.U8.wins)
+                        Number(stats.three.U12.wins)
                     ]
                 }
             },
             {
-                y: Number(stats.three.U12.draws) + Number(stats.three.U11.draws) + Number(stats.three.U10.draws) + Number(stats.three.U9.draws) + Number(stats.three.U8.draws),
+                y: Number(stats.three.U12.draws),
                 color: colors[2],
                 drilldown: {
                     name: '和',
                     categories: [
-                        'U12',
-                        'U11',
-                        'U10',
-                        'U9',
-                        'U8'
+                        'U12'
                     ],
                     data: [
-                        Number(stats.three.U12.draws),
-                        Number(stats.three.U11.draws),
-                        Number(stats.three.U10.draws),
-                        Number(stats.three.U9.draws),
-                        Number(stats.three.U8.draws)
+                        Number(stats.three.U12.draws)
                     ]
                 }
             },
             {
-                y: Number(stats.three.U12.loses) + Number(stats.three.U11.loses) + Number(stats.three.U10.loses) + Number(stats.three.U9.loses) + Number(stats.three.U8.loses),
+                y: Number(stats.three.U12.loses),
                 color: colors[7],
                 drilldown: {
                     name: '敗',
                     categories: [
-                        'U12',
-                        'U11',
-                        'U10',
-                        'U9',
-                        'U8'
+                        'U12'
                     ],
                     data: [
-                        Number(stats.three.U12.loses),
-                        Number(stats.three.U11.loses),
-                        Number(stats.three.U10.loses),
-                        Number(stats.three.U9.loses),
-                        Number(stats.three.U8.loses)
+                        Number(stats.three.U12.loses)
                     ]
                 }
             }
@@ -663,62 +640,6 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         }]
     });
 
-    Highcharts.chart('winlosethree', {
-        chart: {
-            type: 'pie'
-        },
-        title: {
-            text: '七人制',
-            align: 'center'
-        },
-        subtitle: {
-            text: `${Number(stats.three.U12.wins)+Number(stats.three.U11.wins)+Number(stats.three.U10.wins)+Number(stats.three.U9.wins)+Number(stats.three.U8.wins)} 勝 - ${Number(stats.three.U12.draws)+Number(stats.three.U11.draws)+Number(stats.three.U10.draws)+Number(stats.three.U9.draws)+Number(stats.three.U8.draws)} 和 - ${Number(stats.three.U12.loses)+Number(stats.three.U11.loses)+Number(stats.three.U10.loses)+Number(stats.three.U9.loses)+Number(stats.three.U8.loses)} 敗`,
-            align: 'center',
-            style: {
-                color: '#4287f5',
-                fontSize: '1rem'
-            }
-        },
-        plotOptions: {
-            pie: {
-                dataLabels: {
-                    allowOverlap: true,
-                    padding: 0,
-                    overflow: 'allow',
-                    enabled: true
-                },
-                shadow: false,
-                center: ['50%', '50%']
-            }
-        },
-        tooltip: {
-            valueSuffix: '場'
-        },
-        series: [{
-            name: '七人制',
-            data: threeWinLoseData,
-            size: '60%',
-            dataLabels: {
-                formatter: function() {
-                    return this.y > 0 ? this.point.name : null;
-                },
-                color: '#ffffff',
-                distance: -50
-            }
-        }, {
-            name: '',
-            data: threeWinLoseGradeData,
-            size: '80%',
-            innerSize: '60%',
-            dataLabels: {
-                formatter: function() {
-                    // display only if larger than 0
-                    return this.y > 0 ? '<b>' + this.point.name + ':</b> ' +
-                        this.y + '場' : null;
-                }
-            }
-        }]
-    });
 
     Highcharts.chart('goalsByGrade', {
         chart: {
@@ -846,7 +767,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             data: [
                 Number(stats.three.U12.scores),
                 -Number(stats.three.U12.conc),
-                Number(stats.three.U12.scores) - Number(stats.three.U12.scores),
+                Number(stats.three.U12.scores) - Number(stats.three.U12.conc),
                 Number(stats.three.U12.cs)
             ]
         }]
@@ -1087,7 +1008,7 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
             data: [Number(stats.seven.U8.matches), Number(stats.seven.U9.matches), Number(stats.seven.U10.matches), Number(stats.seven.U11.matches), Number(stats.seven.U12.matches)]
         }, {
             name: '三人制',
-            data: [Number(stats.three.U12.matches)]
+            data: [0, 0, 0, 0, Number(stats.three.U12.matches)]
         }]
     });
 })
