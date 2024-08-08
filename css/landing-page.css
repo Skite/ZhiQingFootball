@@ -97,10 +97,11 @@ header.masthead h1 {
 
 @media (min-width: 1440px) {
     header.masthead {
-        background: url("../img/bg-masthead.jpg") no-repeat center 60px;        
+        background: url("../img/bg-masthead.jpg") no-repeat center 60px;
         background-size: contain;
         padding-top: 6rem;
         padding-bottom: 18rem;
+        margin-top: 20px;
     }
 }
 
