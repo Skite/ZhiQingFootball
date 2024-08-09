@@ -121,9 +121,9 @@ header.masthead h1 {
 
 @media (max-width: 768px) {
     header.masthead {
-        background: url("../img/bg-masthead0.jpg") no-repeat center 60px;
-        background-size: cover;
-        padding-top: 3rem;
+        background: url(../img/bg-masthead0.jpg) no-repeat center 60px;
+        background-size: contain;
+        padding-top: 5rem;
         padding-bottom: 7rem;
         margin-top: 1rem;
     }
