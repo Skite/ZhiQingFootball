@@ -4637,7 +4637,7 @@ new Vue({
                 name: '黃定謙',
                 englishName: 'Dalton',
                 title: '',
-                info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。',
+                info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。五年級開始因個人規畫較少參加團體活動，改以加強個人技巧為主。',
                 achievement: ['1 Time Best Substitutions'],
                 active: 'inactive',
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
@@ -5314,6 +5314,27 @@ new Vue({
                 return parseInt(app[type])
             })
             return sum
+        },
+        handlePlayerData(arr) {
+            var counts = {}
+
+            for (var i = 0; i < arr.length; i++) {
+                var num = arr[i].number
+                counts[num] = counts[num] ? counts[num] + 1 : 1
+            }
+
+            var result = []
+            for (var key in counts) {
+                if (Object.prototype.hasOwnProperty.call(counts, key) && counts[key] > 2) {
+                    for (var i = 0; i < arr.length; i++) {
+                        if (arr[i].number === key) {
+                            result.push(arr[i])
+                        }
+                    }
+                }
+            }
+
+            return result
         }
     },
     computed: {
@@ -5324,29 +5345,7 @@ new Vue({
             let allFilteredArray = nameFilteredArray.concat(positionFilteredArray).concat(numberFilteredArray)
             // console.log(nameFilteredArray, positionFilteredArray, numberFilteredArray, allFilteredArray)
 
-            var counts = {}
-
-            for (var i = 0; i < allFilteredArray.length; i++) {
-                var num = allFilteredArray[i].number
-                counts[num] = counts[num] ? counts[num] + 1 : 1
-            }
-
-            var result = []
-            for (var key in counts) {
-                if (Object.prototype.hasOwnProperty.call(counts, key) && counts[key] > 2) {
-                    for (var i = 0; i < allFilteredArray.length; i++) {
-                        if (allFilteredArray[i].number === key) {
-                            result.push(allFilteredArray[i])
-                        }
-                    }
-                }
-            }
-
-            filteredResult = _.uniq(result, 'number')
-
-            if (!!this.selectedType) {
-                filteredResult = _.filter(filteredResult, { 'active': this.selectedType })
-            }
+            filteredResult = _.uniq(this.handlePlayerData(allFilteredArray), 'number')
 
             filteredResult = filteredResult.map(v => ({ ...v,
                 totalMatches: this.sumStat(v, 'g'),
@@ -5356,6 +5355,10 @@ new Vue({
                 totalCS: this.sumStat(v, 'cs'),
                 matchGroup: _.groupBy(v.appearance, o => o.grade)
             }))
+
+            if (!!this.selectedType) {
+                filteredResult = _.filter(filteredResult, { 'active': this.selectedType })
+            }
 
             let type = this.sortType
 
@@ -5383,5 +5386,155 @@ new Vue({
                 return appYear
             }
         }
+    },
+    mounted() {
+        let origData = this.players.map(v => ({ ...v,
+            totalMatches: this.sumStat(v, 'g'),
+            totalGS: this.sumStat(v, 'gs'),
+            totalGoals: this.sumStat(v, 'goals'),
+            totalAsts: this.sumStat(v, 'asts'),
+            totalCS: this.sumStat(v, 'cs'),
+            matchGroup: _.groupBy(v.appearance, o => o.grade)
+        }))
+
+        origData.forEach(i => {
+            delete i.achievement;
+            delete i.active;
+            delete i.appearance;
+            delete i.englishName;
+            delete i.info;
+            delete i.matchGroup;
+            delete i.position;
+            delete i.title;
+            delete i.totalGS;
+            delete i.totalMatches;
+            i.name = i.name.slice(-2)
+            // i['marker'] = {
+            //     symbol: `url(https://skite.github.io/ZhiQingFootball/img/players/player-${i.number}-head.jpg)`
+            // }
+        })
+
+
+        const chartData = origData.map(({
+            totalGoals: x,
+            totalAsts: y,
+            totalCS: z,
+            ...rest
+        }) => ({
+            x,
+            y,
+            z,
+            ...rest
+        }));
+
+        console.log(chartData)
+
+        Highcharts.chart('chart', {
+            chart: {
+                type: 'bubble',
+                plotBorderWidth: 1,
+                zooming: {
+                    type: 'xy'
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            title: {
+                text: 'Player Distributions'
+            },
+            accessibility: {
+                point: {
+                    valueDescriptionFormat: '{index}. {point.name}, goals: {point.x}, ' +
+                        'assists: {point.y}, clean sheets: {point.z}.'
+                }
+            },
+            xAxis: {
+                gridLineWidth: 1,
+                title: {
+                    text: 'Total Goals'
+                },
+                labels: {
+                    format: '{value} goals'
+                },
+                plotLines: [{
+                    color: 'black',
+                    dashStyle: 'dot',
+                    width: 2,
+                    value: 33,
+                    label: {
+                        rotation: 0,
+                        y: 15,
+                        style: {
+                            fontStyle: 'italic'
+                        },
+                        text: 'Average Goals 33.1/player'
+                    },
+                    zIndex: 3
+                }],
+                accessibility: {
+                    rangeDescription: 'Range: 0 to 130 grams.'
+                }
+            },
+
+            yAxis: {
+                startOnTick: false,
+                endOnTick: false,
+                title: {
+                    text: 'Total Assists'
+                },
+                labels: {
+                    format: '{value} assists'
+                },
+                maxPadding: 0.4,
+                plotLines: [{
+                    color: 'black',
+                    dashStyle: 'dot',
+                    width: 2,
+                    value: 20,
+                    label: {
+                        align: 'right',
+                        style: {
+                            fontStyle: 'italic'
+                        },
+                        text: 'Average Assists 20.3/player',
+                        x: -10
+                    },
+                    zIndex: 3
+                }],
+                accessibility: {
+                    rangeDescription: 'Range: 0 to 80 grams.'
+                }
+            },
+
+            tooltip: {
+                useHTML: true,
+                headerFormat: '<table>',
+                pointFormat: '<tr><th colspan="2"><h3>{point.country}</h3></th></tr>' +
+                    '<tr><th>Goals:</th><td>{point.x}</td></tr>' +
+                    '<tr><th>Assists:</th><td>{point.y}</td></tr>' +
+                    '<tr><th>Clean Sheets:</th><td>{point.z}</td></tr>',
+                footerFormat: '</table>',
+                followPointer: true
+            },
+
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.name}'
+                    }
+                },
+                bubble: {
+                    minSize: 5
+                }
+            },
+
+            series: [{
+                data: chartData,
+                colorByPoint: true
+            }]
+
+        });
     }
 })
