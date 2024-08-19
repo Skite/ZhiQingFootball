@@ -5143,7 +5143,7 @@ new Vue({
             }, {
                 date: '20230423',
                 pitch: '明道國小',
-                opponent: { name: 'BSC', logo: 'default' },
+                opponent: { name: 'BSC', logo: 'BSC' },
                 formation: '1-2-1',
                 starters: ['GK-定謙', 'CB-維恩*', 'RM-宥融', 'LM-亮谷', 'CF-宇正'],
                 subs: [{
@@ -7193,7 +7193,7 @@ new Vue({
             }, {
                 date: '20231126',
                 pitch: '國立體育大學足球場',
-                opponent: { name: 'Taipei_Breakers', logo: 'MFA' },
+                opponent: { name: 'Taipei_Breakers', logo: 'TPEBreakers' },
                 formation: '2-3-1',
                 starters: ['GK-凱泰', 'RCB-紘豪', 'LCB-宇正', 'RM-宥融', 'CM-亮谷', 'LM-皓宇', 'CF-維恩'],
                 subs: [{
