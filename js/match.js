@@ -1647,7 +1647,7 @@ new Vue({
             }, {
                 date: '20211226',
                 pitch: '錦和運動公園',
-                opponent: { name: 'Lion', logo: 'Lion' },
+                opponent: { name: 'Lions', logo: 'Lions' },
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-宇正', 'CB-振綸*', 'LB-子珩*', 'RM-亮谷', 'CM-維恩', 'LM-黃衍', 'CF-定謙'],
                 subs: [{
@@ -4868,7 +4868,7 @@ new Vue({
             matches: [{
                 date: '20230408',
                 pitch: '華中足球場',
-                opponent: { name: 'Lion', logo: 'Lion' },
+                opponent: { name: 'Lions', logo: 'Lions' },
                 formation: '3-0-1',
                 starters: ['GK-瑀東', 'RB-昀宸*', 'CB-邁可', 'LB-羿翔*', 'CF-宸瑜*'],
                 subs: [{

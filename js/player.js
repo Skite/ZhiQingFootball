@@ -1115,6 +1115,257 @@ new Vue({
                 }]
             },
             {
+                number: '10',
+                name: '詹善捷',
+                englishName: 'Otto',
+                title: '',
+                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出，但於六年級再度為爭取回到輪替陣容而努力。',
+                achievement: ['4 Times Best Substitutions'],
+                active: 'active',
+                position: ['GK', 'RB', 'LB'],
+                appearance: [{
+                    grade: 'U11',
+                    cup: '新北市議長盃',
+                    g: '6',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市五人制足球聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '1',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺北市教育盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '5',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: 'Kappa 盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U10',
+                    cup: '明道盃',
+                    g: '3',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '金兔賀歲盃',
+                    g: '1',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北聯合盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '1',
+                    cs: '2'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '全國學童盃',
+                    g: '4',
+                    gs: '4',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市夏季主委盃草地五人制',
+                    g: '3',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '1'
+                }, {
+                    grade: 'U9',
+                    cup: '春季大安盃',
+                    g: '4',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '包中盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '臺北市教育盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '迎虎盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: 'A-Star聖誕盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '新北聯合盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '中正主委盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U9',
+                    cup: '學童盃',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '安聯小小世界盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '春季大安盃',
+                    g: '6',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '5'
+                }, {
+                    grade: 'U8',
+                    cup: '萬歲盃',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '金牛賀歲盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '扶輪社暨航源足球賽',
+                    g: '5',
+                    gs: '3',
+                    goals: '0',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '新北聯合盃',
+                    g: '4',
+                    gs: '3',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U8',
+                    cup: '新北迷你盃',
+                    g: '2',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
                 number: '12',
                 name: '謝皓宇',
                 englishName: 'Roy',
@@ -4315,257 +4566,6 @@ new Vue({
                 }]
             },
             {
-                number: '10',
-                name: '詹善捷',
-                englishName: 'Otto',
-                title: '',
-                info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出輪替陣容，但仍隨隊訓練以維持球技和體能。',
-                achievement: ['4 Times Best Substitutions'],
-                active: 'inactive',
-                position: ['GK', 'RB', 'LB'],
-                appearance: [{
-                    grade: 'U11',
-                    cup: '新北市議長盃',
-                    g: '6',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '8',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '安聯小小世界盃',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市五人制足球聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '1',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺北市教育盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '5',
-                    gs: '2',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: 'Kappa 盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U10',
-                    cup: '明道盃',
-                    g: '3',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '金兔賀歲盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北聯合盃',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '1',
-                    cs: '2'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '全國學童盃',
-                    g: '4',
-                    gs: '4',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市夏季主委盃草地五人制',
-                    g: '3',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '1'
-                }, {
-                    grade: 'U9',
-                    cup: '春季大安盃',
-                    g: '4',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '包中盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '臺北市教育盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '迎虎盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: 'A-Star聖誕盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '新北聯合盃',
-                    g: '2',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '中正主委盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U9',
-                    cup: '學童盃',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '安聯小小世界盃',
-                    g: '3',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '春季大安盃',
-                    g: '6',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '5'
-                }, {
-                    grade: 'U8',
-                    cup: '萬歲盃',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '金牛賀歲盃',
-                    g: '3',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '扶輪社暨航源足球賽',
-                    g: '5',
-                    gs: '3',
-                    goals: '0',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '新北聯合盃',
-                    g: '4',
-                    gs: '3',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U8',
-                    cup: '新北迷你盃',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '20',
                 name: '高瑀東',
                 englishName: 'Adam',
@@ -5399,7 +5399,7 @@ new Vue({
 
         origData.forEach(i => {
             delete i.achievement;
-            delete i.active;
+            // delete i.active;
             delete i.appearance;
             delete i.englishName;
             delete i.info;
@@ -5427,21 +5427,28 @@ new Vue({
             ...rest
         }));
 
-        console.log(chartData)
+        const avgGoals = chartData.reduce((acc, o) => acc + parseInt(o.x), 0) / 20
+        const avgAsts = chartData.reduce((acc, o) => acc + parseInt(o.y), 0) / 20
+
+        console.log(_.filter(chartData, ['active', 'active']).concat(_.filter(chartData, ['active', 'inactive'])))
 
         Highcharts.chart('chart', {
+            title: {
+                text: 'Player Distributions'
+            },
+            subtitle: {
+                text: 'Bubble size: Clean Sheets'
+            },
             chart: {
                 type: 'bubble',
                 plotBorderWidth: 1,
                 zooming: {
                     type: 'xy'
-                }
+                },
+                backgroundColor: '#a4d2d9'
             },
             legend: {
                 enabled: false
-            },
-            title: {
-                text: 'Player Distributions'
             },
             accessibility: {
                 point: {
@@ -5452,23 +5459,23 @@ new Vue({
             xAxis: {
                 gridLineWidth: 1,
                 title: {
-                    text: 'Total Goals'
+                    text: 'Goals'
                 },
                 labels: {
-                    format: '{value} goals'
+                    format: '{value}'
                 },
                 plotLines: [{
                     color: 'black',
                     dashStyle: 'dot',
                     width: 2,
-                    value: 33,
+                    value: avgGoals,
                     label: {
                         rotation: 0,
                         y: 15,
                         style: {
                             fontStyle: 'italic'
                         },
-                        text: 'Average Goals 33.1/player'
+                        text: `Average Goals ${avgGoals} per player`
                     },
                     zIndex: 3
                 }],
@@ -5478,26 +5485,28 @@ new Vue({
             },
 
             yAxis: {
+                minorTickLength: '100px',
+                minorTicks: true,
                 startOnTick: false,
                 endOnTick: false,
                 title: {
-                    text: 'Total Assists'
+                    text: 'Assists'
                 },
                 labels: {
-                    format: '{value} assists'
+                    format: '{value}'
                 },
                 maxPadding: 0.4,
                 plotLines: [{
                     color: 'black',
                     dashStyle: 'dot',
                     width: 2,
-                    value: 20,
+                    value: avgAsts,
                     label: {
                         align: 'right',
                         style: {
                             fontStyle: 'italic'
                         },
-                        text: 'Average Assists 20.3/player',
+                        text: `Average Assists ${avgAsts} per player`,
                         x: -10
                     },
                     zIndex: 3
@@ -5522,17 +5531,31 @@ new Vue({
                 series: {
                     dataLabels: {
                         enabled: true,
-                        format: '{point.name}'
+                        format: '{point.name}',
+                        style: {
+                            fontSize: '0.9em'
+                        }
                     }
                 },
                 bubble: {
-                    minSize: 5
+                    minSize: 10,
+                    layoutAlgorithm: {
+                        splitSeries: false,
+                        gravitationalConstant: 0.02,
+                        seriesInteraction: false
+                    }
+                },
+                area: {
+                    label: {
+                        connectorAllowed: true
+                    }
                 }
             },
 
             series: [{
-                data: chartData,
-                colorByPoint: true
+                data: _.filter(chartData, ['active', 'active']).concat(_.filter(chartData, ['active', 'inactive'])),
+                colorByPoint: true,
+                displayNegative: false
             }]
 
         });

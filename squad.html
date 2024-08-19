@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://skite.github.io/ZhiQingFootball/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="ZhiQingFootball" />
-    <meta property="og:image" content="https://skite.github.io/ZhiQingFootball/img/bg-masthead.jpg" />
+    <meta property="og:image" content="https://skite.github.io/ZhiQingFootball/img/bg-masthead.png" />
     <meta property="og:description" content="臺北市立志清國民小學108學年級足球隊" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/squad.css" rel="stylesheet">
+    <link href="css/chart.css" rel="stylesheet">
 </head>
 
 <body>
@@ -174,7 +175,7 @@
                                                         <div class="card-body text-center bg-gradien rounded-top">
                                                             <h1 class="text-right"><span class="badge badge-pill badge-dark mx-1">{{player.number}}</span></h1>
                                                             <div class="user-box">
-                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
+                                                                <img :src="`img/players/player-${player.number}-head.png`" alt="user avatar">
                                                             </div>
                                                             <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}} | {{player.englishName}}</h5>
                                                         </div>
@@ -378,7 +379,7 @@
                                                         <div class="card-body text-center bg-gradien rounded-top">
                                                             <h1 class="text-right"><span class="badge badge-pill badge-dark mx-1">{{player.number}}</span></h1>
                                                             <div class="user-box">
-                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
+                                                                <img :src="`img/players/player-${player.number}-head.png`" alt="user avatar">
                                                             </div>
                                                             <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}} | {{player.englishName}}</h5>
                                                         </div>
@@ -581,7 +582,7 @@
                                                     <div class="card">
                                                         <div class="card-body text-center bg-gradien rounded-top">
                                                             <div class="user-box">
-                                                                <img :src="`img/players/player-${player.number}-head.jpg`" alt="user avatar">
+                                                                <img :src="`img/players/player-${player.number}-head.png`" alt="user avatar">
                                                             </div>
                                                             <h5 class="mb-1 text-white">{{player.name.slice(-2).split("").join(" ")}}</h5>
                                                             <!-- <span v-for="pos in player.position" class="badge badge-dark mx-1">{{ pos }}</span> -->
@@ -866,7 +867,9 @@
                     </div>
                 </div>
             </div>
-            <div id="chart"></div>
+            <div class="my-4 py-4 bg-info bg-gradient">
+                <div id="chart"></div>
+            </div>
         </section>
         <!-- Footer -->
         <footer class="footer bg-light">
