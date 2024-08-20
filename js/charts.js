@@ -639,6 +639,74 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         }]
     });
 
+    const U12Goals = Number(stats.five.U12.scores) + Number(stats.eight.U12.scores) + Number(stats.seven.U12.scores) + Number(stats.three.U12.scores)
+    const U11Goals = Number(stats.five.U11.scores) + Number(stats.eight.U11.scores) + Number(stats.seven.U11.scores)
+    const U10Goals = Number(stats.five.U10.scores) + Number(stats.eight.U10.scores) + Number(stats.seven.U10.scores)
+    const U9Goals = Number(stats.five.U9.scores) + Number(stats.eight.U9.scores) + Number(stats.seven.U9.scores)
+    const U8Goals = Number(stats.five.U8.scores) + Number(stats.eight.U8.scores) + Number(stats.seven.U8.scores)
+
+    const U12Concs = Number(stats.five.U12.conc) + Number(stats.eight.U12.conc) + Number(stats.seven.U12.conc) + Number(stats.three.U12.conc)
+    const U11Concs = Number(stats.five.U11.conc) + Number(stats.eight.U11.conc) + Number(stats.seven.U11.conc)
+    const U10Concs = Number(stats.five.U10.conc) + Number(stats.eight.U10.conc) + Number(stats.seven.U10.conc)
+    const U9Concs = Number(stats.five.U9.conc) + Number(stats.eight.U9.conc) + Number(stats.seven.U9.conc)
+    const U8Concs = Number(stats.five.U8.conc) + Number(stats.eight.U8.conc) + Number(stats.seven.U8.conc)
+
+    const U12CSs = Number(stats.five.U12.cs) + Number(stats.eight.U12.cs) + Number(stats.seven.U12.cs) + Number(stats.three.U12.cs)
+    const U11CSs = Number(stats.five.U11.cs) + Number(stats.eight.U11.cs) + Number(stats.seven.U11.cs)
+    const U10CSs = Number(stats.five.U10.cs) + Number(stats.eight.U10.cs) + Number(stats.seven.U10.cs)
+    const U9CSs = Number(stats.five.U9.cs) + Number(stats.eight.U9.cs) + Number(stats.seven.U9.cs)
+    const U8CSs = Number(stats.five.U8.cs) + Number(stats.eight.U8.cs) + Number(stats.seven.U8.cs)
+
+    Highcharts.chart('totalGoals', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: '比賽內容'
+        },
+        subtitle: {
+            text: `總覽`,
+            align: 'center',
+            style: {
+                color: '#4287f5'
+            }
+        },
+        xAxis: {
+            categories: ['']
+        },
+        plotOptions: {
+            column: {
+                dataLabels: {
+                    allowOverlap: true,
+                    enabled: true
+                },
+                borderRadius: '5%'
+            }
+        },
+        colors: [colors[1], colors[5], colors[3], colors[2]],
+        series: [{
+            name: '進球',
+            data: [
+                U12Goals + U11Goals + U10Goals + U9Goals + U8Goals
+            ]
+        }, {
+            name: '失球',
+            data: [
+                -(U12Concs + U11Concs + U10Concs + U9Concs + U8Concs)
+            ]
+        }, {
+            name: '得失球差',
+            data: [
+                U12Goals + U11Goals + U10Goals + U9Goals + U8Goals - (U12Concs + U11Concs + U10Concs + U9Concs + U8Concs)
+            ]
+        }, {
+            name: '零封',
+            data: [
+                U12CSs + U11CSs + U10CSs + U9CSs + U8CSs
+            ]
+        }]
+    });
+
 
     Highcharts.chart('goalsByGrade', {
         chart: {
@@ -670,42 +738,42 @@ $.getJSON("https://skite.github.io/ZhiQingFootball/data/stats.json", function(st
         series: [{
             name: 'U12',
             data: [
-                Number(stats.five.U12.scores) + Number(stats.eight.U12.scores) + Number(stats.seven.U12.scores) + Number(stats.three.U12.scores),
-                -(Number(stats.five.U12.conc) + Number(stats.eight.U12.conc) + Number(stats.seven.U12.conc) + Number(stats.three.U12.conc)),
-                Number(stats.five.U12.scores) + Number(stats.eight.U12.scores) + Number(stats.seven.U12.scores) + Number(stats.three.U12.scores) - Number(stats.five.U12.conc) - Number(stats.eight.U12.conc) - Number(stats.seven.U12.conc) - Number(stats.three.U12.conc),
-                Number(stats.five.U12.cs) + Number(stats.eight.U12.cs) + Number(stats.seven.U12.cs) + Number(stats.three.U12.cs)
+                U12Goals,
+                -U12Concs,
+                U12Goals - U12Concs,
+                U12CSs
             ]
         }, {
             name: 'U11',
             data: [
-                Number(stats.five.U11.scores) + Number(stats.eight.U11.scores) + Number(stats.seven.U11.scores),
-                -(Number(stats.five.U11.conc) + Number(stats.eight.U11.conc) + Number(stats.seven.U11.conc)),
-                Number(stats.five.U11.scores) + Number(stats.eight.U11.scores) + Number(stats.seven.U11.scores) - Number(stats.five.U11.conc) - Number(stats.eight.U11.conc) - Number(stats.seven.U11.conc),
-                Number(stats.five.U11.cs) + Number(stats.eight.U11.cs) + Number(stats.seven.U11.cs)
+                U11Goals,
+                -U11Concs,
+                U11Goals - U11Concs,
+                U11CSs
             ]
         }, {
             name: 'U10',
             data: [
-                Number(stats.five.U10.scores) + Number(stats.eight.U10.scores) + Number(stats.seven.U10.scores),
-                -(Number(stats.five.U10.conc) + Number(stats.eight.U10.conc) + Number(stats.seven.U10.conc)),
-                Number(stats.five.U10.scores) + Number(stats.eight.U10.scores) + Number(stats.seven.U10.scores) - Number(stats.five.U10.conc) - Number(stats.eight.U10.conc) - Number(stats.seven.U10.conc),
-                Number(stats.five.U10.cs) + Number(stats.eight.U10.cs) + Number(stats.seven.U10.cs)
+                U10Goals,
+                -U10Concs,
+                U10Goals - U10Concs,
+                U10CSs
             ]
         }, {
             name: 'U9',
             data: [
-                Number(stats.five.U9.scores) + Number(stats.eight.U9.scores) + Number(stats.seven.U9.scores),
-                -(Number(stats.five.U9.conc) + Number(stats.eight.U9.conc) + Number(stats.seven.U9.conc)),
-                Number(stats.five.U9.scores) + Number(stats.eight.U9.scores) + Number(stats.seven.U9.scores) - Number(stats.five.U9.conc) - Number(stats.eight.U9.conc) - Number(stats.seven.U9.conc),
-                Number(stats.five.U9.cs) + Number(stats.eight.U9.cs) + Number(stats.seven.U9.cs)
+                U9Goals,
+                -U9Concs,
+                U9Goals - U9Concs,
+                U9CSs
             ]
         }, {
             name: 'U8',
             data: [
-                Number(stats.five.U8.scores) + Number(stats.eight.U8.scores) + Number(stats.seven.U8.scores),
-                -(Number(stats.five.U8.conc) + Number(stats.eight.U8.conc) + Number(stats.seven.U8.conc)),
-                Number(stats.five.U8.scores) + Number(stats.eight.U8.scores) + Number(stats.seven.U8.scores) - Number(stats.five.U8.conc) - Number(stats.eight.U8.conc) - Number(stats.seven.U8.conc),
-                Number(stats.five.U8.cs) + Number(stats.eight.U8.cs) + Number(stats.seven.U8.cs)
+                U8Goals,
+                -U8Concs,
+                U8Goals - U8Concs,
+                U8CSs
             ]
         }]
     });
