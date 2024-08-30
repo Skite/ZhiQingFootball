@@ -1121,7 +1121,7 @@ new Vue({
                 title: '',
                 info: '帶著在俱樂部鍛練出的技術與天賦，於二年級下學期時加入球隊。長期在球隊後防上提供穩定的支援，把守大門的功力亦十分了得。五年級開始因個人規畫逐漸淡出，但於六年級再度為爭取回到輪替陣容而努力。',
                 achievement: ['4 Times Best Substitutions'],
-                active: 'active',
+                active: 'inactive',
                 position: ['GK', 'RB', 'LB'],
                 appearance: [{
                     grade: 'U11',
