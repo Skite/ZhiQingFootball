@@ -1,6 +1,7 @@
 new Vue({
     el: '#ZhiQingFootball',
     data: {
+        result: '',
         cups: [{
             id: 1,
             year: '2020',
@@ -9826,8 +9827,156 @@ new Vue({
                 instructors: [],
                 note: ''
             }]
-        }],
-        result: ''
+        }, {
+            id: 58,
+            year: '2024',
+            cupName: '星華育樂新星盃',
+            system: '5人制',
+            grade: 'U12',
+            cover: '2024newstarcup',
+            trophy: '亞軍',
+            team: [{
+                name: '大悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、維恩、宥融、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240831',
+                pitch: '桃子腳國小',
+                opponent: { name: 'PUIMA', logo: '文華國小' },
+                formation: '1-2-1',
+                starters: ['GK-宇正', 'CB-維恩', 'RM-晉丞', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '大悍將',
+                final_score: '12 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: '皓宇',
+                    assist: '黃衍'
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '黃衍',
+                    assist: '晉丞'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: 'P'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }],
+                goalkeepers: ['宇正'],
+                isCleanSheet: false,
+                instructors: ['無*'],
+                note: '* 本場比賽無指導教練，由宇正爸代班調度'
+            }, {
+                date: '20240831',
+                pitch: '桃子腳國小',
+                opponent: { name: 'SCSFC', logo: 'SCSFC' },
+                formation: '1-2-1',
+                starters: ['GK-宇正', 'CB-維恩', 'RM-晉丞', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '大悍將',
+                final_score: '8 : 4',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '晉丞',
+                    assist: '黃衍'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '宇正'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '宥融'
+                }, {
+                    name: '皓宇',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['宇正'],
+                isCleanSheet: false,
+                instructors: ['無*'],
+                note: '* 本場比賽無指導教練，由宇正爸代班調度'
+            }, {
+                date: '20240831',
+                pitch: '桃子腳國小',
+                opponent: { name: 'BSC', logo: 'BSC' },
+                formation: '1-2-1',
+                starters: ['GK-黃衍', 'CB-紘豪', 'RM-皓宇', 'LM-宇正', 'CF-宥融'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 18,
+                    name: '維恩'
+                }],
+                subTeam: '大悍將',
+                final_score: '4 : 6',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '皓宇'
+                }, {
+                    name: 'Own Goal',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['黃衍', '宥融'],
+                isCleanSheet: false,
+                instructors: ['無*'],
+                note: '* 本場比賽無指導教練，由宇正爸代班調度'
+            }]
+        }]
     },
     methods: {
         sumMatches(arr) {

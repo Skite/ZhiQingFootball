@@ -20,6 +20,14 @@ new Vue({
                 position: ['RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '2',
+                    asts: '2',
+                    cs: '0'
+                }, {
+                    grade: 'U12',
                     cup: '新北議長盃',
                     g: '6',
                     gs: '1',
@@ -406,6 +414,14 @@ new Vue({
                 active: 'active',
                 position: ['LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '4',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     grade: 'U12',
                     cup: '新北議長盃',
                     g: '6',
@@ -801,6 +817,14 @@ new Vue({
                 active: 'active',
                 position: ['RB', 'LB', 'RM'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
                     grade: 'U12',
                     cup: '誠品迷你足球一日盃',
                     g: '4',
@@ -1375,6 +1399,14 @@ new Vue({
                 active: 'active',
                 position: ['RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '9',
+                    asts: '3',
+                    cs: '0'
+                }, {
                     grade: 'U12',
                     cup: '新北議長盃',
                     g: '6',
@@ -2173,6 +2205,14 @@ new Vue({
                 active: 'active',
                 position: ['CB', 'CM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '2',
+                    goals: '4',
+                    asts: '5',
+                    cs: '0'
+                }, {
                     grade: 'U12',
                     cup: '誠品迷你足球一日盃',
                     g: '4',
@@ -3335,6 +3375,14 @@ new Vue({
                 position: ['GK', 'RB', 'LB', 'RM', 'CF'],
                 appearance: [{
                     grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '2',
+                    gs: '1',
+                    goals: '3',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U12',
                     cup: '誠品迷你足球一日盃',
                     g: '4',
                     gs: '4',
@@ -4116,6 +4164,14 @@ new Vue({
                 active: 'active',
                 position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
                 appearance: [{
+                    grade: 'U12',
+                    cup: '星華育樂新星盃',
+                    g: '3',
+                    gs: '3',
+                    goals: '1',
+                    asts: '2',
+                    cs: '0'
+                }, {
                     grade: 'U12',
                     cup: '誠品迷你足球一日盃',
                     g: '4',

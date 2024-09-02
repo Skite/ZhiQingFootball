@@ -752,6 +752,17 @@ new Vue({
                 url: 'w7Z2BLyQ#w0XTdiDU_jgAVPh8Xeqsg9_-IfDRxb5fljC6-mAbORU'
             }],
             icon: 'fas fa-book'
+        }, {
+            id: 42,
+            cupName: '2024星華育樂新星盃',
+            cover: '2024newstarcup',
+            videos: [{
+                date: '08/31',
+                opponents: 'PUIMA、SCS、BSC',
+                cover: '20240831',
+                url: '8vR3WDya#C6bNzKT9iISf9kiJhu8I8ebexmhnYMHjEgl8qtGIp3A'
+            }],
+            icon: 'fas fa-stars'
         }],
         photos: [{
             id: 1,
@@ -1535,6 +1546,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/6v8Xuw5mM1BMp65v6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240728-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'far fa-microphone-stand'
+        }, {
+            id: 54,
+            cupName: '2024星華育樂新星盃',
+            cover: '20240831-cover',
+            photos: [{
+                date: '08/31',
+                opponents: 'PUIMA、SCS、BSC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/TZVVFMgrao2LdM5p6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240831-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-stars'
         }]
     },
     methods: {},
