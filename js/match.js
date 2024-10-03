@@ -1317,7 +1317,7 @@ new Vue({
         }, {
             id: 8,
             year: '2021',
-            cupName: '學童盃',
+            cupName: '全國學童盃',
             system: '8人制',
             grade: 'U9',
             cover: '2021studentcup',
@@ -7560,7 +7560,7 @@ new Vue({
         }, {
             id: 45,
             year: '2023',
-            cupName: '學童盃',
+            cupName: '全國學童盃',
             system: '8人制',
             grade: 'U11',
             cover: '2023studentcup',
@@ -9975,6 +9975,149 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['無*'],
                 note: '* 本場比賽無指導教練，由宇正爸代班調度'
+            }]
+        }, {
+            id: 59,
+            year: '2024-25',
+            cupName: '勝利聯賽',
+            system: '7人制',
+            grade: 'U12',
+            cover: '2024victoryleague',
+            trophy: '',
+            team: [{
+                name: '大悍將',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、宇正'
+            }],
+            note: ``,
+            matches: [{
+                date: '20240929',
+                pitch: '天母運動公園',
+                opponent: { name: 'MFA_Red_U11', logo: 'MFA' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-黃衍', 'LCB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-紘豪', 'CF-柏燁'],
+                subs: [{
+                    number: 12,
+                    name: '皓宇'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '大悍將',
+                final_score: '14 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '紘豪',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '維恩'
+                }, {
+                    name: '維恩',
+                    assist: '皓宇'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '柏燁'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '紘豪',
+                    assist: '維恩'
+                }, {
+                    name: '晉丞',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '',
+                bestSubs: ''
+            }]
+        }, {
+            id: 60,
+            year: '2024',
+            cupName: '全國學童盃',
+            system: '8人制',
+            grade: 'U12',
+            cover: '2024studentcup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正'
+            }],
+            note: '',
+            matches: [{
+                date: '20240930',
+                pitch: '台中足球場',
+                opponent: { name: '桃園同安國小', logo: '桃園同安' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-黃衍', 'LCB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '國小',
+                final_score: '0 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: ''
+            }, {
+                date: '20241001',
+                pitch: '台中足球場',
+                opponent: { name: '宜蘭順安國小', logo: '宜蘭順安' },
+                formation: '3-3-1',
+                starters: ['GK-宥融', 'RCB-宇正', 'LCB-黃衍', 'RM-晉丞', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '國小',
+                final_score: '1 : 1',
+                pso: '',
+                wdl: 'D',
+                scorers: [{
+                    name: '維恩',
+                    assist: ''
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }]
     },

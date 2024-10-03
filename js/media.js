@@ -763,6 +763,17 @@ new Vue({
                 url: '8vR3WDya#C6bNzKT9iISf9kiJhu8I8ebexmhnYMHjEgl8qtGIp3A'
             }],
             icon: 'fas fa-stars'
+        }, {
+            id: 43,
+            cupName: '2024-25勝利聯賽',
+            cover: '2024victoryleague',
+            videos: [{
+                date: '09/29',
+                opponents: 'MFA_Red_U11',
+                cover: '20240929',
+                url: 'o65ggbra#TSFLvz6QmcFN7vPMEhu88sYYPAALNNE2AKGYAw4d138'
+            }],
+            icon: 'fab fa-vimeo-v'
         }],
         photos: [{
             id: 1,
@@ -880,7 +891,7 @@ new Vue({
             icon: 'fab fa-angular'
         }, {
             id: 8,
-            cupName: '2021學童盃',
+            cupName: '2021全國學童盃',
             cover: '20210904-cover',
             photos: [{
                 date: '09/04',
@@ -1556,6 +1567,26 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/TZVVFMgrao2LdM5p6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240831-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-stars'
+        }, {
+            id: 55,
+            cupName: '2024-25勝利聯賽',
+            cover: '20240929-cover',
+            photos: [{
+                date: '09/29',
+                opponents: 'MFA_Red_U11',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/5JEsh5LbWhJtrJup8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240929-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fab fa-vimeo-v'
+        }, {
+            id: 56,
+            cupName: '2024全國學童盃',
+            cover: '20240930-cover',
+            photos: [{
+                date: '09/30-10/01',
+                opponents: '同安國小、順安國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/oZV9SDNyiutjtYZu7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240930-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-user-graduate'
         }]
     },
     methods: {},
