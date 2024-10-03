@@ -9147,7 +9147,7 @@ new Vue({
             }, {
                 date: '20240610',
                 pitch: '新莊田徑場',
-                opponent: { name: 'MFA-Red', logo: 'MFA' },
+                opponent: { name: 'MFA_Red', logo: 'MFA' },
                 formation: '1-2-1',
                 starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-晉丞', 'CF-黃衍'],
                 subs: [{

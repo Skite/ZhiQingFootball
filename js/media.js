@@ -1403,11 +1403,11 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/ueehLYZCxM7iorMH9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231015-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '11/26',
-                opponents: 'MFA-White、Taipei Breakers',
+                opponents: 'MFA_White、Taipei Breakers',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/2WtoBFcFxpZkTwfP7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20231126-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '02/25',
-                opponents: 'MFA-Red',
+                opponents: 'MFA_Red',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/DvnFkXj676Sdwuhv5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240225-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '04/14',
@@ -1539,7 +1539,7 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/Q7GBv3apa14qfify9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240609-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }, {
                 date: '06/10',
-                opponents: 'MFA-Red',
+                opponents: 'MFA_Red',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/pBrFiLZ5o1EX2Unh8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240610-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-bullseye-arrow'
