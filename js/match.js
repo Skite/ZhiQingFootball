@@ -10097,7 +10097,7 @@ new Vue({
                 date: '20241001',
                 pitch: '台中足球場',
                 opponent: { name: '宜蘭順安國小', logo: '宜蘭順安' },
-                formation: '3-3-1',
+                formation: '2-3-2',
                 starters: ['GK-宥融', 'RCB-宇正', 'LCB-黃衍', 'RM-晉丞', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
                 subs: [{
                     number: 9,
@@ -10118,6 +10118,61 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20241007',
+                pitch: '台中足球場',
+                opponent: { name: '石牌國小', logo: '石牌國小' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-宇正', 'LCB-黃衍', 'RM-晉丞', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
+                subs: [],
+                subTeam: '國小',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: ''
+            }]
+        }, {
+            id: 61,
+            year: '2024',
+            cupName: '城市盃（原中正盃）',
+            system: '8人制',
+            grade: 'U12',
+            cover: '2024citycup',
+            trophy: '',
+            team: [{
+                name: '國小',
+                members: '晉丞、黃衍、紘豪、皓宇、凱泰、維恩、亮谷、柏燁、宥融、昕叡、宇正、宸瑜*、安璞*、浚恩*、昀宸*、羿翔*'
+            }],
+            note: '',
+            matches: [{
+                date: '20241009',
+                pitch: '台中足球場',
+                opponent: { name: '明道國小', logo: '明道國小' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-黃衍', 'LCB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-亮谷', 'RF-皓宇', 'RF-昕叡'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }],
+                subTeam: '國小',
+                final_score: '0 : 7',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟／妹'
             }]
         }]
     },

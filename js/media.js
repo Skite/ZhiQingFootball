@@ -1583,10 +1583,20 @@ new Vue({
             cover: '20240930-cover',
             photos: [{
                 date: '09/30-10/01',
-                opponents: '同安國小、順安國小',
+                opponents: '同安國小、順安國小、石牌國小',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/oZV9SDNyiutjtYZu7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240930-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-user-graduate'
+        }, {
+            id: 57,
+            cupName: '2024城市（中正）盃',
+            cover: '20241009-cover',
+            photos: [{
+                date: '10/09',
+                opponents: '明道國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/WipvMoknSNT7KyYZA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241009-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-landmark'
         }]
     },
     methods: {},
