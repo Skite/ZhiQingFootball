@@ -21,8 +21,8 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -440,8 +440,8 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -867,8 +867,8 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '0',
+                    g: '2',
+                    gs: '1',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -1222,9 +1222,9 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '1',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -1681,7 +1681,7 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -2076,8 +2076,8 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -2567,10 +2567,10 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
-                    asts: '0',
+                    asts: '2',
                     cs: '0'
                 }, {
                     grade: 'U12',
@@ -3002,7 +3002,7 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
+                    g: '2',
                     gs: '0',
                     goals: '0',
                     asts: '0',
@@ -3317,8 +3317,8 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
+                    g: '2',
+                    gs: '2',
                     goals: '0',
                     asts: '0',
                     cs: '0'
@@ -3776,7 +3776,7 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
+                    g: '2',
                     gs: '1',
                     goals: '0',
                     asts: '0',
@@ -4147,9 +4147,9 @@ new Vue({
                 appearance: [{
                     grade: 'U12',
                     cup: '城市（中正）盃',
-                    g: '1',
-                    gs: '1',
-                    goals: '0',
+                    g: '2',
+                    gs: '2',
+                    goals: '2',
                     asts: '0',
                     cs: '0'
                 }, {

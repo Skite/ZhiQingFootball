@@ -10150,7 +10150,7 @@ new Vue({
             note: '',
             matches: [{
                 date: '20241009',
-                pitch: '台中足球場',
+                pitch: '迎風足球場A',
                 opponent: { name: '明道國小', logo: '明道國小' },
                 formation: '2-3-2',
                 starters: ['GK-宥融', 'RCB-黃衍', 'LCB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-亮谷', 'RF-皓宇', 'RF-昕叡'],
@@ -10169,6 +10169,40 @@ new Vue({
                 pso: '',
                 wdl: 'L',
                 scorers: [],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: '* 學弟／妹'
+            }, {
+                date: '20241014',
+                pitch: '迎風足球場A',
+                opponent: { name: '士東國小', logo: '士東國小' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-紘豪', 'LCB-黃衍', 'RM-宇正', 'CM-維恩', 'LM-亮谷', 'RF-皓宇', 'RF-晉丞'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }, {
+                    number: 23,
+                    name: '柏燁'
+                }, {
+                    number: 77,
+                    name: '昕叡'
+                }],
+                subTeam: '國小',
+                final_score: '3 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: '亮谷'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }],
                 goalkeepers: ['宥融', '凱泰'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
