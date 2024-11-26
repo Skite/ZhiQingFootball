@@ -10054,6 +10054,40 @@ new Vue({
                 instructors: ['冠岳'],
                 note: '',
                 bestSubs: ''
+            }, {
+                date: '20241124',
+                pitch: '陽明交通大學北投田徑場',
+                opponent: { name: 'Monster', logo: 'Monster' },
+                formation: '2-3-1',
+                starters: ['GK-凱泰', 'RCB-紘豪', 'LCB-維恩', 'RM-宇正', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }, {
+                    number: 55,
+                    name: '宥融'
+                }],
+                subTeam: '大悍將',
+                final_score: '4 : 2',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '亮谷',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 60,
