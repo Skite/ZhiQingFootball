@@ -772,6 +772,11 @@ new Vue({
                 opponents: 'MFA_Red_U11',
                 cover: '20240929',
                 url: 'o65ggbra#TSFLvz6QmcFN7vPMEhu88sYYPAALNNE2AKGYAw4d138'
+            }, {
+                date: '11/24',
+                opponents: 'Monter',
+                cover: '20241124',
+                url: 'Rq5nkRxK#omf18yAzDd5K-1lbP_2C0vNuVtgJX790Zq2dRYtU9MA'
             }],
             icon: 'fab fa-vimeo-v'
         }],
@@ -1570,11 +1575,15 @@ new Vue({
         }, {
             id: 55,
             cupName: '2024-25勝利聯賽',
-            cover: '20240929-cover',
+            cover: '20241124-cover',
             photos: [{
                 date: '09/29',
                 opponents: 'MFA_Red_U11',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/5JEsh5LbWhJtrJup8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240929-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '11/24',
+                opponents: 'Monster',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/PfMFQk35mx2FbDH38"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {
