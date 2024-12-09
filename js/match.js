@@ -10088,6 +10088,107 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: ''
+            }, {
+                date: '20241208',
+                pitch: '陽明交通大學北投田徑場',
+                opponent: { name: '新北銀河', logo: '新北銀河' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-晉丞', 'LCB-維恩', 'RM-宇正', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '大悍將',
+                final_score: '8 : 1',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '亮谷',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '宥融',
+                    assist: '紘豪'
+                }, {
+                    name: '維恩',
+                    assist: '宇正'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '宥融',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: ''
+            }, {
+                date: '20241208',
+                pitch: '陽明交通大學北投田徑場',
+                opponent: { name: 'Skeeds FC', logo: 'Skeeds' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-宇正', 'LCB-維恩', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }, {
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '大悍將',
+                final_score: '11 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '亮谷'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '宇正',
+                    assist: '宥融'
+                }, {
+                    name: '宇正',
+                    assist: ''
+                }, {
+                    name: '維恩',
+                    assist: ''
+                }, {
+                    name: '皓宇',
+                    assist: '宇正'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '維恩'
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['冠岳'],
+                note: ''
             }]
         }, {
             id: 60,

@@ -1584,6 +1584,10 @@ new Vue({
                 date: '11/24',
                 opponents: 'Monster',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/PfMFQk35mx2FbDH38"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241124-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '12/08',
+                opponents: '新北銀河、Skeeds_FC',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/5wKAGitDRr84kYwu7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241208-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {
