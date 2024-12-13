@@ -777,6 +777,16 @@ new Vue({
                 opponents: 'Monter',
                 cover: '20241124',
                 url: 'Rq5nkRxK#omf18yAzDd5K-1lbP_2C0vNuVtgJX790Zq2dRYtU9MA'
+            }, {
+                date: '12/08',
+                opponents: '新北銀河',
+                cover: '20241208-1',
+                url: 'QmpHlCCJ#-TMCRd3t1k3Fq4EuHXGMVMebgXvI0AYk71FUB894RXA'
+            }, {
+                date: '12/08',
+                opponents: 'Skeeds_FC',
+                cover: '20241208-2',
+                url: '9qoQiQ6T#v4dy10ORAAcNiASkPGyz4va9oQvjQNGr2ax-CyyfMW4'
             }],
             icon: 'fab fa-vimeo-v'
         }],
