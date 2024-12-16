@@ -37,10 +37,10 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
+                    g: '5',
                     gs: '3',
                     goals: '1',
-                    asts: '0',
+                    asts: '1',
                     cs: '0'
                 }, {
                     grade: 'U12',
@@ -456,8 +456,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '4',
+                    g: '5',
+                    gs: '5',
                     goals: '9',
                     asts: '0',
                     cs: '0'
@@ -883,8 +883,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '2',
+                    g: '5',
+                    gs: '3',
                     goals: '2',
                     asts: '1',
                     cs: '0'
@@ -1238,8 +1238,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '3',
+                    g: '5',
+                    gs: '4',
                     goals: '4',
                     asts: '6',
                     cs: '0'
@@ -2092,8 +2092,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '4',
+                    g: '5',
+                    gs: '5',
                     goals: '9',
                     asts: '9',
                     cs: '0'
@@ -2583,9 +2583,9 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '3',
-                    gs: '3',
-                    goals: '2',
+                    g: '4',
+                    gs: '4',
+                    goals: '3',
                     asts: '1',
                     cs: '0'
                 }, {
@@ -3333,8 +3333,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '3',
+                    g: '5',
+                    gs: '4',
                     goals: '3',
                     asts: '3',
                     cs: '1'
@@ -4163,8 +4163,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
-                    gs: '4',
+                    g: '5',
+                    gs: '5',
                     goals: '7',
                     asts: '2',
                     cs: '0'

@@ -248,7 +248,7 @@
                                                             <div class="tab-pane active show" :id="`gamelog${player.number}`">
                                                                 <div class="accordion" :id="`accordion${player.number}`">
                                                                     <div class="card text-primary" v-for="(match, index) in player.matchGroup">
-                                                                        <div class="card-header" :id="`heading2023-${player.number}`">
+                                                                        <div class="card-header" :id="`heading${index}-${player.number}`">
                                                                             <h2 class="mb-0" :class="`modal-body-${index}`">
                                                                                 <button class="btn btn-outline-light btn-block text-left" :class="`modal-body-${index}`" data-toggle="collapse" :data-target="`#grade${index}-${player.number}`" aria-expanded="true" :aria-controls="`grade${index}`">
                                                                                     {{index.slice(-4)}} <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -452,7 +452,7 @@
                                                             <div class="tab-pane active show" :id="`gamelog${player.number}`">
                                                                 <div class="accordion" :id="`accordion${player.number}`">
                                                                     <div class="card text-primary" v-for="(match, index) in player.matchGroup">
-                                                                        <div class="card-header" :id="`heading2023-${player.number}`">
+                                                                        <div class="card-header" :id="`heading${index}-${player.number}`">
                                                                             <h2 class="mb-0" :class="`modal-body-${index}`">
                                                                                 <button class="btn btn-outline-light btn-block text-left" :class="`modal-body-${index}`" data-toggle="collapse" :data-target="`#grade${index}-${player.number}`" aria-expanded="true" :aria-controls="`grade${index}`">
                                                                                     {{index.slice(-4)}} <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -872,40 +872,40 @@
             </div>
         </section>
         <!-- Footer -->
-    <footer class="footer bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 h-100 text-center my-auto">
-                    <ul class="list-inline m-0">
-                        <h3>球隊網站</h3>
-                        <a href="img/qrcode.png" target="_blank">
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 h-100 text-center my-auto">
+                        <ul class="list-inline m-0">
+                            <h3>球隊網站</h3>
+                            <a href="img/qrcode.png" target="_blank">
+                                <li class="list-inline-item">
+                                    <img src="img/qrcode.png" class="img-fluid">
+                                </li>
+                            </a>
+                            （點擊可放大）
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 h-100 text-center my-auto">
+                        <ul class="list-inline mb-2">
                             <li class="list-inline-item">
-                                <img src="img/qrcode.png" class="img-fluid">
+                                <a href="https://github.com/Skite/ZhiQingFootball/issues">意見回饋</a>
                             </li>
-                        </a>
-                        （點擊可放大）
-                    </ul>
-                </div>
-                <div class="col-lg-8 h-100 text-center my-auto">
-                    <ul class="list-inline mb-2">
-                        <li class="list-inline-item">
-                            <a href="https://github.com/Skite/ZhiQingFootball/issues">意見回饋</a>
-                        </li>
-                    </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; ZhiQin Football 2020. All Rights Reserved.</p>
-                </div>                
-                <div class="col-lg-2 h-100 text-center my-auto">
-                    <ul class="list-inline m-0">
-                        <h3>粉絲專頁</h3>
-                        <a href="img/fbqrcode.png" target="_blank">
-                            <li class="list-inline-item">
-                                <img src="img/fbqrcode.png" class="img-fluid">
-                            </li>
-                        </a>
-                        （點擊可放大）
-                    </ul>
-                </div>
-                <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; ZhiQin Football 2020. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-2 h-100 text-center my-auto">
+                        <ul class="list-inline m-0">
+                            <h3>粉絲專頁</h3>
+                            <a href="img/fbqrcode.png" target="_blank">
+                                <li class="list-inline-item">
+                                    <img src="img/fbqrcode.png" class="img-fluid">
+                                </li>
+                            </a>
+                            （點擊可放大）
+                        </ul>
+                    </div>
+                    <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item mr-3">
                             <a href="#">
@@ -924,9 +924,9 @@
                         </li>
                     </ul>
                 </div> -->
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

@@ -10189,6 +10189,28 @@ new Vue({
                 isCleanSheet: true,
                 instructors: ['冠岳'],
                 note: ''
+            }, {
+                date: '20241215',
+                pitch: '陽明交通大學北投田徑場',
+                opponent: { name: '台北Playone', logo: '台北Playone' },
+                formation: '3-2-1',
+                starters: ['GK-宥融', 'RB-紘豪', 'CB-維恩', 'LB-黃衍', 'RCM-皓宇', 'LCM-亮谷', 'CF-宇正'],
+                subs: [{
+                    number: 3,
+                    name: '晉丞'
+                }],
+                subTeam: '大悍將',
+                final_score: '1 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '亮谷',
+                    assist: '晉丞'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: ''
             }]
         }, {
             id: 60,
