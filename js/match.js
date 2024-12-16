@@ -10137,7 +10137,7 @@ new Vue({
             }, {
                 date: '20241208',
                 pitch: '陽明交通大學北投田徑場',
-                opponent: { name: 'Skeeds FC', logo: 'Skeeds' },
+                opponent: { name: 'Skeeds_FC', logo: 'Skeeds' },
                 formation: '2-3-1',
                 starters: ['GK-宥融', 'RCB-宇正', 'LCB-維恩', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
                 subs: [{
@@ -10228,7 +10228,7 @@ new Vue({
             matches: [{
                 date: '20240930',
                 pitch: '台中足球場',
-                opponent: { name: '桃園同安國小', logo: '桃園同安' },
+                opponent: { name: '桃園同安', logo: '桃園同安' },
                 formation: '2-3-2',
                 starters: ['GK-宥融', 'RCB-黃衍', 'LCB-晉丞', 'RM-宇正', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
                 subs: [{
@@ -10253,7 +10253,7 @@ new Vue({
             }, {
                 date: '20241001',
                 pitch: '台中足球場',
-                opponent: { name: '宜蘭順安國小', logo: '宜蘭順安' },
+                opponent: { name: '宜蘭順安', logo: '宜蘭順安' },
                 formation: '2-3-2',
                 starters: ['GK-宥融', 'RCB-宇正', 'LCB-黃衍', 'RM-晉丞', 'CM-維恩', 'LM-亮谷', 'RF-昕叡', 'RF-皓宇'],
                 subs: [{
