@@ -10211,6 +10211,46 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['柏豪', '冠岳'],
                 note: ''
+            }, {
+                date: '20250112',
+                pitch: '陽明交通大學北投田徑場',
+                opponent: { name: 'CFT_Red', logo: 'CFT' },
+                formation: '2-3-1',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-紘豪', 'RM-宇正', 'CM-皓宇', 'LM-黃衍', 'CF-晉丞'],
+                subs: [{
+                    number: 15,
+                    name: '凱泰'
+                }],
+                subTeam: '大悍將',
+                final_score: '7 : 0',
+                pso: '',
+                wdl: 'W',
+                scorers: [{
+                    name: '黃衍',
+                    assist: ''
+                }, {
+                    name: '晉丞',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: '皓宇'
+                }, {
+                    name: '黃衍',
+                    assist: '凱泰'
+                }, {
+                    name: '皓宇',
+                    assist: '維恩'
+                }, {
+                    name: '宥融',
+                    assist: '皓宇'
+                }, {
+                    name: '皓宇',
+                    assist: '宥融'
+                }],
+                goalkeepers: ['宥融', '凱泰'],
+                isCleanSheet: true,
+                instructors: ['柏豪'],
+                note: ''
             }]
         }, {
             id: 60,

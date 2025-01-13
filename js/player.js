@@ -37,9 +37,9 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '3',
-                    goals: '1',
+                    g: '6',
+                    gs: '4',
+                    goals: '2',
                     asts: '1',
                     cs: '0'
                 }, {
@@ -456,9 +456,9 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '5',
-                    goals: '9',
+                    g: '6',
+                    gs: '6',
+                    goals: '12',
                     asts: '0',
                     cs: '0'
                 }, {
@@ -883,8 +883,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '3',
+                    g: '6',
+                    gs: '4',
                     goals: '2',
                     asts: '1',
                     cs: '0'
@@ -1238,10 +1238,10 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '4',
-                    goals: '4',
-                    asts: '6',
+                    g: '6',
+                    gs: '5',
+                    goals: '6',
+                    asts: '9',
                     cs: '0'
                 }, {
                     grade: 'U12',
@@ -1697,11 +1697,11 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '4',
+                    g: '5',
                     gs: '1',
                     goals: '0',
-                    asts: '0',
-                    cs: '1'
+                    asts: '1',
+                    cs: '2'
                 }, {
                     grade: 'U12',
                     cup: '新北議長盃',
@@ -2092,10 +2092,10 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '5',
+                    g: '6',
+                    gs: '6',
                     goals: '9',
-                    asts: '9',
+                    asts: '10',
                     cs: '0'
                 }, {
                     grade: 'U12',
@@ -3333,11 +3333,11 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '4',
-                    goals: '3',
-                    asts: '3',
-                    cs: '1'
+                    g: '6',
+                    gs: '5',
+                    goals: '4',
+                    asts: '4',
+                    cs: '2'
                 }, {
                     grade: 'U12',
                     cup: '星華育樂新星盃',
@@ -4163,8 +4163,8 @@ new Vue({
                 }, {
                     grade: 'U12',
                     cup: '勝利聯賽',
-                    g: '5',
-                    gs: '5',
+                    g: '6',
+                    gs: '6',
                     goals: '7',
                     asts: '2',
                     cs: '0'
@@ -4878,73 +4878,6 @@ new Vue({
                 }]
             },
             {
-                number: '20',
-                name: '高瑀東',
-                englishName: 'Adam',
-                title: '',
-                info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，即便出現在比賽場上的時間不多，卻也偶有讓人驚艷的表現。五年級下學期開始較少參加比賽，僅維持每週一次隨隊練習的習慣。',
-                achievement: ['1 Time Best Substitutions'],
-                active: 'inactive',
-                position: [],
-                appearance: [{
-                    grade: 'U11',
-                    cup: '新北市少年八人制秋季聯賽',
-                    g: '1',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '黃蜂爭霸盃（下）',
-                    g: '2',
-                    gs: '2',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '格溫拜克盃',
-                    g: '5',
-                    gs: '2',
-                    goals: '1',
-                    asts: '1',
-                    cs: '0'
-                }, {
-                    grade: 'U11',
-                    cup: '新北市議長盃',
-                    g: '5',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '臺中港盃國際邀請賽',
-                    g: '8',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '春季大安盃',
-                    g: '5',
-                    gs: '1',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }, {
-                    grade: 'U10',
-                    cup: '新北市少年八人制春季聯賽',
-                    g: '2',
-                    gs: '0',
-                    goals: '0',
-                    asts: '0',
-                    cs: '0'
-                }]
-            },
-            {
                 number: '27',
                 name: '黃定謙',
                 englishName: 'Dalton',
@@ -5490,6 +5423,73 @@ new Vue({
                     cup: '黃蜂爭霸盃（上）',
                     g: '2',
                     gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }]
+            },
+            {
+                number: '20',
+                name: '高瑀東',
+                englishName: 'Adam',
+                title: '',
+                info: '四年級加入球隊的新血，亦是隊上最後一位新增的成員。雖然加入前沒受過太多足球訓練，在他身上卻看不到新手的生澀，即便出現在比賽場上的時間不多，卻也偶有讓人驚艷的表現。五年級下學期開始較少參加比賽，僅維持每週一次隨隊練習的習慣，之後於六年級上學期結束後退出。',
+                achievement: ['1 Time Best Substitutions'],
+                active: 'former',
+                position: [],
+                appearance: [{
+                    grade: 'U11',
+                    cup: '新北市少年八人制秋季聯賽',
+                    g: '1',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '黃蜂爭霸盃（下）',
+                    g: '2',
+                    gs: '2',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '格溫拜克盃',
+                    g: '5',
+                    gs: '2',
+                    goals: '1',
+                    asts: '1',
+                    cs: '0'
+                }, {
+                    grade: 'U11',
+                    cup: '新北市議長盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '臺中港盃國際邀請賽',
+                    g: '8',
+                    gs: '0',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '春季大安盃',
+                    g: '5',
+                    gs: '1',
+                    goals: '0',
+                    asts: '0',
+                    cs: '0'
+                }, {
+                    grade: 'U10',
+                    cup: '新北市少年八人制春季聯賽',
+                    g: '2',
+                    gs: '0',
                     goals: '0',
                     asts: '0',
                     cs: '0'
