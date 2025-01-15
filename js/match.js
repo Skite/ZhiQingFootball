@@ -4282,7 +4282,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '大勇士',
-                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、○東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
             note: `<a class="text-success" target="_blank" href="./img/table/2023eightmanspring.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
@@ -4296,7 +4296,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -4461,7 +4461,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -4863,7 +4863,7 @@ new Vue({
             trophy: '季軍',
             team: [{
                 name: '小勇士',
-                members: '紘豪、邁可、凱泰、瑀東、凱碩*、宸瑜*、安璞*、浚恩*、宸宇*、昀宸*、羿翔*'
+                members: '紘豪、邁可、凱泰、○東、凱碩*、宸瑜*、安璞*、浚恩*、宸宇*、昀宸*、羿翔*'
             }],
             note: '',
             matches: [{
@@ -4871,7 +4871,7 @@ new Vue({
                 pitch: '華中足球場',
                 opponent: { name: 'Lions', logo: 'Lions' },
                 formation: '3-0-1',
-                starters: ['GK-瑀東', 'RB-昀宸*', 'CB-邁可', 'LB-羿翔*', 'CF-宸瑜*'],
+                starters: ['GK-○東', 'RB-昀宸*', 'CB-邁可', 'LB-羿翔*', 'CF-宸瑜*'],
                 subs: [{
                     number: 5,
                     name: '凱碩*'
@@ -4893,7 +4893,7 @@ new Vue({
                     name: '宸瑜*',
                     assist: ''
                 }],
-                goalkeepers: ['瑀東', '羿翔*'],
+                goalkeepers: ['○東', '羿翔*'],
                 isCleanSheet: false,
                 instructors: ['柏豪'],
                 note: '* 學弟'
@@ -4908,7 +4908,7 @@ new Vue({
                     name: '浚恩*'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 25,
                     name: '宸宇*'
@@ -4936,7 +4936,7 @@ new Vue({
                 starters: ['GK-凱泰', 'RB-昀宸*', 'CB-紘豪', 'LB-邁可', 'CF-宸瑜*'],
                 subs: [{
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 28,
                     name: '羿翔*'
@@ -4973,7 +4973,7 @@ new Vue({
                     name: '浚恩*'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 28,
                     name: '羿翔*'
@@ -4995,7 +4995,7 @@ new Vue({
                 starters: ['GK-凱泰', 'RB-紘豪', 'LB-邁可', 'RF-羿翔*', 'LF-宸瑜*'],
                 subs: [{
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 26,
                     name: '昀宸*'
@@ -5476,7 +5476,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '勇士',
-                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、邁可、凱泰、維恩、○東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
             note: '',
             matches: [{
@@ -5519,7 +5519,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }],
                 subTeam: '勇士',
                 final_score: '0 : 3',
@@ -5548,7 +5548,7 @@ new Vue({
                     name: '凱泰'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5601,7 +5601,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5642,7 +5642,7 @@ new Vue({
                     name: '善捷'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5703,7 +5703,7 @@ new Vue({
                     name: '善捷'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5735,7 +5735,7 @@ new Vue({
                     name: '善捷'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5776,7 +5776,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 27,
                     name: '定謙'
@@ -5825,7 +5825,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'
@@ -5857,7 +5857,7 @@ new Vue({
                 members: '晉丞、黃衍、皓宇、邁可、維恩、柏燁、定謙'
             }, {
                 name: 'ZQ超能勇士',
-                members: '紘豪、善捷、凱泰、瑀東、亮谷、宥融、昕叡、宇正'
+                members: '紘豪、善捷、凱泰、○東、亮谷、宥融、昕叡、宇正'
             }],
             note: '',
             matches: [{
@@ -5955,7 +5955,7 @@ new Vue({
                     name: '善捷'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }],
                 subTeam: 'ZQ超能勇士',
                 final_score: '1 : 4',
@@ -6004,7 +6004,7 @@ new Vue({
                 starters: ['GK-凱泰', 'RB-紘豪', 'LB-善捷', 'CM-宇正', 'CF-宥融'],
                 subs: [{
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 77,
                     name: '昕叡'
@@ -6074,7 +6074,7 @@ new Vue({
                     name: '善捷'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }],
                 subTeam: 'ZQ超能勇士',
                 final_score: '0 : 2',
@@ -6085,7 +6085,7 @@ new Vue({
                 isCleanSheet: false,
                 instructors: ['怡萍'],
                 note: '',
-                bestSubs: '善捷、瑀東'
+                bestSubs: '善捷、○東'
             }, {
                 date: '20230716',
                 pitch: '輔仁大學足球場',
@@ -6120,7 +6120,7 @@ new Vue({
                 pitch: '輔仁大學足球場',
                 opponent: { name: '忠義勇士', logo: '忠義國小', formation: '忠義勇士_' },
                 formation: '2-0-2',
-                starters: ['GK-凱泰', 'RB-紘豪', 'LB-宇正', 'RF-宥融', 'LF-瑀東'],
+                starters: ['GK-凱泰', 'RB-紘豪', 'LB-宇正', 'RF-宥融', 'LF-○東'],
                 subs: [{
                     number: 10,
                     name: '善捷'
@@ -6175,7 +6175,7 @@ new Vue({
                 starters: ['GK-凱泰', 'RB-紘豪', 'LB-善捷', 'RF-宥融', 'LF-宇正'],
                 subs: [{
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 77,
                     name: '昕叡'
@@ -6216,7 +6216,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '勇士',
-                members: '晉丞、紘豪、善捷、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、昕叡、宇正'
+                members: '晉丞、紘豪、善捷、皓宇、邁可、凱泰、維恩、○東、亮谷、柏燁、昕叡、宇正'
             }],
             note: '',
             matches: [{
@@ -6224,7 +6224,7 @@ new Vue({
                 pitch: '迎風B足球場',
                 opponent: { name: '北新國小', logo: '北新國小' },
                 formation: '2-0-2',
-                starters: ['GK-凱泰', 'RB-邁可', 'LB-維恩', 'RF-瑀東', 'LF-柏燁'],
+                starters: ['GK-凱泰', 'RB-邁可', 'LB-維恩', 'RF-○東', 'LF-柏燁'],
                 subs: [{
                     number: 3,
                     name: '晉丞'
@@ -6289,7 +6289,7 @@ new Vue({
                     name: '維恩'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 21,
                     name: '亮谷'
@@ -6306,12 +6306,12 @@ new Vue({
                     assist: '皓宇'
                 }, {
                     name: '亮谷',
-                    assist: '瑀東'
+                    assist: '○東'
                 }, {
                     name: '紘豪',
                     assist: '晉丞'
                 }, {
-                    name: '瑀東',
+                    name: '○東',
                     assist: '晉丞'
                 }],
                 goalkeepers: ['凱泰'],
@@ -6336,7 +6336,7 @@ new Vue({
                     name: '邁可'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 21,
                     name: '亮谷'
@@ -6383,7 +6383,7 @@ new Vue({
                     name: '維恩'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 21,
                     name: '亮谷'
@@ -6409,7 +6409,7 @@ new Vue({
                 pitch: '迎風B足球場',
                 opponent: { name: '幸安國小', logo: '幸安國小' },
                 formation: '2-0-2',
-                starters: ['GK-凱泰', 'RB-宇正', 'LB-紘豪', 'RF-瑀東', 'LF-柏燁'],
+                starters: ['GK-凱泰', 'RB-宇正', 'LB-紘豪', 'RF-○東', 'LF-柏燁'],
                 subs: [{
                     number: 3,
                     name: '晉丞'
@@ -6624,7 +6624,7 @@ new Vue({
                 members: '晉丞、黃衍、皓宇、維恩、宥融、宇正'
             }, {
                 name: 'ZQ超能悍將',
-                members: '紘豪、邁可、凱泰、瑀東、柏燁、昕叡'
+                members: '紘豪、邁可、凱泰、○東、柏燁、昕叡'
             }],
             note: '',
             matches: [{
@@ -6714,7 +6714,7 @@ new Vue({
                 pitch: '浮洲足球場',
                 opponent: { name: '新北銀河', logo: '新北銀河' },
                 formation: '2-0-2',
-                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-瑀東', 'LF-昕叡'],
+                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-○東', 'LF-昕叡'],
                 subs: [],
                 subTeam: 'ZQ超能悍將',
                 final_score: '0 : 3',
@@ -6731,7 +6731,7 @@ new Vue({
                 pitch: '浮洲足球場',
                 opponent: { name: 'BSC', logo: 'default' },
                 formation: '2-0-2',
-                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-瑀東', 'LF-昕叡'],
+                starters: ['GK-凱泰', 'RB-柏燁', 'LB-邁可', 'RF-○東', 'LF-昕叡'],
                 subs: [],
                 subTeam: 'ZQ超能悍將',
                 final_score: '0 : 8',
@@ -6754,7 +6754,7 @@ new Vue({
             trophy: '',
             team: [{
                 name: '小悍將',
-                members: '晉丞、黃衍、紘豪、皓宇、邁可、凱泰、維恩、瑀東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
+                members: '晉丞、黃衍、紘豪、皓宇、邁可、凱泰、維恩、○東、亮谷、柏燁、定謙、宥融、昕叡、宇正'
             }],
             // note: `<a class="text-success" target="_blank" href="./img/table/2023eightmanfall.jpg"><i class="fa fa-table text-success" aria-hidden="true"></i> League Table</a>`,
             matches: [{
@@ -6905,7 +6905,7 @@ new Vue({
                     name: '紘豪'
                 }, {
                     number: 20,
-                    name: '瑀東'
+                    name: '○東'
                 }, {
                     number: 23,
                     name: '柏燁'

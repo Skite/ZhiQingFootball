@@ -787,6 +787,11 @@ new Vue({
                 opponents: 'Skeeds_FC',
                 cover: '20241208-2',
                 url: '9qoQiQ6T#v4dy10ORAAcNiASkPGyz4va9oQvjQNGr2ax-CyyfMW4'
+            }, {
+                date: '12/15',
+                opponents: '台北Playone',
+                cover: '20241215',
+                url: '0ixF3RTZ#d62AduO3YmfpJGhI8_NIsK8iqpZWj5IaNPeraMY1WQo'
             }],
             icon: 'fab fa-vimeo-v'
         }],
@@ -1602,6 +1607,10 @@ new Vue({
                 date: '12/15',
                 opponents: '台北playone',
                 url: `<a target="_blank" href="https://photos.app.goo.gl/XVQkbR9rdNamxdTT9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241215-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }, {
+                date: '01/12',
+                opponents: 'CFT_Red',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/TRPmKhvsPQa1HVkV8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250112-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fab fa-vimeo-v'
         }, {
