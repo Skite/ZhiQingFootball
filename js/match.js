@@ -10405,6 +10405,80 @@ new Vue({
                 instructors: ['柏豪'],
                 note: '* 學弟／妹'
             }]
+        }, {
+            id: 62,
+            year: '2025',
+            cupName: '金蛇賀歲盃',
+            system: '8人制',
+            grade: 'U12',
+            cover: '2025snakecup',
+            trophy: '',
+            team: [{
+                name: '大悍將',
+                members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、定謙、宥融、宇正、昀宸*'
+            }],
+            note: '',
+            matches: [{
+                date: '20250118',
+                pitch: '新莊田徑場',
+                opponent: { name: '莒光U12', logo: '莒光國小', formation: '莒光國小' },
+                formation: '3-3-1',
+                starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-宇正', 'RM-宥融', 'CM-皓宇', 'LM-昀宸', 'CF-定謙'],
+                subs: [],
+                subTeam: '大悍將',
+                final_score: '0 : 4',
+                pso: '',
+                wdl: 'L',
+                scorers: [],
+                goalkeepers: ['凱泰'],
+                isCleanSheet: false,
+                instructors: ['冠岳'],
+                note: '* 學弟'
+            }, {
+                date: '20250119',
+                pitch: '新莊田徑場',
+                opponent: { name: 'Torero Fuego', logo: 'Torero', formation: 'Torero' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-善捷', 'RM-宇正', 'CM-亮谷', 'LM-晉丞', 'RF-皓宇', 'LF-黃衍'],
+                subs: [{
+                    number: 9,
+                    name: '紘豪'
+                }],
+                subTeam: '大悍將',
+                final_score: '1 : 3',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '黃衍',
+                    assist: '皓宇'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪', '冠岳'],
+                note: ''
+            }, {
+                date: '20250119',
+                pitch: '新莊田徑場',
+                opponent: { name: '新北市新市國小', logo: '新市國小', formation: '新市國小' },
+                formation: '2-3-2',
+                starters: ['GK-宥融', 'RCB-維恩', 'LCB-紘豪', 'RM-亮谷', 'CM-皓宇', 'LM-黃衍', 'RF-晉丞', 'LF-宇正'],
+                subs: [{
+                    number: 10,
+                    name: '善捷'
+                }],
+                subTeam: '大悍將',
+                final_score: '1 : 2',
+                pso: '',
+                wdl: 'L',
+                scorers: [{
+                    name: '晉丞',
+                    assist: '宇正'
+                }],
+                goalkeepers: ['宥融'],
+                isCleanSheet: false,
+                instructors: ['柏豪'],
+                note: ''
+            }]
         }]
     },
     methods: {
