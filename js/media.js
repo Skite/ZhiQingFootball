@@ -792,6 +792,11 @@ new Vue({
                 opponents: '台北Playone',
                 cover: '20241215',
                 url: '0ixF3RTZ#d62AduO3YmfpJGhI8_NIsK8iqpZWj5IaNPeraMY1WQo'
+            }, {
+                date: '01/12',
+                opponents: 'CFT_Red',
+                cover: '20250112',
+                url: '0jA20RqC#_G9J6Ar3Eec5OCxlobh7NpzXSpEztWvimcXymNWGngE'
             }],
             icon: 'fab fa-vimeo-v'
         }],
@@ -1637,6 +1642,16 @@ new Vue({
                 url: `<a target="_blank" href="https://photos.app.goo.gl/GfwfoWJMMPfqvucX9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20241014-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
             }],
             icon: 'fas fa-landmark'
+        }, {
+            id: 58,
+            cupName: '2025金蛇賀歲盃',
+            cover: '20250118-cover',
+            photos: [{
+                date: '01/18-19',
+                opponents: '莒光U12、Torero Fuego、新市國小',
+                url: `<a target="_blank" href="https://photos.app.goo.gl/M76y2WxzqBtL15Ve8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250118-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`
+            }],
+            icon: 'fas fa-snake'
         }]
     },
     methods: {},

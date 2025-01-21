@@ -10414,7 +10414,7 @@ new Vue({
             cover: '2025snakecup',
             trophy: '',
             team: [{
-                name: '大悍將',
+                name: '悍將',
                 members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、定謙、宥融、宇正、昀宸*'
             }],
             note: '',
@@ -10425,7 +10425,7 @@ new Vue({
                 formation: '3-3-1',
                 starters: ['GK-凱泰', 'RB-紘豪', 'CB-維恩', 'LB-宇正', 'RM-宥融', 'CM-皓宇', 'LM-昀宸', 'CF-定謙'],
                 subs: [],
-                subTeam: '大悍將',
+                subTeam: '悍將',
                 final_score: '0 : 4',
                 pso: '',
                 wdl: 'L',
@@ -10444,7 +10444,7 @@ new Vue({
                     number: 9,
                     name: '紘豪'
                 }],
-                subTeam: '大悍將',
+                subTeam: '悍將',
                 final_score: '1 : 3',
                 pso: '',
                 wdl: 'L',
@@ -10466,7 +10466,7 @@ new Vue({
                     number: 10,
                     name: '善捷'
                 }],
-                subTeam: '大悍將',
+                subTeam: '悍將',
                 final_score: '1 : 2',
                 pso: '',
                 wdl: 'L',
