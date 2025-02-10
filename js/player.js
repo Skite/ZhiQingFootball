@@ -4593,7 +4593,7 @@ new Vue({
                 title: '',
                 info: '一年級下學期加入球隊，是隊上力量最強、身材最好的球員。永遠充滿自信，無論遇到什麼樣的對抗都無所畏懼並勇於接受挑戰，把守大門的功夫了得，擔任攻擊箭頭時也能帶給對手極大的壓力。五年級開始因個人規畫較少參加團體練習和比賽，並逐漸淡出足球活動。',
                 achievement: ['1 Time Best Substitutions'],
-                active: 'inactive',
+                active: 'former',
                 position: ['GK', 'RB', 'CB', 'RM', 'LM', 'CF'],
                 appearance: [{
                     grade: 'U12',
