@@ -1944,7 +1944,7 @@ new Vue({
 						url: `<a target="_blank" href="https://photos.app.goo.gl/byiyWVicHSno2P4X6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240505-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
 				],
-				icon: 'fas fa-book',
+				icon: 'fab fa-medium',
 			},
 			{
 				id: 51,
@@ -2048,6 +2048,11 @@ new Vue({
 						opponents: '立農奧特曼',
 						url: `<a target="_blank" href="https://photos.app.goo.gl/xssfAvgB317b86zU8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250216-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
+					{
+						date: '03/09',
+						opponents: 'CFT_Blue',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/rFS6mxrri2FiyeWn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250309-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
 				],
 				icon: 'fab fa-vimeo-v',
 			},
@@ -2094,6 +2099,32 @@ new Vue({
 					},
 				],
 				icon: 'fas fa-snake',
+			},
+			{
+				id: 59,
+				cupName: '2025TES_Cup',
+				cover: '20250308-cover',
+				photos: [
+					{
+						date: '03/08',
+						opponents: 'TES、天母國小、明德國小、士東國小、忠義國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/fbZmCajFxekX8f336"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250308-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'far fa-euro-sign',
+			},
+			{
+				id: 60,
+				cupName: '2025臺北市教育盃',
+				cover: '20250310-cover',
+				photos: [
+					{
+						date: '03/10',
+						opponents: '大同國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/B3XaRSrMSjMaitZ79"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250310-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'fas fa-book',
 			},
 		],
 	},
