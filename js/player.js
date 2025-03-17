@@ -23,10 +23,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
+						g: '3',
 						gs: '1',
-						goals: '0',
-						asts: '0',
+						goals: '1',
+						asts: '1',
 						cs: '0',
 					},
 					{
@@ -521,10 +521,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
-						gs: '0',
-						goals: '3',
-						asts: '1',
+						g: '3',
+						gs: '2',
+						goals: '5',
+						asts: '3',
 						cs: '0',
 					},
 					{
@@ -1028,7 +1028,7 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
+						g: '2',
 						gs: '1',
 						goals: '0',
 						asts: '1',
@@ -1454,8 +1454,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
-						gs: '1',
+						g: '3',
+						gs: '3',
 						goals: '0',
 						asts: '0',
 						cs: '1',
@@ -1754,10 +1754,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
-						gs: '0',
-						goals: '1',
-						asts: '1',
+						g: '3',
+						gs: '2',
+						goals: '2',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -2297,7 +2297,7 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
+						g: '2',
 						gs: '0',
 						goals: '0',
 						asts: '0',
@@ -2768,10 +2768,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
-						gs: '0',
-						goals: '2',
-						asts: '1',
+						g: '3',
+						gs: '2',
+						goals: '4',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -3347,10 +3347,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
-						gs: '0',
-						goals: '1',
-						asts: '1',
+						g: '3',
+						gs: '2',
+						goals: '2',
+						asts: '3',
 						cs: '0',
 					},
 					{
@@ -4226,10 +4226,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
-						g: '1',
+						g: '2',
 						gs: '1',
-						goals: '2',
-						asts: '0',
+						goals: '5',
+						asts: '1',
 						cs: '1',
 					},
 					{
@@ -4766,6 +4766,15 @@ new Vue({
 				active: 'active',
 				position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '臺北市教育盃',
+						g: '2',
+						gs: '0',
+						goals: '0',
+						asts: '2',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '金蛇賀歲盃',

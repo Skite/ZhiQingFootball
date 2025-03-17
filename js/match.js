@@ -13505,7 +13505,7 @@ new Vue({
 				team: [
 					{
 						name: '國小',
-						members: '晉丞、黃衍、紘豪、皓宇、維恩、亮谷、柏燁、定謙、宥融、昕叡、宇正、子珩*、宇晨*、振綸*、稟巖*、仲謙*',
+						members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、宥融、宇正、宸瑜*、羿翔*',
 					},
 				],
 				note: '',
@@ -13586,6 +13586,120 @@ new Vue({
 						],
 						goalkeepers: ['善捷', '凱泰', '宥融'],
 						isCleanSheet: true,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟',
+					},
+					{
+						date: '20250314',
+						pitch: '清江國小',
+						opponent: { name: '明湖國小', logo: '明湖國小' },
+						formation: '1-2-1（Diamond）',
+						starters: ['GK-善捷', 'CB-維恩', 'RM-皓宇', 'LM-亮谷*', 'CF-黃衍'],
+						subs: [
+							{
+								number: 3,
+								name: '晉丞',
+							},
+							{
+								number: 9,
+								name: '紘豪',
+							},
+							{
+								number: 15,
+								name: '凱泰',
+							},
+							{
+								number: 55,
+								name: '宥融',
+							},
+							{
+								number: 97,
+								name: '宇正',
+							},
+							{
+								number: 6,
+								name: '宸瑜*',
+							},
+							{
+								number: 28,
+								name: '羿翔*',
+							},
+						],
+						subTeam: '國小',
+						final_score: '9 : 1',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '維恩',
+								assist: '黃衍',
+							},
+							{
+								name: '亮谷',
+								assist: '黃衍',
+							},
+							{
+								name: '宥融',
+								assist: '晉丞',
+							},
+							{
+								name: '晉丞',
+								assist: '宥融',
+							},
+							{
+								name: '宥融',
+								assist: '宇正',
+							},
+							{
+								name: '皓宇',
+								assist: '亮谷',
+							},
+							{
+								name: '黃衍',
+								assist: '亮谷',
+							},
+							{
+								name: '宥融',
+								assist: '宇正',
+							},
+							{
+								name: '維恩',
+								assist: '皓宇',
+							},
+						],
+						goalkeepers: ['善捷', '凱泰'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '怡萍'],
+						note: '* 學弟',
+					},
+					{
+						date: '20250316',
+						pitch: '清江國小',
+						opponent: { name: '明德國小', logo: '明德國小' },
+						formation: '1-2-1（Diamond）',
+						starters: ['GK-善捷', 'CB-維恩', 'RM-皓宇', 'LM-亮谷*', 'CF-黃衍'],
+						subs: [
+							{
+								number: 3,
+								name: '晉丞',
+							},
+							{
+								number: 97,
+								name: '宇正',
+							},
+						],
+						subTeam: '國小',
+						final_score: '1 : 3',
+						pso: '',
+						wdl: 'L',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '維恩',
+							},
+						],
+						goalkeepers: ['善捷'],
+						isCleanSheet: false,
 						instructors: ['柏豪', '冠岳'],
 						note: '* 學弟',
 					},
