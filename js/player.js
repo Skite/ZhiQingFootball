@@ -514,7 +514,7 @@ new Vue({
 				englishName: 'Yan',
 				title: '',
 				info: '球隊初始成員之一，有著出色的速度和身體條件。身為一匹邊路快馬，是進攻時撕裂對手防線的核心人物。偶爾客串守門員，對撲救點球亦相當有心得,曾多次在點球大戰中為球隊守下勝利。是球隊首任副隊長，並於五年級時被教練選為球隊隊長，之後於六年級上學期卸下職務，而在畢業前的六年級下學期再次擔任球隊副隊長。',
-				achievement: ['former Captian (2023-24)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP', '2022 United Cup Golden Boot Award second runner-up（4 goals）', 'former Vice Captian (2019-20)'],
+				achievement: ['Captian (2023-24)', 'Vice Captian (2019-20, 2025)', '1 Time Best Substitutions', '2023 Yamaha Cup Match MVP', '2022 United Cup Golden Boot Award second runner-up（4 goals）'],
 				active: 'active',
 				position: ['LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
@@ -1747,7 +1747,7 @@ new Vue({
 				englishName: 'Roy',
 				title: 'VC',
 				info: '身為球隊創隊學長的弟弟，開啟足球之路的時間相當早，本身的速度和傳球意識在隊內皆屬頂尖，是能擔任前鋒、邊路或中路樞紐等多種角色的多面手。後期成為球隊最穩定的攻擊箭頭，並在六年級上學期被任命為球隊副隊長。',
-				achievement: ['Vice Captian (2024-present)', '2 Times Best Substitutions'],
+				achievement: ['Vice Captian (2024-25)', '2 Times Best Substitutions'],
 				active: 'active',
 				position: ['RM', 'CM', 'LM', 'CF'],
 				appearance: [
@@ -2761,7 +2761,7 @@ new Vue({
 				englishName: 'Wayne',
 				title: '',
 				info: '球隊的初始成員，因早年便和哥哥一起踢球，在心態和技術上都有十分超齡的表現。從一年級開始便擔任球隊隊長，用全能的身手帶領著大家立下無數戰功，是球隊最重要的支柱。升上五年級時帶著隊史出賽紀錄保持人的身分，於隊長職務上功成身退。並在五年級下學期時再度被教練選為球隊副隊長。接著在六年級上學期退位後，再次在小學生涯的最後一個學期出任隊長。',
-				achievement: ['former Vice Captian (2024)', '2022/2023 Yamaha Cup Match MVP', 'former Captian (2019-2023)'],
+				achievement: ['Captian (2019-2023, 2025)', 'Vice Captian (2024)', '2022/2023 Yamaha Cup Match MVP'],
 				active: 'active',
 				position: ['CB', 'CM', 'CF'],
 				appearance: [
@@ -3340,7 +3340,7 @@ new Vue({
 				englishName: 'Lionel',
 				title: 'C',
 				info: '身為球隊裡足球知識最豐富的小博士，一年級下學期加入球隊時的表現就已相當亮眼。有著頂級的視野、傳球和閱讀比賽的能力，是擔任球場大腦、中場指揮官的不二人選。因球技出色，於二年級到四年級上學期期間被推舉為球隊副隊長，並在六年級上學期受教練拔擢為隊長。',
-				achievement: ['Captian (2024-present)', 'former Vice Captian (2020-23)', '1 Time Best Substitutions'],
+				achievement: ['Captian (2024-25)', 'Vice Captian (2020-23)', '1 Time Best Substitutions'],
 				active: 'active',
 				position: ['CB', 'RM', 'CM', 'LM'],
 				appearance: [
@@ -4219,7 +4219,7 @@ new Vue({
 				englishName: 'Ivan',
 				title: '',
 				info: '一年級下學期加入球隊，力量、鬥志和速度是他著名的武器。除了是球隊經驗最豐富的大門守護神，後衛、中場與前鋒等各種角色也都能駕馭自如，全能的身手是球隊不可或缺的重要戰力。曾於五年級上學期時被教練選為球隊副隊長。因身兼籃球隊長，於六年級時略有減少參加球隊活動的頻率，但仍是隊上最為倚重的關鍵球員之一。',
-				achievement: ['former Vice Captian (2023-24)', '1 Time Best Substitutions'],
+				achievement: ['Vice Captian (2023-24)', '1 Time Best Substitutions'],
 				active: 'active',
 				position: ['GK', 'RB', 'LB', 'RM', 'CF'],
 				appearance: [
@@ -4762,7 +4762,7 @@ new Vue({
 				englishName: 'Eugene',
 				title: '',
 				info: '二年級下學期才加入球隊，在場上善於利用速度打擊對手，能掌握頭頂腳踢甚至倒掛金勾等各式進攻技巧。可從前鋒踢到後衛、從邊陲換到中路，偶爾也會客串守門員，是球隊最萬用的工具人之一。曾在四年級下學期被教練指派為球隊副隊長。',
-				achievement: ['former Vice Captian (2023)', '2 Times Best Substitutions'],
+				achievement: ['Vice Captian (2023)', '2 Times Best Substitutions'],
 				active: 'active',
 				position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
