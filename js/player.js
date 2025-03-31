@@ -22,6 +22,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '臺北市教育盃',
 						g: '3',
 						gs: '1',
@@ -518,6 +527,15 @@ new Vue({
 				active: 'active',
 				position: ['LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '2',
+						asts: '0',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
@@ -1027,6 +1045,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '0',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '臺北市教育盃',
 						g: '2',
 						gs: '1',
@@ -1453,6 +1480,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '1',
+					},
+					{
+						grade: 'U12',
 						cup: '臺北市教育盃',
 						g: '3',
 						gs: '3',
@@ -1751,6 +1787,15 @@ new Vue({
 				active: 'active',
 				position: ['RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '8',
+						asts: '0',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
@@ -2296,6 +2341,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '青年盃',
+						g: '2',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '1',
+					},
+					{
+						grade: 'U12',
 						cup: '臺北市教育盃',
 						g: '2',
 						gs: '0',
@@ -2765,6 +2819,15 @@ new Vue({
 				active: 'active',
 				position: ['CB', 'CM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '1',
+						asts: '0',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
@@ -3344,6 +3407,15 @@ new Vue({
 				active: 'active',
 				position: ['CB', 'RM', 'CM', 'LM'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '1',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
@@ -4225,6 +4297,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '1',
+						asts: '3',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '臺北市教育盃',
 						g: '2',
 						gs: '1',
@@ -4766,6 +4847,15 @@ new Vue({
 				active: 'active',
 				position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '3',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '臺北市教育盃',
@@ -6684,8 +6774,6 @@ new Vue({
 
 		const avgGoals = chartData.reduce((acc, o) => acc + parseInt(o.x), 0) / 20;
 		const avgAsts = chartData.reduce((acc, o) => acc + parseInt(o.y), 0) / 20;
-
-		console.log(_.filter(chartData, ['active', 'active']).concat(_.filter(chartData, ['active', 'inactive'])));
 
 		Highcharts.chart('chart', {
 			title: {
