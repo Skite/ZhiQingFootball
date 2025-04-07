@@ -22,6 +22,24 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '1',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '1',
+						gs: '1',
+						goals: '1',
+						asts: '1',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
 						g: '3',
 						gs: '3',
@@ -527,6 +545,24 @@ new Vue({
 				active: 'active',
 				position: ['LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '2',
+						asts: '1',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '0',
+						gs: '0',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
@@ -1045,6 +1081,24 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '1',
+						gs: '1',
+						goals: '0',
+						asts: '1',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
 						g: '3',
 						gs: '0',
@@ -1480,6 +1534,24 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '2',
+						gs: '2',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
 						g: '3',
 						gs: '3',
@@ -1787,6 +1859,24 @@ new Vue({
 				active: 'active',
 				position: ['RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '1',
+						asts: '2',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '1',
+						gs: '1',
+						goals: '1',
+						asts: '2',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
@@ -2341,6 +2431,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '0',
+						goals: '0',
+						asts: '0',
+						cs: '1',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
 						g: '2',
 						gs: '3',
@@ -2819,6 +2918,24 @@ new Vue({
 				active: 'active',
 				position: ['CB', 'CM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '2',
+						gs: '2',
+						goals: '3',
+						asts: '5',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
@@ -3409,6 +3526,15 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '2',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
 						g: '3',
 						gs: '3',
@@ -3932,6 +4058,24 @@ new Vue({
 				active: 'active',
 				position: ['RB', 'RM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '全國少年盃',
+						g: '2',
+						gs: '0',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '0',
+						gs: '0',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: 'TES Cup',
@@ -4847,6 +4991,24 @@ new Vue({
 				active: 'active',
 				position: ['RB', 'CB', 'LB', 'RM', 'CM', 'LM', 'CF'],
 				appearance: [
+					{
+						grade: 'U12',
+						cup: '全國少年盃',
+						g: '3',
+						gs: '3',
+						goals: '0',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '大安盃',
+						g: '2',
+						gs: '2',
+						goals: '3',
+						asts: '4',
+						cs: '0',
+					},
 					{
 						grade: 'U12',
 						cup: '青年盃',

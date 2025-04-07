@@ -13894,6 +13894,260 @@ new Vue({
 					},
 				],
 			},
+			{
+				id: 66,
+				year: '2025',
+				cupName: '大安盃',
+				system: '5人制',
+				grade: 'U12',
+				cover: '2025daancup',
+				trophy: '',
+				team: [
+					{
+						name: '悍將',
+						members: '晉丞、黃衍、紘豪、善捷、皓宇、維恩、亮谷、柏燁、宇正、宸瑜*、安璞*、浚恩*、昀宸*、羿翔*',
+					},
+				],
+				note: '',
+				matches: [
+					{
+						date: '20250327',
+						pitch: '華中足球場',
+						opponent: { name: '博愛小子', logo: '博愛國小' },
+						formation: '1-2-1',
+						starters: ['GK-善捷', 'CB-維恩', 'RM-宇正', 'LM-晉丞', 'CF-羿翔*'],
+						subs: [
+							{
+								number: 11,
+								name: '安璞*',
+							},
+							{
+								number: 26,
+								name: '昀宸*',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '10 : 5',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '晉丞',
+								assist: '宇正',
+							},
+							{
+								name: '羿翔*',
+								assist: '宇正',
+							},
+							{
+								name: '羿翔*',
+								assist: '維恩',
+							},
+							{
+								name: '羿翔*',
+								assist: '維恩',
+							},
+							{
+								name: '維恩',
+								assist: '宇正',
+							},
+							{
+								name: '維恩',
+								assist: '',
+							},
+							{
+								name: '安璞*',
+								assist: '維恩',
+							},
+							{
+								name: '昀宸*',
+								assist: '維恩',
+							},
+							{
+								name: '宇正',
+								assist: '晉丞',
+							},
+							{
+								name: '昀宸*',
+								assist: '宇正',
+							},
+						],
+						goalkeepers: ['善捷', '宇正', '維恩'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟／妹',
+					},
+					{
+						date: '20250327',
+						pitch: '華中足球場',
+						opponent: { name: '磐石U12', logo: '磐石' },
+						formation: '1-2-1',
+						starters: ['GK-善捷', 'CB-維恩', 'RM-宇正', 'LM-紘豪', 'CF-皓宇'],
+						subs: [
+							{
+								number: 26,
+								name: '昀宸*',
+							},
+							{
+								number: 28,
+								name: '羿翔*',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '5 : 1',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '皓宇',
+								assist: '維恩',
+							},
+							{
+								name: '維恩',
+								assist: '皓宇',
+							},
+							{
+								name: '宇正',
+								assist: '',
+							},
+							{
+								name: '維恩',
+								assist: '紘豪',
+							},
+							{
+								name: '宇正',
+								assist: '皓宇',
+							},
+						],
+						goalkeepers: ['善捷'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟',
+					},
+				],
+			},
+			{
+				id: 67,
+				year: '2025',
+				cupName: '全國少年盃',
+				system: '8人制',
+				grade: 'U12',
+				cover: '2025youngcup',
+				trophy: '',
+				team: [
+					{
+						name: '悍將',
+						members: '晉丞、黃衍、紘豪、善捷、皓宇、凱泰、維恩、亮谷、柏燁、宇正、昀宸*、羿翔*',
+					},
+				],
+				note: '',
+				matches: [
+					{
+						date: '20250331',
+						pitch: '朝馬足球場',
+						opponent: { name: '天母國小', logo: '天母國小' },
+						formation: '3-3-1',
+						starters: ['GK-善捷', 'RB-紘豪', 'CB-維恩', 'LB-晉丞', 'RM-宇正', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+						subs: [
+							{
+								number: 15,
+								name: '凱泰',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '1 : 6',
+						pso: '',
+						wdl: 'L',
+						scorers: [
+							{
+								name: '皓宇',
+								assist: '晉丞',
+							},
+						],
+						goalkeepers: ['善捷', '宇正', '維恩'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '怡萍'],
+						note: '* 學弟',
+					},
+					{
+						date: '20250401',
+						pitch: '朝馬足球場',
+						opponent: { name: '廣福國小', logo: '廣福國小' },
+						formation: '3-3-1',
+						starters: ['GK-善捷', 'RB-紘豪', 'CB-維恩', 'LB-宇正', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+						subs: [
+							{
+								number: 15,
+								name: '凱泰',
+							},
+							{
+								number: 23,
+								name: '柏燁',
+							},
+							{
+								number: 28*,
+								name: '羿翔',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '5 : 0',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '',
+							},
+							{
+								name: '亮谷',
+								assist: '黃衍',
+							},
+							{
+								name: '黃衍',
+								assist: '皓宇',
+							},
+							{
+								name: '亮谷',
+								assist: '',
+							},
+							{
+								name: 'Own Goal',
+								assist: '皓宇',
+							},
+						],
+						goalkeepers: ['善捷', '凱泰'],
+						isCleanSheet: true,
+						instructors: ['柏豪', '怡萍'],
+						note: '* 學弟',
+					},
+					{
+						date: '20250402',
+						pitch: '朝馬足球場',
+						opponent: { name: '石牌國小', logo: '石牌國小' },
+						formation: '3-3-1',
+						starters: ['GK-善捷', 'RB-晉丞', 'CB-維恩', 'LB-宇正', 'RM-皓宇', 'CM-亮谷', 'LM-紘豪', 'CF-黃衍'],
+						subs: [
+							{
+								number: 15,
+								name: '凱泰',
+							},
+							{
+								number: 23,
+								name: '柏燁',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '0 : 3',
+						pso: '',
+						wdl: 'L',
+						scorers: [],
+						goalkeepers: ['善捷', '凱泰'],
+						isCleanSheet: false,
+						instructors: ['怡萍'],
+						note: '* 學弟',
+					},
+				],
+			},
 		],
 	},
 	methods: {

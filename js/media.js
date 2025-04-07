@@ -2131,6 +2131,19 @@ new Vue({
 				],
 				icon: 'fas fa-book',
 			},
+			{
+				id: 61,
+				cupName: '2025大安盃',
+				cover: '20250327-cover',
+				photos: [
+					{
+						date: '03/27',
+						opponents: '博愛小子、磐石U12',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/BZWXNdJfMwYCNPWy8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250327-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'fas fa-book',
+			},
 		],
 	},
 	methods: {},
