@@ -14085,8 +14085,8 @@ new Vue({
 								name: '柏燁',
 							},
 							{
-								number: 28*,
-								name: '羿翔',
+								number: 28,
+								name: '羿翔*',
 							},
 						],
 						subTeam: '悍將',
