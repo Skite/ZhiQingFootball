@@ -2133,16 +2133,52 @@ new Vue({
 			},
 			{
 				id: 61,
+				cupName: '2025臺北市青年盃',
+				cover: '20250326-cover',
+				photos: [
+					{
+						date: '03/26',
+						opponents: '百齡國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/VogFPu1AD4yCLVog7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250326-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+					{
+						date: '03/27',
+						opponents: '大安國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/scPKT5a1nu5NxggT7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250327-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+					{
+						date: '04/07',
+						opponents: '明道國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/kXhka3QiffMaoqcv6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250407-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'fas fa-male',
+			},
+			{
+				id: 62,
 				cupName: '2025大安盃',
 				cover: '20250327-cover',
 				photos: [
 					{
-						date: '03/27',
+						date: '03/29',
 						opponents: '博愛小子、磐石U12',
-						url: `<a target="_blank" href="https://photos.app.goo.gl/BZWXNdJfMwYCNPWy8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250327-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+						url: `<a target="_blank" href="https://photos.app.goo.gl/BZWXNdJfMwYCNPWy8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250329-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
 				],
-				icon: 'fas fa-book',
+				icon: 'far fa-futbol',
+			},
+			{
+				id: 63,
+				cupName: '2025全國少年盃',
+				cover: '20250401-cover',
+				photos: [
+					{
+						date: '03/31-04/02',
+						opponents: '天母國小、廣福國小、石牌國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/nnKW2kAWncBJfGtK6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250401-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'fas fa-child',
 			},
 		],
 	},

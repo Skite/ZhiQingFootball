@@ -13892,6 +13892,91 @@ new Vue({
 						instructors: ['柏豪', '冠岳'],
 						note: '* 學弟／妹',
 					},
+					{
+						date: '20250328',
+						pitch: '迎風足球場A',
+						opponent: { name: '石牌國小', logo: '石牌國小' },
+						formation: '3-3-1',
+						starters: ['GK-善捷', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RDM-宥融', 'CAM-亮谷', 'LDM-黃衍', 'CF-皓宇'],
+						subs: [],
+						subTeam: '國小',
+						final_score: '1 : 4',
+						pso: '',
+						wdl: 'L',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '',
+							},
+						],
+						goalkeepers: ['善捷'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟／妹',
+					},
+					{
+						date: '20250407',
+						pitch: '迎風足球場A',
+						opponent: { name: '明道國小', logo: '明道國小' },
+						formation: '3-3-1',
+						starters: ['GK-善捷', 'RB-宇正', 'CB-維恩', 'LB-晉丞', 'RM-黃衍', 'CM-亮谷', 'LM-宥融', 'CF-皓宇'],
+						subs: [
+							{
+								number: 1,
+								name: '宇凡*',
+							},
+							{
+								number: 4,
+								name: '博安*',
+							},
+							{
+								number: 6,
+								name: '宸瑜*',
+							},
+							{
+								number: 9,
+								name: '紘豪',
+							},
+							{
+								number: 14,
+								name: '浚恩*',
+							},
+							{
+								number: 15,
+								name: '凱泰',
+							},
+							{
+								number: 23,
+								name: '柏燁',
+							},
+							{
+								number: 26,
+								name: '昀宸*',
+							},
+							{
+								number: 28,
+								name: '羿翔*',
+							},
+						],
+						subTeam: '國小',
+						final_score: '3 : 1',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '皓宇',
+							},
+							{
+								name: '黃衍',
+								assist: '晉丞',
+							},
+						],
+						goalkeepers: ['善捷', '凱泰'],
+						isCleanSheet: false,
+						instructors: ['柏豪'],
+						note: '* 學弟／妹',
+					},
 				],
 			},
 			{
