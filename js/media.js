@@ -2157,7 +2157,7 @@ new Vue({
 			{
 				id: 62,
 				cupName: '2025大安盃',
-				cover: '20250327-cover',
+				cover: '20250329-cover',
 				photos: [
 					{
 						date: '03/29',
