@@ -6931,9 +6931,10 @@ new Vue({
 			delete i.totalGS;
 			delete i.totalMatches;
 			i.name = i.name.slice(-2);
-			// i['marker'] = {
-			//     symbol: `url(https://skite.github.io/ZhiQingFootball/img/players/player-${i.number}-head.jpg)`
-			// }
+			i['marker'] = {
+				symbol: `url(https://skite.github.io/ZhiQingFootball/img/players/player-${i.number}-head.png)`,
+			};
+			i.id = `player${i.number}`;
 		});
 
 		const chartData = origData.map(({ totalGoals: x, totalAsts: y, totalCS: z, ...rest }) => ({
@@ -6946,7 +6947,7 @@ new Vue({
 		const avgGoals = chartData.reduce((acc, o) => acc + parseInt(o.x), 0) / 20;
 		const avgAsts = chartData.reduce((acc, o) => acc + parseInt(o.y), 0) / 20;
 
-		Highcharts.chart('chart', {
+		const chart = Highcharts.chart('chart', {
 			title: {
 				text: 'Player Distributions',
 			},
@@ -7036,7 +7037,7 @@ new Vue({
 			tooltip: {
 				useHTML: true,
 				headerFormat: '<table>',
-				pointFormat: '<tr><th colspan="2"><h3>{point.country}</h3></th></tr>' + '<tr><th>Goals:</th><td>{point.x}</td></tr>' + '<tr><th>Assists:</th><td>{point.y}</td></tr>' + '<tr><th>Clean Sheets:</th><td>{point.z}</td></tr>',
+				pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' + '<tr><th>Goals:</th><td>{point.x}</td></tr>' + '<tr><th>Assists:</th><td>{point.y}</td></tr>' + '<tr><th>Clean Sheets:</th><td>{point.z}</td></tr>',
 				footerFormat: '</table>',
 				followPointer: true,
 			},
@@ -7045,14 +7046,14 @@ new Vue({
 				series: {
 					dataLabels: {
 						enabled: true,
-						format: '{point.name}',
+						format: '',
 						style: {
 							fontSize: '0.9em',
 						},
 					},
 				},
 				bubble: {
-					minSize: 10,
+					minSize: 50,
 					layoutAlgorithm: {
 						splitSeries: false,
 						gravitationalConstant: 0.02,
@@ -7065,7 +7066,6 @@ new Vue({
 					},
 				},
 			},
-
 			series: [
 				{
 					data: _.filter(chartData, ['active', 'active']).concat(_.filter(chartData, ['active', 'inactive'])),
@@ -7074,5 +7074,9 @@ new Vue({
 				},
 			],
 		});
+
+		const playerTen = chart.get('player15');
+		const playerTenGraphic = playerTen.graphic;
+		playerTenGraphic.translate(-70, -30);
 	},
 });
