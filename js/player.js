@@ -7053,7 +7053,7 @@ new Vue({
 					},
 				},
 				bubble: {
-					minSize: 50,
+					minSize: 35,
 					layoutAlgorithm: {
 						splitSeries: false,
 						gravitationalConstant: 0.02,
