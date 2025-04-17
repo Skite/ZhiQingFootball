@@ -6952,7 +6952,7 @@ new Vue({
 				text: 'Player Distributions',
 			},
 			subtitle: {
-				text: 'Bubble size: Clean Sheets',
+				text: 'Avatar size: Clean Sheets',
 			},
 			chart: {
 				type: 'bubble',
