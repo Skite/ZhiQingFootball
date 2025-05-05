@@ -2084,7 +2084,7 @@ new Vue({
 					{
 						date: '20211226',
 						pitch: '錦和運動公園',
-						opponent: { name: 'Lions', logo: 'Lions' },
+						opponent: { name: 'Lion', logo: 'Lion' },
 						formation: '3-3-1',
 						starters: ['GK-凱泰', 'RB-宇正', 'CB-振綸*', 'LB-子珩*', 'RM-亮谷', 'CM-維恩', 'LM-黃衍', 'CF-定謙'],
 						subs: [
@@ -6126,7 +6126,7 @@ new Vue({
 					{
 						date: '20230408',
 						pitch: '華中足球場',
-						opponent: { name: 'Lions', logo: 'Lions' },
+						opponent: { name: 'Lion', logo: 'Lion' },
 						formation: '3-0-1',
 						starters: ['GK-○東', 'RB-昀宸*', 'CB-邁可', 'LB-羿翔*', 'CF-宸瑜*'],
 						subs: [
@@ -8116,7 +8116,7 @@ new Vue({
 				system: '8人制',
 				grade: 'U10',
 				cover: '2023tamsuicup',
-				trophy: '分組冠軍',
+				trophy: '碟賽冠軍',
 				team: [
 					{
 						name: '勇士',
