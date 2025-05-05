@@ -14109,6 +14109,116 @@ new Vue({
 						instructors: ['柏豪', '冠岳'],
 						note: '* 學弟',
 					},
+					{
+						date: '20250503',
+						pitch: '華中足球場',
+						opponent: { name: 'Lion-U12', logo: 'Lion' },
+						formation: '2-0-2',
+						starters: ['GK-羿翔*', 'RB-維恩', 'LB-亮谷', 'RF-皓宇', 'LF-黃衍'],
+						subs: [
+							{
+								number: 9,
+								name: '紘豪',
+							},
+							{
+								number: 55,
+								name: '宥融',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '7 : 2',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '皓宇',
+								assist: '',
+							},
+							{
+								name: '黃衍',
+								assist: '',
+							},
+							{
+								name: '紘豪',
+								assist: '亮谷',
+							},
+							{
+								name: '黃衍',
+								assist: '',
+							},
+							{
+								name: '維恩',
+								assist: '亮谷',
+							},
+							{
+								name: '紘豪',
+								assist: '亮谷',
+							},
+							{
+								name: '維恩',
+								assist: '',
+							},
+						],
+						goalkeepers: ['羿翔*', '宥融'],
+						isCleanSheet: false,
+						instructors: ['冠岳'],
+						note: '* 學弟',
+					},
+					{
+						date: '20250503',
+						pitch: '華中足球場',
+						opponent: { name: '建安國小U12', logo: '建安國小' },
+						formation: '1-2-1',
+						starters: ['GK-宥融', 'CB-維恩', 'RM-宇正', 'LM-紘豪', 'CF-皓宇'],
+						subs: [
+							{
+								number: 7,
+								name: '黃衍',
+							},
+							{
+								number: 23,
+								name: '柏燁',
+							},
+							{
+								number: 28,
+								name: '羿翔*',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '6 : 0',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '皓宇',
+							},
+							{
+								name: '維恩',
+								assist: '黃衍',
+							},
+							{
+								name: '皓宇',
+								assist: '維恩',
+							},
+							{
+								name: '皓宇',
+								assist: '宇正',
+							},
+							{
+								name: '柏燁',
+								assist: '黃衍',
+							},
+							{
+								name: '維恩',
+								assist: '',
+							},
+						],
+						goalkeepers: ['宥融', '黃衍'],
+						isCleanSheet: true,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟',
+					},
 				],
 			},
 			{
