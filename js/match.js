@@ -13042,6 +13042,49 @@ new Vue({
 						instructors: ['冠岳'],
 						note: 'PSO：維恩✕、皓宇〇、宇正〇、亮谷✕、黃衍✕',
 					},
+					{
+						date: '20250507',
+						pitch: '陽明交通大學北投田徑場',
+						opponent: { name: 'Unity-U11', logo: 'Unity' },
+						formation: '2-3-1',
+						starters: ['GK-宥融', 'RCB-維恩', 'LCB-紘豪', 'RM-晉丞', 'CM-亮谷', 'LM-黃衍', 'CF-皓宇'],
+						subs: [
+							{
+								number: 23,
+								name: '柏燁',
+							},
+						],
+						subTeam: '大悍將',
+						final_score: '5 : 4',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '黃衍',
+								assist: '維恩',
+							},
+							{
+								name: '皓宇',
+								assist: '黃衍',
+							},
+							{
+								name: '皓宇',
+								assist: '黃衍',
+							},
+							{
+								name: '維恩',
+								assist: '',
+							},
+							{
+								name: '維恩',
+								assist: '',
+							},
+						],
+						goalkeepers: ['宥融'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '冠岳'],
+						note: '',
+					},
 				],
 			},
 			{
