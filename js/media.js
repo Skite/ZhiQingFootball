@@ -2053,6 +2053,11 @@ new Vue({
 						opponents: 'CFT_Blue',
 						url: `<a target="_blank" href="https://photos.app.goo.gl/rFS6mxrri2FiyeWn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250309-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
+					{
+						date: '05/17-18',
+						opponents: 'LLFS_Taiwan、足夢蜻蜓、苗栗尖山、新竹宇宙聯',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/atZ1ikTxmqYWgg2o9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250518-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
 				],
 				icon: 'fab fa-vimeo-v',
 			},
