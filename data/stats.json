@@ -1,5 +1,5 @@
 {
-	"updated": "2025/5/10 10:00",
+	"updated": "2025/5/19 10:00 至勝利聯賽完",
 	"hard": {
 		"matches": "70",
 		"wins": "45",
@@ -7,10 +7,10 @@
 		"loses": "25"
 	},
 	"grass": {
-		"matches": "225",
-		"wins": "113",
+		"matches": "229",
+		"wins": "116",
 		"draws": "18",
-		"loses": "94"
+		"loses": "95"
 	},
 	"five": {
 		"U12": {
@@ -138,16 +138,16 @@
 	},
 	"seven": {
 		"U12": {
-			"matches": "15",
-			"wins": "11",
+			"matches": "19",
+			"wins": "14",
 			"draws": "0",
-			"loses": "4",
+			"loses": "5",
 			"gold": "0",
 			"silver": "0",
 			"bronze": "1",
-			"scores": "81",
-			"conc": "29",
-			"cs": "3"
+			"scores": "99",
+			"conc": "41",
+			"cs": "4"
 		},
 		"U11": {
 			"matches": "10",
