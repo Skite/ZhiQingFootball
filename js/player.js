@@ -32,8 +32,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '1',
-						gs: '1',
+						g: '2',
+						gs: '2',
 						goals: '1',
 						asts: '1',
 						cs: '0',
@@ -557,9 +557,9 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
+						g: '3',
 						gs: '1',
-						goals: '3',
+						goals: '6',
 						asts: '2',
 						cs: '1',
 					},
@@ -1871,10 +1871,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '3',
-						gs: '3',
-						goals: '4',
-						asts: '3',
+						g: '4',
+						gs: '4',
+						goals: '6',
+						asts: '5',
 						cs: '0',
 					},
 					{
@@ -2930,10 +2930,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '4',
-						gs: '4',
+						g: '5',
+						gs: '5',
 						goals: '7',
-						asts: '6',
+						asts: '7',
 						cs: '0',
 					},
 					{
@@ -4460,8 +4460,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
-						gs: '1',
+						g: '3',
+						gs: '2',
 						goals: '1',
 						asts: '0',
 						cs: '1',
@@ -5030,10 +5030,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '3',
-						gs: '3',
+						g: '4',
+						gs: '4',
 						goals: '3',
-						asts: '5',
+						asts: '6',
 						cs: '0',
 					},
 					{

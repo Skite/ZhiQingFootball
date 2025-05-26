@@ -14442,6 +14442,49 @@ new Vue({
 						instructors: ['柏豪', '冠岳'],
 						note: '* 學弟',
 					},
+					{
+						date: '20250524',
+						pitch: '華中足球場',
+						opponent: { name: '公館聯隊', logo: '公館國小' },
+						formation: '2-0-2',
+						starters: ['GK-宥融', 'RB-宇正', 'LB-維恩', 'RF-皓宇', 'LF-晉丞'],
+						subs: [
+							{
+								number: 7,
+								name: '黃衍',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '5 : 1',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '皓宇',
+								assist: '維恩',
+							},
+							{
+								name: '黃衍',
+								assist: '皓宇',
+							},
+							{
+								name: '黃衍',
+								assist: '皓宇',
+							},
+							{
+								name: '黃衍',
+								assist: '',
+							},
+							{
+								name: '皓宇',
+								assist: '宇正',
+							},
+						],
+						goalkeepers: ['宥融'],
+						isCleanSheet: false,
+						instructors: ['冠岳'],
+						note: '',
+					},
 				],
 			},
 			{

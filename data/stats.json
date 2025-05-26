@@ -1,8 +1,8 @@
 {
-	"updated": "2025/5/19 10:00 至勝利聯賽完",
+	"updated": "2025/5/26 10:00 至大安盃完",
 	"hard": {
-		"matches": "70",
-		"wins": "45",
+		"matches": "71",
+		"wins": "46",
 		"draws": "0",
 		"loses": "25"
 	},
@@ -14,15 +14,15 @@
 	},
 	"five": {
 		"U12": {
-			"matches": "16",
-			"wins": "11",
+			"matches": "17",
+			"wins": "12",
 			"draws": "0",
 			"loses": "5",
 			"gold": "0",
 			"silver": "1",
 			"bronze": "0",
-			"scores": "84",
-			"conc": "37",
+			"scores": "89",
+			"conc": "38",
 			"cs": "3"
 		},
 		"U11": {
