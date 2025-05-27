@@ -1,5 +1,5 @@
 {
-	"updated": "2025/5/26 10:00 至大安盃完",
+	"updated": "2025/5/27 10:00 至明道盃完",
 	"hard": {
 		"matches": "71",
 		"wins": "46",
@@ -7,10 +7,10 @@
 		"loses": "25"
 	},
 	"grass": {
-		"matches": "229",
-		"wins": "116",
+		"matches": "234",
+		"wins": "120",
 		"draws": "18",
-		"loses": "95"
+		"loses": "96"
 	},
 	"five": {
 		"U12": {
@@ -76,16 +76,16 @@
 	},
 	"eight": {
 		"U12": {
-			"matches": "8",
-			"wins": "1",
+			"matches": "21",
+			"wins": "9",
 			"draws": "1",
-			"loses": "6",
+			"loses": "11",
 			"gold": "0",
 			"silver": "0",
-			"bronze": "0",
-			"scores": "2",
-			"conc": "25",
-			"cs": "0"
+			"bronze": "1",
+			"scores": "41",
+			"conc": "49",
+			"cs": "4"
 		},
 		"U11": {
 			"matches": "24",
