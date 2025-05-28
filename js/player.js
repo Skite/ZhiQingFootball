@@ -32,8 +32,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '1',
-						gs: '1',
+						g: '2',
+						gs: '2',
 						goals: '1',
 						asts: '1',
 						cs: '0',
@@ -41,10 +41,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '0',
-						asts: '0',
+						asts: '1',
 						cs: '0',
 					},
 					{
@@ -95,10 +95,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '9',
-						gs: '5',
+						g: '14',
+						gs: '10',
 						goals: '3',
-						asts: '1',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -557,18 +557,18 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '0',
-						gs: '0',
-						goals: '0',
-						asts: '0',
-						cs: '0',
+						g: '3',
+						gs: '1',
+						goals: '6',
+						asts: '2',
+						cs: '1',
 					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
-						goals: '2',
+						g: '5',
+						gs: '5',
+						goals: '5',
 						asts: '0',
 						cs: '0',
 					},
@@ -620,10 +620,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '9',
-						gs: '9',
-						goals: '14',
-						asts: '7',
+						g: '14',
+						gs: '14',
+						goals: '16',
+						asts: '14',
 						cs: '0',
 					},
 					{
@@ -1091,16 +1091,16 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '1',
-						gs: '1',
-						goals: '0',
+						g: '3',
+						gs: '2',
+						goals: '2',
 						asts: '1',
 						cs: '0',
 					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
+						g: '4',
 						gs: '0',
 						goals: '0',
 						asts: '0',
@@ -1154,8 +1154,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '8',
-						gs: '6',
+						g: '13',
+						gs: '11',
 						goals: '3',
 						asts: '1',
 						cs: '0',
@@ -1553,8 +1553,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '0',
 						asts: '0',
 						cs: '1',
@@ -1871,19 +1871,19 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '1',
-						gs: '1',
-						goals: '1',
-						asts: '2',
+						g: '4',
+						gs: '4',
+						goals: '6',
+						asts: '5',
 						cs: '0',
 					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '8',
-						asts: '0',
+						asts: '1',
 						cs: '0',
 					},
 					{
@@ -1934,10 +1934,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '9',
-						gs: '8',
-						goals: '9',
-						asts: '11',
+						g: '14',
+						gs: '13',
+						goals: '20',
+						asts: '12',
 						cs: '0',
 					},
 					{
@@ -2441,8 +2441,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '2',
-						gs: '3',
+						g: '3',
+						gs: '0',
 						goals: '0',
 						asts: '0',
 						cs: '1',
@@ -2495,11 +2495,11 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '7',
+						g: '11',
 						gs: '3',
 						goals: '0',
 						asts: '1',
-						cs: '2',
+						cs: '3',
 					},
 					{
 						grade: 'U12',
@@ -2930,17 +2930,17 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
-						gs: '2',
-						goals: '3',
-						asts: '5',
+						g: '5',
+						gs: '5',
+						goals: '7',
+						asts: '7',
 						cs: '0',
 					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '1',
 						asts: '0',
 						cs: '0',
@@ -2993,10 +2993,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '9',
-						gs: '9',
-						goals: '11',
-						asts: '10',
+						g: '14',
+						gs: '14',
+						goals: '15',
+						asts: '14',
 						cs: '0',
 					},
 					{
@@ -3535,9 +3535,18 @@ new Vue({
 					},
 					{
 						grade: 'U12',
+						cup: '大安盃',
+						g: '1',
+						gs: '1',
+						goals: '0',
+						asts: '3',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '0',
 						asts: '1',
 						cs: '0',
@@ -3590,10 +3599,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '7',
-						gs: '7',
-						goals: '8',
-						asts: '1',
+						g: '12',
+						gs: '12',
+						goals: '12',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -4070,7 +4079,16 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '0',
+						g: '1',
+						gs: '0',
+						goals: '1',
+						asts: '0',
+						cs: '0',
+					},
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '1',
 						gs: '0',
 						goals: '0',
 						asts: '0',
@@ -4106,10 +4124,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '1',
+						g: '6',
 						gs: '1',
 						goals: '0',
-						asts: '1',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -4441,9 +4459,18 @@ new Vue({
 				appearance: [
 					{
 						grade: 'U12',
-						cup: '青年盃',
+						cup: '大安盃',
 						g: '3',
-						gs: '3',
+						gs: '2',
+						goals: '1',
+						asts: '0',
+						cs: '1',
+					},
+					{
+						grade: 'U12',
+						cup: '青年盃',
+						g: '5',
+						gs: '5',
 						goals: '1',
 						asts: '3',
 						cs: '0',
@@ -4496,11 +4523,11 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '勝利聯賽',
-						g: '9',
-						gs: '8',
-						goals: '5',
-						asts: '7',
-						cs: '2',
+						g: '14',
+						gs: '13',
+						goals: '6',
+						asts: '8',
+						cs: '3',
 					},
 					{
 						grade: 'U12',
@@ -5003,17 +5030,17 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
-						gs: '2',
+						g: '4',
+						gs: '4',
 						goals: '3',
-						asts: '4',
+						asts: '6',
 						cs: '0',
 					},
 					{
 						grade: 'U12',
 						cup: '青年盃',
-						g: '3',
-						gs: '3',
+						g: '5',
+						gs: '5',
 						goals: '0',
 						asts: '3',
 						cs: '0',
@@ -6922,9 +6949,10 @@ new Vue({
 			delete i.totalGS;
 			delete i.totalMatches;
 			i.name = i.name.slice(-2);
-			// i['marker'] = {
-			//     symbol: `url(https://skite.github.io/ZhiQingFootball/img/players/player-${i.number}-head.jpg)`
-			// }
+			i['marker'] = {
+				symbol: `url(https://skite.github.io/ZhiQingFootball/img/players/player-${i.number}-head.png)`,
+			};
+			i.id = `player${i.number}`;
 		});
 
 		const chartData = origData.map(({ totalGoals: x, totalAsts: y, totalCS: z, ...rest }) => ({
@@ -6937,12 +6965,12 @@ new Vue({
 		const avgGoals = chartData.reduce((acc, o) => acc + parseInt(o.x), 0) / 20;
 		const avgAsts = chartData.reduce((acc, o) => acc + parseInt(o.y), 0) / 20;
 
-		Highcharts.chart('chart', {
+		const chart = Highcharts.chart('chart', {
 			title: {
 				text: 'Player Distributions',
 			},
 			subtitle: {
-				text: 'Bubble size: Clean Sheets',
+				text: 'Avatar size: Clean Sheets',
 			},
 			chart: {
 				type: 'bubble',
@@ -7027,7 +7055,7 @@ new Vue({
 			tooltip: {
 				useHTML: true,
 				headerFormat: '<table>',
-				pointFormat: '<tr><th colspan="2"><h3>{point.country}</h3></th></tr>' + '<tr><th>Goals:</th><td>{point.x}</td></tr>' + '<tr><th>Assists:</th><td>{point.y}</td></tr>' + '<tr><th>Clean Sheets:</th><td>{point.z}</td></tr>',
+				pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' + '<tr><th>Goals:</th><td>{point.x}</td></tr>' + '<tr><th>Assists:</th><td>{point.y}</td></tr>' + '<tr><th>Clean Sheets:</th><td>{point.z}</td></tr>',
 				footerFormat: '</table>',
 				followPointer: true,
 			},
@@ -7036,14 +7064,14 @@ new Vue({
 				series: {
 					dataLabels: {
 						enabled: true,
-						format: '{point.name}',
+						format: '',
 						style: {
 							fontSize: '0.9em',
 						},
 					},
 				},
 				bubble: {
-					minSize: 10,
+					minSize: 35,
 					layoutAlgorithm: {
 						splitSeries: false,
 						gravitationalConstant: 0.02,
@@ -7056,7 +7084,6 @@ new Vue({
 					},
 				},
 			},
-
 			series: [
 				{
 					data: _.filter(chartData, ['active', 'active']).concat(_.filter(chartData, ['active', 'inactive'])),
@@ -7065,5 +7092,9 @@ new Vue({
 				},
 			],
 		});
+
+		const playerTen = chart.get('player15');
+		const playerTenGraphic = playerTen.graphic;
+		playerTenGraphic.translate(-70, -30);
 	},
 });

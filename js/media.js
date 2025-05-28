@@ -2053,6 +2053,11 @@ new Vue({
 						opponents: 'CFT_Blue',
 						url: `<a target="_blank" href="https://photos.app.goo.gl/rFS6mxrri2FiyeWn9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250309-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
+					{
+						date: '05/17-18',
+						opponents: 'LLFS_Taiwan、足夢蜻蜓、苗栗尖山、新竹宇宙聯',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/atZ1ikTxmqYWgg2o9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250518-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
 				],
 				icon: 'fab fa-vimeo-v',
 			},
@@ -2133,16 +2138,57 @@ new Vue({
 			},
 			{
 				id: 61,
-				cupName: '2025大安盃',
-				cover: '20250327-cover',
+				cupName: '2025臺北市青年盃',
+				cover: '20250326-cover',
 				photos: [
 					{
+						date: '03/26',
+						opponents: '百齡國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/VogFPu1AD4yCLVog7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250326-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+					{
 						date: '03/27',
-						opponents: '博愛小子、磐石U12',
-						url: `<a target="_blank" href="https://photos.app.goo.gl/BZWXNdJfMwYCNPWy8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250327-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+						opponents: '大安國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/scPKT5a1nu5NxggT7"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250327-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+					{
+						date: '04/07',
+						opponents: '明道國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/kXhka3QiffMaoqcv6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250407-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
 				],
-				icon: 'fas fa-book',
+				icon: 'fas fa-male',
+			},
+			{
+				id: 62,
+				cupName: '2025大安盃',
+				cover: '20250329-cover',
+				photos: [
+					{
+						date: '03/29',
+						opponents: '博愛小子、磐石U12',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/BZWXNdJfMwYCNPWy8"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250329-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+					{
+						date: '05/24',
+						opponents: '公館聯隊',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/DBhBqgmUvKRzjDP96"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250524-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'far fa-futbol',
+			},
+			{
+				id: 63,
+				cupName: '2025全國少年盃',
+				cover: '20250401-cover',
+				photos: [
+					{
+						date: '03/31-04/02',
+						opponents: '天母國小、廣福國小、石牌國小',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/nnKW2kAWncBJfGtK6"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250401-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
+				],
+				icon: 'fas fa-child',
 			},
 		],
 	},

@@ -1,29 +1,29 @@
 {
-	"updated": "2025/3/24 10:00",
+	"updated": "2025/5/27 10:00 至明道盃完",
 	"hard": {
-		"matches": "66",
-		"wins": "41",
+		"matches": "71",
+		"wins": "46",
 		"draws": "0",
 		"loses": "25"
 	},
 	"grass": {
-		"matches": "210",
-		"wins": "104",
+		"matches": "234",
+		"wins": "120",
 		"draws": "18",
-		"loses": "88"
+		"loses": "96"
 	},
 	"five": {
 		"U12": {
-			"matches": "12",
-			"wins": "7",
+			"matches": "17",
+			"wins": "12",
 			"draws": "0",
 			"loses": "5",
 			"gold": "0",
 			"silver": "1",
 			"bronze": "0",
-			"scores": "56",
-			"conc": "29",
-			"cs": "2"
+			"scores": "89",
+			"conc": "38",
+			"cs": "3"
 		},
 		"U11": {
 			"matches": "44",
@@ -76,16 +76,16 @@
 	},
 	"eight": {
 		"U12": {
-			"matches": "8",
-			"wins": "1",
+			"matches": "21",
+			"wins": "9",
 			"draws": "1",
-			"loses": "6",
+			"loses": "11",
 			"gold": "0",
 			"silver": "0",
-			"bronze": "0",
-			"scores": "2",
-			"conc": "25",
-			"cs": "0"
+			"bronze": "1",
+			"scores": "41",
+			"conc": "49",
+			"cs": "4"
 		},
 		"U11": {
 			"matches": "24",
@@ -138,16 +138,16 @@
 	},
 	"seven": {
 		"U12": {
-			"matches": "14",
-			"wins": "10",
+			"matches": "19",
+			"wins": "14",
 			"draws": "0",
-			"loses": "4",
+			"loses": "5",
 			"gold": "0",
 			"silver": "0",
-			"bronze": "0",
-			"scores": "76",
-			"conc": "25",
-			"cs": "3"
+			"bronze": "1",
+			"scores": "99",
+			"conc": "41",
+			"cs": "4"
 		},
 		"U11": {
 			"matches": "10",
