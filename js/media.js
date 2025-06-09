@@ -2174,6 +2174,11 @@ new Vue({
 						opponents: '公館聯隊',
 						url: `<a target="_blank" href="https://photos.app.goo.gl/DBhBqgmUvKRzjDP96"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250524-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
+					{
+						date: '06/07',
+						opponents: '磐石U12',
+						url: `<a target="_blank" href="https://photos.app.goo.gl/gbbE93wrwHdNZa3HA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20250607-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+					},
 				],
 				icon: 'far fa-futbol',
 			},

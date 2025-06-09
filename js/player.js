@@ -18,7 +18,7 @@ new Vue({
 				info: '二年級時加入球隊，對自己要求甚高，在場下總是默默苦練精進自己的體能和技術，場上則是無論前鋒或後衛都能夠勝任，擅長控球與為隊友創造得分機會。',
 				achievement: ['5 Times Best Substitutions'],
 				active: 'active',
-				position: ['RB', 'CB', 'LB', 'RM', 'LM', 'CF'],
+				position: ['RB', 'LB', 'RM', 'LM', 'CF'],
 				appearance: [
 					{
 						grade: 'U12',
@@ -32,10 +32,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
+						g: '3',
 						gs: '2',
-						goals: '1',
-						asts: '1',
+						goals: '2',
+						asts: '2',
 						cs: '0',
 					},
 					{
@@ -1077,7 +1077,7 @@ new Vue({
 				info: '球隊初始成員之一，在防守端下足苦功，不但是球隊後防十分重要的大將，亦曾數次在提攜後進的賽場上有卓越貢獻。進入中年級後加強了進攻意識與技巧，向全能球員之路邁進，並在六年級時逐漸站穩腳步，成為球隊不可或缺的後防要角。',
 				achievement: ['6 Times Best Substitutions'],
 				active: 'active',
-				position: ['RB', 'LB', 'RM'],
+				position: ['RB', 'LB', 'RM', 'LM'],
 				appearance: [
 					{
 						grade: 'U12',
@@ -1091,8 +1091,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '3',
-						gs: '2',
+						g: '4',
+						gs: '3',
 						goals: '2',
 						asts: '1',
 						cs: '0',
@@ -1544,8 +1544,8 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '2',
-						gs: '2',
+						g: '3',
+						gs: '3',
 						goals: '0',
 						asts: '0',
 						cs: '0',
@@ -1871,10 +1871,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '4',
-						gs: '4',
-						goals: '6',
-						asts: '5',
+						g: '5',
+						gs: '5',
+						goals: '7',
+						asts: '6',
 						cs: '0',
 					},
 					{
@@ -2930,9 +2930,9 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '5',
-						gs: '5',
-						goals: '7',
+						g: '6',
+						gs: '6',
+						goals: '8',
 						asts: '7',
 						cs: '0',
 					},
@@ -4079,7 +4079,7 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '1',
+						g: '2',
 						gs: '0',
 						goals: '1',
 						asts: '0',
@@ -5030,10 +5030,10 @@ new Vue({
 					{
 						grade: 'U12',
 						cup: '大安盃',
-						g: '4',
-						gs: '4',
-						goals: '3',
-						asts: '6',
+						g: '5',
+						gs: '5',
+						goals: '4',
+						asts: '8',
 						cs: '0',
 					},
 					{

@@ -14209,11 +14209,11 @@ new Vue({
 				system: '5人制',
 				grade: 'U12',
 				cover: '2025daancup',
-				trophy: '',
+				trophy: '冠軍',
 				team: [
 					{
 						name: '悍將',
-						members: '晉丞、黃衍、紘豪、善捷、皓宇、維恩、亮谷、柏燁、宇正、宸瑜*、安璞*、浚恩*、昀宸*、羿翔*',
+						members: '晉丞、黃衍、紘豪、善捷、皓宇、維恩、亮谷、柏燁、宥融、宇正、安璞*、浚恩*、昀宸*、羿翔*',
 					},
 				],
 				note: '',
@@ -14484,6 +14484,61 @@ new Vue({
 						isCleanSheet: false,
 						instructors: ['冠岳'],
 						note: '',
+					},
+					{
+						date: '20250607',
+						pitch: '華中足球場',
+						opponent: { name: '磐石U12', logo: '磐石' },
+						formation: '1-2-1',
+						starters: ['GK-善捷', 'CB-維恩', 'RM-紘豪', 'LM-宇正', 'CF-皓宇'],
+						subs: [
+							{
+								number: 3,
+								name: '晉丞',
+							},
+							{
+								number: 11,
+								name: '安璞*',
+							},
+							{
+								number: 23,
+								name: '柏燁',
+							},
+							{
+								number: 26,
+								name: '昀宸*',
+							},
+							{
+								number: 28,
+								name: '羿翔*',
+							},
+						],
+						subTeam: '悍將',
+						final_score: '4 : 3',
+						pso: '',
+						wdl: 'W',
+						scorers: [
+							{
+								name: '維恩',
+								assist: '皓宇',
+							},
+							{
+								name: '宇正',
+								assist: '晉丞',
+							},
+							{
+								name: '晉丞',
+								assist: '宇正',
+							},
+							{
+								name: '皓宇',
+								assist: '宇正',
+							},
+						],
+						goalkeepers: ['善捷'],
+						isCleanSheet: false,
+						instructors: ['柏豪', '冠岳'],
+						note: '* 學弟／妹',
 					},
 				],
 			},

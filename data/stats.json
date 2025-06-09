@@ -1,8 +1,8 @@
 {
-	"updated": "2025/5/27 10:00 至明道盃完",
+	"updated": "2025/6/9 10:00",
 	"hard": {
-		"matches": "71",
-		"wins": "46",
+		"matches": "72",
+		"wins": "47",
 		"draws": "0",
 		"loses": "25"
 	},
@@ -14,15 +14,15 @@
 	},
 	"five": {
 		"U12": {
-			"matches": "17",
-			"wins": "12",
+			"matches": "18",
+			"wins": "13",
 			"draws": "0",
 			"loses": "5",
-			"gold": "0",
+			"gold": "1",
 			"silver": "1",
 			"bronze": "0",
-			"scores": "89",
-			"conc": "38",
+			"scores": "93",
+			"conc": "41",
 			"cs": "3"
 		},
 		"U11": {
