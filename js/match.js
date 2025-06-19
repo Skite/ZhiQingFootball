@@ -14975,7 +14975,7 @@ new Vue({
 					{
 						date: '20250615',
 						pitch: '志清國小',
-						opponent: { name: '基隆雷鷹', logo: '基隆雷鷹' },
+						opponent: { name: '五常國小', logo: '五常國小' },
 						formation: '1-2-1',
 						starters: ['GK-凱泰', 'CB-亮谷', 'RM-宇正', 'LM-維恩', 'CF-黃衍'],
 						subs: [
