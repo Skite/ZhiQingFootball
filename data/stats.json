@@ -1,10 +1,10 @@
 {
-	"updated": "2025/6/9 10:00",
+	"updated": "2025/6/19 10:00",
 	"hard": {
-		"matches": "72",
-		"wins": "47",
+		"matches": "78",
+		"wins": "51",
 		"draws": "0",
-		"loses": "25"
+		"loses": "27"
 	},
 	"grass": {
 		"matches": "234",
@@ -14,15 +14,15 @@
 	},
 	"five": {
 		"U12": {
-			"matches": "18",
-			"wins": "13",
+			"matches": "24",
+			"wins": "17",
 			"draws": "0",
-			"loses": "5",
+			"loses": "7",
 			"gold": "1",
-			"silver": "1",
+			"silver": "2",
 			"bronze": "0",
-			"scores": "93",
-			"conc": "41",
+			"scores": "115",
+			"conc": "59",
 			"cs": "3"
 		},
 		"U11": {
