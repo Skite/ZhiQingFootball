@@ -7359,7 +7359,7 @@ new Vue({
 				system: '5人制',
 				grade: 'U11',
 				cover: '2023speakercup',
-				trophy: '分組亞軍',
+				trophy: '黑組亞軍',
 				team: [
 					{
 						name: 'ZQ無敵勇士',
@@ -12566,7 +12566,7 @@ new Vue({
 				system: '7人制',
 				grade: 'U12',
 				cover: '2024victoryleague',
-				trophy: '台北區季軍',
+				trophy: '台北區季軍／全國第五名',
 				team: [
 					{
 						name: '大悍將',
@@ -13965,7 +13965,7 @@ new Vue({
 				system: '8人制',
 				grade: 'U12',
 				cover: '2025youthcup',
-				trophy: '',
+				trophy: '殿軍',
 				team: [
 					{
 						name: '國小',
