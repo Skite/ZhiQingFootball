@@ -1877,12 +1877,12 @@ new Vue({
 					{
 						date: '01/20',
 						opponents: '麒麟聯隊',
-						url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+						url: `<a target="_blank" href="https://photos.app.goo.gl/xNevEpvyC5BKBZNB9"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240120-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
 					{
 						date: '01/21',
 						opponents: '幸安國小',
-						url: `<a target="_blank" href="https://photos.app.goo.gl/oiCSKTVEarXPHzqGA"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240121-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
+						url: `<a target="_blank" href="https://photos.app.goo.gl/SvPNXo5ctMvCFHPz5"><div class="img-wrap image-container m-3 px-5"><img src="img/media/20240121-cover.jpg" class="img-fluid image"><div class="middle"><div class="text">前往相簿</div></div></div></a>`,
 					},
 					{
 						date: '02/03',
